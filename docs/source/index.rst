@@ -5,8 +5,7 @@ Welcome to idoc's documentation!
 to train several Drosophila individuals using odours, electro shocks and optogenetics.
 
 
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
+Check out the :doc:`usage` section for further information, including information on the :ref:`installation` of the program.
 
 .. note::
 

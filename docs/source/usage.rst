@@ -10,7 +10,7 @@ To use idoc, first install it using conda:
 
 
 1. Create a conda environoment
-================================2
+================================
 
 .. code-block:: console
 
@@ -18,23 +18,28 @@ To use idoc, first install it using conda:
 
 
 2. Install pypylon
+================================
 
 Running `pip install pypylon` may install a version of the package which is buggy in conda environments.
 We recommend to instead do the following
 
 .. code-block:: console
+
     pip install git+https://github.com/basler/pypylon.git@1cbda303a0ab0d335c82f0460e71c0cc5c12bbeb
 
 
 This will install from source the version of the module available under the git hash commit `1cbda303a0ab0d335c82f0460e71c0cc5c12bbeb`. This version was verified in Ubuntu 20.04.3
 
 3. Install idoc
+================================
 
 .. code-block:: console
+
     pip install idoc
 
 
 4. Set minimal configuration
+================================
 
 The configuration is by default installed to ``$HOME/idoc/idoc/config/idoc.conf`` in JSON format
 
@@ -77,6 +82,7 @@ A valid paradigm would look like this
 
 
 5. Provide the default mapping and the default paradigm
+================================================================
 
 idoc needs the paradigm and mapping passed in the config to be available at boot.
 Therefore, you need to make sure the file listed in the config under 
