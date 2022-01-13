@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'IDOC'
+copyright = '2022, Sha Liu Lab'
+author = 'Sha Liu'
 
 release = '0.1'
 version = '0.1.0'
