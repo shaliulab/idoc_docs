@@ -75,8 +75,8 @@ A valid paradigm would look like this
   LED_R_RIGHT,1,2,1,1,o,1
 
 
-* We again have the hardware column, which should contain the same set of names you used in the hardware column of your mapping
-* **start** and **end** show the moment when the hardware will start and end its duty, in minutes since experiment start
+* We again have the hardware column, which should contain the same set of names you used in the hardware column of your mapping.
+* **start** and **end** show the moment when the hardware will start and end its duty, in minutes since experiment start.
 * **on** and **off** are the number of seconds the hardware should be on and off, if it should cycle during its duty. If no cycle is needed, leave NaN.
 * **mode** must be either ``o``/``p`` where ``o`` is the default and ``p`` is if you want to use PWM, which allows you to modulate the output of the hardware (say light intensity).
     In that case, the hardware must be connected to a PWM supporting pin (see the board specs).
