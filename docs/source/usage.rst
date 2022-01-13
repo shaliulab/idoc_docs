@@ -28,7 +28,7 @@ We recommend to instead do the following
     pip install git+https://github.com/basler/pypylon.git@1cbda303a0ab0d335c82f0460e71c0cc5c12bbeb
 
 
-This will install from source the version of the module available under the git hash commit `1cbda303a0ab0d335c82f0460e71c0cc5c12bbeb`. This version was verified in Ubuntu 20.04.3
+This will install from source the version of the module available under the git hash commit ``1cbda303a0ab0d335c82f0460e71c0cc5c12bbeb``. This version was verified in Ubuntu 20.04.3 with Python 3.7.4
 
 3. Install idoc
 ================================
@@ -109,7 +109,7 @@ idoc consists of two modules: a server and a client.
 
    and sends these instructions to the server
 
-You can execute the server as follows:
+You can spawn the server as follows:
 
 .. code-block:: console
 
@@ -122,8 +122,29 @@ this command launches the idoc server:
    * ``--adaptation-time`` set to 0 means idoc will start the experiment right after the user presses start. Otherwise, it would wait that amount in seconds.
 
 
-You can execute the client as follows:
+You can spawn the client as follows:
 
 .. code-block:: console
 
     (idoc) idoc-cli
+
+
+You should always spawn the server first and then the client, because the latter attempts to connect to the former.
+The idoc cli provides the following menu:
+
+.. code-block:: console
+
+    Connecting to IDOC device in machine 74f75f830109411ba67f74ecb268f9ef
+    Please choose:
+    1: LOAD PARADIGM
+    2: CHANGE CONFIGURATION
+    3: WARM UP
+    4: CHECK
+    5: START
+    6: STOP
+    7: CLEAR
+    8: PROMPT
+    9: EXPORT
+    10: RESTART
+    11: QUIT
+    Enter number: 
