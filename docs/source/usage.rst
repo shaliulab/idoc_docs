@@ -4,7 +4,7 @@ Usage
 .. _installation:
 
 Installation
-------------
+--------------
 
 To use idoc, first install it using conda:
 
@@ -68,6 +68,7 @@ so there are two columns called **hardware** and **pin_number**.
 A valid paradigm would look like this
 
 ::
+
   hardware,start,end,on,off,mode,value
   IRLED,0,5,NaN,NaN,o,1
   LED_R_LEFT,1,2,1,1,o,1
@@ -91,3 +92,38 @@ Therefore, you need to make sure the file listed in the config under:
 
 * ``controller.paradigm_path`` exists in the directory under ``folders.paradigms.path``.
 * ``controller.mapping_path`` exists in the directory under ``folders.mappings.path``.
+
+
+Execution
+--------------
+
+idoc consists of two modules: a server and a client.
+
+* The server operates the hardware. It records the behavior of the animals and delivers the stimuli as commanded by the user's paradigm.
+* The client interfaces the user and the server. It receives instructions from the user such as:
+
+   * selection of a paradigm
+   * turning on the camera for warm-up
+   * starting the experiment
+   * stopping the experiment
+
+   and sends these instructions to the server
+
+You can execute the server as follows:
+
+.. code-block:: console
+
+    (idoc) idoc-server --control --recognize --adaptation-time 0
+
+this command launches the idoc server:
+
+   * with the ``--control`` module active, so stimuli can be delivered to the animals during the recording
+   * with the ``--recognize`` module active, so the behavioral response of the animal is registered by a video camera
+   * ``--adaptation-time`` set to 0 means idoc will start the experiment right after the user presses start. Otherwise, it would wait that amount in seconds.
+
+
+You can execute the client as follows:
+
+.. code-block:: console
+
+    (idoc) idoc-cli
