@@ -24,6 +24,8 @@ Verified in Ubuntu 20.04.3 with Python 3.8.10
 
     pip install idoc
 
+This will install the idoc module as well as all the dependencies
+
 
 3. Set path pointers in config
 ===================================
