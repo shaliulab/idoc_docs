@@ -26,17 +26,23 @@ This will install from source the version of the module available under the git 
     pip install idoc
 
 
-3. Set minimal configuration
-================================
+3. Set path pointers in config
+===================================
+
 
 The configuration is by default installed to ``$HOME/.config/idoc/idoc.yaml`` in YAML format.
-Once idoc is installed, this file should be created. You need to update the following fields
+Upon installation of idoc, this file is created automatically.
+You need to update the following fields to make them match your system.
 
 
 1. `folders.results.path`: Path to a directory where the data from the new experiments will be saved
 2. `folders.paradigms.path`: Path to a directory containing at least one paradigm .csv file
 3. `controller.mapping_path`: Path to a directory containing at least one mapping .csv file
 4. `controller.paradigm_path`: Filename of a .csv file available under the `folders.paradigms.path`
+
+
+4. Provide a default mapping and default paradigm
+=====================================================
 
 A valid mapping would look like this:
 
@@ -158,9 +164,7 @@ You can optionally adjust the logging level of the idoc modules by adding more l
         handlers: [console]
         propagate: no
 
-
-
-6. Install systemd service
+7. Install systemd service
 =====================================
 
 We recommend running the idoc_server as a service that is always spawned in the background.
@@ -211,15 +215,24 @@ This is achieved with a systemd service file, which must be placed under `/etc/s
 
     journalctl -fu idoc_server
 
+NOTE. In order to view the logs produced by a program run by the root user,
+your user needs to belong to the adm group. You can get that done by
+
+::
+
+    sudo su # become superuser
+    usermod -aG YOUR_NORMAL_USER adm
+
+and logout or reboot the pc
 
 
-6. Install gooogle chrome and extension to refresh page
+8. Install gooogle chrome and extension to refresh page
 =============================================================
 
 Install a program that can open a png file and refresh it every few seconds. We recommend simply installing google chrome and any extension that refreshes the open page every second or so.
 
 
-7. Udev rule (Linux, OPTIONAL).
+9. Udev rule (Linux, OPTIONAL).
 ======================================
 
 Linux users can write a udev rule so the file under `/dev` that represents the Arduino board is always the same,
@@ -227,4 +240,7 @@ regardless of how many boards are plugged or the order in which they were plugge
 Then, in the config file, update `controller.arduino_port` to match the file created by the udev rule.
 Otherwise, set `controller.arduino_port` to `"/dev/ttyACM0"` in Linux and `"/dev/USB0"` in Windows 
 
-8. Test connection between
+10. Test connection between computer and Arduino
+====================================================
+
+See section Usage > testing
