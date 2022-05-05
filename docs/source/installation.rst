@@ -6,17 +6,16 @@ Installation
 
 To use idoc we recommend creating a conda environment. Please install anaconda or miniconda and proceed as follows.
 
-
 1. Create a conda environoment
 ================================
 
 .. code-block:: console
 
-    conda create --name idoc python=3.8.10
+    conda create --name idoc==2.1.1 python=3.8.10
 
 
-
-This will install from source the version of the module available under the git hash commit ``1cbda303a0ab0d335c82f0460e71c0cc5c12bbeb``. This version was verified in Ubuntu 20.04.3 with Python 3.7.4
+This will install from source the version 2.1.1 available from https://pypi.org/
+Verified in Ubuntu 20.04.3 with Python 3.8.10
 
 2. Install idoc
 ================================
