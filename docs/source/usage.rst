@@ -1,101 +1,28 @@
 Usage
 =====
 
-.. _installation:
-
-Installation
+Testing
 --------------
 
-To use idoc, first install it using conda:
+If you wish to test if your hardware is operative, we provide a convenience script available with the entrypoint `idoc_batch`
+You can use this script to turn on any pin of the Arduino board interactively and watch whether it actually drives the equipment or not
+
+```
+idoc_batch --port /dev/ttyACM0 --pins 37 38 --value 1
+```
+
+will turn on pins 37 and 38 ON until the user kills the program (with Control-C)
 
 
-1. Create a conda environoment
-================================
+```
+idoc_batch --port /dev/ttyACM0 --pins 3 2 --value 0.5 --hertz 1
+```
 
-.. code-block:: console
-
-    conda create --name idoc python=3.7.4
-
-
-2. Install pypylon
-================================
-
-Running `pip install pypylon` may install a version of the package which is buggy in conda environments.
-We recommend to instead do the following
-
-.. code-block:: console
-
-    pip install git+https://github.com/basler/pypylon.git@1cbda303a0ab0d335c82f0460e71c0cc5c12bbeb
+will turn on pins 10 and 11 with half intensity and 1 hertz of frequency
 
 
-This will install from source the version of the module available under the git hash commit ``1cbda303a0ab0d335c82f0460e71c0cc5c12bbeb``. This version was verified in Ubuntu 20.04.3 with Python 3.7.4
-
-3. Install idoc
-================================
-
-.. code-block:: console
-
-    pip install idoc
-
-
-4. Set minimal configuration
-================================
-
-The configuration is by default installed to ``$HOME/idoc/idoc/config/idoc.conf`` in JSON format
-
-You need to enter three fields under the ``"folders.results"`` entry
-
-1. results: Path to a directory where the data from the new experiments will be saved
-2. mappings: Path to a directory containing at least one mapping .csv file
-3. paradigms: Path to a directory containing at least one paradigm .csv file
-
-A valid mapping would look like this:
-
-::
-
-  hardware,pin_number
-  IRLED,45
-  LED_R_LEFT,3
-  LED_R_RIGHT,2
-
-so there are two columns called **hardware** and **pin_number**.
-
-* The pin number corresponds to the number written on the GPIO of the Arduino board you use.
-* The hardware column should contain a user-friendly name you give to this hardware. No spaces are allowed!
-
-
-
-A valid paradigm would look like this
-
-::
-
-  hardware,start,end,on,off,mode,value
-  IRLED,0,5,NaN,NaN,o,1
-  LED_R_LEFT,1,2,1,1,o,1
-  LED_R_RIGHT,1,2,1,1,o,1
-
-
-* We again have the hardware column, which should contain the same set of names you used in the hardware column of your mapping.
-* **start** and **end** show the moment when the hardware will start and end its duty, in minutes since experiment start.
-* **on** and **off** are the number of seconds the hardware should be on and off, if it should cycle during its duty. If no cycle is needed, leave NaN.
-* **mode** must be either ``o``/``p`` where ``o`` is the default and ``p`` is if you want to use PWM, which allows you to modulate the output of the hardware (say light intensity).
-    In that case, the hardware must be connected to a PWM supporting pin (see the board specs).
-* **value** must be 1 everytime **mode** is ``o`` and between 0 and 1 if **mode** is set to ``p``.
-
-
-5. Provide the default mapping and the default paradigm
-================================================================
-
-idoc needs the paradigm and mapping passed in the config to be available at boot.
-Therefore, you need to make sure the file listed in the config under:
-
-
-* ``controller.paradigm_path`` exists in the directory under ``folders.paradigms.path``.
-* ``controller.mapping_path`` exists in the directory under ``folders.mappings.path``.
-
-
-Execution
---------------
+Execution online
+---------------------
 
 idoc consists of two modules: a server and a client.
 
@@ -148,3 +75,37 @@ The idoc cli provides the following menu:
     10: RESTART
     11: QUIT
     Enter number: 
+
+
+
+
+
+Execution offline
+---------------------
+
+If you wish to reanalyze a video, you can do so as follows:
+
+1. Edit your config file in these places:
+
+   * ``default_class.camera`` must be set to ``OpenCVCamera``
+   * ``default_class.board`` must be set to ``ArduinoDummy``
+   * ``io.camera.kwargs.video_path`` must be an absolute path pointing to your video
+
+If your experiment cannot be analyzed because the targets are not found, please create a .yaml file with this format
+
+::
+    top_right: [981, 41]
+    bottom_left: [262, 1000]
+    bottom_right: [978, 997]
+
+where the numbers are the X and Y coordinates of the 3 dots in any of the frames of the video
+You can quickly extract them by opening one of the snapshots with GIMP and hovering the cursor over the target
+GIMP will report the coordinates of the mouse.
+
+Save and provide the absolute path to this file under
+   
+   * ``roi_builder.target_coord_file``
+
+
+2. Restart the idoc program and run it as usual
+
