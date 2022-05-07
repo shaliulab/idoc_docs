@@ -23,9 +23,9 @@ without conflicts with other pieces of software on the same computer
 
 .. code-block:: console
 
-    pip install idoc==2.1.2
+    pip install idoc==2.1.5
 
-This will install the idoc package version version 2.1.2 from https://pypi.org/ as well as all the dependencies
+This will install the idoc package version version 2.1.5 from https://pypi.org/ as well as all the dependencies
 
 
 3. Run post install script
