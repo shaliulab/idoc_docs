@@ -1,7 +1,7 @@
 Usage
-=====
+----------------
 
-Testing
+## Testing
 --------------
 
 If you wish to test if your hardware is operative, we provide a convenience script available with the entrypoint `idoc_batch`
@@ -21,8 +21,7 @@ idoc_batch --port /dev/ttyACM0 --pins 3 2 --value 0.5 --hertz 1
 will turn on pins 10 and 11 with half intensity and 1 hertz of frequency
 
 
-Execution online
----------------------
+## Execution online
 
 idoc consists of two modules: a server and a client.
 
@@ -38,9 +37,9 @@ idoc consists of two modules: a server and a client.
 
 You can spawn the server as follows:
 
-.. code-block:: console
-
+```
     (idoc) idoc-server --control --recognize --adaptation-time 0
+```
 
 this command launches the idoc server:
 
@@ -51,16 +50,14 @@ this command launches the idoc server:
 
 You can spawn the client as follows:
 
-.. code-block:: console
-
+```
     (idoc) idoc-cli
-
+```
 
 You should always spawn the server first and then the client, because the latter attempts to connect to the former.
 The idoc cli provides the following menu:
 
-.. code-block:: console
-
+```
     Connecting to IDOC device in machine 74f75f830109411ba67f74ecb268f9ef
     Please choose:
     1: LOAD PARADIGM
@@ -75,13 +72,10 @@ The idoc cli provides the following menu:
     10: RESTART
     11: QUIT
     Enter number: 
+```
 
 
-
-
-
-Execution offline
----------------------
+## Execution offline
 
 If you wish to reanalyze a video, you can do so as follows:
 
@@ -93,11 +87,11 @@ If you wish to reanalyze a video, you can do so as follows:
 
 If your experiment cannot be analyzed because the targets are not found, please create a .yaml file with this format
 
-::
+```
     top_right: [981, 41]
     bottom_left: [262, 1000]
     bottom_right: [978, 997]
-
+```
 where the numbers are the X and Y coordinates of the 3 dots in any of the frames of the video
 You can quickly extract them by opening one of the snapshots with GIMP and hovering the cursor over the target
 GIMP will report the coordinates of the mouse.

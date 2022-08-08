@@ -1,0 +1,9 @@
+site_name: IDOC Docs
+site_url: https://idoc_docs.readthedocs.io/en/latest/
+repo_url: https://github.com/shaliulab/idoc
+nav:
+    - Home: index.md
+    - Installation: installation.md
+    - Usage: usage.md
+
+theme: readthedocs
