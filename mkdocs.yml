@@ -4,6 +4,17 @@ repo_url: https://github.com/shaliulab/idoc
 nav:
     - Home: index.md
     - Protocols: Protocols-Behavior-Monitoring_IDOC_Operation_Manual.md
+    - Air delivery system: Air-odors-delivery-system.md
+    - Electric Shock Circuit: Electric_Shock_Circuit.md
+    - Enclosure breadboard system: Enclosure-Breadboard-System.md
+    - Enclosure mounting: Enclosure-Camera-Mounting.md
+    - Heatsink: Heatsink-Installation.md
+    - IDOC Chamber assembly: IDOC-Chamber_Assembly.md
+    - 3D parts: IDOC_3D_Assemply_Parts.md
+    - IR Optogenetic System: IR-Optogenetic-System.md
+    - List of commercial parts: List-of-Commercial-Parts-Tools.md
+    - Wiring: Setup-Wiring-and-Powering-Cables.md
+    - Sigmacote: Sigmacote-Glass-Coating.md
     - Installation: installation.md
     - Usage: usage.md
 
