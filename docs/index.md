@@ -1,7 +1,7 @@
 Welcome to idoc's documentation!
 ===================================
 
-**idoc** (*individual Drosophila optogenetics conditioner*) is a Python library
+**idoc** (*individual Drosophila olfactory conditioner*) is a Python library
 to train several Drosophila individuals using odours, electro shocks and optogenetics.
 
 
