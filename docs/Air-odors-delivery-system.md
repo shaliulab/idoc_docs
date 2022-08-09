@@ -6,6 +6,7 @@ The regulated air is delivered to the recording chambers via solenoid valves con
 
 ![Flow_system.PNG](assets/Images/Flow_system.PNG)
 
+
 -  The controlled air is  passed through activated carbon capsule (Fisher, [10526921](https://www.fishersci.be/shop/products/whatman-carbon-cap-disposable-activated-carbon-capsules/10526921)) to be filtered and dried.
 
 - The dried filtered air then connected to a solenoid valve 2 ports (named Main Valve) , (Normal close NC, 12 VDC, RS, [840-7020](https://benl.rs-online.com/web/p/solenoid-valves/8407020/)).  This valve is only open when connected to 12VDC. The Arduino-control-relay-unit switch this valve when an experiment starts. 
@@ -161,6 +162,7 @@ Inflow and outflow meters installation is the same procedures. Use fork ring wre
 
 ![Flow-regulators.PNG](assets/Images/Flow-regulators.PNG)
 
+
 Tip: Backlighting of the flow help to precisely adjust the meters to the same level, just add one white LEDs  in the back hole of each flow regulators. and then connect all LEDs in series with a switch to only illuminated when needed especially when recording at dark room. 
 
 
@@ -177,6 +179,7 @@ Use fork ring wrench  or spanner #12 (amazon.de, [M19652](https://www.amazon.de/
 
 
 
+
 ------
 
 **3-ports Solenoid Valve Installation**
@@ -186,6 +189,7 @@ Use fork ring wrench  or spanner #12 (amazon.de, [M19652](https://www.amazon.de/
 
 
 ![Solenoid-valves.PNG](assets/Images/Solenoid-valves.PNG)
+
 
 
 
@@ -211,11 +215,13 @@ With the use of a wire stripper, remove at least 1 cm casing to expose the cut w
 
 
 
+
 **Here is the pinout mapping of the cable connections:**
 
 
 
 ![Ribbon-cable-mapping.PNG](assets/Images/Ribbon-cable-mapping.PNG)
+
 
 
 
@@ -308,11 +314,13 @@ each chamber has two vent in the middle. Each port allows the air to outflow out
 
 
 
+
 **Vacuum manifold:**
 
 
 
 ![Vacuum-manifold.PNG](assets/Images/Vacuum-manifold.PNG)
+
 
  
 

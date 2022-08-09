@@ -57,6 +57,7 @@ For further information, refer to the material data sheets for technical data an
 
 ![Tubing-wires box.PNG](assets/Images/Tubing-wires box.PNG)
 
+
 This box is necessary for housing the inflow manifold, the outflow vacuum/exhaust tubing, and the electric wire that is required to power the setup components. The bottom side of the box holdsthe rubber feet for the whole setup, while the top side of the box serve as abasement of the heatsink and lighting box. 
 
 The box size is 400 mm x 350 mm. For 3D printability, we need to split this box to four parts of equal surface area (Lx W 200mm x175mm). Printed parts can be assembled with screws. No support is needed while printing this box. 
@@ -64,6 +65,7 @@ The box size is 400 mm x 350 mm. For 3D printability, we need to split this box 
 #### Powering platform
 
 ![Powering-platform.PNG](assets/Images/Powering-platform.PNG)
+
 
 This parts is placed at the backside of the tubing & wiring box. This panel consists of [pin headers]() to hold [IDC cable]() to power the setup. IR-LED, Electric shocks, odor indicators, and vibration motors.
 
@@ -88,9 +90,11 @@ This part is placed at the the top part of the basement box. There is one hole f
 
 
 
+
 #### **Heatsink Connectors**
 
 ![Basement_heatsink.PNG](assets/Images/Basement_heatsink.PNG)
+
 
 Two mounting brackets at each side to fix the heatsink to the basement of the setup
 
@@ -104,17 +108,20 @@ This box is mounted on the top heatsink to cover the IR-LED backlighting and opt
 
 
 
+
 #### Chambers holder
 
 
 
 ![Chambers_holder.PNG](assets/Images/Chambers_holder.PNG)
 
+
 the part is placed at the top of each light box. 10 recording chambers are mounted on top of each side 
 
 .
 
 ![Chambers_holders.JPG](assets/Images/Chambers_holders.JPG)
+
 
 
 
@@ -139,6 +146,7 @@ Acrylic plastic glass sheet   (RS Components, [824-676](https://benl.rs-online.c
  
 
 ![Basement-cover-plastic-sheet1.PNG](assets/Images/Basement-cover-plastic-sheet1.PNG)
+
 
 
 

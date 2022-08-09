@@ -18,7 +18,8 @@ When selecting an optogenetic light source, you need to consider two key factors
 
 The following sketch shows the optogenetics system components: 
 
-![Optogenetic-system-components.PNG](/docs/assets/Images/Optogenetic-system-components.PNG)
+  ![Optogenetic-system-components.PNG](/docs/assets/Images/Optogenetic-system-components.PNG)
+
 
 
 
@@ -54,7 +55,8 @@ A custom-made LED drivers was used for controlling high power LEDs mounted below
 
 
 
-![LED-driver-board-V.01.PNG](assets/Images/LED-Driver-Board-dimention-footprint.jpg" alt="relative" style="width: 80%;" />** | **<img src="assets/Images/LED-driver-board-V.01.PNG)
+| **![LED-driver-board-V.01.PNG](assets/Images/LED-Driver-Board-dimention-footprint.jpg" alt="relative" style="width: 80%;" />** | **<img src="assets/Images/LED-driver-board-V.01.PNG)
+** |
 | ---------------------------------------- | ---------------------------------------- |
 | the board footprint is 9 x 11 cm and contains 10 drivers or via PCA9685 16-Channels. | LED power can be adjusted using the potentiometer on front panel.  Each channel can be regulated independently *but* they all have the same PWM signal & Frequency to run. |
 
@@ -84,13 +86,16 @@ At least 2 boards are needed to run the left and right side optogenetic panels i
 
 
 
+
 #### **Output ports and pinouts** 
 
 There are 10 output ports. Each port has 2 pins: V+, GND (-ve) . The LED drivers and optogenetic LED panels are connected via the ribbon cables with 20-way IDC connector, which is compatible with all LED assemblies in the system - see Section LED Connectors & IDC Cables. The figure below shows the pin-out of the male connector at the bottom of the driver board 
 
-![LED-driver-piout-1.PNG](assets/Images/LED-driver-piout-1.PNG)
+**![LED-driver-piout-1.PNG](assets/Images/LED-driver-piout-1.PNG)
+**
 
-![LED-driver-piout-2.PNG](assets/Images/LED-driver-piout-2.PNG)
+**![LED-driver-piout-2.PNG](assets/Images/LED-driver-piout-2.PNG)
+**
 
 
 
@@ -110,6 +115,7 @@ There are 10 output ports. Each port has 2 pins: V+, GND (-ve) . The LED drivers
 
 ![LED-driver-board-V.01-front-panel.PNG](assets/Images/LED-driver-board-V.01-front-panel.PNG)
 
+
 ****
 
 **The back panel of Optogenetics-LED unit features:** 
@@ -120,6 +126,7 @@ There are 10 output ports. Each port has 2 pins: V+, GND (-ve) . The LED drivers
 
 
 ![LED-driver-board-V.01-back-panel.PNG](assets/Images/LED-driver-board-V.01-back-panel.PNG)
+
 
 ****
 
@@ -136,6 +143,7 @@ There are 10 output ports. Each port has 2 pins: V+, GND (-ve) . The LED drivers
 
 
 ![LED-driver-board-V.01-top-panel.PNG](assets/Images/LED-driver-board-V.01-top-panel.PNG)
+
 
 
 
@@ -187,11 +195,13 @@ You also need:
 
 
 
+
 **Steps**
 
 1. Connect the banana socket (RS, [888-4588](https://benl.rs-online.com/web/p/banana-connectors/8884588)) at the two holes named Vin in the front panel of the enclosure, solder two 10cm hook wires to the end of the socket, insulate both with a heat shrink tubing. the other opened end will be connected to the LED drivers board
 
 ![LED-driver-board-V.01-2-banana-socket.PNG](assets/Images/LED-driver-board-V.01-2-banana-socket.PNG)
+
 
 
 
@@ -206,17 +216,20 @@ You also need:
 
 
 
+
 6. Add a second JST PH 2 pin cable male header from the back panel into the left socket  named (external 0-5VDC), add heat shrink tubing,  then solder this wires ends to the right bins of the toggle switch. 
 
 7. Add one last wire into the IR-LED socket, the other opened end should be then connected to crimp socket to be connected to the straight pins in the PCB named IR.
 
    ​
 
-![LED-driver-board-V.01-5V-input.PNG](assets/Images/LED-driver-board-V.01-5V-input.PNG)
+   ![LED-driver-board-V.01-5V-input.PNG](assets/Images/LED-driver-board-V.01-5V-input.PNG)
+
 
 
 
 ![LED-driver-board-V.01-IR-marker-connection.PNG](assets/Images/LED-driver-board-V.01-IR-marker-connection.PNG)
+
 
 
 
@@ -230,6 +243,7 @@ You also need:
 
 ![LED-driver-board-V.01-cable-connection-mounting.PNG](assets/Images/LED-driver-board-V.01-cable-connection-mounting.PNG)
 
+
 11. Repeat the above steps to install other boards
 
 
@@ -242,6 +256,7 @@ You also need:
 
 ![LED-driver-enclosure-engraves.PNG](assets/Images/LED-driver-enclosure-engraves.PNG)
 
+
 12.  To connect two assembled box-board  just slide both enclosures together and then screw them with 2 M3x10mm screws from the front and the back panel of the enclosure.
 
 
@@ -249,11 +264,13 @@ You also need:
 
 ![LED-driver-board-V.01-2-enclosures-assembly.PNG](assets/Images/LED-driver-board-V.01-2-enclosures-assembly.PNG)
 
+
 13. If you are going to use the same power supply you can connect both board  via bridge hook up wires through right screw terminal of each board. 
 
 
 
 ![LED-driver-board-V.01-2-enclosures-wiring.PNG](assets/Images/LED-driver-board-V.01-2-enclosures-wiring.PNG)
+
 
 
 
@@ -279,11 +296,13 @@ Initial operation & test  of LED Driver
 
 
 
+
 **! important!** To avoid current unbalancing when connecting several LEDs in parallel and therefore having a different light intensity between different chambers, we connect two right LEDs and two Left LEDs panel from each side in series.
 
 each panel is connected via 20-way IDC cable to the powering platform of the enclosure. from the outside back of the enclosure, the cables of the same side panel are then connected to a custom-made board in house. This board enable connecting each strings of each channel in series with the   
 
-![Series_connection_LED_sketch.PNG](assets/Images/Series_connection_LED_sketch.PNG)
+**![Series_connection_LED_sketch.PNG](assets/Images/Series_connection_LED_sketch.PNG)
+**
 
 
 
@@ -308,7 +327,8 @@ you also need:
 
 
 
-![Series_connection_LED_parts.PNG](assets/Images/Series_connection_LED_parts.PNG)
+**![Series_connection_LED_parts.PNG](assets/Images/Series_connection_LED_parts.PNG)
+**
 
 
 
@@ -322,7 +342,8 @@ you also need:
 
 
 
-![Series_connection_LED_PCB.PNG](assets/Images/Series_connection_LED_PCB.PNG)
+**![Series_connection_LED_PCB.PNG](assets/Images/Series_connection_LED_PCB.PNG)
+**
 
 
 
@@ -330,19 +351,22 @@ you also need:
 5. **Cover the box and screw it with 2 3Mx6mm screws**
 6. Now the box is ready  
 
-![Series_connection_LED_PCB_Box.PNG](assets/Images/Series_connection_LED_PCB_Box.PNG)
+**![Series_connection_LED_PCB_Box.PNG](assets/Images/Series_connection_LED_PCB_Box.PNG)
+**
 
 7- due to its small size, multiple boxes can be to combined together, to do that , simply connect two boxes through the male and female mate slide on the opposite directions.  
 
 **Series-connection-LED-PCB-2Box**
 
-![Series-connection-LED-PCB-2Box.PNG](assets/Images/Series-connection-LED-PCB-2Box.PNG)
+**![Series-connection-LED-PCB-2Box.PNG](assets/Images/Series-connection-LED-PCB-2Box.PNG)
+**
 
 8- Finally, insert a 4mm screw set to the wall of the one box and then connect an optical post in your desired length to be mounted in the back of the setup of the enclosure.
 
 
 
-![Series-connection-LED-PCB-2Box-post.PNG](assets/Images/Series-connection-LED-PCB-2Box-post.PNG)
+**![Series-connection-LED-PCB-2Box-post.PNG](assets/Images/Series-connection-LED-PCB-2Box-post.PNG)
+**
 
 
 
@@ -464,6 +488,7 @@ Running high power LEDs requires a cooling system to dissipate the heat produced
 
 
 
+
 **LED Assembly/ Soldering**
 
 After soldering the LEDs  to MCPCB aluminum base. The assembly is  mounted directly to the heatsink using [double-sided thermal tape](https://www.luxeonstar.com/pre-cut-thermal-tape-for-10mm-square-bases-10pcs) without the need for screws or fasteners.
@@ -496,7 +521,8 @@ Once every LEDs on the heatsink is mounted, you can inter wire the LEDs to form 
 
 2. Once you have attached all wires to all strings , insert the 40 powering cable from the holes of the aluminum angle profile and then solder the end of the cable with +ve and -ve of each LED string according to the following mapping and color of the wires.
 
-![Ribbon-cable-mapping.PNG](assets/Images/Ribbon-cable-mapping.PNG)
+   ![Ribbon-cable-mapping.PNG](assets/Images/Ribbon-cable-mapping.PNG)
+
 
    ​
 

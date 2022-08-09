@@ -14,6 +14,7 @@ The enclosure has three main sections: The baseplate, setup enclosure and the ca
 
 ![Enclosure.png](assets/Images/Enclosure.png)
 
+
  
 
 ## **I-**        **List of commercial components:**
@@ -96,6 +97,7 @@ The final size of the panels:
 
 
 
+
  **Procedures**
 
 1.1.    Using a tape measure mark a line by pencil on the face of black board to the correct size. Be sure that the final size is about 5 mm longer and 5 mm wider than the rail length to fit in the walls and the roof.
@@ -142,6 +144,7 @@ For this step, you will need:
 
 
 
+
 **Procedures**
 
 1.8.      Attach low-profile channel screw to the construction cube. Low-profile screw has a shortened cap height that prevents neighboring screws from interfering with each other which can be used as a three-way 25 mm rail junction.
@@ -165,6 +168,7 @@ For this step, you will need:
  
 
 ![Top-roof.PNG](assets/Images/Top-roof.PNG)
+
 
 For this step, you will need:
 
@@ -222,7 +226,9 @@ A window (112-mmx112mm) is made in the center of the roof to allow the visualiza
 
 
 
+
 ![IR-window-top-roof-mount.PNG](assets/Images/IR-window-top-roof-mount.PNG)
+
 
 
 
@@ -302,6 +308,7 @@ During experiments, we provided a minimum light for the flies to be sure not act
 
 
 
+
 **Wiring the blue lighting stripe.**
 
  For this step, you will need:
@@ -365,6 +372,7 @@ Exhaust vents placed on the top roof of the enclosure. While air intake is stead
 
 
 ![Suction_vent.PNG](assets/Images/Suction_vent.PNG)
+
 
 
 
@@ -432,7 +440,9 @@ To fully automatic control the setup, lighting, odor/air delivery tubing and pow
 
 
 
+
 ![Holes-on-back-side-enclosure-2.PNG](assets/Images/Enclosure-back-side.PNG" alt="relative" style="width: 50%;" /><img src="assets/Images/Holes-on-back-side-enclosure-2.PNG)
+
 
 
 
@@ -488,7 +498,9 @@ The followings items are needed:
 
 
 
+
 ![tubing-insertion-assembly.PNG](assets/Images/tubing-insertion-assembly.PNG)
+
 
 
 
@@ -516,7 +528,9 @@ to connect the setup to the LED drivers for optogenetic or to the Arduino contro
 
 
 
+
 ![Ouside_wire_box_cover_bottom.PNG](assets/Images/Ouside_fixation_frame_bottom.PNG" alt="relative" style="width: 50%;" /><img src="assets/Images/Ouside_wire_box_cover_bottom.PNG)
+
 
 **Procedures**
 
@@ -537,6 +551,7 @@ to connect the setup to the LED drivers for optogenetic or to the Arduino contro
 #### c-   Green panel, blue lighting powering platform
 
 ![Top-powering-window.PNG](assets/Images/Top-powering-window.PNG)
+
 
 as mentioned above a blue stripes was installed on the top part of the enclosure. The green LED panel for optogenetic activation is fixed on each side of the enclosure by means of optical post and directed to the setup chambers. To power the former devices two power panels were fixed on the top same way like the bottom ones. 
 
@@ -568,7 +583,9 @@ Solid black aluminum breadboard with threaded mounting holes provides a convenie
 
 
 
+
 ![Baseplate.PNG](assets/Images/Baseplate.PNG)
+
 
 **How to build the baseplate?**
 
@@ -600,11 +617,14 @@ The enclosure is attached directly to the baseplate using the XE25CL2 Clamp to m
 
 ![Baseplate-enclosure-mount.PNG](assets/Images/Baseplate-enclosure-mount.PNG)
 
+
 ![IDOC-baseplate-brackets-connection.PNG](assets/Images/IDOC-baseplate-brackets-connection.PNG)
 
 
 
+
 ![IDOC-baseplate-brackets-connection-cut.PNG](assets/Images/IDOC-baseplate-brackets-connection-cut.PNG)
+
 
 
 

@@ -8,6 +8,7 @@ For aversive electric shock learning conditioning, we used patterned coated indi
 
 ![ITO-slide-design.PNG](assets/Images/ITO-slide-design.PNG)
 
+
 | **Indium Tin Oxide coated patterned glass slides ** |
 | ---------------------------------------- |
 | **- [Design_ITO_glass_Slide](../src/ElectricShock)** CAD DXF drawing |
@@ -52,9 +53,11 @@ these electrodes are made in house using the flat metal part of crimp socket  (F
 
 
 
+
 each electrode is set in an connector socket (Digi-Key, [962876-2](https://www.digikey.be/en/products/detail/te-connectivity-amp-connectors/962876-2/2332160)). All sockets are mounted on the chamber holder and connected to a bin header  from the bottom (RS Components, [681-2994](https://benl.rs-online.com/web/p/pcb-headers/6812994/)), There are 80 electrodes contact sockets , 4 for each  chambers .
 
 ![ESock-socket.PNG](assets/Images/ESock-socket.PNG)
+
 
 
 
@@ -66,9 +69,11 @@ each side has two sockets, one for positive line while the other for the negativ
 
 
 
+
 all of the sockets are well-covered and isolated.
 
 ![ESock-socket-connection-cover.PNG](assets/Images/ESock-socket-connection-cover.PNG)
+
 
 
 

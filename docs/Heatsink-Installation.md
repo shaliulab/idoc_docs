@@ -8,6 +8,7 @@ Running high power LEDs requires a cooling system to dissipate the heat produced
 
 ![Heatsink-cooling.PNG](assets/Images/Heatsink-cooling.PNG)
 
+
 Although Rebel LEDs are rated to operate as high as 1000mA, we limited our LED drives current to 350-mA for long life, wavelength stability and most importantly low heat generation produced inside the LED. During the experiment while turning the high-power LEDs on, the temperature inside the recording chamber has no significant differences above ambient temperature.
 
 
@@ -20,7 +21,8 @@ The area that the heatsink is fixed determines its width and length. We order an
 
 **Cut to a specified length**
 
-![Heatsink-cut.PNG](assets/Images/Heatsink-cut.PNG)
+ ![Heatsink-cut.PNG](assets/Images/Heatsink-cut.PNG)
+
 
 As mentioned above the total length of the heatsink is about 914mm. So, we cut it to two pieces with400mm each. We got help from the technical logistic services of the CBD to perform the cutting step. 
 
@@ -42,7 +44,9 @@ Additionally, we mounted an angle profile aluminum (Amazon.nl, ‎[470302.0  alu
 
 
 
+
 ![Heatsink-profile-angle.PNG](assets/Images/Heatsink-profile-angle.PNG)
+
 
 **Procedures:**
 
@@ -71,6 +75,7 @@ The aim of the above angle aluminum profile  fixation is to provide an organized
 
 ![Heatsink-side-holes.PNG](assets/Images/Heatsink-side-holes.PNG)
 
+
 **To create holes on the side of the aluminum profile:**
 
 1. Mark 40 dots or more (about 8-10 mm apart) along the bottom part of the vertical wall of the angle profile aluminum to be used as guides to create holes for screw fixation
@@ -82,6 +87,7 @@ The aim of the above angle aluminum profile  fixation is to provide an organized
 The heatsink is mounted on the top of basement box of the setup **(See: Tubing& Wiring Box assembly) **by two mounting brackets for each side.
 
 ![heatsink-tubingbox-connection.PNG](assets/Images/heatsink-tubingbox-connection.PNG)
+
 
 
 
@@ -119,7 +125,9 @@ The IR optogenetic panels are then covered by a 3D-printed box (light box). The 
 
 
 
+
 ![Heatsink-lightbox-connection-midline-holes.PNG](assets/Images/Heatsink-lightbox-connection-midline-holes.PNG)
+
 
 
 

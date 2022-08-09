@@ -58,7 +58,8 @@
 
   ​
 
-![Preparing_the_experimental_flies .PNG](assets/Images/Preparing_the_experimental_flies .PNG)
+  ![Preparing_the_experimental_flies .PNG](assets/Images/Preparing_the_experimental_flies .PNG)
+
 
   ​                                                                  Suggested plan for long term memory experiment
 
@@ -206,6 +207,7 @@
 Turned Pin Open Frame IC Dip Socket,with 14 Way (RS Components, [674-2476](https://benl.rs-online.com/web/p/dil-sockets/6742476/)) is used to place the relay. simply remove the old relay and insert the new one in the direction 
 
 ![Relay-input-output.PNG](assets/Images/Relay-input-output.PNG)
+
 
 EShock relays: SPDT Reed Relay, 5V dc, PCB Mount (RS Components, [256-2241 ](https://benl.rs-online.com/web/p/reed-relays/2562241/)) [datasheet](https://docs.rs-online.com/0e08/0900766b813980e6.pdf)
 
