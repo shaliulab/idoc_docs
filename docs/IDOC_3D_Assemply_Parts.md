@@ -55,7 +55,7 @@ For further information, refer to the material data sheets for technical data an
 
 #### Tubing & wires box 
 
-![Tubing-wires box_resized.PNG](assets/Images/Tubing-wires box_resized.PNG)
+![Tubing-wires box.PNG](assets/Images/Tubing-wires box.PNG)
 
 This box is necessary for housing the inflow manifold, the outflow vacuum/exhaust tubing, and the electric wire that is required to power the setup components. The bottom side of the box holdsthe rubber feet for the whole setup, while the top side of the box serve as abasement of the heatsink and lighting box. 
 
@@ -63,7 +63,7 @@ The box size is 400 mm x 350 mm. For 3D printability, we need to split this box 
 
 #### Powering platform
 
-![Powering-platform_resized.PNG](assets/Images/Powering-platform_resized.PNG)
+![Powering-platform.PNG](assets/Images/Powering-platform.PNG)
 
 This parts is placed at the backside of the tubing & wiring box. This panel consists of [pin headers]() to hold [IDC cable]() to power the setup. IR-LED, Electric shocks, odor indicators, and vibration motors.
 
@@ -84,13 +84,13 @@ Mapping_of_ 20-way IDC_header box
 
 This part is placed at the the top part of the basement box. There is one hole for each tube coming from the main manifold inside the tubing box total 40 tubes.
 
-![Tubing_collectors_resized.PNG](assets/Images/Tubing_collectors_resized.PNG)
+![Tubing_collectors.PNG](assets/Images/Tubing_collectors.PNG)
 
 
 
 #### **Heatsink Connectors**
 
-![Basement_heatsink_resized.PNG](assets/Images/Basement_heatsink_resized.PNG)
+![Basement_heatsink.PNG](assets/Images/Basement_heatsink.PNG)
 
 Two mounting brackets at each side to fix the heatsink to the basement of the setup
 
@@ -100,7 +100,7 @@ Two mounting brackets at each side to fix the heatsink to the basement of the se
 
 This box is mounted on the top heatsink to cover the IR-LED backlighting and optogenetic LED panels. also it has a rail in the midline to slide an IR filter to separate the two half of chambers during optogenetic application
 
-![Light-box_resized.PNG](assets/Images/Light-box_resized.PNG)
+![Light-box.PNG](assets/Images/Light-box.PNG)
 
 
 
@@ -108,13 +108,13 @@ This box is mounted on the top heatsink to cover the IR-LED backlighting and opt
 
 
 
-![Chambers_holder_resized.PNG](assets/Images/Chambers_holder_resized.PNG)
+![Chambers_holder.PNG](assets/Images/Chambers_holder.PNG)
 
 the part is placed at the top of each light box. 10 recording chambers are mounted on top of each side 
 
 .
 
-![Chambers_holders_resized.JPG](assets/Images/Chambers_holders_resized.JPG)
+![Chambers_holders.JPG](assets/Images/Chambers_holders.JPG)
 
 
 
@@ -138,7 +138,7 @@ Acrylic plastic glass sheet   (RS Components, [824-676](https://benl.rs-online.c
 
  
 
-![Basement-cover-plastic-sheet1_resized.PNG](assets/Images/Basement-cover-plastic-sheet1_resized.PNG)
+![Basement-cover-plastic-sheet1.PNG](assets/Images/Basement-cover-plastic-sheet1.PNG)
 
 
 
@@ -154,4 +154,4 @@ To isolate the setup from vibration also we added an extra rubber feet (Anti Vib
 
 The base plate should be removed for further installation of tubing and electrical wires connections.  Remove the screws securing the acrylic plastic glass sheet to the box using a hexagon key.  Retain the screw for future use when all of the box components installed. 
 
-![Basement-cover-plastic-sheet-rubber_resized.PNG](assets/Images/Basement-cover-plastic-sheet-rubber_resized.PNG)
+![Basement-cover-plastic-sheet-rubber.PNG](assets/Images/Basement-cover-plastic-sheet-rubber.PNG)

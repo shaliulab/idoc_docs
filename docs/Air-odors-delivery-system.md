@@ -4,7 +4,7 @@
 
 The regulated air is delivered to the recording chambers via solenoid valves controlled by Arduino-control-relay- switch unit as follow:
 
-![Flow_system_resized.PNG](assets/Images/Flow_system_resized.PNG)
+![Flow_system.PNG](assets/Images/Flow_system.PNG)
 
 -  The controlled air is  passed through activated carbon capsule (Fisher, [10526921](https://www.fishersci.be/shop/products/whatman-carbon-cap-disposable-activated-carbon-capsules/10526921)) to be filtered and dried.
 
@@ -159,7 +159,7 @@ Inflow and outflow meters installation is the same procedures. Use fork ring wre
 
 
 
-![Flow-regulators_resized.PNG](assets/Images/Flow-regulators_resized.PNG)
+![Flow-regulators.PNG](assets/Images/Flow-regulators.PNG)
 
 Tip: Backlighting of the flow help to precisely adjust the meters to the same level, just add one white LEDs  in the back hole of each flow regulators. and then connect all LEDs in series with a switch to only illuminated when needed especially when recording at dark room. 
 
@@ -173,7 +173,7 @@ Tip: Backlighting of the flow help to precisely adjust the meters to the same le
 
 Use fork ring wrench  or spanner #12 (amazon.de, [M19652](https://www.amazon.de/-/en/Brothers-Mannesmann-M19652-wrench-pieces/dp/B000ET7G0E?th=1) ; [B001ILAFRI](https://www.amazon.de/-/en/171198-Combination-Spanner-Set-SW/dp/B001ILAFRI/))  to connect Straight Threaded-to-Tube Adapter, Uni 1/8 Male, Push In 6 mm (RS Components, [771-5100](https://benl.rs-online.com/web/p/pneumatic-fittings/7715100/)) to the Solenoid Valve 2 port(s) , NC, 12 V dc, 1/8in (RS Components, [840-7020](https://benl.rs-online.com/web/p/solenoid-valves/8407020/)). Then use 2 M3x10mm screws to fix the main valve to the 3D printed holders. 
 
-![Main-valve_resized.PNG](assets/Images/Main-valve_resized.PNG)
+![Main-valve.PNG](assets/Images/Main-valve.PNG)
 
 
 
@@ -185,7 +185,7 @@ Use fork ring wrench  or spanner #12 (amazon.de, [M19652](https://www.amazon.de/
 
 
 
-![Solenoid-valves_resized.PNG](assets/Images/Solenoid-valves_resized.PNG)
+![Solenoid-valves.PNG](assets/Images/Solenoid-valves.PNG)
 
 
 
@@ -207,7 +207,7 @@ With the use of a wire stripper, remove at least 1 cm casing to expose the cut w
 
 
 
-![Powering-valves_resized.PNG](assets/Images/Powering-valves_resized.PNG)
+![Powering-valves.PNG](assets/Images/Powering-valves.PNG)
 
 
 
@@ -215,7 +215,7 @@ With the use of a wire stripper, remove at least 1 cm casing to expose the cut w
 
 
 
-![Ribbon-cable-mapping_resized.PNG](assets/Images/Ribbon-cable-mapping_resized.PNG)
+![Ribbon-cable-mapping.PNG](assets/Images/Ribbon-cable-mapping.PNG)
 
 
 
@@ -302,7 +302,7 @@ each chamber has two vent in the middle. Each port allows the air to outflow out
 
 
 
-![Vacuum-suction-tubing_resized.PNG](assets/Images/Vacuum-suction-tubing_resized.PNG)
+![Vacuum-suction-tubing.PNG](assets/Images/Vacuum-suction-tubing.PNG)
 
 
 
@@ -312,7 +312,7 @@ each chamber has two vent in the middle. Each port allows the air to outflow out
 
 
 
-![Vacuum-manifold_resized.PNG](assets/Images/Vacuum-manifold_resized.PNG)
+![Vacuum-manifold.PNG](assets/Images/Vacuum-manifold.PNG)
 
  
 

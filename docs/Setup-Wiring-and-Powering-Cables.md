@@ -8,12 +8,12 @@ The Arduino control unit, the LED drivers, optogenetic LED panels, solenoid valv
 
 | Description                              | Connection  devices                      | Length                                   | Qt:  | End  1                | End  2         | Image                                    |
 | ---------------------------------------- | ---------------------------------------- | ---------------------------------------- | ---- | --------------------- | -------------- | ---------------------------------------- |
-![Double-IDC-connectors-cable_resized.PNG](assets/Images/Double-IDC-connectors-cable_resized.PNG)
-![Double-IDC-connectors-cable_resized.PNG](assets/Images/Double-IDC-connectors-cable_resized.PNG)
-![open-ended-IDC-ribbon-cable_resized.PNG](assets/Images/open-ended-IDC-ribbon-cable_resized.PNG)
-![Double-IDC-connectors-cable_resized.PNG](assets/Images/Double-IDC-connectors-cable_resized.PNG)
-![Double-IDC-connectors-cable_resized.PNG](assets/Images/Double-IDC-connectors-cable_resized.PNG)
-![open-ended-IDC-ribbon-cable_resized.PNG](assets/Images/open-ended-IDC-ribbon-cable_resized.PNG)
+![Double-IDC-connectors-cable.PNG](assets/Images/Double-IDC-connectors-cable.PNG)
+![Double-IDC-connectors-cable.PNG](assets/Images/Double-IDC-connectors-cable.PNG)
+![open-ended-IDC-ribbon-cable.PNG](assets/Images/open-ended-IDC-ribbon-cable.PNG)
+![Double-IDC-connectors-cable.PNG](assets/Images/Double-IDC-connectors-cable.PNG)
+![Double-IDC-connectors-cable.PNG](assets/Images/Double-IDC-connectors-cable.PNG)
+![open-ended-IDC-ribbon-cable.PNG](assets/Images/open-ended-IDC-ribbon-cable.PNG)
 | 6-way  ribbon cable terminated either  end with IDC connector. | Connect  the Arduino control board to contacts box of the exhaust solenoid valves. | 100-150  mm  Depend  on the distance between the solenoids and the control unit | 2    | IDC  connector        | IDC  connector |                                          |
 | 6-way  ribbon cable one end open while the other end is terminated with IDC connector | Connect  the IR-LED light indicators of the setup . | 25 cm                                    | 4    | IDC  connector        | Open  end      |                                          |
 
@@ -54,7 +54,7 @@ For this step, you will need:
 
 
 
-![Ribbon-cable-mapping_resized.PNG](assets/Images/Ribbon-cable-mapping_resized.PNG)
+![Ribbon-cable-mapping.PNG](assets/Images/Ribbon-cable-mapping.PNG)
 
 
 

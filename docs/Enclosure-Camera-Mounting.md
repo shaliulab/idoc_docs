@@ -8,20 +8,20 @@ First setup model:
 
 |                 | Item                                     | Order Number                             | Vendor/Link                              |                                          |
 | --------------- | ---------------------------------------- | ---------------------------------------- | ---------------------------------------- | ---------------------------------------- |
-![Basler_106486_resized.jpg](../src/Commercial_Parts/Suppliers-Stock-Images/Basler_106486_resized.jpg)
-![Basler-000034697_resized.jpg](../src/Commercial_Parts/Suppliers-Stock-Images/Basler-000034697_resized.jpg)
-![Basler-2000027038_resized.jpg](../src/Commercial_Parts/Suppliers-Stock-Images/Basler-2000027038_resized.jpg)
-![Basler-2000029679_resized.jpg](../src/Commercial_Parts/Suppliers-Stock-Images/Basler-2000029679_resized.jpg)
-![Basler-2200000167_resized.jpg](../src/Commercial_Parts/Suppliers-Stock-Images/Basler-2200000167_resized.jpg)
+![Basler_106486.jpg](../src/Commercial_Parts/Suppliers-Stock-Images/Basler_106486.jpg)
+![Basler-000034697.jpg](../src/Commercial_Parts/Suppliers-Stock-Images/Basler-000034697.jpg)
+![Basler-2000027038.jpg](../src/Commercial_Parts/Suppliers-Stock-Images/Basler-2000027038.jpg)
+![Basler-2000029679.jpg](../src/Commercial_Parts/Suppliers-Stock-Images/Basler-2000029679.jpg)
+![Basler-2200000167.jpg](../src/Commercial_Parts/Suppliers-Stock-Images/Basler-2200000167.jpg)
 
 Second setup model:
 
 |                 | Item                                     | Order  Number                            | Vendor/Link                              |                                          |
 | --------------- | ---------------------------------------- | ---------------------------------------- | ---------------------------------------- | ---------------------------------------- |
-![Basler-108028_resized.jpg](../src/Commercial_Parts/Suppliers-Stock-Images/Basler-108028_resized.jpg)
-![Basler-000034697_resized.jpg](../src/Commercial_Parts/Suppliers-Stock-Images/Basler-000034697_resized.jpg)
-![Basler-2000035995_resized.jpg](../src/Commercial_Parts/Suppliers-Stock-Images/Basler-2000035995_resized.jpg)
-![Basler-2200000314_resized.jpg](../src/Commercial_Parts/Suppliers-Stock-Images/Basler-2200000314_resized.jpg)
+![Basler-108028.jpg](../src/Commercial_Parts/Suppliers-Stock-Images/Basler-108028.jpg)
+![Basler-000034697.jpg](../src/Commercial_Parts/Suppliers-Stock-Images/Basler-000034697.jpg)
+![Basler-2000035995.jpg](../src/Commercial_Parts/Suppliers-Stock-Images/Basler-2000035995.jpg)
+![Basler-2200000314.jpg](../src/Commercial_Parts/Suppliers-Stock-Images/Basler-2200000314.jpg)
 | Power supply:   | Via USB 3.0  interface  2.8 W            | NA                                       | NA                                       | NA                                       |
 
  
@@ -36,7 +36,7 @@ Second setup model:
 
 The post holder base is used for positioning and fastening the camera mount at the top of enclosure. The post holders include a spring-loaded thumbscrew that holds posts in place before tightening
 
-![Camera-mounting-base_resized.PNG](assets/Images/Camera-mounting-base_resized.PNG)
+![Camera-mounting-base.PNG](assets/Images/Camera-mounting-base.PNG)
 
 
 
@@ -74,7 +74,7 @@ The following parts are needed to create a base for the above camera mount const
 
 
 
-![Camera-mounting-base_2_resized.PNG](assets/Images/Camera-mounting-base_2_resized.PNG)
+![Camera-mounting-base_2.PNG](assets/Images/Camera-mounting-base_2.PNG)
 
 The following parts are needed to construct the camera mount:
 
@@ -122,7 +122,7 @@ The following parts are needed to construct the camera mount:
 
 
 
-![Camera-mounting_resized.PNG](assets/Images/Camera-mounting_resized.PNG)
+![Camera-mounting.PNG](assets/Images/Camera-mounting.PNG)
 
 The following parts are needed to create a base for the above camera mount construction:
 
@@ -194,7 +194,7 @@ Be sure that the correct size of the black board has been ordered or in house cu
 
  
 
-![Black-board-camera-enclosure_resized.PNG](assets/Images/Black-board-camera-enclosure_resized.PNG)
+![Black-board-camera-enclosure.PNG](assets/Images/Black-board-camera-enclosure.PNG)
 
 
 
@@ -230,7 +230,7 @@ For this step, you will need:
 
  
 
-![Camera-enclosure_resized.PNG](assets/Images/Camera-enclosure_resized.PNG)
+![Camera-enclosure.PNG](assets/Images/Camera-enclosure.PNG)
 
 
 
@@ -260,7 +260,7 @@ For this step, you will need:
 
 ### **C-**  **Mount the camera enclosure** 
 
-![Camera-mounting-base_resized.PNG](assets/Images/Camera-mounting-base_resized.PNG)
+![Camera-mounting-base.PNG](assets/Images/Camera-mounting-base.PNG)
 
 **Procedures**
 

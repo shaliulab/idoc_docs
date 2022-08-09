@@ -12,7 +12,7 @@
 
 The enclosure has three main sections: The baseplate, setup enclosure and the camera enclosure.
 
-![Enclosure_resized.png](assets/Images/Enclosure_resized.png)
+![Enclosure.png](assets/Images/Enclosure.png)
 
  
 
@@ -92,7 +92,7 @@ The final size of the panels:
 
 
 
-![Black-board-setup-enclosure_resized.PNG](assets/Images/Black-board-setup-enclosure_resized.PNG)
+![Black-board-setup-enclosure.PNG](assets/Images/Black-board-setup-enclosure.PNG)
 
 
 
@@ -136,7 +136,7 @@ For this step, you will need:
 
 
 
-![Setup-enclosure_resized.PNG](assets/Images/Setup-enclosure_resized.PNG)
+![Setup-enclosure.PNG](assets/Images/Setup-enclosure.PNG)
 
 
 
@@ -164,7 +164,7 @@ For this step, you will need:
 
  
 
-![Top-roof_resized.PNG](assets/Images/Top-roof_resized.PNG)
+![Top-roof.PNG](assets/Images/Top-roof.PNG)
 
 For this step, you will need:
 
@@ -218,11 +218,11 @@ A window (112-mmx112mm) is made in the center of the roof to allow the visualiza
 
 
 
-![IR-window-top-roof_resized.PNG](assets/Images/IR-window-top-roof_resized.PNG)
+![IR-window-top-roof.PNG](assets/Images/IR-window-top-roof.PNG)
 
 
 
-![IR-window-top-roof-mount_resized.PNG](assets/Images/IR-window-top-roof-mount_resized.PNG)
+![IR-window-top-roof-mount.PNG](assets/Images/IR-window-top-roof-mount.PNG)
 
 
 
@@ -296,7 +296,7 @@ During experiments, we provided a minimum light for the flies to be sure not act
 
 
 
-![Blue-light-installation_resized.PNG](assets/Images/Blue-light-installation_resized.PNG)
+![Blue-light-installation.PNG](assets/Images/Blue-light-installation.PNG)
 
 
 
@@ -364,7 +364,7 @@ Exhaust vents placed on the top roof of the enclosure. While air intake is stead
 
 
 
-![Suction_vent_resized.PNG](assets/Images/Suction_vent_resized.PNG)
+![Suction_vent.PNG](assets/Images/Suction_vent.PNG)
 
 
 
@@ -426,13 +426,13 @@ To fully automatic control the setup, lighting, odor/air delivery tubing and pow
 
 
 
-![Holes_on_back_side_enclosure_resized.PNG](assets/Images/Holes_on_back_side_enclosure_resized.PNG)
+![Holes_on_back_side_enclosure.PNG](assets/Images/Holes_on_back_side_enclosure.PNG)
 
 
 
 
 
-![Holes-on-back-side-enclosure-2_resized.PNG](assets/Images/Enclosure-back-side.PNG" alt="relative" style="width: 50%;" /><img src="assets/Images/Holes-on-back-side-enclosure-2_resized.PNG)
+![Holes-on-back-side-enclosure-2.PNG](assets/Images/Enclosure-back-side.PNG" alt="relative" style="width: 50%;" /><img src="assets/Images/Holes-on-back-side-enclosure-2.PNG)
 
 
 
@@ -484,11 +484,11 @@ The followings items are needed:
 
 
 
-![Tubing-holes_resized.PNG](assets/Images/Tubing-holes_resized.PNG)
+![Tubing-holes.PNG](assets/Images/Tubing-holes.PNG)
 
 
 
-![tubing-insertion-assembly_resized.PNG](assets/Images/tubing-insertion-assembly_resized.PNG)
+![tubing-insertion-assembly.PNG](assets/Images/tubing-insertion-assembly.PNG)
 
 
 
@@ -512,11 +512,11 @@ The followings items are needed:
 
 to connect the setup to the LED drivers for optogenetic or to the Arduino control unit to power the setup and deliver the electric shocks and illuminate the backlighting IR a custom 3D-printed panels were designed to provide  bridge connections with male and female connector IDC wires and their boxes from both side  of the back wall of the enclosure.   
 
-![Bottom-powering-window_resized.PNG](assets/Images/Bottom-powering-window_resized.PNG)
+![Bottom-powering-window.PNG](assets/Images/Bottom-powering-window.PNG)
 
 
 
-![Ouside_wire_box_cover_bottom_resized.PNG](assets/Images/Ouside_fixation_frame_bottom.PNG" alt="relative" style="width: 50%;" /><img src="assets/Images/Ouside_wire_box_cover_bottom_resized.PNG)
+![Ouside_wire_box_cover_bottom.PNG](assets/Images/Ouside_fixation_frame_bottom.PNG" alt="relative" style="width: 50%;" /><img src="assets/Images/Ouside_wire_box_cover_bottom.PNG)
 
 **Procedures**
 
@@ -536,7 +536,7 @@ to connect the setup to the LED drivers for optogenetic or to the Arduino contro
 
 #### c-   Green panel, blue lighting powering platform
 
-![Top-powering-window_resized.PNG](assets/Images/Top-powering-window_resized.PNG)
+![Top-powering-window.PNG](assets/Images/Top-powering-window.PNG)
 
 as mentioned above a blue stripes was installed on the top part of the enclosure. The green LED panel for optogenetic activation is fixed on each side of the enclosure by means of optical post and directed to the setup chambers. To power the former devices two power panels were fixed on the top same way like the bottom ones. 
 
@@ -564,11 +564,11 @@ Solid black aluminum breadboard with threaded mounting holes provides a convenie
 
 
 
-![Baseplate-rubber-feet_resized.PNG](assets/Images/Baseplate-rubber-feet_resized.PNG)
+![Baseplate-rubber-feet.PNG](assets/Images/Baseplate-rubber-feet.PNG)
 
 
 
-![Baseplate_resized.PNG](assets/Images/Baseplate_resized.PNG)
+![Baseplate.PNG](assets/Images/Baseplate.PNG)
 
 **How to build the baseplate?**
 
@@ -598,13 +598,13 @@ The enclosure is attached directly to the baseplate using the XE25CL2 Clamp to m
 
 
 
-![Baseplate-enclosure-mount_resized.PNG](assets/Images/Baseplate-enclosure-mount_resized.PNG)
+![Baseplate-enclosure-mount.PNG](assets/Images/Baseplate-enclosure-mount.PNG)
 
-![IDOC-baseplate-brackets-connection_resized.PNG](assets/Images/IDOC-baseplate-brackets-connection_resized.PNG)
+![IDOC-baseplate-brackets-connection.PNG](assets/Images/IDOC-baseplate-brackets-connection.PNG)
 
 
 
-![IDOC-baseplate-brackets-connection-cut_resized.PNG](assets/Images/IDOC-baseplate-brackets-connection-cut_resized.PNG)
+![IDOC-baseplate-brackets-connection-cut.PNG](assets/Images/IDOC-baseplate-brackets-connection-cut.PNG)
 
 
 
