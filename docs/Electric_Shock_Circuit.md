@@ -6,7 +6,7 @@ For aversive electric shock learning conditioning, we used patterned coated indi
 
 
 
-<img src="assets/Images/ITO-slide-design.PNG" alt="relative" style="width: 150%;" />
+![ITO-slide-design_resized.PNG](assets/Images/ITO-slide-design_resized.PNG)
 
 | **Indium Tin Oxide coated patterned glass slides ** |
 | ---------------------------------------- |
@@ -48,13 +48,13 @@ Each chamber consists four custom-made  electrodes to contact the ITO surface of
 
 these electrodes are made in house using the flat metal part of crimp socket  (Farnell, [1593529](https://be.farnell.com/multicomp/2226tg/crimp-terminal-24-28awg/dp/1593529?ost=1593529)), formed in U-shape, then soldered to  a single pin of electric contact  Components, [548-7171](https://benl.rs-online.com/web/p/pcb-headers/5487171) or  [548-7222](https://benl.rs-online.com/web/p/pcb-headers/5487222))
 
-<img src="assets/Images/IDOC-Chamber.PNG" alt="relative" style="width: 100%;" />
+![IDOC-Chamber_resized.PNG](assets/Images/IDOC-Chamber_resized.PNG)
 
 
 
 each electrode is set in an connector socket (Digi-Key, [962876-2](https://www.digikey.be/en/products/detail/te-connectivity-amp-connectors/962876-2/2332160)). All sockets are mounted on the chamber holder and connected to a bin header  from the bottom (RS Components, [681-2994](https://benl.rs-online.com/web/p/pcb-headers/6812994/)), There are 80 electrodes contact sockets , 4 for each  chambers .
 
-<img src="assets/Images/ESock-socket.PNG" alt="relative" style="width: 100%;" />
+![ESock-socket_resized.PNG](assets/Images/ESock-socket_resized.PNG)
 
 
 
@@ -62,16 +62,16 @@ each side has two sockets, one for positive line while the other for the negativ
 
 
 
-<img src="assets/Images/ESock-socket-connection.PNG" alt="relative" style="width: 100%;" />
+![ESock-socket-connection_resized.PNG](assets/Images/ESock-socket-connection_resized.PNG)
 
 
 
 all of the sockets are well-covered and isolated.
 
-<img src="assets/Images/ESock-socket-connection-cover.PNG" alt="relative" style="width: 100%;" />
+![ESock-socket-connection-cover_resized.PNG](assets/Images/ESock-socket-connection-cover_resized.PNG)
 
 
 
 Arduino relay switch  control unit 
 
-<img src="assets/Images/ESock-Arduino-relay.PNG" alt="relative" style="width: 100%;" />
+![ESock-Arduino-relay_resized.PNG](assets/Images/ESock-Arduino-relay_resized.PNG)

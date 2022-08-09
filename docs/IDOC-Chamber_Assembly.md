@@ -4,7 +4,7 @@ The chambers are key to ensure the proper delivery of stimuli (odor and electric
 
 
 
-<img src="assets/Images/IDOC-Chamber.PNG" alt="relative" style="width: 60%;" />
+![IDOC-Chamber_resized.PNG](assets/Images/IDOC-Chamber_resized.PNG)
 
 
 

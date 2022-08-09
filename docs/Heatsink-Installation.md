@@ -6,7 +6,7 @@ Running high power LEDs requires a cooling system to dissipate the heat produced
 
 
 
-<img src="assets/Images/Heatsink-cooling.PNG" alt="relative" style="width: 60%;" />
+![Heatsink-cooling_resized.PNG](assets/Images/Heatsink-cooling_resized.PNG)
 
 Although Rebel LEDs are rated to operate as high as 1000mA, we limited our LED drives current to 350-mA for long life, wavelength stability and most importantly low heat generation produced inside the LED. During the experiment while turning the high-power LEDs on, the temperature inside the recording chamber has no significant differences above ambient temperature.
 
@@ -20,7 +20,7 @@ The area that the heatsink is fixed determines its width and length. We order an
 
 **Cut to a specified length**
 
- <img src="assets/Images/Heatsink-cut.PNG" alt="relative" style="width: 30%;" />
+![Heatsink-cut_resized.PNG](assets/Images/Heatsink-cut_resized.PNG)
 
 As mentioned above the total length of the heatsink is about 914mm. So, we cut it to two pieces with400mm each. We got help from the technical logistic services of the CBD to perform the cutting step. 
 
@@ -36,13 +36,13 @@ As mentioned above the total length of the heatsink is about 914mm. So, we cut i
 
 Additionally, we mounted an angle profile aluminum (Amazon.nl, ‎[470302.0  alu -1000x15x10](https://www.amazon.nl/-/en/gp/product/B00ZXPLX3K/))  at each side of the heat sink to organize the wiring cables outside of the LEDs matrix area and to add extra extrusion to hold the 3D printed light box. If necessary, an extra LED stripe can be added on this aluminum heatsink.
 
-<img src="assets/Images/Heatsink-cut-profile.PNG" alt="relative" style="width: 30%;" />
+![Heatsink-cut-profile_resized.PNG](assets/Images/Heatsink-cut-profile_resized.PNG)
 
 
 
 
 
-<img src="assets/Images/Heatsink-profile-angle.PNG" alt="relative" style="width: 60%;" />
+![Heatsink-profile-angle_resized.PNG](assets/Images/Heatsink-profile-angle_resized.PNG)
 
 **Procedures:**
 
@@ -69,7 +69,7 @@ The aim of the above angle aluminum profile  fixation is to provide an organized
 
 
 
-<img src="assets/Images/Heatsink-side-holes.PNG" alt="relative" style="width: 100%;" />
+![Heatsink-side-holes_resized.PNG](assets/Images/Heatsink-side-holes_resized.PNG)
 
 **To create holes on the side of the aluminum profile:**
 
@@ -81,7 +81,7 @@ The aim of the above angle aluminum profile  fixation is to provide an organized
 
 The heatsink is mounted on the top of basement box of the setup **(See: Tubing& Wiring Box assembly) **by two mounting brackets for each side.
 
-<img src="assets/Images/heatsink-tubingbox-connection.PNG" alt="relative" style="width: 100%;" />
+![heatsink-tubingbox-connection_resized.PNG](assets/Images/heatsink-tubingbox-connection_resized.PNG)
 
 
 
@@ -113,13 +113,13 @@ The IR optogenetic panels are then covered by a 3D-printed box (light box). The 
 
 
 
-<img src="assets/Images/Heatsink-lightbox-connection.PNG" alt="relative" style="width: 100%;" />
+![Heatsink-lightbox-connection_resized.PNG](assets/Images/Heatsink-lightbox-connection_resized.PNG)
 
 
 
 
 
-<img src="assets/Images/Heatsink-lightbox-connection-midline-holes.PNG" alt="relative" style="width: 100%;" />
+![Heatsink-lightbox-connection-midline-holes_resized.PNG](assets/Images/Heatsink-lightbox-connection-midline-holes_resized.PNG)
 
 
 

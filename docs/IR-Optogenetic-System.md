@@ -18,7 +18,7 @@ When selecting an optogenetic light source, you need to consider two key factors
 
 The following sketch shows the optogenetics system components: 
 
-  <img src="/docs/assets/Images/Optogenetic-system-components.PNG" alt="relative" style="width: 50%;" />
+![Optogenetic-system-components_resized.PNG](/docs/assets/Images/Optogenetic-system-components_resized.PNG)
 
 
 
@@ -54,7 +54,7 @@ A custom-made LED drivers was used for controlling high power LEDs mounted below
 
 
 
-| **<img src="assets/Images/LED-Driver-Board-dimention-footprint.jpg" alt="relative" style="width: 80%;" />** | **<img src="assets/Images/LED-driver-board-V.01.PNG" alt="relative" style="width: 100%;" />** |
+![LED-driver-board-V.01_resized.PNG](assets/Images/LED-Driver-Board-dimention-footprint.jpg" alt="relative" style="width: 80%;" />** | **<img src="assets/Images/LED-driver-board-V.01_resized.PNG)
 | ---------------------------------------- | ---------------------------------------- |
 | the board footprint is 9 x 11 cm and contains 10 drivers or via PCA9685 16-Channels. | LED power can be adjusted using the potentiometer on front panel.  Each channel can be regulated independently *but* they all have the same PWM signal & Frequency to run. |
 
@@ -80,7 +80,7 @@ A custom-made LED drivers was used for controlling high power LEDs mounted below
 
 At least 2 boards are needed to run the left and right side optogenetic panels independently. 5 boards would be perfectly  required to drive the complete setup in case you use Red, Green and Blue light. Having 5 identical boards with 10 channels each are cheaper and easier to produce than large board with all the drivers. 
 
-<img src="assets/Images/LED-driver-2-boards.PNG" alt="relative" style="width: 50%;" />
+![LED-driver-2-boards_resized.PNG](assets/Images/LED-driver-2-boards_resized.PNG)
 
 
 
@@ -88,9 +88,9 @@ At least 2 boards are needed to run the left and right side optogenetic panels i
 
 There are 10 output ports. Each port has 2 pins: V+, GND (-ve) . The LED drivers and optogenetic LED panels are connected via the ribbon cables with 20-way IDC connector, which is compatible with all LED assemblies in the system - see Section LED Connectors & IDC Cables. The figure below shows the pin-out of the male connector at the bottom of the driver board 
 
-**<img src="assets/Images/LED-driver-piout-1.PNG" alt="relative" style="width: 40%;" />**
+![LED-driver-piout-1_resized.PNG](assets/Images/LED-driver-piout-1_resized.PNG)
 
-**<img src="assets/Images/LED-driver-piout-2.PNG" alt="relative" style="width: 40%;" />**
+![LED-driver-piout-2_resized.PNG](assets/Images/LED-driver-piout-2_resized.PNG)
 
 
 
@@ -108,7 +108,7 @@ There are 10 output ports. Each port has 2 pins: V+, GND (-ve) . The LED drivers
 
 
 
-<img src="assets/Images/LED-driver-board-V.01-front-panel.PNG" alt="relative" style="width: 50%;" />
+![LED-driver-board-V.01-front-panel_resized.PNG](assets/Images/LED-driver-board-V.01-front-panel_resized.PNG)
 
 ****
 
@@ -119,7 +119,7 @@ There are 10 output ports. Each port has 2 pins: V+, GND (-ve) . The LED drivers
 
 
 
-<img src="assets/Images/LED-driver-board-V.01-back-panel.PNG" alt="relative" style="width: 50%;" />
+![LED-driver-board-V.01-back-panel_resized.PNG](assets/Images/LED-driver-board-V.01-back-panel_resized.PNG)
 
 ****
 
@@ -135,7 +135,7 @@ There are 10 output ports. Each port has 2 pins: V+, GND (-ve) . The LED drivers
 
 
 
-<img src="assets/Images/LED-driver-board-V.01-top-panel.PNG" alt="relative" style="width: 100%;" />
+![LED-driver-board-V.01-top-panel_resized.PNG](assets/Images/LED-driver-board-V.01-top-panel_resized.PNG)
 
 
 
@@ -181,7 +181,7 @@ You also need:
 
 
 
-<img src="assets/Images/LED-driver-board-V.01-components-enclosure.PNG" alt="relative" style="width: 60%;" />
+![LED-driver-board-V.01-components-enclosure_resized.PNG](assets/Images/LED-driver-board-V.01-components-enclosure_resized.PNG)
 
 
 
@@ -191,7 +191,7 @@ You also need:
 
 1. Connect the banana socket (RS, [888-4588](https://benl.rs-online.com/web/p/banana-connectors/8884588)) at the two holes named Vin in the front panel of the enclosure, solder two 10cm hook wires to the end of the socket, insulate both with a heat shrink tubing. the other opened end will be connected to the LED drivers board
 
-<img src="assets/Images/LED-driver-board-V.01-2-banana-socket.PNG" alt="relative" style="width: 50%;" />
+![LED-driver-board-V.01-2-banana-socket_resized.PNG](assets/Images/LED-driver-board-V.01-2-banana-socket_resized.PNG)
 
 
 
@@ -202,7 +202,7 @@ You also need:
 
 
 
-<img src="assets/Images/LED-driver-board-V.01-PWM.PNG" alt="relative" style="width: 50%;" />
+![LED-driver-board-V.01-PWM_resized.PNG](assets/Images/LED-driver-board-V.01-PWM_resized.PNG)
 
 
 
@@ -212,11 +212,11 @@ You also need:
 
    ​
 
-   <img src="assets/Images/LED-driver-board-V.01-5V-input.PNG" alt="relative" style="width: 50%;" />
+![LED-driver-board-V.01-5V-input_resized.PNG](assets/Images/LED-driver-board-V.01-5V-input_resized.PNG)
 
 
 
-<img src="assets/Images/LED-driver-board-V.01-IR-marker-connection.PNG" alt="relative" style="width: 50%;" />
+![LED-driver-board-V.01-IR-marker-connection_resized.PNG](assets/Images/LED-driver-board-V.01-IR-marker-connection_resized.PNG)
 
 
 
@@ -228,7 +228,7 @@ You also need:
 
 
 
-<img src="assets/Images/LED-driver-board-V.01-cable-connection-mounting.PNG" alt="relative" style="width: 50%;" />
+![LED-driver-board-V.01-cable-connection-mounting_resized.PNG](assets/Images/LED-driver-board-V.01-cable-connection-mounting_resized.PNG)
 
 11. Repeat the above steps to install other boards
 
@@ -240,20 +240,20 @@ You also need:
 
 
 
-<img src="assets/Images/LED-driver-enclosure-engraves.PNG" alt="relative" style="width: 50%;" />
+![LED-driver-enclosure-engraves_resized.PNG](assets/Images/LED-driver-enclosure-engraves_resized.PNG)
 
 12.  To connect two assembled box-board  just slide both enclosures together and then screw them with 2 M3x10mm screws from the front and the back panel of the enclosure.
 
 
 
 
-<img src="assets/Images/LED-driver-board-V.01-2-enclosures-assembly.PNG" alt="relative" style="width: 50%;" />
+![LED-driver-board-V.01-2-enclosures-assembly_resized.PNG](assets/Images/LED-driver-board-V.01-2-enclosures-assembly_resized.PNG)
 
 13. If you are going to use the same power supply you can connect both board  via bridge hook up wires through right screw terminal of each board. 
 
 
 
-<img src="assets/Images/LED-driver-board-V.01-2-enclosures-wiring.PNG" alt="relative" style="width: 50%;" />
+![LED-driver-board-V.01-2-enclosures-wiring_resized.PNG](assets/Images/LED-driver-board-V.01-2-enclosures-wiring_resized.PNG)
 
 
 
@@ -275,7 +275,7 @@ Initial operation & test  of LED Driver
 
 
 
-<img src="assets/Images/LED-driver-board-V.01-enclosure-installation.PNG" alt="relative" style="width: 50%;" />
+![LED-driver-board-V.01-enclosure-installation_resized.PNG](assets/Images/LED-driver-board-V.01-enclosure-installation_resized.PNG)
 
 
 
@@ -283,7 +283,7 @@ Initial operation & test  of LED Driver
 
 each panel is connected via 20-way IDC cable to the powering platform of the enclosure. from the outside back of the enclosure, the cables of the same side panel are then connected to a custom-made board in house. This board enable connecting each strings of each channel in series with the   
 
-**<img src="assets/Images/Series_connection_LED_sketch.PNG" alt="relative" style="width: 70%;" />**
+![Series_connection_LED_sketch_resized.PNG](assets/Images/Series_connection_LED_sketch_resized.PNG)
 
 
 
@@ -308,7 +308,7 @@ you also need:
 
 
 
-**<img src="assets/Images/Series_connection_LED_parts.PNG" alt="relative" style="width: 50%;" />**
+![Series_connection_LED_parts_resized.PNG](assets/Images/Series_connection_LED_parts_resized.PNG)
 
 
 
@@ -322,7 +322,7 @@ you also need:
 
 
 
-**<img src="assets/Images/Series_connection_LED_PCB.PNG" alt="relative" style="width: 50%;" />**
+![Series_connection_LED_PCB_resized.PNG](assets/Images/Series_connection_LED_PCB_resized.PNG)
 
 
 
@@ -330,19 +330,19 @@ you also need:
 5. **Cover the box and screw it with 2 3Mx6mm screws**
 6. Now the box is ready  
 
-**<img src="assets/Images/Series_connection_LED_PCB_Box.PNG" alt="relative" style="width: 50%;" />**
+![Series_connection_LED_PCB_Box_resized.PNG](assets/Images/Series_connection_LED_PCB_Box_resized.PNG)
 
 7- due to its small size, multiple boxes can be to combined together, to do that , simply connect two boxes through the male and female mate slide on the opposite directions.  
 
 **Series-connection-LED-PCB-2Box**
 
-**<img src="assets/Images/Series-connection-LED-PCB-2Box.PNG" alt="relative" style="width: 50%;" />**
+![Series-connection-LED-PCB-2Box_resized.PNG](assets/Images/Series-connection-LED-PCB-2Box_resized.PNG)
 
 8- Finally, insert a 4mm screw set to the wall of the one box and then connect an optical post in your desired length to be mounted in the back of the setup of the enclosure.
 
 
 
-**<img src="assets/Images/Series-connection-LED-PCB-2Box-post.PNG" alt="relative" style="width: 50%;" />**
+![Series-connection-LED-PCB-2Box-post_resized.PNG](assets/Images/Series-connection-LED-PCB-2Box-post_resized.PNG)
 
 
 
@@ -459,7 +459,7 @@ An extra reason tosolder the LEDs ourselves is that same order of multiple LEDs 
 
 Running high power LEDs requires a cooling system to dissipate the heat produced inside the LEDs. In our setup cooling is already achieved by mounting the LED directly to a finned [aluminum heat sink](https://www.digikey.be/en/products/detail/wakefield-vette/125404/9957688) with a running air flow to extract the heat from the heatsink enclosure.
 
-<img src="assets/Images/Heatsink-cooling.PNG" alt="relative" style="width: 60%;" />
+![Heatsink-cooling_resized.PNG](assets/Images/Heatsink-cooling_resized.PNG)
 
 
 
@@ -496,7 +496,7 @@ Once every LEDs on the heatsink is mounted, you can inter wire the LEDs to form 
 
 2. Once you have attached all wires to all strings , insert the 40 powering cable from the holes of the aluminum angle profile and then solder the end of the cable with +ve and -ve of each LED string according to the following mapping and color of the wires.
 
-   <img src="assets/Images/Ribbon-cable-mapping.PNG" alt="relative" style="width: 25%;" />
+![Ribbon-cable-mapping_resized.PNG](assets/Images/Ribbon-cable-mapping_resized.PNG)
 
    ​
 

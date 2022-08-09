@@ -13,4 +13,4 @@ We have developed the following designs:
 
 
 
-<img src="......./docs/assets/Images/IDOC-Chamber.PNG" alt="relative" style="width: 100%;" />
+![IDOC-Chamber_resized.PNG](......./docs/assets/Images/IDOC-Chamber_resized.PNG)

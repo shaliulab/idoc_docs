@@ -8,20 +8,20 @@ First setup model:
 
 |                 | Item                                     | Order Number                             | Vendor/Link                              |                                          |
 | --------------- | ---------------------------------------- | ---------------------------------------- | ---------------------------------------- | ---------------------------------------- |
-| Camera model:   | acA1280-60gm -  Basler ace               | [106486](https://www.baslerweb.com/en/products/cameras/area-scan-cameras/ace/aca1280-60gm/) | https://www.baslerweb.com/en/products/cameras/area-scan-cameras/ace/aca1280-60gm/ | <img src="../src/Commercial_Parts/Suppliers-Stock-Images/Basler_106486.jpg" alt="relative" style="width: 100%;" /> |
-| Lens:           | Computar Lens M0814-MP2 F1.4 f8mm 2/3" - Lens | [2000034697](https://www.baslerweb.com/en/products/vision-components/lenses/computar-lens-m0814-mp2-f1-4-f8mm-2-3/#tab=specs) | https://www.baslerweb.com/en/products/vision-components/lenses/computar-lens-m0814-mp2-f1-4-f8mm-2-3/#tab=specs | <img src="../src/Commercial_Parts/Suppliers-Stock-Images/Basler-000034697.jpg" alt="relative" style="width: 100%;" /> |
-| Cable:          | Basler Cable GigE,  Cat 6, RJ45 sl hor/RJ45, DrC, P, 5 m - Data Cable | [2000027038](https://www.baslerweb.com/en/products/vision-components/cable/basler-cable-gige-cat-6-rj45-sl-hor-rj45-drc-p-5-m/) | https://www.baslerweb.com/en/products/vision-components/cable/basler-cable-gige-cat-6-rj45-sl-hor-rj45-drc-p-5-m/ | <img src="../src/Commercial_Parts/Suppliers-Stock-Images/Basler-2000027038.jpg" alt="relative" style="width: 100%;" /> |
-| Mounting plate: | Tripod Mount ace -  Camera Mount Adapter | [2000029679](https://www.baslerweb.com/en/products/vision-components/accessories-and-bundles/tripod-mount-ace/) | https://www.baslerweb.com/en/products/vision-components/accessories-and-bundles/tripod-mount-ace/ | <img src="../src/Commercial_Parts/Suppliers-Stock-Images/Basler-2000029679.jpg" alt="relative" style="width: 100%;" /> |
-| Power supply:   | Power Supply  12V/18W, Hirose 6-pin - Power Supply | [2200000167](https://www.baslerweb.com/en/products/vision-components/network-and-peripheral-devices/power-supply-12v-18w-hirose-6-pin/) | https://www.baslerweb.com/en/products/vision-components/network-and-peripheral-devices/power-supply-12v-18w-hirose-6-pin/ | <img src="../src/Commercial_Parts/Suppliers-Stock-Images/Basler-2200000167.jpg" alt="relative" style="width: 100%;" /> |
+![Basler_106486_resized.jpg](../src/Commercial_Parts/Suppliers-Stock-Images/Basler_106486_resized.jpg)
+![Basler-000034697_resized.jpg](../src/Commercial_Parts/Suppliers-Stock-Images/Basler-000034697_resized.jpg)
+![Basler-2000027038_resized.jpg](../src/Commercial_Parts/Suppliers-Stock-Images/Basler-2000027038_resized.jpg)
+![Basler-2000029679_resized.jpg](../src/Commercial_Parts/Suppliers-Stock-Images/Basler-2000029679_resized.jpg)
+![Basler-2200000167_resized.jpg](../src/Commercial_Parts/Suppliers-Stock-Images/Basler-2200000167_resized.jpg)
 
 Second setup model:
 
 |                 | Item                                     | Order  Number                            | Vendor/Link                              |                                          |
 | --------------- | ---------------------------------------- | ---------------------------------------- | ---------------------------------------- | ---------------------------------------- |
-| Camera model:   | a2A2590-60umBAS -  Basler ace 2          | [108028](https://www.baslerweb.com/en/products/cameras/area-scan-cameras/ace2/a2a2590-60umbas/) | https://www.baslerweb.com/en/products/cameras/area-scan-cameras/ace2/a2a2590-60umbas/ | <img src="../src/Commercial_Parts/Suppliers-Stock-Images/Basler-108028.jpg" alt="relative" style="width: 100%;" /> |
-| Lens:           | Computar Lens M0814-MP2 F1.4 f8mm  2/3" - Lens | [2000034697](https://www.baslerweb.com/en/products/vision-components/lenses/computar-lens-m0814-mp2-f1-4-f8mm-2-3/) | https://www.baslerweb.com/en/products/vision-components/lenses/computar-lens-m0814-mp2-f1-4-f8mm-2-3/ | <img src="../src/Commercial_Parts/Suppliers-Stock-Images/Basler-000034697.jpg" alt="relative" style="width: 100%;" /> |
-| Cable:          | Basler Cable USB  3.0, Micro B 90° A1 sl/A (ace downwards), P, 5 m - Data Cable | [2000035995](https://www.baslerweb.com/en/products/vision-components/cable/basler-cable-usb-3-0-micro-b-90-a1-sl-a-ace-downwards-p-5-m/) | https://www.baslerweb.com/en/products/vision-components/cable/basler-cable-usb-3-0-micro-b-90-a1-sl-a-ace-downwards-p-5-m/ | <img src="../src/Commercial_Parts/Suppliers-Stock-Images/Basler-2000035995.jpg" alt="relative" style="width: 100%;" /> |
-| Mounting plate: | Tripod Mount ace2 -  Camera Mount Adapter | [2200000314](https://www.baslerweb.com/en/products/vision-components/accessories-and-bundles/tripod-mount-ace2/) | https://www.baslerweb.com/en/products/vision-components/accessories-and-bundles/tripod-mount-ace2/ | <img src="../src/Commercial_Parts/Suppliers-Stock-Images/Basler-2200000314.jpg" alt="relative" style="width: 100%;" /> |
+![Basler-108028_resized.jpg](../src/Commercial_Parts/Suppliers-Stock-Images/Basler-108028_resized.jpg)
+![Basler-000034697_resized.jpg](../src/Commercial_Parts/Suppliers-Stock-Images/Basler-000034697_resized.jpg)
+![Basler-2000035995_resized.jpg](../src/Commercial_Parts/Suppliers-Stock-Images/Basler-2000035995_resized.jpg)
+![Basler-2200000314_resized.jpg](../src/Commercial_Parts/Suppliers-Stock-Images/Basler-2200000314_resized.jpg)
 | Power supply:   | Via USB 3.0  interface  2.8 W            | NA                                       | NA                                       | NA                                       |
 
  
@@ -36,7 +36,7 @@ Second setup model:
 
 The post holder base is used for positioning and fastening the camera mount at the top of enclosure. The post holders include a spring-loaded thumbscrew that holds posts in place before tightening
 
-<img src="assets/Images/Camera-mounting-base.PNG" alt="relative" style="width: 50%;" />
+![Camera-mounting-base_resized.PNG](assets/Images/Camera-mounting-base_resized.PNG)
 
 
 
@@ -74,7 +74,7 @@ The following parts are needed to create a base for the above camera mount const
 
 
 
-<img src="assets/Images/Camera-mounting-base_2.PNG" alt="relative" style="width: 50%;" />
+![Camera-mounting-base_2_resized.PNG](assets/Images/Camera-mounting-base_2_resized.PNG)
 
 The following parts are needed to construct the camera mount:
 
@@ -122,7 +122,7 @@ The following parts are needed to construct the camera mount:
 
 
 
-<img src="assets/Images/Camera-mounting.PNG" alt="relative" style="width: 50%;" />
+![Camera-mounting_resized.PNG](assets/Images/Camera-mounting_resized.PNG)
 
 The following parts are needed to create a base for the above camera mount construction:
 
@@ -194,7 +194,7 @@ Be sure that the correct size of the black board has been ordered or in house cu
 
  
 
-<img src="assets/Images/Black-board-camera-enclosure.PNG" alt="relative" style="width: 20%;" />
+![Black-board-camera-enclosure_resized.PNG](assets/Images/Black-board-camera-enclosure_resized.PNG)
 
 
 
@@ -230,7 +230,7 @@ For this step, you will need:
 
  
 
-<img src="assets/Images/Camera-enclosure.PNG" alt="relative" style="width: 50%;" />
+![Camera-enclosure_resized.PNG](assets/Images/Camera-enclosure_resized.PNG)
 
 
 
@@ -260,7 +260,7 @@ For this step, you will need:
 
 ### **C-**  **Mount the camera enclosure** 
 
- <img src="assets/Images/Camera-mounting-base.PNG" alt="relative" style="width: 50%;" />
+![Camera-mounting-base_resized.PNG](assets/Images/Camera-mounting-base_resized.PNG)
 
 **Procedures**
 
