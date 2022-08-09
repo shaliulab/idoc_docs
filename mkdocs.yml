@@ -1,6 +1,6 @@
 site_name: IDOC Docs
 site_url: https://idoc_docs.readthedocs.io/en/latest/
-repo_url: https://github.com/shaliulab/idoc
+repo_url: https://github.com/shaliulab/idoc_docs
 nav:
     - Home: index.md
     - Protocols: Protocols-Behavior-Monitoring_IDOC_Operation_Manual.md
