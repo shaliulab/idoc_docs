@@ -4,7 +4,7 @@
 
 The regulated air is delivered to the recording chambers via solenoid valves controlled by Arduino-control-relay- switch unit as follow:
 
-<img src="./assets/Images/Flow_system.PNG" alt="relative" style="width: 100%;" />
+<img src="assets/Images/Flow_system.PNG" alt="relative" style="width: 100%;" />
 
 -  The controlled air is  passed through activated carbon capsule (Fisher, [10526921](https://www.fishersci.be/shop/products/whatman-carbon-cap-disposable-activated-carbon-capsules/10526921)) to be filtered and dried.
 
