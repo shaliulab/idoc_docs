@@ -1,5 +1,21 @@
 # **Camera mounting**
 
+
+
+The IDOC system consists of a custom-built enclosure that holds a camera and allows it to be positioned in a precise location in the top of the IDOC chamber. Building the camera enclosure and mounting requires a moderate level of technical expertise, as it involves designing and building custom hardware components and properly aligning the camera for optimal monitoring of *Drosophila* behavior.  
+
+
+
+Building the IDOC enclosure camera mounting system involves several steps:
+
+1.    Select the suitable camera for video tracking. 
+2.    Install a camera mounting bracket inside the enclosure, which allows the camera to be securely attached and positioned in the desired location.
+3.    Install a camera onto the mounting bracket, ensuring that it is securely fastened and properly     aligned.
+4.    Connect the camera to a monitoring system or computer to enable live monitoring and recording of     Drosophila behavior during experiments.
+5.    Design and build the custom enclosure, which is typically made of optical posts, metal rails s and hardboard  and is designed to be placed on the top of the setup enclosure to provide camera protection
+
+
+
 **Select the camera:**
 
 We used two camera models from Basler Company to record the preference choices of the fly. However, our tracking software is not restricted to specific camera since it is combatable with any model of Basler Camera. Below you can find the details of the camera models: 
@@ -8,32 +24,25 @@ First setup model:
 
 |                 | Item                                     | Order Number                             | Vendor/Link                              |                                          |
 | --------------- | ---------------------------------------- | ---------------------------------------- | ---------------------------------------- | ---------------------------------------- |
-| Camera model:   | acA1280-60gm -  Basler ace               | [106486](https://www.baslerweb.com/en/products/cameras/area-scan-cameras/ace/aca1280-60gm/) | https://www.baslerweb.com/en/products/cameras/area-scan-cameras/ace/aca1280-60gm/ | ![Basler_106486.jpg](../src/Commercial_Parts/Suppliers-Stock-Images/Basler_106486.jpg)
- |
-| Lens:           | Computar Lens M0814-MP2 F1.4 f8mm 2/3" - Lens | [2000034697](https://www.baslerweb.com/en/products/vision-components/lenses/computar-lens-m0814-mp2-f1-4-f8mm-2-3/#tab=specs) | https://www.baslerweb.com/en/products/vision-components/lenses/computar-lens-m0814-mp2-f1-4-f8mm-2-3/#tab=specs | ![Basler-000034697.jpg](../src/Commercial_Parts/Suppliers-Stock-Images/Basler-000034697.jpg)
- |
-| Cable:          | Basler Cable GigE,  Cat 6, RJ45 sl hor/RJ45, DrC, P, 5 m - Data Cable | [2000027038](https://www.baslerweb.com/en/products/vision-components/cable/basler-cable-gige-cat-6-rj45-sl-hor-rj45-drc-p-5-m/) | https://www.baslerweb.com/en/products/vision-components/cable/basler-cable-gige-cat-6-rj45-sl-hor-rj45-drc-p-5-m/ | ![Basler-2000027038.jpg](../src/Commercial_Parts/Suppliers-Stock-Images/Basler-2000027038.jpg)
- |
-| Mounting plate: | Tripod Mount ace -  Camera Mount Adapter | [2000029679](https://www.baslerweb.com/en/products/vision-components/accessories-and-bundles/tripod-mount-ace/) | https://www.baslerweb.com/en/products/vision-components/accessories-and-bundles/tripod-mount-ace/ | ![Basler-2000029679.jpg](../src/Commercial_Parts/Suppliers-Stock-Images/Basler-2000029679.jpg)
- |
-| Power supply:   | Power Supply  12V/18W, Hirose 6-pin - Power Supply | [2200000167](https://www.baslerweb.com/en/products/vision-components/network-and-peripheral-devices/power-supply-12v-18w-hirose-6-pin/) | https://www.baslerweb.com/en/products/vision-components/network-and-peripheral-devices/power-supply-12v-18w-hirose-6-pin/ | ![Basler-2200000167.jpg](../src/Commercial_Parts/Suppliers-Stock-Images/Basler-2200000167.jpg)
- |
+| Camera model:   | acA1280-60gm -  Basler ace               | [106486](https://www.baslerweb.com/en/products/cameras/area-scan-cameras/ace/aca1280-60gm/) | https://www.baslerweb.com/en/products/cameras/area-scan-cameras/ace/aca1280-60gm/ | ![Basler_camera](../docs/assets/src/Commercial_Parts/Suppliers-Stock-Images/Basler_106486.jpg) |
+| Lens:           | Computar Lens M0814-MP2 F1.4 f8mm 2/3" - Lens | [2000034697](https://www.baslerweb.com/en/products/vision-components/lenses/computar-lens-m0814-mp2-f1-4-f8mm-2-3/#tab=specs) | https://www.baslerweb.com/en/products/vision-components/lenses/computar-lens-m0814-mp2-f1-4-f8mm-2-3/#tab=specs | ![Basler_lens](../docs/assets/src/Commercial_Parts/Suppliers-Stock-Images/Basler-000034697.jpg) |
+| Cable:          | Basler Cable GigE,  Cat 6, RJ45 sl hor/RJ45, DrC, P, 5 m - Data Cable | [2000027038](https://www.baslerweb.com/en/products/vision-components/cable/basler-cable-gige-cat-6-rj45-sl-hor-rj45-drc-p-5-m/) | https://www.baslerweb.com/en/products/vision-components/cable/basler-cable-gige-cat-6-rj45-sl-hor-rj45-drc-p-5-m/ | ![Basler_cable](../docs/assets/src/Commercial_Parts/Suppliers-Stock-Images/Basler-2000027038.jpg) |
+| Mounting plate: | Tripod Mount ace -  Camera Mount Adapter | [2000029679](https://www.baslerweb.com/en/products/vision-components/accessories-and-bundles/tripod-mount-ace/) | https://www.baslerweb.com/en/products/vision-components/accessories-and-bundles/tripod-mount-ace/ | ![Basler_plate](../docs/assets/src/Commercial_Parts/Suppliers-Stock-Images/Basler-2000029679.jpg) |
+| Power supply:   | Power Supply  12V/18W, Hirose 6-pin - Power Supply | [2200000167](https://www.baslerweb.com/en/products/vision-components/network-and-peripheral-devices/power-supply-12v-18w-hirose-6-pin/) | https://www.baslerweb.com/en/products/vision-components/network-and-peripheral-devices/power-supply-12v-18w-hirose-6-pin/ | ![Basler_power_supply](../docs/assets/src/Commercial_Parts/Suppliers-Stock-Images/Basler-2200000167.jpg) |
 
 Second setup model:
 
+
+
 |                 | Item                                     | Order  Number                            | Vendor/Link                              |                                          |
 | --------------- | ---------------------------------------- | ---------------------------------------- | ---------------------------------------- | ---------------------------------------- |
-| Camera model:   | a2A2590-60umBAS -  Basler ace 2          | [108028](https://www.baslerweb.com/en/products/cameras/area-scan-cameras/ace2/a2a2590-60umbas/) | https://www.baslerweb.com/en/products/cameras/area-scan-cameras/ace2/a2a2590-60umbas/ | ![Basler-108028.jpg](../src/Commercial_Parts/Suppliers-Stock-Images/Basler-108028.jpg)
- |
-| Lens:           | Computar Lens M0814-MP2 F1.4 f8mm  2/3" - Lens | [2000034697](https://www.baslerweb.com/en/products/vision-components/lenses/computar-lens-m0814-mp2-f1-4-f8mm-2-3/) | https://www.baslerweb.com/en/products/vision-components/lenses/computar-lens-m0814-mp2-f1-4-f8mm-2-3/ | ![Basler-000034697.jpg](../src/Commercial_Parts/Suppliers-Stock-Images/Basler-000034697.jpg)
- |
-| Cable:          | Basler Cable USB  3.0, Micro B 90° A1 sl/A (ace downwards), P, 5 m - Data Cable | [2000035995](https://www.baslerweb.com/en/products/vision-components/cable/basler-cable-usb-3-0-micro-b-90-a1-sl-a-ace-downwards-p-5-m/) | https://www.baslerweb.com/en/products/vision-components/cable/basler-cable-usb-3-0-micro-b-90-a1-sl-a-ace-downwards-p-5-m/ | ![Basler-2000035995.jpg](../src/Commercial_Parts/Suppliers-Stock-Images/Basler-2000035995.jpg)
- |
-| Mounting plate: | Tripod Mount ace2 -  Camera Mount Adapter | [2200000314](https://www.baslerweb.com/en/products/vision-components/accessories-and-bundles/tripod-mount-ace2/) | https://www.baslerweb.com/en/products/vision-components/accessories-and-bundles/tripod-mount-ace2/ | ![Basler-2200000314.jpg](../src/Commercial_Parts/Suppliers-Stock-Images/Basler-2200000314.jpg)
- |
+| Camera model:   | a2A2590-60umBAS -  Basler ace 2          | [108028](https://www.baslerweb.com/en/products/cameras/area-scan-cameras/ace2/a2a2590-60umbas/) | https://www.baslerweb.com/en/products/cameras/area-scan-cameras/ace2/a2a2590-60umbas/ | ![Basler_camera2](../docs/assets/src/Commercial_Parts/Suppliers-Stock-Images/Basler-108028.jpg) |
+| Lens:           | Computar Lens M0814-MP2 F1.4 f8mm  2/3" - Lens | [2000034697](https://www.baslerweb.com/en/products/vision-components/lenses/computar-lens-m0814-mp2-f1-4-f8mm-2-3/) | https://www.baslerweb.com/en/products/vision-components/lenses/computar-lens-m0814-mp2-f1-4-f8mm-2-3/ | ![Basler_lens](../docs/assets/src/Commercial_Parts/Suppliers-Stock-Images/Basler-000034697.jpg) |
+| Cable:          | Basler Cable USB  3.0, Micro B 90° A1 sl/A (ace downwards), P, 5 m - Data Cable | [2000035995](https://www.baslerweb.com/en/products/vision-components/cable/basler-cable-usb-3-0-micro-b-90-a1-sl-a-ace-downwards-p-5-m/) | https://www.baslerweb.com/en/products/vision-components/cable/basler-cable-usb-3-0-micro-b-90-a1-sl-a-ace-downwards-p-5-m/ | ![Basler_usb_cable](../docs/assets/src/Commercial_Parts/Suppliers-Stock-Images/Basler-2000035995.jpg) |
+| Mounting plate: | Tripod Mount ace2 -  Camera Mount Adapter | [2200000314](https://www.baslerweb.com/en/products/vision-components/accessories-and-bundles/tripod-mount-ace2/) | https://www.baslerweb.com/en/products/vision-components/accessories-and-bundles/tripod-mount-ace2/ | ![Basler_plate](../docs/assets/src/Commercial_Parts/Suppliers-Stock-Images/Basler-2200000314.jpg) |
 | Power supply:   | Via USB 3.0  interface  2.8 W            | NA                                       | NA                                       | NA                                       |
 
- 
+  
 
  The fly chambers were viewed from above by a Basler camera equipped with a C-mount lens. The camera is placed on the top of the setup enclosure assembly to avoid [camera overheating](https://www.baslerweb.com/fp-1629376268/media/downloads/documents/application_notes/AW00171101000_How_Excessive_Temperatures_Affect_ace_2_Cameras_AppNote.pdf). Optical clamps, mounting base and metal posts from Thorlabs were used to fix the camera. 
 

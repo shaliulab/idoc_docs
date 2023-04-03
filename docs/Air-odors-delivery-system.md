@@ -1,5 +1,17 @@
 # Air/Odors Delivery System
 
+The IDOC Air/Odors Delivery System is a tool used in conjunction with the IDOC chamber to deliver controlled air and odor stimuli to *Drosophila* during behavioral experiments. The system consists of a series of components that are designed to regulate the delivery of air and odor stimuli, including a custom-built manifold, solenoid valves, and an Arduino microcontroller.
+
+**Building the IDOC Air/Odors Delivery System involves several steps:**
+
+1. Install and configure solenoid valves, which regulate the flow of air and odor stimuli through the     manifold to the IDOC chamber.
+2. Design and build the manifold, which consists of a series of ports for delivering air and odor stimuli to     the IDOC chamber.
+3. Install and configure vacuum suction system, which regulate and balance the outflow of air and odor stimuli from IDOC chamber. 
+4. Install and configure an Arduino microcontroller circuit, which controls the solenoid valves and regulates the precise delivery of air and odor stimuli.
+5. Test the IDOC Air/Odors delivery system and ensure that it is functioning properly before conducting behavioral experiments.
+
+
+
 
 
 The regulated air is delivered to the recording chambers via solenoid valves controlled by Arduino-control-relay- switch unit as follow:
@@ -179,7 +191,6 @@ Use fork ring wrench  or spanner #12 (amazon.de, [M19652](https://www.amazon.de/
 
 
 
-
 ------
 
 **3-ports Solenoid Valve Installation**
@@ -189,7 +200,6 @@ Use fork ring wrench  or spanner #12 (amazon.de, [M19652](https://www.amazon.de/
 
 
 ![Solenoid-valves.PNG](assets/Images/Solenoid-valves.PNG)
-
 
 
 
@@ -322,7 +332,7 @@ each chamber has two vent in the middle. Each port allows the air to outflow out
 ![Vacuum-manifold.PNG](assets/Images/Vacuum-manifold.PNG)
 
 
- 
+
 
 
 

@@ -2,6 +2,24 @@
 
 
 
+Electrics shocks are commonly used in *Drosophila* research to deliver a controlled electrical shock to the flies during aversive learning and memory experiments. The circuits typically consist of a power supply, and a set of electrodes that can be placed in contact with the flies. The intensity and duration of the electric shock can be controlled by adjusting the voltage and pulse duration of the circuit. However, the specific design and implementation of electric shock delivery circuits can vary widely depending on the specific experimental setup and research question.
+
+The circuit is a tool used in conjunction with the IDOC chamber to deliver controlled electric shocks to *Drosophila* during behavioral experiments. The system consists of a series of components that are designed to regulate the delivery of electric shocks, including a programmable power source and a custom glass slides coated with ITO-patterned printed circuit board. The circuit is also designed to be controlled by a computer, which can allow for precise control over the timing and intensity of the electric shocks delivered to individual flies, which can be important for controlling experimental variables and ensuring reproducibility of results.
+
+
+
+Building the IDOC Electric Shock Circuit involves several steps:
+
+1. Design and order the custom Indium Tin Oxide (ITO) coated patterned glass slides , which is placed in contact with the flies to deliver of electric shocks.
+2. Connect the ITO glass slides to the IDOC chamber and configure the system to deliver electric shocks     during behavioral experiments.
+3. Install and build the connectors and electrodes on the circuit board, which consists of a series of connectors and wiring for delivering the electric shocks to the IDOC chamber.
+4. Install and configure an Arduino microcontroller circuit, which controls the electric shocks  and regulates the precise timing and intensity of the electric shocks.
+5. Test the IDOC Electric Shock Circuit and ensure that it is functioning properly before conducting     behavioral experiments.
+
+
+
+**Indium Tin Oxide coated patterned glass slides** 
+
 For aversive electric shock learning conditioning, we used patterned coated indium tin oxide (ITO) transparent glass slides . ITO is a conductive transparent substance. A grid was laser-cut and -etched onto the ITO glass in order to insulate the positive and negative electrodes.  with the following specifications: 69.0 mm length x 14.0 mm width x 1.1 mm Thicknesses [0.5 mm ITO electrodes (100 electrodes) – 0.1 mm inter electrode-spacing ]. The two halves of the grid can be independently controlled. 
 
 

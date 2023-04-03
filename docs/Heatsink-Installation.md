@@ -2,14 +2,9 @@
 
 
 
-Running high power LEDs requires a cooling system to dissipate the heat produced inside the LEDs. In our setup cooling is already achieved by mounting the LED directly to a finned [aluminum heat sink](https://www.digikey.be/en/products/detail/wakefield-vette/125404/9957688) with a running air flow to extract the heat from the heatsink enclosure.
+Running high power LEDs requires a cooling system to dissipate the heat produced inside the LEDs. The system consists of a custom-built heatsink that is installed to mount the IR- LEDs and high power LEDs board to prevent overheating of the LEDs used for optogenetic stimulation during behavioral experiments on *Drosophila*.   In our setup cooling is already achieved by mounting the LED directly to a finned [aluminum heat sink](https://www.digikey.be/en/products/detail/wakefield-vette/125404/9957688) with a running air flow to extract the heat from the heatsink enclosure. Building the heatsink involves selecting and installing a compatible heatsink, applying thermal paste, and ensuring proper contact between the heatsink and high power LEDs .  
 
-
-
-![Heatsink-cooling.PNG](assets/Images/Heatsink-cooling.PNG)
-
-
-Although Rebel LEDs are rated to operate as high as 1000mA, we limited our LED drives current to 350-mA for long life, wavelength stability and most importantly low heat generation produced inside the LED. During the experiment while turning the high-power LEDs on, the temperature inside the recording chamber has no significant differences above ambient temperature.
+ Although Rebel LEDs are rated to operate as high as 1000mA, we limited our LED drives current to 350-mA for long life, wavelength stability and most importantly low heat generation produced inside the LED. During the experiment while turning the high-power LEDs on, the temperature inside the recording chamber has no significant differences above ambient temperature.
 
 
 
@@ -157,3 +152,16 @@ You need the following
 6. After each hole drilling, insert a M1.6 x 6 mm screw (RS, [179-5667](https://benl.rs-online.com/web/p/machine-screws/1795667)) to fix the frame to the heatsink while drilling the other holes to avoid drifting or misalign.
 7. After drilling all holes and securely tighten the middle screws, the light box should be removed for giving the space to install the lighting components on the top mount of the heatsink. Remove the screws securing the lightbox to the heatsink and retain the screw for future use when all the IR and optogenetic LED panel installed. 
 
+
+
+
+**Cooling the heatsink**
+
+Connect the heatsink to a running airflow,  if necessary, to regulate the temperature inside the IDOC system during experiments.  to do this follow the following steps:
+
+1. Print the 3D-parts that is designed to be placed in contact to the finned shape of the heatsink.
+2. Connect the fitting adaptor for each 3D-part and connect both of them together.
+3.  Install the assembled 3D parts to the IDOC box, ensuring that it is securely fastened and in good contact  with the heat sink surface.
+4. Connect the parts to a temperature controlled  air system to provide fresh and cool air to regulate the     temperature inside the IDOC chamber during experiments.
+
+![Heatsink-cooling.PNG](assets/Images/Heatsink-cooling.PNG)

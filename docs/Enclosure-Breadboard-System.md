@@ -4,7 +4,17 @@
 
 ##  **Preface**
 
-\-     The IDOC setup is enclosed in a custom enclosure and mounted on breadboards baseplate.  The breadboard enclosure system protects the setup components from dust, acoustic vibrations, thermal gradients, and light.  It is supplied by a sliding door panel, which is mounted on the front side of the enclosure, to be removed for easy access to the setup components to load recording chambers. Its baseplate allows fixing and center the IDOC system via mounting brackets. It can be mounted on the table or bench.  You may construct the enclosure according to the size desired. However, it should be large enough to hold all your setup components. This section details how to construct an enclosure to provide space for the setup, tracking camera, powering, airflow system, and illumination. 
+
+
+The IDOC setup is enclosed in a custom enclosure and mounted on breadboards baseplate.  The breadboard enclosure system protects the setup components from dust, acoustic vibrations, thermal gradients, and light.  It is supplied by a sliding door panel, which is mounted on the front side of the enclosure, to be removed for easy access to the setup components to load recording chambers. Its baseplate allows fixing and center the IDOC system via mounting brackets. It can be mounted on the table or bench.  You may construct the enclosure according to the size desired. However, it should be large enough to hold all your setup components. This section details how to construct an enclosure to provide space for the setup, tracking camera, powering, airflow system, and illumination. 
+
+
+
+Building the IDOC enclosure  involves several steps:
+
+1. Design and build the custom enclosure and 3D parts to fit the IDOC system.
+2. Install a breadboard to mount the enclosure, which provides a platform for mounting and connecting electronic components.
+3. Install and wire any necessary electronic, lighting, air/odor components
 
  
 
@@ -15,7 +25,7 @@ The enclosure has three main sections: The baseplate, setup enclosure and the ca
 ![Enclosure.png](assets/Images/Enclosure.png)
 
 
- 
+
 
 ## **I-**        **List of commercial components:**
 

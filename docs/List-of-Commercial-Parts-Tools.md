@@ -1,4 +1,20 @@
-| **Article   Description****Article   Description** | **Qty**     | **Supplier**                     | **Item #** & link                        | ** Supplier   Image**                    |
+In this section, we provide a comprehensive list of all the commercial components and tools required for building the IDOC system. This list includes various commercial components and tools such as cables, connectors, power supplies, cameras, and other electronic equipment.
+
+The list is organized by category, making it easy to find the specific component or tool needed for the IDOC system. The categories include:
+
+- Enclosure & Mounting:  This section includes a list of all required components that contains a breadboard for mounting and connecting the  IDOC system inside the enclosure.
+- Air delivery system components required for the IDOC system, such as pumps, tubing, connectors, flow meters, and  solenoid valves.
+- Electrical Components: This section includes a list of all the commercial electrical components     required for the IDOC system, such as resistors, capacitors, and diodes.
+- Cables and Connectors: This section includes a list of all the commercial cables and connectors     required for the IDOC system, such as USB cables, power cables, and data cables.
+- Power Supplies: This section includes a list of all the commercial power supplies required for the IDOC system, such as AC/DC adapters and batteries.
+- Cameras: This section includes a list of all the commercial cameras required for the IDOC system.
+- Opto- and Thermo- equipment: This section includes a list of all the commercial equipment required for the IDOC system, such as high power LEDs, drivers and heaters.
+
+Each category includes at least a suggested link to purchase them from various suppliers. This list is a valuable resource for anyone building the IDOC system, as it ensures that all required components and tools are available and easily accessible. A full list of materials for the parts materials may  be downloaded as a CSV file from [here]().
+
+
+
+| **Article   Description**                | **Qty**     | **Supplier**                     | **Item # & link**                        | **Supplier   Image**                     |
 | ---------------------------------------- | ----------- | -------------------------------- | ---------------------------------------- | ---------------------------------------- |
 | **Enclosure & Mounting**                 |             |                                  |                                          |                                          |
 | 25 mm Square Construction Rail, 500 mm  Long, M6 Taps (Thorlabs, [XE25L500/M](https://www.thorlabs.de/thorproduct.cfm?partnumber=XE25L500/M)) | 10          | Thorlabs                         | [XE25L500/M](https://www.thorlabs.de/thorproduct.cfm?partnumber=XE25L500/M) | ![Image](../docs/assets/src/Commercial_Parts/Suppliers-Stock-Images/Thorlabs-XE25L500.jpg) |
@@ -410,7 +426,3 @@
 | 3 mm 5 mm LED  with 5 colors (amazon.de, [110040_SML](https://www.amazon.de/-/en/APTWONZ-Diffuse-Emitting-Electronic-Components/dp/B06X3VT6TD)) | 1           | amazon.de                        | [110040_SML](https://www.amazon.de/-/en/APTWONZ-Diffuse-Emitting-Electronic-Components/dp/B06X3VT6TD) | ![Image](../docs/assets/src/Commercial_Parts/Suppliers-Stock-Images/Amazon-110040_SML.png) |
 |                                          |             |                                  |                                          |                                          |
 |                                          |             |                                  |                                          |                                          |
-
-
-
-A full list of materials for the parts materials may  be downloaded as a CSV file from [here]().

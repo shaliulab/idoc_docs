@@ -2,13 +2,24 @@
 
 The IDOC setup consists of multiple 3D printed parts. The dimension of the setup is400x350 mm (L x W). Due to its relatively large size that cannot fit into the build volume of our 3D printers, components have been split into smaller parts to be printed part by part. Printed parts have been assembled with screws, fastened mate and plastic adhesive glue. Cyanoacrylate, or superglue (RS Components, [133-0093](https://benl.rs-online.com/web/p/glues/1330093/)), is the best option for gluing 3D printed parts together.  Overall, 3D printing is performed in three steps. The first step involves designing and modeling using Onshape cloud-based CAD package. Then, object models can be saved as a stereolithography (STL). The second step involves building the parts with a 3D printer. While the last step consists of assembling, finishing, and testing.
 
+Using the 3D printing can be a cost-effective and efficient way to build the IDOC system, as it eliminates the need for custom machining or purchasing expensive components. However, it requires access to a 3D printer and a moderate level of technical expertise to assemble the parts and construct the system to
+perform olfactory, optogenetic, and thermogenetic experiments on Drosophila.
+
+
+
 Here we provide step-by-step instructions on how to print, build and assemble the parts of the IDOC setup as well as tips & tricks!
 
 ## **Files to prints** 
 
+The 3D printed parts are available for download on Onshape website and from IDOC GitHub page, and can be printed using a 3D printer with a suitable material (see below).
+
+
+
 (Onshape)
 
 [List of files](../src/3D_printed_parts/IDOC_setup/)
+
+
 
 Custom components were 3D printed in-house. We have one Ultimaker 2+ and one Ultimaker S3 in the lab. The listed 3D items should be printed in very solid and tough materials for better deals with light, heat, air pressure, and odors. The suggested materials will achieve best surface quality with increased mechanical and thermal performance without having brittle failure overtime. 
 
@@ -23,7 +34,7 @@ Custom components were 3D printed in-house. We have one Ultimaker 2+ and one Ult
 | Ultimaker PC (polycarbonate)       | Transparent  & Black                    | Transparent, RS Components, [159-6352](https://benl.rs-online.com/web/p/3d-printing-materials/1596352/) ;  Black, RS Components, [159-6351](https://benl.rs-online.com/web/p/3d-printing-materials/1596351) | [How to print PC](https://support.ultimaker.com/hc/en-us/articles/360012055159-How-to-print-with-Ultimaker-PC ) |
 | Ultimaker  PVA  polyvinyl alcohol) | Natural  water-soluble support material | PVA, RS Components,  [1348195](https://benl.rs-online.com/web/p/3d-printing-materials/1348195) | [How to print and dissolve PVA](https://support.ultimaker.com/hc/en-us/articles/360012055939-How-to-print-with-Ultimaker-PVA) |
 
- Ultimaker CPE+ (co-polyester) is similar to Ultimaker CPE, but tougher and with higher temperature resistance. PC (polycarbonate) is one of the toughest print materials, making it a perfect choice for printing strong objects and high thermal resistance. CPE+ or PC, in particular, are suited to for lighting box, recording chamber due to its higher heat resistance.  We also used water-soluble support PVA material for large parts to keep high quality and smooth surfaces.
+Ultimaker CPE+ (co-polyester) is similar to Ultimaker CPE, but tougher and with higher temperature resistance. PC (polycarbonate) is one of the toughest print materials, making it a perfect choice for printing strong objects and high thermal resistance. CPE+ or PC, in particular, are suited to for lighting box, recording chamber due to its higher heat resistance.  We also used water-soluble support PVA material for large parts to keep high quality and smooth surfaces.
 
 
 
