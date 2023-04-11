@@ -6,20 +6,16 @@ The Arduino control unit, the LED drivers, optogenetic LED panels, solenoid valv
 
 **The following ribbon cables with IDC connecters are needed to wire the system devices:**
 
+
+
 | Description                              | Connection  devices                      | Length                                   | Qt:  | End  1                | End  2         | Image                                    |
 | ---------------------------------------- | ---------------------------------------- | ---------------------------------------- | ---- | --------------------- | -------------- | ---------------------------------------- |
-| 20-way  ribbon cable terminated either  end with IDC connector. | IDOC  setup to the front powering platform inside the enclosure. | 25 cm                                    | 1    | 20-way IDC  connector | 20-way IDC     | **![Double-IDC-connectors-cable.PNG](assets/Images/Double-IDC-connectors-cable.PNG)
-** |
-| 20-way  ribbon cable one end open while the other end is terminated with IDC connector | Enclosure  back powering platform outside of the enclosure to the Arduino control board. | 100-150  cm  Depend  on the distance between the enclosure and the Arduino control unit | 1    | IDC  connector        | IDC  connector | ![Double-IDC-connectors-cable.PNG](assets/Images/Double-IDC-connectors-cable.PNG)
- |
-| 20-way  ribbon cable one end open while the other end is terminated with IDC connector | LED  panel and enclosure powering platform.  Each  pair of the open end is connected to a LED string. | 100cm                                    | 8    | IDC  connector        | Open  end      | ![open-ended-IDC-ribbon-cable.PNG](assets/Images/open-ended-IDC-ribbon-cable.PNG)
- |
-| 20-way  ribbon cable terminated either  end with IDC connector. | Enclosure  wiring platform and connection of LED strings in series connection. | 50cm                                     | 10   | IDC  connector        | IDC  connector | ![Double-IDC-connectors-cable.PNG](assets/Images/Double-IDC-connectors-cable.PNG)
- |
-| 20-way  ribbon cable terminated either  end with IDC connector. | These cables mate with the 20way PCB headers  of the LED driver | 100-150cm                                | 5    | IDC  connector        | IDC  connector | ![Double-IDC-connectors-cable.PNG](assets/Images/Double-IDC-connectors-cable.PNG)
- |
-| 20-way  ribbon cable one end open while the other end is terminated with IDC connector | Connect  the Arduino control board to the screw terminal block of the solenoid valves. | 100-150  mm  Depend  on the distance between the solenoids and the control unit | 1    | IDC  connector        | Open  end      | ![open-ended-IDC-ribbon-cable.PNG](assets/Images/open-ended-IDC-ribbon-cable.PNG)
- |
+| 20-way  ribbon cable terminated either  end with IDC connector. | IDOC  setup to the front powering platform inside the enclosure. | 25 cm                                    | 1    | 20-way IDC  connector | 20-way IDC     | ![Double-IDC-connectors-cable.PNG](assets/Images/Double-IDC-connectors-cable.PNG) |
+| 20-way  ribbon cable one end open while the other end is terminated with IDC connector | Enclosure  back powering platform outside of the enclosure to the Arduino control board. | 100-150  cm  Depend  on the distance between the enclosure and the Arduino control unit | 1    | IDC  connector        | IDC  connector | ![Double-IDC-connectors-cable.PNG](assets/Images/Double-IDC-connectors-cable.PNG) |
+| 20-way  ribbon cable one end open while the other end is terminated with IDC connector | LED  panel and enclosure powering platform.  Each  pair of the open end is connected to a LED string. | 100cm                                    | 8    | IDC  connector        | Open  end      | ![open-ended-IDC-ribbon-cable.PNG](assets/Images/open-ended-IDC-ribbon-cable.PNG) |
+| 20-way  ribbon cable terminated either  end with IDC connector. | Enclosure  wiring platform and connection of LED strings in series connection. | 50cm                                     | 10   | IDC  connector        | IDC  connector | ![Double-IDC-connectors-cable.PNG](assets/Images/Double-IDC-connectors-cable.PNG) |
+| 20-way  ribbon cable terminated either  end with IDC connector. | These cables mate with the 20way PCB headers  of the LED driver | 100-150cm                                | 5    | IDC  connector        | IDC  connector | ![Double-IDC-connectors-cable.PNG](assets/Images/Double-IDC-connectors-cable.PNG) |
+| 20-way  ribbon cable one end open while the other end is terminated with IDC connector | Connect  the Arduino control board to the screw terminal block of the solenoid valves. | 100-150  mm  Depend  on the distance between the solenoids and the control unit | 1    | IDC  connector        | Open  end      | ![open-ended-IDC-ribbon-cable.PNG](assets/Images/open-ended-IDC-ribbon-cable.PNG) |
 | 6-way  ribbon cable terminated either  end with IDC connector. | Connect  the Arduino control board to contacts box of the exhaust solenoid valves. | 100-150  mm  Depend  on the distance between the solenoids and the control unit | 2    | IDC  connector        | IDC  connector |                                          |
 | 6-way  ribbon cable one end open while the other end is terminated with IDC connector | Connect  the IR-LED light indicators of the setup . | 25 cm                                    | 4    | IDC  connector        | Open  end      |                                          |
 
