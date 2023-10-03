@@ -45,5 +45,10 @@ T**he enclosure breadboard system** section provides instructions for building a
 **more** 
 
 
+<!-- Embed YouTube Video -->
+<div class="video-container">
+    <iframe width="560" height="315" src="https://www.youtube.com/watch?v=WrRvziT4CCk" frameborder="0" allowfullscreen></iframe>
+</div>
+
 
 
