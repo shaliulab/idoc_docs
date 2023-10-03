@@ -4,6 +4,12 @@
 
 ## Individual-Drosophila-Olfactory-Conditioner (IDOC)
 
+
+<!-- Embed YouTube Video -->
+<iframe width="560" height="315" src="https://www.youtube.com/embed/WrRvziT4CCk?si=PqejeFb9SjmcuttM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+
 **This project is under active development.**
 
 
@@ -43,7 +49,3 @@ T**he enclosure breadboard system** section provides instructions for building a
 **Cleaning and maintenance section**  
 
 **more** 
-
-
-
-
