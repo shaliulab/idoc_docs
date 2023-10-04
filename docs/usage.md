@@ -1,7 +1,7 @@
 Usage
 # **Running an IDOC experiment**
 
-This section will provide you with the necessary steps for running an IDOC experiment. There are a variety of experiment designs that can be used, of which the main 3 will be covered here. However, many of these steps can be modified to accommodate other protocols or added steps, should you wish to customize certain parameters.
+This section will provide you with the necessary steps for running an IDOC experiment. The core principle for carrying out an IDOC run will remain the same, regardless of your experimental design. Variations between experimental plans will mainly depend on which paradigm you subject the flies to, and how you treat the flies between IDOC sessions.
 
 **Odour preparation**
 
@@ -14,7 +14,7 @@ This section will guide you through the first set-up steps required to make sure
 
 * Verify camera and IR light functionality
     * Activate the IR light via the switch on the relay control box
-    * Use the Basler camera software on your PC to connect to the camera and activate a live feed. You should see a grayscale image with all the IDOC ROIs and the 3 tracking dots clearly illuminated. Make sure there is no image tearing or any artefacts. 
+    * Use the Pylon camera software on your PC to connect to the camera and activate a live feed. You should see a grayscale image with all the IDOC ROIs and the 3 tracking dots clearly illuminated. Make sure there is no image tearing or any artefacts. 
         * If image tearing/artefacts show up, you will need to plug-and-unplug the camera from the PC. Pay special attention to how stable the USB connection is (connector not wobbling in socket).
 
 * Verify proper functionality of air/odour delivery system
