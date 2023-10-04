@@ -7,6 +7,7 @@ This section will provide you with the necessary steps for running an IDOC exper
 
 
 **IDOC Start-up protocol**
+
 This section will guide you through the first set-up steps required to make sure the machine is running properly. Ideally follow this section first, as most possible issues with your experiment can already be identified here.
 
 * Power on the machine and verify that all the PSUs are providing the expected voltages
@@ -31,6 +32,7 @@ This section will guide you through the first set-up steps required to make sure
 * Start up the IDOC logs on your control PC and make sure there are no error messages in the logs.
 
 **Experimental protocol**
+
 The first part of this section will highlight the basics of running an experiment. The end of this section will also demonstrate an example training protocol we have used to establish long term memory in flies.
 
 * Transfer your flies into their respective IDOC chambers and close it with the L-shaped plug. Note that if you don't have enough flies to fill out all 20 chambers/ROIs, you should still set up chambers for those empty slots, as otherwise the empty slots will leak odour into the enclosure.
