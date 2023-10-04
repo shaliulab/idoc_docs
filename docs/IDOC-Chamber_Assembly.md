@@ -41,7 +41,7 @@ Onshape
 
 2.1 - Insert 8x long-screws (2M -12 mm, RS , [482-9114](https://benl.rs-online.com/web/p/machine-screws/4829114)), check that everything is centered and vertical. then using flat screwdriver bit (RS, [668-5723](https://benl.rs-online.com/web/p/screwdriver-bit-sets/6685727); amazon, ([B01M7PPJI7](https://www.amazon.co.uk/Precision-Screwdriver-Magnetic-Macbook-Electronics/dp/B01M7PPJI7))) to completely place the screws to the opposite direction.
 
-2.2 - Center **left and right green 0.8mm needles **(BD, [304423](https://www.farmaline.be/apotheek/bestellen/bd-microlance-3-naald-21g-1-12-rb-08x40-mm-groen-1/))**, with 6 mm rubber ring **VWR, [228-0709](https://be.vwr.com/store/product/nl/577021/slangen-silicone)** ** , in either side of chamber. Introduce them gently inside enough to be seen from the other side.
+2.2 - Center left and right green 0.8mm needles **(BD, [304423](https://www.farmaline.be/apotheek/bestellen/bd-microlance-3-naald-21g-1-12-rb-08x40-mm-groen-1/))**, with 6 mm rubber ring **(VWR, [228-0709](https://be.vwr.com/store/product/nl/577021/slangen-silicone))** , in either side of chamber. Introduce them gently inside enough to be seen from the other side.
 
 note: the needle and 6-mm rubber ring are custom made to a specific length.
 
@@ -50,6 +50,7 @@ note: the needle and 6-mm rubber ring are custom made to a specific length.
 
 3.1 - Fix **[a rubber gasket](https://benl.rs-online.com/web/p/silicone-rubber-sheets/8405541/)**  to the bottom of the chamber.  The rubber must stand out and fit in its place.
 note: the bottom rubber is custom made to a specific size. from translucent silicone rubber sheet (RS Components, 840-5541)
+
 3.2 - Add one **ITO/glass slide** to the bottom of the chamber. Keep them horizontal on the bench. 
 
 **4. Inner Chamber Insertion**:
