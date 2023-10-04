@@ -14,8 +14,7 @@
 
 
 
-The IDOC (Individual Drosophila Olfactory Conditioner) setup is a behavioral training and monitoring system used in behavioral neuroscience research for studying learning and memory formation in Drosophila flies.  The IDOC system can be built by following the instructions provided in the IDOC documentation available at https://IDOC-docs.readthedocs.io. The documentation is aimed at researchers interested in using the IDOC system for their experiments, and it includes detailed descriptions of the experimental procedures, equipment and materials required for building the system, instructions for assembling the IDOC chamber,wiring and powering cables, troubleshooting tips, and suggestions for optimizing the experiments. The documentation also includes information on programing and codes used in the IDOC software, including machine learning,video tracking, software installation process, data processing techniques,visualization, and statistical analyses. 
-
+The IDOC (Individual Drosophila Olfactory Conditioner) setup is a behavioral training and monitoring system used in behavioral neuroscience research for studying learning and memory formation in Drosophila flies.  The IDOC system can be built by following the instructions provided in the IDOC documentation available at https://IDOC-docs.readthedocs.io. The documentation is aimed at researchers interested in using the IDOC system for their experiments, and it includes detailed descriptions of the experimental procedures, equipment and materials required for building the system, instructions for assembling the IDOC chambers, wiring and powering cables, troubleshooting tips, and suggestions for optimizing the experiments. The documentation also includes information on programing and codes used in the IDOC software, including machine learning, video tracking, software installation process, data processing techniques, visualization, and statistical analyses. 
 
 
 Building the IDOC system requires basic electronics and 3D printing skills, as well as access to the required parts and tools. The documentation provides detailed instructions and resources for building each component of the IDOC system. The IDOC system involves installing the necessary software packages and dependencies, as well as configuring the system for use with specific experimental setups and hardware devices.
@@ -30,7 +29,7 @@ Here we provide a step-by-step instruction on how to build an IDOC setup. The st
 
 **The air odor delivery system** section provides instructions for building a system that can deliver different odorants to individual flies in the IDOC chamber. 
 
-T**he enclosure breadboard system** section provides instructions for building a system for mounting the components of the IDOC system, such as air/odor delivery system, the electric shock circuit and the IR optogenetic system. 
+**The enclosure breadboard system** section provides instructions for building a system for mounting the components of the IDOC system, such as air/odor delivery system, the electric shock circuit and the IR optogenetic system. 
 
 **The camera mounting** section provides instructions for building a system for mounting a camera above the IDOC chamber to monitor the behavior of individual flies during experiments to allow a real-time monitoring of behavioral responses. 
 
