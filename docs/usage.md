@@ -5,7 +5,6 @@ This section will provide you with the necessary steps for running an IDOC exper
 
 **Odour preparation**
 
-
 **IDOC Start-up protocol**
 
 This section will guide you through the first set-up steps required to make sure the machine is running properly. Ideally follow this section first, as most possible issues with your experiment can already be identified here.
@@ -31,6 +30,8 @@ This section will guide you through the first set-up steps required to make sure
             * Verify the state of the tubing. Make sure there are no points of blockage (tight bends, debris, weight on tubing) or leakage. You can check for leaks by squeezing the tube shut. If the inflow rate does not go to 0 when you do this, then there is a leak between the odour bottle and your crimp point.
     * Finish up by turning off the airflow and vacuum from the relay control panel
 *Video - First scene checking the air washing stage: look at temp and water levels. Second scene to highlight us turning the valve inside the enclosure and pointing out which way it needs to be with edits. Third scene to point out us switching on the relevant valves, followed by us pointing out the matching levels on the flowmeters*
+<!-- Embed YouTube Video -->
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEOID" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
 * Start up the IDOC logs on your control PC and make sure there are no error messages in the logs.
@@ -48,6 +49,8 @@ The first part of this section will highlight the basics of running an experimen
     * Do not mix up left and right side inflow tubes. This is mainly just a risk in the middle of the enclosure, as there the L/R inflows can get crossed up
 
 *Video - Show us loading flies into chambers, and sealing the chamber shut with the plug. Show a stack of 10 chambers with loaded flies and how we would load them into the chamber slots in the machine. Emphasize in the video that since we only have 10 flies, we still need to fill out the other empty slots with empty chambers. Show us connecting the tubes, emphasize that you need to distinguish between left and right inflow, especially in the middle of the machine.*
+<!-- Embed YouTube Video -->
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEOID" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 * Cover up the front of the enclosure when done loading the chambers.
 
@@ -76,6 +79,8 @@ The first part of this section will highlight the basics of running an experimen
 * Once the paradigm has finished running, you should see the timer stop and hear the airflow end. Remove your chambers from the enclosure and follow up with any steps your experimental design has intended for the flies.
 
 *Video - Scene where we go through selecting a paradigm and hitting "Start". Show the expected video feed.Emphasize us checking the timer in the video feed + looking for the EShock or odour LEDs (A or B indicators). Follow up with quick scene of chambers being disconnected from tubing and being removed from enclosure. Final scene of how to remove flies. For trying to preserve flies, show the sucking method + tube method where they walk out by themselves. For discarding flies, simply show the vacuum pump method.*
+<!-- Embed YouTube Video -->
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEOID" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 **Example training experiment**
 
