@@ -2,6 +2,8 @@
 
 # Welcome to idoc's documentation! 
 
+**We are currently improving the documentation**
+
 ## Individual-Drosophila-Olfactory-Conditioner (IDOC)
 
 
@@ -9,17 +11,10 @@
 <iframe width="560" height="315" src="https://www.youtube.com/embed/WrRvziT4CCk?si=PqejeFb9SjmcuttM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
-
-**This project is under active development.**
-
-
-
-The IDOC (Individual Drosophila Olfactory Conditioner) setup is a behavioral training and monitoring system used in behavioral neuroscience research for studying learning and memory formation in Drosophila flies.  The IDOC system can be built by following the instructions provided in the IDOC documentation available at https://IDOC-docs.readthedocs.io. The documentation is aimed at researchers interested in using the IDOC system for their experiments, and it includes detailed descriptions of the experimental procedures, equipment and materials required for building the system, instructions for assembling the IDOC chambers, wiring and powering cables, troubleshooting tips, and suggestions for optimizing the experiments. The documentation also includes information on programing and codes used in the IDOC software, including machine learning, video tracking, software installation process, data processing techniques, visualization, and statistical analyses. 
+The IDOC (Individual *Drosophila* Olfactory Conditioner) setup is a behavioral training and monitoring system used in behavioral neuroscience research for studying learning and memory consolidation in *Drosophila* flies.  The IDOC system can be built by following the instructions provided in the IDOC documentation available at https://IDOC-docs.readthedocs.io. The documentation is aimed at researchers interested in using the IDOC system for their experiments, and it includes detailed descriptions of the experimental procedures, equipment and materials required for building the system, instructions for assembling the IDOC chambers, wiring and powering cables, troubleshooting tips, and suggestions for optimizing the experiments. The documentation also includes information on programing and codes used in the IDOC software, including, video tracking, software installation process, data processing techniques, visualization, and statistical analyses. 
 
 
 Building the IDOC system requires basic electronics and 3D printing skills, as well as access to the required parts and tools. The documentation provides detailed instructions and resources for building each component of the IDOC system. The IDOC system involves installing the necessary software packages and dependencies, as well as configuring the system for use with specific experimental setups and hardware devices.
-
-
 
 Here we provide a step-by-step instruction on how to build an IDOC setup. The steps are organized into several sections, each of which provides specific instructions and information related to different aspects of the IDOC system and its various components, but generally include the following:
 
@@ -44,7 +39,3 @@ Here we provide a step-by-step instruction on how to build an IDOC setup. The st
 **The protocols** section provides step-by-step procedures for behavior monitoring during the learning and memory experiments using the IDOC system. The section includes information on how to prepare the flies, how to perform the experiments, and how to analyze the results.
 
 **Installation and usage** section provide steps to install the necessary software dependencies including Python packages to train several *Drosophila* individuals using odors, electro shocks and optogenetics.
-
-**Cleaning and maintenance section**  
-
-**more** 

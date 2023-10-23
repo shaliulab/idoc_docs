@@ -4,18 +4,25 @@ repo_url: https://github.com/shaliulab/idoc_docs
 nav:
     - Home: index.md
     - Protocols: Protocols-Behavior-Monitoring_IDOC_Operation_Manual.md
-    - Air delivery system: Air-odors-delivery-system.md
-    - Electric Shock Circuit: Electric_Shock_Circuit.md
-    - Enclosure breadboard system: Enclosure-Breadboard-System.md
-    - Enclosure mounting: Enclosure-Camera-Mounting.md
-    - Heatsink: Heatsink-Installation.md
-    - IDOC Chamber assembly: IDOC-Chamber_Assembly.md
-    - 3D parts: IDOC_3D_Assemply_Parts.md
-    - IR Optogenetic System: IR-Optogenetic-System.md
-    - List of commercial parts: List-of-Commercial-Parts-Tools.md
-    - Wiring: Setup-Wiring-and-Powering-Cables.md
-    - Sigmacote: Sigmacote-Glass-Coating.md
+    - How to build:
+        - Air delivery system: how-to-build/Air-odors-delivery-system.md
+        - Electric Shock Circuit: how-to-build/Electric_Shock_Circuit.md
+        - Enclosure breadboard system: how-to-build/Enclosure-Breadboard-System.md
+        - Enclosure mounting: how-to-build/Enclosure-Camera-Mounting.md
+        - Heatsink: how-to-build/Heatsink-Installation.md
+        - IDOC Chamber assembly: how-to-build/IDOC-Chamber_Assembly.md
+        - 3D parts: how-to-build/IDOC_3D_Assemply_Parts.md
+        - IR Optogenetic System: how-to-build/IR-Optogenetic-System.md
+        - List of commercial parts: how-to-build/List-of-Commercial-Parts-Tools.md
+        - Wiring: how-to-build/Setup-Wiring-and-Powering-Cables.md
+
     - Installation: installation.md
-    - Usage: usage.md
+    - Analysis: analysis.md
+    - User Guide:
+        - Usage: usage.md
+    - Additional Info:
+        - Fly food and crosses: fly-food-and-crosses.md
+        - Sigmacote: sigmacote.md
+        - FAQs: faqs.md
 
 theme: readthedocs
