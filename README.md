@@ -8,18 +8,14 @@
 
 The Individual Drosophila Olfactory Conditioner (IDOC) system is a setup for olfactory conditioning experiments on individual flies. It was designed by the Fly Sleep Lab at VIB-KU Leuven and is maintained by Erik Tedre and El-Sayed Baz. This document provides detailed instructions for building and using the IDOC system. Additionally, check out our preprint on BioRxiv about the IDOC system.
 
+The IDOC (Individual Drosophila Olfactory Conditioner) setup is a behavioral training and monitoring system used in behavioral neuroscience research for studying learning and memory formation in Drosophila flies. The IDOC system can be built by following the instructions provided in the IDOC documentation available at https://IDOC-docs.readthedocs.io. The documentation is aimed at researchers interested in using the IDOC system for their experiments, and it includes detailed descriptions of the experimental procedures, equipment and materials required for building the system, instructions for assembling the IDOC chamber,wiring and powering cables, troubleshooting tips, and suggestions for optimizing the experiments. The documentation also includes information on programing and codes used in the IDOC software, including machine learning,video tracking, software installation process, data processing techniques,visualization, and statistical analyses.
 
-The IDOC (Individual Drosophila Olfactory Conditioner) setup is a behavioral training and monitoring system used in behavioral neuroscience research for studying learning and memory formation in Drosophila flies.  The IDOC system can be built by following the instructions provided in the IDOC documentation available at https://IDOC-docs.readthedocs.io. The documentation is aimed at researchers interested in using the IDOC system for their experiments, and it includes detailed descriptions of the experimental procedures, equipment and materials required for building the system, instructions for assembling the IDOC chamber,wiring and powering cables, troubleshooting tips, and suggestions for optimizing the experiments. The documentation also includes information on programing and codes used in the IDOC software, including machine learning,video tracking, software installation process, data processing techniques,visualization, and statistical analyses. 
-
-
-
-Building the IDOC system requires basic electronics and 3D printing skills, as well as access to the required parts and tools. The documentation provides detailed instructions and resources for building each component of the IDOC system. The IDOC system involves installing the necessary software packages and dependencies, as well as configuring the system for use with specific experimental setups and hardware devices.
-
+Building the IDOC system requires basic electronics and 3D printing skills, as well as access to the required parts and tools. The documentation provides detailed instructions and resources for building each component of the IDOC system.
 
 
 Here we provide a step-by-step instruction on how to build an IDOC setup. The steps are organized into several sections, each of which provides specific instructions and information related to different aspects of the IDOC system and its various components, but generally include the following:
 
-**The electric shock circuit** section provides a detailed instructions for assembling the circuit to connect electric shock for each IDOC chamber. The section also includes a circuit diagram and notes on how to troubleshoot the circuit if it does not function as expected.
+**The electric shock circuit** section provides detailed instructions on how to assemble the circuit to connect electric shock for each IDOC chamber. The section also includes a circuit diagram and notes on how to troubleshoot the circuit if it does not function as expected.
 
 **The IR-optogenetic system** section provides a list of required materials and tools, as well as instructions for assembling the system. The section includes information on the different types of IR and high power LEDS and drivers that can be used and explains how to test the optogenetic system to ensure that it is functioning properly.
 
