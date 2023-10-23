@@ -1,27 +1,22 @@
 # **IDOC 3D-Parts_ Assembly:**
 
-The IDOC setup consists of multiple 3D printed parts. The dimension of the setup is400x350 mm (L x W). Due to its relatively large size that cannot fit into the build volume of our 3D printers, components have been split into smaller parts to be printed part by part. Printed parts have been assembled with screws, fastened mate and plastic adhesive glue. Cyanoacrylate, or superglue (RS Components, [133-0093](https://benl.rs-online.com/web/p/glues/1330093/)), is the best option for gluing 3D printed parts together.  Overall, 3D printing is performed in three steps. The first step involves designing and modeling using Onshape cloud-based CAD package. Then, object models can be saved as a stereolithography (STL). The second step involves building the parts with a 3D printer. While the last step consists of assembling, finishing, and testing.
+The IDOC setup consists of multiple 3D printed parts. The dimension of the setup is 400x350 mm (L x W). Due to its relatively large size that cannot fit into the build volume of our 3D printers, components have been split into smaller parts to be printed part by part. Printed parts have been assembled with screws, fastened mate and plastic adhesive glue. Cyanoacrylate, or superglue **(RS Components, [133-0093](https://benl.rs-online.com/web/p/glues/1330093/))**, is the best option for gluing 3D printed parts together. Overall, 3D printing is performed in three steps. The first step involves designing and modeling using Onshape's cloud-based CAD package. From there, the object models can be saved as a stereolithography (STL) file. The second step involves printing these parts with a 3D printer. The last step consists of assembling, finishing, and testing.
 
-Using the 3D printing can be a cost-effective and efficient way to build the IDOC system, as it eliminates the need for custom machining or purchasing expensive components. However, it requires access to a 3D printer and a moderate level of technical expertise to assemble the parts and construct the system to
-perform olfactory, optogenetic, and thermogenetic experiments on Drosophila.
+Using 3D printing can be a cost-effective and efficient way to build the IDOC system, as it eliminates the need for custom machining or purchasing expensive components. However, it requires access to a 3D printer and a moderate level of technical expertise to assemble the parts and construct the system to perform olfactory, optogenetic, and thermogenetic experiments on *Drosophila*.
 
 
 
 Here we provide step-by-step instructions on how to print, build and assemble the parts of the IDOC setup as well as tips & tricks!
 
-## **Files to prints** 
+## **Files to print** 
 
 The 3D printed parts are available for download on Onshape website and from IDOC GitHub page, and can be printed using a 3D printer with a suitable material (see below).
-
-
-
-(Onshape)
 
 [List of files](../src/3D_printed_parts/IDOC_setup/)
 
 
 
-Custom components were 3D printed in-house. We have one Ultimaker 2+ and one Ultimaker S3 in the lab. The listed 3D items should be printed in very solid and tough materials for better deals with light, heat, air pressure, and odors. The suggested materials will achieve best surface quality with increased mechanical and thermal performance without having brittle failure overtime. 
+Custom components were 3D printed in-house. We have one Ultimaker 2+ and one Ultimaker S3 in the lab. The listed 3D items should be printed with very solid and tough materials to ensure they can handle the light, heat, air pressure, and odors. The suggested materials will achieve best surface quality with increased mechanical and thermal performance without risk of the materials turning too brittle over time. 
 
 
 
@@ -34,7 +29,7 @@ Custom components were 3D printed in-house. We have one Ultimaker 2+ and one Ult
 | Ultimaker PC (polycarbonate)       | Transparent  & Black                    | Transparent, RS Components, [159-6352](https://benl.rs-online.com/web/p/3d-printing-materials/1596352/) ;  Black, RS Components, [159-6351](https://benl.rs-online.com/web/p/3d-printing-materials/1596351) | [How to print PC](https://support.ultimaker.com/hc/en-us/articles/360012055159-How-to-print-with-Ultimaker-PC ) |
 | Ultimaker  PVA  polyvinyl alcohol) | Natural  water-soluble support material | PVA, RS Components,  [1348195](https://benl.rs-online.com/web/p/3d-printing-materials/1348195) | [How to print and dissolve PVA](https://support.ultimaker.com/hc/en-us/articles/360012055939-How-to-print-with-Ultimaker-PVA) |
 
-Ultimaker CPE+ (co-polyester) is similar to Ultimaker CPE, but tougher and with higher temperature resistance. PC (polycarbonate) is one of the toughest print materials, making it a perfect choice for printing strong objects and high thermal resistance. CPE+ or PC, in particular, are suited to for lighting box, recording chamber due to its higher heat resistance.  We also used water-soluble support PVA material for large parts to keep high quality and smooth surfaces.
+Ultimaker CPE+ (co-polyester) is similar to Ultimaker CPE, but tougher and with higher temperature resistance. PC (polycarbonate) is one of the toughest print materials, making it a perfect choice for printing strong objects and high thermal resistance. CPE+ or PC, in particular, are suited for the lighting box and recording chamber due to its higher heat resistance. We also used water-soluble PVA as the support material for large parts, so as to maintain high quality and smooth surfaces.
 
 
 
@@ -44,7 +39,7 @@ Ultimaker CPE+ (co-polyester) is similar to Ultimaker CPE, but tougher and with 
 
 
 
-For further information, refer to the material data sheets for technical data and the [material guides](https://support.ultimaker.com/hc/en-us/categories/360002336619) for printing instructions.
+For further information, refer to the material data sheets for technical data and the **[material guides](https://support.ultimaker.com/hc/en-us/categories/360002336619)** for printing instructions.
 
 
 
@@ -52,11 +47,13 @@ For further information, refer to the material data sheets for technical data an
 
 - Check that all of the 3D-parts are printed by checking off the components on the “Files to print”. 
 
+- Prior to assembly, examine all 3D-parts for damage, clean and smooth the edges and surfaces with a file set **(File set (e.g., Conrad, [829638](https://www.conrad.be/nl/p/c-k-t0124p-naaldvijlenset-6-delig-140-mm-1-stuk-s-829638.html?searchType=SearchRedirect) , [406897](https://www.conrad.be/nl/p/bernstein-5-240-set-sleutelvijlen-met-houten-heft-in-etui-6-dlg-100-mm-1-stuk-s-406897.html?searchType=SearchRedirect), Amazon, [B012DDEK16](https://www.amazon.de/Draper-68904-68904-Redline-Feilen-Set-16-teilig/dp/B012DDEK16)))** 
 
-- Prior to assembly, examine all 3D-parts for damage, clean and smooth the edges and surfaces with file set File set (e.g., Conrad, [829638](https://www.conrad.be/nl/p/c-k-t0124p-naaldvijlenset-6-delig-140-mm-1-stuk-s-829638.html?searchType=SearchRedirect) , [406897](https://www.conrad.be/nl/p/bernstein-5-240-set-sleutelvijlen-met-houten-heft-in-etui-6-dlg-100-mm-1-stuk-s-406897.html?searchType=SearchRedirect), Amazon, [B012DDEK16](https://www.amazon.de/Draper-68904-68904-Redline-Feilen-Set-16-teilig/dp/B012DDEK16)) 
-- If the part has a finishing defect, or has misshaped, please reprint it considering high quality printing according to the configuration file attached to each part.
-- Driver Bit Set (RS Components, [668-5723](https://benl.rs-online.com/web/p/screwdriver-bit-sets/6685727); amazon.de, [B01M7PPJI7](https://www.amazon.co.uk/Precision-Screwdriver-Magnetic-Macbook-Electronics/dp/B01M7PPJI7)) &  M2 self-tapping screws with countersunk head (Amazon.nl, [B07RYLM9N2](https://www.amazon.nl/-/en/dp/B07RYLM9N2)) are necessary tools to fix the parts together
-- This [file](/docs/IDOC_3D_Assemply_Parts.pdf) provide a step by step to assemble the different 3D printed parts.
+- If the part has a finishing defect, or looks misshapen, please reprint it with the high quality printing configurations specified for each part.
+
+- Driver Bit Set **(RS Components, [668-5723](https://benl.rs-online.com/web/p/screwdriver-bit-sets/6685727); amazon.de, [B01M7PPJI7](https://www.amazon.co.uk/Precision-Screwdriver-Magnetic-Macbook-Electronics/dp/B01M7PPJI7))** &  M2 self-tapping screws with countersunk head **(Amazon.nl, [B07RYLM9N2](https://www.amazon.nl/-/en/dp/B07RYLM9N2))** are necessary tools to fix the parts together
+
+- This [file](/docs/IDOC_3D_Assemply_Parts.pdf) provides a step by step guide for assembling the different 3D printed parts.
 
 
 
@@ -69,7 +66,7 @@ For further information, refer to the material data sheets for technical data an
 ![Tubing-wires box.PNG](assets/Images/Tubing-wires box.PNG)
 
 
-This box is necessary for housing the inflow manifold, the outflow vacuum/exhaust tubing, and the electric wire that is required to power the setup components. The bottom side of the box holdsthe rubber feet for the whole setup, while the top side of the box serve as abasement of the heatsink and lighting box. 
+This box is necessary for housing the inflow manifold, the outflow vacuum/exhaust tubing, and the electric wire that is required to power the setup components. The bottom side of the box holds the rubber feet for the whole setup, while the top side of the box serve as a basement of the heatsink and lighting box. 
 
 The box size is 400 mm x 350 mm. For 3D printability, we need to split this box to four parts of equal surface area (Lx W 200mm x175mm). Printed parts can be assembled with screws. No support is needed while printing this box. 
 
@@ -82,7 +79,7 @@ This parts is placed at the backside of the tubing & wiring box. This panel cons
 
 
 
-Mapping_of_ 20-way IDC_header box
+Mapping of the 20-way IDC header box
 
 
 
