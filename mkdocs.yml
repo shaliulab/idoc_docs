@@ -15,6 +15,7 @@ nav:
         - IR Optogenetic System: how-to-build/IR-Optogenetic-System.md
         - List of commercial parts: how-to-build/List-of-Commercial-Parts-Tools.md
         - Wiring: how-to-build/Setup-Wiring-and-Powering-Cables.md
+
     - Installation: installation.md
     - Analysis: analysis.md
     - User Guide:
