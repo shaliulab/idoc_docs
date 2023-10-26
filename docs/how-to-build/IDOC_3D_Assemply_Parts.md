@@ -8,7 +8,7 @@ Using 3D printing can be a cost-effective and efficient way to build the IDOC sy
 
 Here we provide step-by-step instructions on how to print, build and assemble the parts of the IDOC setup as well as tips & tricks!
 
-## **Files to print** 
+## **Files to print**
 
 The 3D printed parts are available for download on Onshape website and from IDOC GitHub page, and can be printed using a 3D printer with a suitable material (see below).
 
@@ -16,7 +16,7 @@ The 3D printed parts are available for download on Onshape website and from IDOC
 
 
 
-Custom components were 3D printed in-house. We have one Ultimaker 2+ and one Ultimaker S3 in the lab. The listed 3D items should be printed with very solid and tough materials to ensure they can handle the light, heat, air pressure, and odors. The suggested materials will achieve best surface quality with increased mechanical and thermal performance without risk of the materials turning too brittle over time. 
+Custom components were 3D printed in-house. We have one Ultimaker 2+ and one Ultimaker S3 in the lab. The listed 3D items should be printed with very solid and tough materials to ensure they can handle the light, heat, air pressure, and odors. The suggested materials will achieve best surface quality with increased mechanical and thermal performance without risk of the materials turning too brittle over time.
 
 
 
@@ -45,9 +45,9 @@ For further information, refer to the material data sheets for technical data an
 
 ## Assembly
 
-- Check that all of the 3D-parts are printed by checking off the components on the “Files to print”. 
+- Check that all of the 3D-parts are printed by checking off the components on the “Files to print”.
 
-- Prior to assembly, examine all 3D-parts for damage, clean and smooth the edges and surfaces with a file set **(File set (e.g., Conrad, [829638](https://www.conrad.be/nl/p/c-k-t0124p-naaldvijlenset-6-delig-140-mm-1-stuk-s-829638.html?searchType=SearchRedirect) , [406897](https://www.conrad.be/nl/p/bernstein-5-240-set-sleutelvijlen-met-houten-heft-in-etui-6-dlg-100-mm-1-stuk-s-406897.html?searchType=SearchRedirect), Amazon, [B012DDEK16](https://www.amazon.de/Draper-68904-68904-Redline-Feilen-Set-16-teilig/dp/B012DDEK16)))** 
+- Prior to assembly, examine all 3D-parts for damage, clean and smooth the edges and surfaces with a file set **(File set (e.g., Conrad, [829638](https://www.conrad.be/nl/p/c-k-t0124p-naaldvijlenset-6-delig-140-mm-1-stuk-s-829638.html?searchType=SearchRedirect) , [406897](https://www.conrad.be/nl/p/bernstein-5-240-set-sleutelvijlen-met-houten-heft-in-etui-6-dlg-100-mm-1-stuk-s-406897.html?searchType=SearchRedirect), Amazon, [B012DDEK16](https://www.amazon.de/Draper-68904-68904-Redline-Feilen-Set-16-teilig/dp/B012DDEK16)))**
 
 - If the part has a finishing defect, or looks misshapen, please reprint it with the high quality printing configurations specified for each part.
 
@@ -61,18 +61,18 @@ For further information, refer to the material data sheets for technical data an
 
 ### **Parts of the setup**
 
-#### Tubing & wires box 
+#### Tubing & wires box
 
-![Tubing-wires box.PNG](assets/Images/Tubing-wires box.PNG)
+![Tubing-wires box.PNG](/assets/Images/Tubing-wires box.PNG)
 
 
-This box is necessary for housing the inflow manifold, the outflow vacuum/exhaust tubing, and the electric wire that is required to power the setup components. The bottom side of the box holds the rubber feet for the whole setup, while the top side of the box serve as a basement of the heatsink and lighting box. 
+This box is necessary for housing the inflow manifold, the outflow vacuum/exhaust tubing, and the electric wire that is required to power the setup components. The bottom side of the box holds the rubber feet for the whole setup, while the top side of the box serve as a basement of the heatsink and lighting box.
 
-The box size is 400 mm x 350 mm. For 3D printability, we need to split this box to four parts of equal surface area (Lx W 200mm x175mm). Printed parts can be assembled with screws. No support is needed while printing this box. 
+The box size is 400 mm x 350 mm. For 3D printability, we need to split this box to four parts of equal surface area (Lx W 200mm x175mm). Printed parts can be assembled with screws. No support is needed while printing this box.
 
 #### Powering platform
 
-![Powering-platform.PNG](assets/Images/Powering-platform.PNG)
+![Powering-platform.PNG](/assets/Images/Powering-platform.PNG)
 
 
 This parts is placed at the backside of the tubing & wiring box. This panel consists of [pin headers]() to hold [IDC cable]() to power the setup. IR-LED, Electric shocks, odor indicators, and vibration motors.
@@ -94,14 +94,14 @@ Mapping of the 20-way IDC header box
 
 This part is placed at the the top part of the basement box. There is one hole for each tube coming from the main manifold inside the tubing box total 40 tubes.
 
-![Tubing_collectors.PNG](assets/Images/Tubing_collectors.PNG)
+![Tubing_collectors.PNG](/assets/Images/Tubing_collectors.PNG)
 
 
 
 
 #### **Heatsink Connectors**
 
-![Basement_heatsink.PNG](assets/Images/Basement_heatsink.PNG)
+![Basement_heatsink.PNG](/assets/Images/Basement_heatsink.PNG)
 
 
 Two mounting brackets at each side to fix the heatsink to the basement of the setup
@@ -112,7 +112,7 @@ Two mounting brackets at each side to fix the heatsink to the basement of the se
 
 This box is mounted on the top heatsink to cover the IR-LED backlighting and optogenetic LED panels. also it has a rail in the midline to slide an IR filter to separate the two half of chambers during optogenetic application
 
-![Light-box.PNG](assets/Images/Light-box.PNG)
+![Light-box.PNG](/assets/Images/Light-box.PNG)
 
 
 
@@ -121,14 +121,14 @@ This box is mounted on the top heatsink to cover the IR-LED backlighting and opt
 
 
 
-![Chambers_holder.PNG](assets/Images/Chambers_holder.PNG)
+![Chambers_holder.PNG](/assets/Images/Chambers_holder.PNG)
 
 
-the part is placed at the top of each light box. 10 recording chambers are mounted on top of each side 
+the part is placed at the top of each light box. 10 recording chambers are mounted on top of each side
 
 .
 
-![Chambers_holders.JPG](assets/Images/Chambers_holders.JPG)
+![Chambers_holders.JPG](/assets/Images/Chambers_holders.JPG)
 
 
 
@@ -141,33 +141,33 @@ the part is placed at the top of each light box. 10 recording chambers are mount
 
 the edges of each part thoroughly. Hand file or sanding, for example, are a very good ways to smooth out any unevenness.
 
-* Connect the front and back parts of each  side together via the fastened mate in each corner, then secure with screws following  this [illustration file](/docs/IDOC_3D_Assemply_Parts.pdf) . 
+* Connect the front and back parts of each  side together via the fastened mate in each corner, then secure with screws following  this [illustration file](/docs/IDOC_3D_Assemply_Parts.pdf) .
 
 
 
 
 
-## Setup Basement and Cover 
+## Setup Basement and Cover
 
-Acrylic plastic glass sheet   (RS Components, [824-676](https://benl.rs-online.com/web/p/plastic-sheets/0824660)) was fabricated to cover the tubing-wiring box . To fabricate and prepare this sheet to be mounted on the setup base first you will need to cut it to the setup size. luckily the width of this sheet is exactly the same like the setup i.e., 400mm. However the length needed to be cut to 350mm instead of 500mm. we used table Jigsaw (Conrad, [818878](https://www.conrad.be/nl/p/dremel-ms20-1-5-tafeldecoupeerzaag-70-w-zaagblad-lengte-100-mm-818878.html?searchType=SearchRedirect)); saw blade set (Conrad, [819573- 8J](https://www.conrad.be/nl/p/universele-houtzaag-ms51-dremel-2615ms51ja-n-a-819573.html)) to cut. After cutting,  place it turn the box upside down and place the sheet. Mark the fixation holes. Drill the remarked area to create a holes for M3 screws. Then initially fix  the sheet to the box using 9 screws M3x12mm (Amazon, [B0963DYT9X](https://www.amazon.nl/-/en/dp/B0963DYT9X/)) 
-
- 
-
-![Basement-cover-plastic-sheet1.PNG](assets/Images/Basement-cover-plastic-sheet1.PNG)
+Acrylic plastic glass sheet   (RS Components, [824-676](https://benl.rs-online.com/web/p/plastic-sheets/0824660)) was fabricated to cover the tubing-wiring box . To fabricate and prepare this sheet to be mounted on the setup base first you will need to cut it to the setup size. luckily the width of this sheet is exactly the same like the setup i.e., 400mm. However the length needed to be cut to 350mm instead of 500mm. we used table Jigsaw (Conrad, [818878](https://www.conrad.be/nl/p/dremel-ms20-1-5-tafeldecoupeerzaag-70-w-zaagblad-lengte-100-mm-818878.html?searchType=SearchRedirect)); saw blade set (Conrad, [819573- 8J](https://www.conrad.be/nl/p/universele-houtzaag-ms51-dremel-2615ms51ja-n-a-819573.html)) to cut. After cutting,  place it turn the box upside down and place the sheet. Mark the fixation holes. Drill the remarked area to create a holes for M3 screws. Then initially fix  the sheet to the box using 9 screws M3x12mm (Amazon, [B0963DYT9X](https://www.amazon.nl/-/en/dp/B0963DYT9X/))
 
 
 
+![Basement-cover-plastic-sheet1.PNG](/assets/Images/Basement-cover-plastic-sheet1.PNG)
 
-To isolate the setup from vibration also we added an extra rubber feet (Anti Vibration Feet 22.4mm Natural Rubber (RS Components, [179-4808](https://benl.rs-online.com/web/p/anti-slip-pads/1794808/))) to the bottom of the setup. 
+
+
+
+To isolate the setup from vibration also we added an extra rubber feet (Anti Vibration Feet 22.4mm Natural Rubber (RS Components, [179-4808](https://benl.rs-online.com/web/p/anti-slip-pads/1794808/))) to the bottom of the setup.
 
 
 
 1. Turn the box upside down.
-2. Remove the backing sheet from the rubber feet. 
-3. Position the feet as desired, then press and hold for a few seconds until the adhesive has bonded. 
+2. Remove the backing sheet from the rubber feet.
+3. Position the feet as desired, then press and hold for a few seconds until the adhesive has bonded.
 4. The setup may now be sitting on its rubber feet.
 
 
-The base plate should be removed for further installation of tubing and electrical wires connections.  Remove the screws securing the acrylic plastic glass sheet to the box using a hexagon key.  Retain the screw for future use when all of the box components installed. 
+The base plate should be removed for further installation of tubing and electrical wires connections.  Remove the screws securing the acrylic plastic glass sheet to the box using a hexagon key.  Retain the screw for future use when all of the box components installed.
 
-![Basement-cover-plastic-sheet-rubber.PNG](assets/Images/Basement-cover-plastic-sheet-rubber.PNG)
+![Basement-cover-plastic-sheet-rubber.PNG](/assets/Images/Basement-cover-plastic-sheet-rubber.PNG)

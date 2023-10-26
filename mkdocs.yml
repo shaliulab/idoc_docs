@@ -3,7 +3,7 @@ site_url: https://idoc_docs.readthedocs.io/en/latest/
 repo_url: https://github.com/shaliulab/idoc_docs
 nav:
     - Home: index.md
-    - Protocols: Protocols-Behavior-Monitoring_IDOC_Operation_Manual.md
+    - Usage: usage.md
     - How to build:
         - Air delivery system: how-to-build/Air-odors-delivery-system.md
         - Electric Shock Circuit: how-to-build/Electric_Shock_Circuit.md
@@ -16,10 +16,10 @@ nav:
         - List of commercial parts: how-to-build/List-of-Commercial-Parts-Tools.md
         - Wiring: how-to-build/Setup-Wiring-and-Powering-Cables.md
 
-    - Installation: installation.md
-    - Analysis: analysis.md
-    - User Guide:
-        - Usage: usage.md
+    - Installation:
+        - Installation: installation.md
+    - Analysis:
+        - Analysis: analysis.md
     - Additional Info:
         - Fly food and crosses: fly-food-and-crosses.md
         - Sigmacote: sigmacote.md

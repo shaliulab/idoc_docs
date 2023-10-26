@@ -6,7 +6,7 @@ The IDOC Air/Odors Delivery System is a tool used in conjunction with the IDOC c
 
 1. Install and configure solenoid valves, which regulate the flow of air and odor stimuli through the     manifold to the IDOC chamber.
 2. Design and build the manifold, which consists of a series of ports for delivering air and odor stimuli to     the IDOC chamber.
-3. Install and configure vacuum suction system, which regulate and balance the outflow of air and odor stimuli from IDOC chamber. 
+3. Install and configure vacuum suction system, which regulate and balance the outflow of air and odor stimuli from IDOC chamber.
 4. Install and configure an Arduino microcontroller circuit, which controls the solenoid valves and regulates the precise delivery of air and odor stimuli.
 5. Test the IDOC Air/Odors delivery system and ensure that it is functioning properly before conducting behavioral experiments.
 
@@ -16,26 +16,26 @@ The IDOC Air/Odors Delivery System is a tool used in conjunction with the IDOC c
 
 The regulated air is delivered to the recording chambers via solenoid valves controlled by Arduino-control-relay- switch unit as follow:
 
-![Flow_system.PNG](assets/Images/Flow_system.PNG)
+![Flow_system.PNG](/assets/Images/Flow_system.PNG)
 
 
 -  The controlled air is  passed through activated carbon capsule (Fisher, [10526921](https://www.fishersci.be/shop/products/whatman-carbon-cap-disposable-activated-carbon-capsules/10526921)) to be filtered and dried.
 
-- The dried filtered air then connected to a solenoid valve 2 ports (named Main Valve) , (Normal close NC, 12 VDC, RS, [840-7020](https://benl.rs-online.com/web/p/solenoid-valves/8407020/)).  This valve is only open when connected to 12VDC. The Arduino-control-relay-unit switch this valve when an experiment starts. 
+- The dried filtered air then connected to a solenoid valve 2 ports (named Main Valve) , (Normal close NC, 12 VDC, RS, [840-7020](https://benl.rs-online.com/web/p/solenoid-valves/8407020/)).  This valve is only open when connected to 12VDC. The Arduino-control-relay-unit switch this valve when an experiment starts.
 
-- When the Main Valve opened, the air passed through  air washing-bottles* to re-humidification. 
+- When the Main Valve opened, the air passed through  air washing-bottles* to re-humidification.
 
-  - The humidification process involve two steps: 
+  - The humidification process involve two steps:
 
     - The first one is to heat a glass bottle of water up to 50°C  (~600ml of water in 1L glass bottle, VWR ) into  water-bath (2 L , VWR, [462-0554](https://be.vwr.com/store/product?keyword=462-0554%20)) to get vaporized air.
 
     - The hot moist air then passed through  large  water bottle (4L of water in 5L glass bottle (VWR, [215-0057](https://be.vwr.com/store/product/en/544458/laboratory-bottles-round) ) at room temperature to regulate the moisture air temperature.
 
-    - One-way non return valves were used between fittings connection to prevent water back return (RS, [367-0624](https://benl.rs-online.com/web/p/pneumatic-non-return-valves/3670624)). 
+    - One-way non return valves were used between fittings connection to prevent water back return (RS, [367-0624](https://benl.rs-online.com/web/p/pneumatic-non-return-valves/3670624)).
 
       ​
 
-      *GL 45 Cap Connection System, 2 Hose Barb Connectors (Fisher, [15363647](https://www.fishersci.be/shop/products/gl45-screw-cap-pyrex-gl-45-media-lab-bottle-1/15193927)) was used to connect the air inlet and outlet. 
+      *GL 45 Cap Connection System, 2 Hose Barb Connectors (Fisher, [15363647](https://www.fishersci.be/shop/products/gl45-screw-cap-pyrex-gl-45-media-lab-bottle-1/15193927)) was used to connect the air inlet and outlet.
 
       ​
 
@@ -44,23 +44,23 @@ The regulated air is delivered to the recording chambers via solenoid valves con
 
   -  1st port: connected to the inflow regulators, threaded flow regulator (RS, [197-5337](https://benl.rs-online.com/web/p/pneumatic-function-fittings/1975337))  used to provide only the required volume of air.
 
-  - 2nd  port: used to clear any condensed water in the delivery tubing. A glass bottle used to collect the condensed water. 
+  - 2nd  port: used to clear any condensed water in the delivery tubing. A glass bottle used to collect the condensed water.
 
-  - 3re port: opened to release any extra pressure and guarantee that the inflow regulators having the same values all the time. 
+  - 3re port: opened to release any extra pressure and guarantee that the inflow regulators having the same values all the time.
 
-  - 4th port: Plugged (RS , [367-6098](https://benl.rs-online.com/web/p/pneumatic-fitting-accessories/3676098)). 
+  - 4th port: Plugged (RS , [367-6098](https://benl.rs-online.com/web/p/pneumatic-fitting-accessories/3676098)).
 
     ​
 
 
--  The cleaned moisturized air then connected to two air inflow-meters (Right and Left side flowmeters, 0.4 L/min → 5 L/min, RS, [198-2919](https://benl.rs-online.com/web/p/flow-sensors/1982919/)). The air then balanced between both meters to be adjusted at 2L/min for each meter. The regulators of the Flow meter were opened to the maximum since the total air volume is regulated by the threaded flow regulator (RS, [197-5337](https://benl.rs-online.com/web/p/pneumatic-function-fittings/1975337))  connection between the manifold and inflow meters. 
+-  The cleaned moisturized air then connected to two air inflow-meters (Right and Left side flowmeters, 0.4 L/min → 5 L/min, RS, [198-2919](https://benl.rs-online.com/web/p/flow-sensors/1982919/)). The air then balanced between both meters to be adjusted at 2L/min for each meter. The regulators of the Flow meter were opened to the maximum since the total air volume is regulated by the threaded flow regulator (RS, [197-5337](https://benl.rs-online.com/web/p/pneumatic-function-fittings/1975337))  connection between the manifold and inflow meters.
 
 -  Each flowmeter then connected to  a solenoid valve 3 ports, Normal open/Normal close NO/NC, 12 V dc, M5 (RS Components, [838-8660](https://benl.rs-online.com/web/p/solenoid-valves/8388660)) to switch between air and one odor in each side.
 
-  -  The NO outlet of the above 3-port valve then connected to the air washing bottle to deliver air to the solvent (Mineral oil),  
+  -  The NO outlet of the above 3-port valve then connected to the air washing bottle to deliver air to the solvent (Mineral oil),
 
 
-  - The NC outlet of the first valve connected to an air washing bottle to deliver air to the odor A (odor diluted in mineral oil at desired concentration). 
+  - The NC outlet of the first valve connected to an air washing bottle to deliver air to the odor A (odor diluted in mineral oil at desired concentration).
 
   - One-way check valves, [Female Luer Lock Inlet, Male Luer Lock Outlet] were used between fittings connection to prevent mineral oil back return (WPI, [14039-10](https://www.wpiinc.com/14039-10-check-valve-female-luer-lock-inlet-male-luer-lock-outlet) , Fisher, [11909638](https://www.fishersci.be/shop/products/san-one-way-luer-fitting/11909638)).
 
@@ -70,9 +70,9 @@ The regulated air is delivered to the recording chambers via solenoid valves con
 
 - If you are going to switch between two odors then the NO outlet of the above solenoid valve 3 ports connected to to the inlet port of  another solenoid valve 3 ports in each side.
 
-  - The NO outlet of the second valve then connected to the air washing bottle to deliver air to the solvent (Mineral oil),  
+  - The NO outlet of the second valve then connected to the air washing bottle to deliver air to the solvent (Mineral oil),
 
-  - The NC outlet of the first valve connected to an air washing bottle to deliver air to the odor A (odor diluted in mineral oil at desired concentration), 
+  - The NC outlet of the first valve connected to an air washing bottle to deliver air to the odor A (odor diluted in mineral oil at desired concentration),
 
   - The NC outlet of the second valve connected to an air washing bottle to deliver air to the odor B (odor diluted in mineral oil at desired concentration).
 
@@ -88,7 +88,7 @@ The regulated air is delivered to the recording chambers via solenoid valves con
 
 - Two manifold were used for delivering the air/odors for each side. chemical resistant silicon tubing or Tygon tubing  then collected from the tubing-wiring box and a male luer is connected to the other end which is connected to recording chambers female Luer.
 
-- To ensure that the odors precisely delivered at only the time of the applications, each input first passed through an exhaust valve (Solenoid release exhaust valve S 3-way (Aliexpress/Miniyard, [32881849871 (12V)](https://www.aliexpress.com/item/32881849871.html)) that only open when getting 12VDC signal. By This way when stopping the odor valves the air delivered to the chambers will be stopped and released  to the NO port of the exhaust valves which then collected in a water receiver  to avoid spreading in the room. We found that the switched air bubbling in the water for about 7 seconds after stopping the solenoid valve. If this air is not released the fly will get some diluted concentration of the odors at the end of each treatment. 
+- To ensure that the odors precisely delivered at only the time of the applications, each input first passed through an exhaust valve (Solenoid release exhaust valve S 3-way (Aliexpress/Miniyard, [32881849871 (12V)](https://www.aliexpress.com/item/32881849871.html)) that only open when getting 12VDC signal. By This way when stopping the odor valves the air delivered to the chambers will be stopped and released  to the NO port of the exhaust valves which then collected in a water receiver  to avoid spreading in the room. We found that the switched air bubbling in the water for about 7 seconds after stopping the solenoid valve. If this air is not released the fly will get some diluted concentration of the odors at the end of each treatment.
 
   ​
 
@@ -98,7 +98,7 @@ The regulated air is delivered to the recording chambers via solenoid valves con
 
   ------
 
-**To build a heavy-duty delivery system to switch between air and 2 odors  for 20 recording chambers you will need the following:** 
+**To build a heavy-duty delivery system to switch between air and 2 odors  for 20 recording chambers you will need the following:**
 
 
 
@@ -134,7 +134,7 @@ The regulated air is delivered to the recording chambers via solenoid valves con
 
 - Straight Threaded-to-Tube Adapter, Uni 1/8 Male, Push In 6 mm (RS Components, [771-5100](https://benl.rs-online.com/web/p/pneumatic-fittings/7715100/)) Q: 2x
 
-  Threaded Flow Regulator x 6mm Tube Outlet Port (RS Components, [197-5337](https://benl.rs-online.com/web/p/pneumatic-function-fittings/1975337)) Q: 3x 
+  Threaded Flow Regulator x 6mm Tube Outlet Port (RS Components, [197-5337](https://benl.rs-online.com/web/p/pneumatic-function-fittings/1975337)) Q: 3x
 
 - Elbow Threaded Adaptor, M5 Male to Push In 6 mm, Threaded-to-Tube Connection Style (RS Components, [121-6024](https://benl.rs-online.com/web/p/pneumatic-fittings/1216024)) Q: 2x
 
@@ -158,8 +158,8 @@ The regulated air is delivered to the recording chambers via solenoid valves con
   - Manifold holder Q:1x
   - Exhaust valves holder Q:1x
   - 3-ports valve holder Q:4x
-  - Flowmeter holder double Q:1x 
-  - Powering station holder  Q:1x 
+  - Flowmeter holder double Q:1x
+  - Powering station holder  Q:1x
 
 
 ***
@@ -172,10 +172,10 @@ Inflow and outflow meters installation is the same procedures. Use fork ring wre
 
 
 
-![Flow-regulators.PNG](assets/Images/Flow-regulators.PNG)
+![Flow-regulators.PNG](/assets/Images/Flow-regulators.PNG)
 
 
-Tip: Backlighting of the flow help to precisely adjust the meters to the same level, just add one white LEDs  in the back hole of each flow regulators. and then connect all LEDs in series with a switch to only illuminated when needed especially when recording at dark room. 
+Tip: Backlighting of the flow help to precisely adjust the meters to the same level, just add one white LEDs  in the back hole of each flow regulators. and then connect all LEDs in series with a switch to only illuminated when needed especially when recording at dark room.
 
 
 
@@ -185,9 +185,9 @@ Tip: Backlighting of the flow help to precisely adjust the meters to the same le
 
 **Main Valve Installation**
 
-Use fork ring wrench  or spanner #12 (amazon.de, [M19652](https://www.amazon.de/-/en/Brothers-Mannesmann-M19652-wrench-pieces/dp/B000ET7G0E?th=1) ; [B001ILAFRI](https://www.amazon.de/-/en/171198-Combination-Spanner-Set-SW/dp/B001ILAFRI/))  to connect Straight Threaded-to-Tube Adapter, Uni 1/8 Male, Push In 6 mm (RS Components, [771-5100](https://benl.rs-online.com/web/p/pneumatic-fittings/7715100/)) to the Solenoid Valve 2 port(s) , NC, 12 V dc, 1/8in (RS Components, [840-7020](https://benl.rs-online.com/web/p/solenoid-valves/8407020/)). Then use 2 M3x10mm screws to fix the main valve to the 3D printed holders. 
+Use fork ring wrench  or spanner #12 (amazon.de, [M19652](https://www.amazon.de/-/en/Brothers-Mannesmann-M19652-wrench-pieces/dp/B000ET7G0E?th=1) ; [B001ILAFRI](https://www.amazon.de/-/en/171198-Combination-Spanner-Set-SW/dp/B001ILAFRI/))  to connect Straight Threaded-to-Tube Adapter, Uni 1/8 Male, Push In 6 mm (RS Components, [771-5100](https://benl.rs-online.com/web/p/pneumatic-fittings/7715100/)) to the Solenoid Valve 2 port(s) , NC, 12 V dc, 1/8in (RS Components, [840-7020](https://benl.rs-online.com/web/p/solenoid-valves/8407020/)). Then use 2 M3x10mm screws to fix the main valve to the 3D printed holders.
 
-![Main-valve.PNG](assets/Images/Main-valve.PNG)
+![Main-valve.PNG](/assets/Images/Main-valve.PNG)
 
 
 
@@ -199,7 +199,7 @@ Use fork ring wrench  or spanner #12 (amazon.de, [M19652](https://www.amazon.de/
 
 
 
-![Solenoid-valves.PNG](assets/Images/Solenoid-valves.PNG)
+![Solenoid-valves.PNG](/assets/Images/Solenoid-valves.PNG)
 
 
 
@@ -209,19 +209,19 @@ Use fork ring wrench  or spanner #12 (amazon.de, [M19652](https://www.amazon.de/
 
 **Powering Cables to the mounting board:**
 
-To power the valves through connection to the Arduino-control-relay-switch unit, 20-way ribbon cable with on IDC connector connected to the control board while the other end is opened and connected to power station. The power station contains screw terminal block  (12 Circuit - Terminal Strip Connector Screws (Digi-Key, [277-15432-ND](https://www.digikey.be/en/products/detail/phoenix-contact/3240171/3603832))), that enable easy and robust connection between the valves and the control unit. 
+To power the valves through connection to the Arduino-control-relay-switch unit, 20-way ribbon cable with on IDC connector connected to the control board while the other end is opened and connected to power station. The power station contains screw terminal block  (12 Circuit - Terminal Strip Connector Screws (Digi-Key, [277-15432-ND](https://www.digikey.be/en/products/detail/phoenix-contact/3240171/3603832))), that enable easy and robust connection between the valves and the control unit.
 
 
 
-Fix the terminal strip connector with M3 10mm screws to the 3D printed powering station holder. Then with M6 screws  fix the holder to the breadboard.  
+Fix the terminal strip connector with M3 10mm screws to the 3D printed powering station holder. Then with M6 screws  fix the holder to the breadboard.
 
-With the use of a wire stripper, remove at least 1 cm casing to expose the cut wires and then flip the breadboard to the back and insert the wires through the back holes to be connected to the screw terminal from the top of the breadboard. 
-
-
+With the use of a wire stripper, remove at least 1 cm casing to expose the cut wires and then flip the breadboard to the back and insert the wires through the back holes to be connected to the screw terminal from the top of the breadboard.
 
 
 
-![Powering-valves.PNG](assets/Images/Powering-valves.PNG)
+
+
+![Powering-valves.PNG](/assets/Images/Powering-valves.PNG)
 
 
 
@@ -230,7 +230,7 @@ With the use of a wire stripper, remove at least 1 cm casing to expose the cut w
 
 
 
-![Ribbon-cable-mapping.PNG](assets/Images/Ribbon-cable-mapping.PNG)
+![Ribbon-cable-mapping.PNG](/assets/Images/Ribbon-cable-mapping.PNG)
 
 
 
@@ -243,7 +243,7 @@ Mapping_of_ 20-way IDC_header box
 
 **Exhaust release Valves Installation**
 
-To ensure that the odors precisely delivered at only the time of the applications, each input first passed through an exhaust valve (Solenoid release exhaust valve S 3-way (Aliexpress/Miniyard, [32881849871 (12V)](https://www.aliexpress.com/item/32881849871.html)) that only open when getting 12VDC signal. By This way when stopping the odor valves the air delivered to the chambers/flies  will be stopped and released  to the NO port of the exhaust valves which then collected in a water receiver  to avoid spreading in the room. We found that the switched air bubbling in the water for about 7 seconds after stopping the solenoid valve. If this air is not released the fly will get some diluted concentration of the odors at the end of each treatment. 
+To ensure that the odors precisely delivered at only the time of the applications, each input first passed through an exhaust valve (Solenoid release exhaust valve S 3-way (Aliexpress/Miniyard, [32881849871 (12V)](https://www.aliexpress.com/item/32881849871.html)) that only open when getting 12VDC signal. By This way when stopping the odor valves the air delivered to the chambers/flies  will be stopped and released  to the NO port of the exhaust valves which then collected in a water receiver  to avoid spreading in the room. We found that the switched air bubbling in the water for about 7 seconds after stopping the solenoid valve. If this air is not released the fly will get some diluted concentration of the odors at the end of each treatment.
 
 *to install this unit you will need the following items:*
 
@@ -279,7 +279,7 @@ To ensure that the odors precisely delivered at only the time of the application
 
 **Procedures:**
 
-- Attach  12 female [luer fittings](https://www.aliexpress.com/item/4000025751111.html) at each circle of the holder, screw them with the included plastic nut and fixers. 
+- Attach  12 female [luer fittings](https://www.aliexpress.com/item/4000025751111.html) at each circle of the holder, screw them with the included plastic nut and fixers.
 
 - Insert [solenoid valves](https://www.aliexpress.com/item/32881849871.html) in the recessed area in the 3D printed holder. Just push all of the them in the place by the way the NO outlet is faced the bottom while the two u-shaped ports appeared from the top face of the holder.
 
@@ -293,7 +293,7 @@ To ensure that the odors precisely delivered at only the time of the application
 
   $Source.Voltage  = 12 VDC$
 
-  $Forward .Voltage : white: 3.2-3.4 V; green: 3.0-3.2 V; yellow: 2.0-2.2 V; blue: 3.2-3.4 V; red: 2-2.2 V,$ 
+  $Forward .Voltage : white: 3.2-3.4 V; green: 3.0-3.2 V; yellow: 2.0-2.2 V; blue: 3.2-3.4 V; red: 2-2.2 V,$
 
   $forward .Current: 20 mA.$
 
@@ -305,7 +305,7 @@ To ensure that the odors precisely delivered at only the time of the application
 
   [Go to this website to calculate the resistor according the above values for each color](https://www.digikey.be/en/resources/conversion-calculators/conversion-calculator-led-series-resistor)
 
-- Connect two IDC 6-Way ribbon cables to the 6-way box, while the other opened side should be connected the corresponding 3-ports Solenoid valve connection at the powering station to be synchronized and prevent extra odor air to be delivered after stopping the odor valves. 
+- Connect two IDC 6-Way ribbon cables to the 6-way box, while the other opened side should be connected the corresponding 3-ports Solenoid valve connection at the powering station to be synchronized and prevent extra odor air to be delivered after stopping the odor valves.
 
 
 ------
@@ -318,7 +318,7 @@ each chamber has two vent in the middle. Each port allows the air to outflow out
 
 
 
-![Vacuum-suction-tubing.PNG](assets/Images/Vacuum-suction-tubing.PNG)
+![Vacuum-suction-tubing.PNG](/assets/Images/Vacuum-suction-tubing.PNG)
 
 
 
@@ -329,7 +329,7 @@ each chamber has two vent in the middle. Each port allows the air to outflow out
 
 
 
-![Vacuum-manifold.PNG](assets/Images/Vacuum-manifold.PNG)
+![Vacuum-manifold.PNG](/assets/Images/Vacuum-manifold.PNG)
 
 
 

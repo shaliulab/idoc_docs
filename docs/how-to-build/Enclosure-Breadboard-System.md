@@ -1,12 +1,12 @@
 # **Breadboard Enclosure System**
 
- 
+
 
 ##  **Preface**
 
 
 
-The IDOC setup is enclosed in a custom enclosure and mounted on breadboards baseplate.  The breadboard enclosure system protects the setup components from dust, acoustic vibrations, thermal gradients, and light.  It is supplied by a sliding door panel, which is mounted on the front side of the enclosure, to be removed for easy access to the setup components to load recording chambers. Its baseplate allows fixing and center the IDOC system via mounting brackets. It can be mounted on the table or bench.  You may construct the enclosure according to the size desired. However, it should be large enough to hold all your setup components. This section details how to construct an enclosure to provide space for the setup, tracking camera, powering, airflow system, and illumination. 
+The IDOC setup is enclosed in a custom enclosure and mounted on breadboards baseplate.  The breadboard enclosure system protects the setup components from dust, acoustic vibrations, thermal gradients, and light.  It is supplied by a sliding door panel, which is mounted on the front side of the enclosure, to be removed for easy access to the setup components to load recording chambers. Its baseplate allows fixing and center the IDOC system via mounting brackets. It can be mounted on the table or bench.  You may construct the enclosure according to the size desired. However, it should be large enough to hold all your setup components. This section details how to construct an enclosure to provide space for the setup, tracking camera, powering, airflow system, and illumination.
 
 
 
@@ -16,13 +16,13 @@ Building the IDOC enclosure  involves several steps:
 2. Install a breadboard to mount the enclosure, which provides a platform for mounting and connecting electronic components.
 3. Install and wire any necessary electronic, lighting, air/odor components
 
- 
+
 
 **Detailed diagram of enclosure components:**
 
 The enclosure has three main sections: The baseplate, setup enclosure and the camera enclosure.
 
-![Enclosure.png](assets/Images/Enclosure.png)
+![Enclosure.png](/assets/Images/Enclosure.png)
 
 
 
@@ -31,7 +31,7 @@ The enclosure has three main sections: The baseplate, setup enclosure and the ca
 
 The parts needed are provided in a separate [table](/docs/List-of-Commercial-Parts-Tools.md) and may be downloaded as a [CSV](../src/Commercial_Parts/List-of-Commercial-Parts-Tools.csv) file
 
- 
+
 
 ----
 
@@ -51,7 +51,7 @@ Onshape
 
 ## **III-**      **Setup Enclosure**
 
- 
+
 
 The setup enclosure is made from [25 mm rails](https://www.thorlabs.de/newgrouppage9.cfm?objectgroup_id=194) and [black hardboard](https://www.thorlabs.de/newgrouppage9.cfm?objectgroup_id=190#2535) panels. The panels are placed by the rail channels. The enclosure is designed with following inner dimensions (L x W x H) 500mm x 500mm x 700 mm.
 
@@ -67,7 +67,7 @@ The setup enclosure is made from [25 mm rails](https://www.thorlabs.de/newgroupp
 
 **E-**  **Holes and powering platform on back side.**
 
- 
+
 
 ### **A-**  **Customize the** black hardboard
 
@@ -77,7 +77,7 @@ For this step, you will need:
 
 \-     Black hardboard ([TB5](https://www.thorlabs.de/thorproduct.cfm?partnumber=TB5), Thorlabs)
 
-\-     Adhesive double-sided tape ([273-598](https://benl.rs-online.com/web/p/double-sided-tapes/0273598), RS Components) 
+\-     Adhesive double-sided tape ([273-598](https://benl.rs-online.com/web/p/double-sided-tapes/0273598), RS Components)
 
 \-     Aluminum flat bar ([681-104](https://ie.rs-online.com/web/p/metal-bars-metal-rods/0681104), RS Components)
 
@@ -91,9 +91,9 @@ For this step, you will need:
 
 Be sure that the correct size of the black board has been ordered or in house customized to fit the dimensions of the enclosure that the setup will be installed on. We combined two black hardboards together ([TB4](https://www.thorlabs.de/thorproduct.cfm?partnumber=TB4) + [TB5](https://www.thorlabs.de/thorproduct.cfm?partnumber=TB5)) to provide more hardness, thickness and to eliminate the passage of light through the corners or edges. The foam core of the board provides enhanced acoustic absorption and preserve the enclosure temperature.
 
- 
 
-The final size of the panels: 
+
+The final size of the panels:
 
 ·    Vertical panels that form the walls of the enclosure: 710-mm x 510-mm (L x W)
 
@@ -103,7 +103,7 @@ The final size of the panels:
 
 
 
-![Black-board-setup-enclosure.PNG](assets/Images/Black-board-setup-enclosure.PNG)
+![Black-board-setup-enclosure.PNG](/assets/Images/Black-board-setup-enclosure.PNG)
 
 
 
@@ -114,9 +114,9 @@ The final size of the panels:
 
 1.2.    Cut all the way through the board following the pencil lines. The blackboard is soft, so proceed carefully, aluminum flat bar can be used to keep straight cut. Be careful not to injury your fingers.
 
-1.3.    Remove the cuts and trim the rough edges of the black hardboard. 
+1.3.    Remove the cuts and trim the rough edges of the black hardboard.
 
-1.4.    Attach and align the adhesive double-sided tape within the inside face/ edge of the TB5 black board. 
+1.4.    Attach and align the adhesive double-sided tape within the inside face/ edge of the TB5 black board.
 
 1.5.    Simply peel off the tape backing and assemble one TB4 board and one TB5 board together, the adhesive double-sided tape should not show on the board when done
 
@@ -126,9 +126,9 @@ The final size of the panels:
 
 
 
- 
 
-### **B-**   **Join the rails & build the walls:** 
+
+### **B-**   **Join the rails & build the walls:**
 
 For this step, you will need:
 
@@ -144,11 +144,11 @@ For this step, you will need:
 
 \-     4-mm balldriver or hex key
 
- 
 
 
 
-![Setup-enclosure.PNG](assets/Images/Setup-enclosure.PNG)
+
+![Setup-enclosure.PNG](/assets/Images/Setup-enclosure.PNG)
 
 
 
@@ -171,13 +171,13 @@ For this step, you will need:
 
 
 
-1.14.     
+1.14.
 
 ### **C-**  **Build the enclosure roof**
 
- 
 
-![Top-roof.PNG](assets/Images/Top-roof.PNG)
+
+![Top-roof.PNG](/assets/Images/Top-roof.PNG)
 
 
 For this step, you will need:
@@ -198,7 +198,7 @@ For this step, you will need:
 
 \-     4-mm balldriver or hex key
 
- 
+
 
 **Procedures**
 
@@ -210,11 +210,11 @@ For this step, you will need:
 
 1.18.    Slide the blackboard into the channels of the U-shaped frame rails.
 
-1.19.    To mount other parts on the top roof, insert about six-low-profile nuts in each unobstructed end of the rails of the U-shaped frame. Be sure that you inserted the T-Nut before going to the next step, since nuts only can be inserted and removed from unblocked end of a rail. 
+1.19.    To mount other parts on the top roof, insert about six-low-profile nuts in each unobstructed end of the rails of the U-shaped frame. Be sure that you inserted the T-Nut before going to the next step, since nuts only can be inserted and removed from unblocked end of a rail.
 
-1.20.    Attach the 3D- printed door construction cube at each end of the U-shaped frame, by the way the sliding hole of the door are vertically in front of the other. 
+1.20.    Attach the 3D- printed door construction cube at each end of the U-shaped frame, by the way the sliding hole of the door are vertically in front of the other.
 
-1.21.    Insert the screw into the threaded hole in the end of U-shaped frame and tighten both screws down with the balldriver. 
+1.21.    Insert the screw into the threaded hole in the end of U-shaped frame and tighten both screws down with the balldriver.
 
 1.22.    Use 3D printed elbow L-Connection to connect the fourth rail from each corner by inserting low-Profile T-Nut.
 
@@ -224,20 +224,20 @@ For this step, you will need:
 
 
 
- 
+
 
 #### *1-   Camera visualization window in the enclosure roof:*
 
-A window (112-mmx112mm) is made in the center of the roof to allow the visualization of the fly to be tracked by the outside camera. This window hosts a 3D-printed box which hold a [polyester infra-red (IR) sheet](https://www.leefilters.com/index.php/camera-directory/camera-dir-list/category/infrared) (100-mm x 100-mm) to prevent unwanted visible light to transmit inside the enclosure. Only IR light can be visualized by the camera. Also, the inside face of 3D-printed box can hold a light source (e.g. white LED stripe) that might be needed to illuminate the setup while cleaning or maintenance.  
+A window (112-mmx112mm) is made in the center of the roof to allow the visualization of the fly to be tracked by the outside camera. This window hosts a 3D-printed box which hold a [polyester infra-red (IR) sheet](https://www.leefilters.com/index.php/camera-directory/camera-dir-list/category/infrared) (100-mm x 100-mm) to prevent unwanted visible light to transmit inside the enclosure. Only IR light can be visualized by the camera. Also, the inside face of 3D-printed box can hold a light source (e.g. white LED stripe) that might be needed to illuminate the setup while cleaning or maintenance.
 
 
 
-![IR-window-top-roof.PNG](assets/Images/IR-window-top-roof.PNG)
+![IR-window-top-roof.PNG](/assets/Images/IR-window-top-roof.PNG)
 
 
 
 
-![IR-window-top-roof-mount.PNG](assets/Images/IR-window-top-roof-mount.PNG)
+![IR-window-top-roof-mount.PNG](/assets/Images/IR-window-top-roof-mount.PNG)
 
 
 
@@ -260,9 +260,9 @@ For installation of the IR-Filter and white LED light source you will need the f
 
 \-     Cutter
 
- 
 
- 
+
+
 
 1.25.    Fasten the four pieces of LED stripes (15-cm each) in place with their adhesive side tape.
 
@@ -270,17 +270,17 @@ For installation of the IR-Filter and white LED light source you will need the f
 
 1.27.    Insert the IR filter in the recessed area, then fix it with a drop of fast glue at each corner.
 
-1.28.    This step can be delayed until the complete assembly of the enclosure to avoid scratching of the black IR sheet.  
+1.28.    This step can be delayed until the complete assembly of the enclosure to avoid scratching of the black IR sheet.
 
 1.29.    In case you deiced to attach the IR filter, Cover its surface with masking tape or paper, so you don't scratch it while building the other parts of the enclosure .
 
 ##### **Assembly and install the LED-IR box**
 
- 
+
 
 Because of the importance of the visualization window position. We designed a template to mark and facilitate the window cut as follow:
 
- 
+
 
 1.30.    Insert the template at the center of the black board
 
@@ -288,7 +288,7 @@ Because of the importance of the visualization window position. We designed a te
 
 1.32.    Use sharp cutter to cut all the way through the black board following the boarder of the template. The blackboard is soft, so proceed carefully.
 
-1.33.    Remove the template with the cut and trim the edge of window made by the cutter. 
+1.33.    Remove the template with the cut and trim the edge of window made by the cutter.
 
 1.34.    Insert 3D printed box with LED strip from the inside part.
 
@@ -300,19 +300,19 @@ Because of the importance of the visualization window position. We designed a te
 
 
 
-1.38.     
+1.38.
 
 #### *2-   Blue light LED stripe:*
 
- 
+
 
 During experiments, we provided a minimum light for the flies to be sure not activating the opsin channels. From our in vivo patch clamp electrophysiology data we figured out that, the blue light only induce a bit activation at very high light intensity, while it is safe at low light intensity. Therefore, we illuminate the setup enclosure with a very dim blue light (less than 1µW/mm2)
 
- 
 
 
 
-![Blue-light-installation.PNG](assets/Images/Blue-light-installation.PNG)
+
+![Blue-light-installation.PNG](/assets/Images/Blue-light-installation.PNG)
 
 
 
@@ -329,17 +329,17 @@ During experiments, we provided a minimum light for the flies to be sure not act
 
 \-     Soldering Arm Stand (RS Components, [208-3892](https://benl.rs-online.com/web/p/soldering-accessories/2083892)
 
-\-     Heat shrink tubing (amazon.de, [ET1002](https://www.amazon.de/Eventronic-ET1002-Schrumpfschlauch-Farben-560-tlg/dp/B071D7LJ31)) 
+\-     Heat shrink tubing (amazon.de, [ET1002](https://www.amazon.de/Eventronic-ET1002-Schrumpfschlauch-Farben-560-tlg/dp/B071D7LJ31))
 
-\-     Lead Free Solder (RS Componentss, [756-8884](https://benl.rs-online.com/web/p/solder/7568884) ; [625-8233](https://benl.rs-online.com/web/p/solder/6258233))  
+\-     Lead Free Solder (RS Componentss, [756-8884](https://benl.rs-online.com/web/p/solder/7568884) ; [625-8233](https://benl.rs-online.com/web/p/solder/6258233))
 
-\-     JST PH 2 pin cable male Header (Digi-Key, [1528-2617-ND](https://www.digikey.be/product-detail/en/adafruit-industries-llc/3814/1528-2617-ND/9380221))  
+\-     JST PH 2 pin cable male Header (Digi-Key, [1528-2617-ND](https://www.digikey.be/product-detail/en/adafruit-industries-llc/3814/1528-2617-ND/9380221))
 
- 
+
 
 **Procedures**
 
-1.39.    Clamp the end of the LED stripe using a soldering arm stand. 
+1.39.    Clamp the end of the LED stripe using a soldering arm stand.
 
 1.40.    Since LED light coppers pads have only two terminals, we choose to connect with a 2-bin JST cable with female plug which has two wires one with red color, while the other is black color.
 
@@ -355,19 +355,19 @@ During experiments, we provided a minimum light for the flies to be sure not act
 
 1.46.    With scissor cut two of 50-cm LED strips.
 
- 
 
- 
 
-**Final Installation of the LED strip on the setup enclosure** 
 
-1.47.    Once everything in the enclosure is set, you can peel off the tape backing expose the adhesive side 
 
-1.48.    Place the blue LED strip of tape at the black aluminum rail at the top of the enclosure. 
+**Final Installation of the LED strip on the setup enclosure**
+
+1.47.    Once everything in the enclosure is set, you can peel off the tape backing expose the adhesive side
+
+1.48.    Place the blue LED strip of tape at the black aluminum rail at the top of the enclosure.
 
 1.49.    Make sure to press firmly on the LED stripes to prevent it from peeling it off.
 
-1.50.    Connect the female JST wire to the male JST power supply plug on the top powering platform at the backside of the enclosure. While the opposite side of the plug can then be connected to a power supply and dimmer switch. 
+1.50.    Connect the female JST wire to the male JST power supply plug on the top powering platform at the backside of the enclosure. While the opposite side of the plug can then be connected to a power supply and dimmer switch.
 
 
 
@@ -375,13 +375,13 @@ During experiments, we provided a minimum light for the flies to be sure not act
 
 #### *3-   Roof exhaust vent:*
 
-Proper ventilation inside the enclosure will preserve its ambient temperature. We added two roof vents at the top of the enclosure to ensure a quick and complete vacuuming of odorants (in case of leakage) inside the enclosure and maintain the enclosure temperature. V*acuum* pump is used to remove the exhaust air outside of the room. Because smell can severely affect the quality of the fly olfactory conditioning experiments. 
+Proper ventilation inside the enclosure will preserve its ambient temperature. We added two roof vents at the top of the enclosure to ensure a quick and complete vacuuming of odorants (in case of leakage) inside the enclosure and maintain the enclosure temperature. V*acuum* pump is used to remove the exhaust air outside of the room. Because smell can severely affect the quality of the fly olfactory conditioning experiments.
 
-Exhaust vents placed on the top roof of the enclosure. While air intake is steady streamed by small fans in the bottom of the enclosure and from air inflow below the heatsink of the setup to cool the system and provide equal amounts of air exhaust with air intake inside the enclosure. 
+Exhaust vents placed on the top roof of the enclosure. While air intake is steady streamed by small fans in the bottom of the enclosure and from air inflow below the heatsink of the setup to cool the system and provide equal amounts of air exhaust with air intake inside the enclosure.
 
 
 
-![Suction_vent.PNG](assets/Images/Suction_vent.PNG)
+![Suction_vent.PNG](/assets/Images/Suction_vent.PNG)
 
 
 
@@ -402,7 +402,7 @@ To install the exhaust vents cap, you will need the following:
 
 \-     Tape measure or ruler
 
- 
+
 
   **Procedures**
 
@@ -412,46 +412,46 @@ To install the exhaust vents cap, you will need the following:
 
 1.53.    Insert the threaded neck part from the inside, attach the screw cap part from outside, and then tighten the cap until the assembly is held firmly to the roof to provide proper exhaust vents.
 
-  
 
-### **D-**  **Enclosure door** 
+
+### **D-**  **Enclosure door**
 
 The following parts are needed:
 
-\-     [Black hardboard](https://www.thorlabs.de/newgrouppage9.cfm?objectgroup_id=190#2535)  510mmx762mm (L x W) ([TB5](https://www.thorlabs.de/thorproduct.cfm?partnumber=TB5), Thorlabs) (Q: 2x) 
+\-     [Black hardboard](https://www.thorlabs.de/newgrouppage9.cfm?objectgroup_id=190#2535)  510mmx762mm (L x W) ([TB5](https://www.thorlabs.de/thorproduct.cfm?partnumber=TB5), Thorlabs) (Q: 2x)
 
 \-     Aluminum Sandwich Panel Black 510x762 mm (Plexikopen, [Black RAL 9005 3 mm](https://www.plexikopen.be/aluminium-sandwichpaneel-kleur)
 
-\-     Adhesive double-sided tape ([273-598](https://benl.rs-online.com/web/p/double-sided-tapes/0273598), Rs) 
+\-     Adhesive double-sided tape ([273-598](https://benl.rs-online.com/web/p/double-sided-tapes/0273598), Rs)
 
 
 
-For closing the front side of the enclosure during an experiment, we combined one of [TB5](https://www.thorlabs.de/thorproduct.cfm?partnumber=TB5) black hardboards together with a black aluminum [sandwich panel](https://www.plexikopen.be/aluminium-sandwichpaneel-kleur) to provide more hardness, thickness and to eliminate the passage of light or air through the corners or edges. Be sure that the correct size of the black board has been ordered to fit the dimensions of the door area. There is no need to cut the board. 
+For closing the front side of the enclosure during an experiment, we combined one of [TB5](https://www.thorlabs.de/thorproduct.cfm?partnumber=TB5) black hardboards together with a black aluminum [sandwich panel](https://www.plexikopen.be/aluminium-sandwichpaneel-kleur) to provide more hardness, thickness and to eliminate the passage of light or air through the corners or edges. Be sure that the correct size of the black board has been ordered to fit the dimensions of the door area. There is no need to cut the board.
 
 Since the construction cube provided by Thorlabs ([RM1S - 1](https://www.thorlabs.de/thorproduct.cfm?partnumber=RM1S#ad-image-0) ) is only having slotted corners, we modified the later and 3D printed ([3D design)]( /src/3D_printed_parts/Construction_cube_with_slotted_channel_door_connection_universal.stl) This cube is connected at each top of the front rails and create a parallel channel with front rails (see step: Build the enclosure roof). The modified cube allowed us to make an open slider through each corner for inserting the door.
 
 1.54.    Use Adhesive double-sided tape to combine one of [TB5](https://www.thorlabs.de/thorproduct.cfm?partnumber=TB5) black hardboard together with a black aluminum [sandwich panel](https://www.plexikopen.be/aluminium-sandwichpaneel-kleur).
 
-1.55.    To close the enclosure, slide the door board from the top into the top parallel channels of the cube-rail-constructions. 
+1.55.    To close the enclosure, slide the door board from the top into the top parallel channels of the cube-rail-constructions.
 
 1.56.    To remove the door, push the bottom of the board up until it completely getting out from the parallel guide of the front rails
 
- 
+
 
 ### **E-**  **Holes and powering platform on back side**
 
-To fully automatic control the setup, lighting, odor/air delivery tubing and powering the optogenetic LEDs, some holes are needed to hold the powering platforms, cable connections and tubing. 
+To fully automatic control the setup, lighting, odor/air delivery tubing and powering the optogenetic LEDs, some holes are needed to hold the powering platforms, cable connections and tubing.
 
 
 
-![Holes_on_back_side_enclosure.PNG](assets/Images/Holes_on_back_side_enclosure.PNG)
+![Holes_on_back_side_enclosure.PNG](/assets/Images/Holes_on_back_side_enclosure.PNG)
 
 
 
 
 
 
-![Holes-on-back-side-enclosure-2.PNG](assets/Images/Enclosure-back-side.PNG" alt="relative" style="width: 50%;" /><img src="assets/Images/Holes-on-back-side-enclosure-2.PNG)
+![Holes-on-back-side-enclosure-2.PNG](/assets/Images/Enclosure-back-side.PNG" alt="relative" style="width: 50%;" /><img src="assets/Images/Holes-on-back-side-enclosure-2.PNG)
 
 
 
@@ -480,7 +480,7 @@ The followings items are needed:
 
 \-    Outside_box_cover_top_powering_panel__part_1_of_3
 
-\-     Black (RS Component, [787-2338](https://benl.rs-online.com/web/p/banana-connectors/7872338) ; [738-474](https://benl.rs-online.com/web/p/banana-connectors/0738474/)) 
+\-     Black (RS Component, [787-2338](https://benl.rs-online.com/web/p/banana-connectors/7872338) ; [738-474](https://benl.rs-online.com/web/p/banana-connectors/0738474/))
 
 \-     Red 4mm Socket (RS Components(RS Components; [738-480](https://benl.rs-online.com/web/p/banana-connectors/0738480/) ; [787-2332](https://benl.rs-online.com/web/p/banana-connectors/7872332/) )
 
@@ -492,9 +492,9 @@ The followings items are needed:
 
 
 
-  
 
-#### *1-   Holes Tubing* 
+
+#### *1-   Holes Tubing*
 
  Tubes for odor delivery and suctions connections to the setup were accessed to the setup through two holes in the back bottom of the setup enclosure. The holes were drilled carefully and  a custom 3D-designed neck was fixed to protect the edges and prevent pending of the tubing.
 
@@ -504,70 +504,70 @@ The followings items are needed:
 
 
 
-![Tubing-holes.PNG](assets/Images/Tubing-holes.PNG)
+![Tubing-holes.PNG](/assets/Images/Tubing-holes.PNG)
 
 
 
 
-![tubing-insertion-assembly.PNG](assets/Images/tubing-insertion-assembly.PNG)
+![tubing-insertion-assembly.PNG](/assets/Images/tubing-insertion-assembly.PNG)
 
 
 
 
-**Procedures** 
+**Procedures**
 
-1.57.    Use a pencil and a round ring to precisely mark two holes in each side of the bottom of the back wall of enclosure so the tubing can be inserted inside the enclosure. 
+1.57.    Use a pencil and a round ring to precisely mark two holes in each side of the bottom of the back wall of enclosure so the tubing can be inserted inside the enclosure.
 
 1.58.    Cut all the way through the board following the pencil lines. The blackboard is soft, so proceed carefully. A 44-mm hole saw drill can be useful. Be careful not to injury your fingers.
 
-1.59.    Remove the cuts and trim the rough edges of the black hardboard. 
+1.59.    Remove the cuts and trim the rough edges of the black hardboard.
 
 1.60.     Insert the threaded neck part (3D printed) from the inside, attach the opened cap part from outside, and then tighten the cap until the assembly is held firmly to the board.
 
- 
 
- 
+
+
 
 #### b-   Right and Left side setup and optogenetic powering platform
 
 
 
-to connect the setup to the LED drivers for optogenetic or to the Arduino control unit to power the setup and deliver the electric shocks and illuminate the backlighting IR a custom 3D-printed panels were designed to provide  bridge connections with male and female connector IDC wires and their boxes from both side  of the back wall of the enclosure.   
+to connect the setup to the LED drivers for optogenetic or to the Arduino control unit to power the setup and deliver the electric shocks and illuminate the backlighting IR a custom 3D-printed panels were designed to provide  bridge connections with male and female connector IDC wires and their boxes from both side  of the back wall of the enclosure.
 
-![Bottom-powering-window.PNG](assets/Images/Bottom-powering-window.PNG)
-
-
+![Bottom-powering-window.PNG](/assets/Images/Bottom-powering-window.PNG)
 
 
-![Ouside_wire_box_cover_bottom.PNG](assets/Images/Ouside_fixation_frame_bottom.PNG" alt="relative" style="width: 50%;" /><img src="assets/Images/Ouside_wire_box_cover_bottom.PNG)
+
+
+![Ouside_wire_box_cover_bottom.PNG](/assets/Images/Ouside_fixation_frame_bottom.PNG" alt="relative" style="width: 50%;" /><img src="assets/Images/Ouside_wire_box_cover_bottom.PNG)
 
 
 **Procedures**
 
-1.61.    Use a pencil and 3D-printed square to precisely mark two windows in each side of the bottom of the back wall of enclosure so the IDC connectors of the setup and optogenetic panel can be powered 
+1.61.    Use a pencil and 3D-printed square to precisely mark two windows in each side of the bottom of the back wall of enclosure so the IDC connectors of the setup and optogenetic panel can be powered
 
 1.62.    The two window are approximately 5-cm from the bottom of the enclosure. Space these holes about 6-cm apart.
 
-1.63.    Cut all the way through the board following the pencil lines. 
+1.63.    Cut all the way through the board following the pencil lines.
 
-1.64.    Remove the cuts and trim the rough edges of the black hardboard. 
+1.64.    Remove the cuts and trim the rough edges of the black hardboard.
 
 1.65.     Insert the left and the right powering platform from the inside into the cut area; attach the fixation wall form outside.
 
 1.66.    Use screwdriver to fasten the panel with M2 screw, tighten the screw until the assembly is held firmly to the board. The powering stages should fit exactly so that they have no light or air leakage.
 
- 
+
 
 #### c-   Green panel, blue lighting powering platform
 
-![Top-powering-window.PNG](assets/Images/Top-powering-window.PNG)
+![Top-powering-window.PNG](/assets/Images/Top-powering-window.PNG)
 
 
-as mentioned above a blue stripes was installed on the top part of the enclosure. The green LED panel for optogenetic activation is fixed on each side of the enclosure by means of optical post and directed to the setup chambers. To power the former devices two power panels were fixed on the top same way like the bottom ones. 
+as mentioned above a blue stripes was installed on the top part of the enclosure. The green LED panel for optogenetic activation is fixed on each side of the enclosure by means of optical post and directed to the setup chambers. To power the former devices two power panels were fixed on the top same way like the bottom ones.
 
  **Procedures**
 
-1.67.    Make two rectangle holes at the top of the backboard. Mark the area with a pencil and the 3D printed rectangle part. 
+1.67.    Make two rectangle holes at the top of the backboard. Mark the area with a pencil and the 3D printed rectangle part.
 
 1.68.    Cut deeper with a cutter, until you can eventually push out the rectangle.
 
@@ -583,18 +583,18 @@ as mentioned above a blue stripes was installed on the top part of the enclosure
 
 ## **IV-**     [**Baseplate**](https://reiserlab.github.io/Component-Designs/miscellaneous/baseplate)
 
- 
+
 
 Solid black aluminum breadboard with threaded mounting holes provides a convenient platform for mounting the setup enclosure and other components. The breadboard should be bigger than the setup base, i.e., larger in both length and width. To isolate the setup from the light and airflow coming from the threaded mounting holes of the baseplate, attach a [black hardboard](https://www.thorlabs.de/newgrouppage9.cfm?objectgroup_id=190#2535) panel to the bottom breadboard which mounted by four Sorbothane feet (AV5/M). These Sorbothane mounting feet also offer excellent isolation of vibration and possible acoustic noise. The parts needed are provided in the figure below.
 
 
 
-![Baseplate-rubber-feet.PNG](assets/Images/Baseplate-rubber-feet.PNG)
+![Baseplate-rubber-feet.PNG](/assets/Images/Baseplate-rubber-feet.PNG)
 
 
 
 
-![Baseplate.PNG](assets/Images/Baseplate.PNG)
+![Baseplate.PNG](/assets/Images/Baseplate.PNG)
 
 
 **How to build the baseplate?**
@@ -615,25 +615,25 @@ Construct the baseplate in the following manner:
 
 1.78.    Place the baseplate horizontally on the rubber feet to be ready when connecting the assembled enclosure.
 
- 
 
- 
 
-## **V-**       **Breadboard Enclosure Mounting** 
+
+
+## **V-**       **Breadboard Enclosure Mounting**
 
 The enclosure is attached directly to the baseplate using the XE25CL2 Clamp to mount a 25 mm rail horizontally to a M6 tapped surface by using a side-located rail channel.
 
 
 
-![Baseplate-enclosure-mount.PNG](assets/Images/Baseplate-enclosure-mount.PNG)
+![Baseplate-enclosure-mount.PNG](/assets/Images/Baseplate-enclosure-mount.PNG)
 
 
-![IDOC-baseplate-brackets-connection.PNG](assets/Images/IDOC-baseplate-brackets-connection.PNG)
+![IDOC-baseplate-brackets-connection.PNG](/assets/Images/IDOC-baseplate-brackets-connection.PNG)
 
 
 
 
-![IDOC-baseplate-brackets-connection-cut.PNG](assets/Images/IDOC-baseplate-brackets-connection-cut.PNG)
+![IDOC-baseplate-brackets-connection-cut.PNG](/assets/Images/IDOC-baseplate-brackets-connection-cut.PNG)
 
 
 
@@ -648,4 +648,4 @@ The enclosure is attached directly to the baseplate using the XE25CL2 Clamp to m
 
 1.83.    Move the clamps to the corners of the enclosure and tighten down with the [balldriver or hex key](https://www.thorlabs.de/newgrouppage9.cfm?objectgroup_id=1407).
 
-1.84.    Right now, both breadboard and enclosure are tightly connected. 
+1.84.    Right now, both breadboard and enclosure are tightly connected.

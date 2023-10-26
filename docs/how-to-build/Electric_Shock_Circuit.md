@@ -18,13 +18,13 @@ Building the IDOC Electric Shock Circuit involves several steps:
 
 
 
-**Indium Tin Oxide coated patterned glass slides** 
+**Indium Tin Oxide coated patterned glass slides**
 
-For aversive electric shock learning conditioning, we used patterned coated indium tin oxide (ITO) transparent glass slides. ITO is a conductive transparent substance. A grid was laser-cut and -etched onto the ITO glass in order to insulate the positive and negative electrodes. Our ITO slides were designed with the following specifications: 69.0 mm length x 14.0 mm width x 1.1 mm Thicknesses [0.5 mm ITO electrodes (100 electrodes) – 0.1 mm inter electrode-spacing ]. The two halves of the grid can be independently controlled. 
+For aversive electric shock learning conditioning, we used patterned coated indium tin oxide (ITO) transparent glass slides. ITO is a conductive transparent substance. A grid was laser-cut and -etched onto the ITO glass in order to insulate the positive and negative electrodes. Our ITO slides were designed with the following specifications: 69.0 mm length x 14.0 mm width x 1.1 mm Thicknesses [0.5 mm ITO electrodes (100 electrodes) – 0.1 mm inter electrode-spacing ]. The two halves of the grid can be independently controlled.
 
 
 
-![ITO-slide-design.PNG](assets/Images/ITO-slide-design.PNG)
+![ITO-slide-design.PNG](/assets/Images/ITO-slide-design.PNG)
 
 
 | **Indium Tin Oxide coated patterned glass slides ** |
@@ -51,7 +51,7 @@ For aversive electric shock learning conditioning, we used patterned coated indi
 | **Email:   **  [visiontek.sales@gmail.com](mailto:visiontek.sales@gmail.com)               & http://www.visionteksystems.co.uk/ito-glass.htm |
 |                                          |
 
-**Reorder Details:** 
+**Reorder Details:**
 
 **15ohm/sq ITOGLASS 15p SODA LIME**
 
@@ -66,7 +66,7 @@ For aversive electric shock learning conditioning, we used patterned coated indi
 
 Each chamber is designed to have four custom-made electrodes that create a connection between the interior and exterior of the IDOC chambers. Inside the chambers, each electrode pin is connected to a long metal strip that connects the left and right side of the chambers. Also, to ensure that the entire ITO slide is subjected to the current, 2 of these metal strips are needed - one for the top and another for the bottom half of the chamber. The ITO slides themselves will rest in contact with these metal strips.
 
-![IDOC-Chamber.PNG](assets/Images/IDOC-Chamber.PNG)
+![IDOC-Chamber.PNG](/assets/Images/IDOC-Chamber.PNG)
 
 **Electrical connections for the chamber tray**
 
@@ -76,7 +76,7 @@ Both the pins and the connecting metal strip are made in-house from standard ele
 
 To deliver the current to the pins of the IDOC chambers, we embed connector sockets into the tray that holds the chambers. For each chamber, there is a set of 4 contact sockets, totalling to 80 sockets for the entire IDOC setup. The connectors are made by combining the "clamp-side" of a connector socket (Digi-Key, [962876-2](https://www.digikey.be/en/products/detail/te-connectivity-amp-connectors/962876-2/2332160)) with a basic pin header (RS Components, [681-2994](https://benl.rs-online.com/web/p/pcb-headers/6812994/)) soldered into its bottom half.
 
-![ESock-socket.PNG](assets/Images/ESock-socket.PNG)
+![ESock-socket.PNG](/assets/Images/ESock-socket.PNG)
 
 
 
@@ -84,18 +84,18 @@ To deliver the current to the pins of the IDOC chambers, we embed connector sock
 Either side of the chamber has 2 sockets, one negative and one positive. The wiring design can be seen in the figure below.
 
 
-![ESock-socket-connection.PNG](assets/Images/ESock-socket-connection.PNG)
+![ESock-socket-connection.PNG](/assets/Images/ESock-socket-connection.PNG)
 
 
 
 
 Once the wiring in the chamber tray is finalized, the whole system is properly covered and insulated with 3D printed covers
 
-![ESock-socket-connection-cover.PNG](assets/Images/ESock-socket-connection-cover.PNG)
+![ESock-socket-connection-cover.PNG](/assets/Images/ESock-socket-connection-cover.PNG)
 
 
 
 
 Finally, the entire electroshock system is controlled by the Arduino relay switch unit. Here the shocks are sent into the rest of the circuit we have established in this section.
 
-![ESock-Arduino-relay.PNG](assets/Images/ESock-Arduino-relay.PNG)
+![ESock-Arduino-relay.PNG](/assets/Images/ESock-Arduino-relay.PNG)

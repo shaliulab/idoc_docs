@@ -1,8 +1,8 @@
 # **Setup wiring & Optogenetic LEDs panel Connectors**
 
-The Arduino control unit, the LED drivers, optogenetic LED panels, solenoid valves and the IDOC setup  are connected via the ribbon cables with20-way IDC connector, which is compatible with all LED assemblies in the system- see Section pinout of **LED Driver** , **Arduino control board** ).  In this following section two 20-way IDC female connectors and  flat ribbon cables are used to assemble a cable with an IDC connector. 
+The Arduino control unit, the LED drivers, optogenetic LED panels, solenoid valves and the IDOC setup  are connected via the ribbon cables with20-way IDC connector, which is compatible with all LED assemblies in the system- see Section pinout of **LED Driver** , **Arduino control board** ).  In this following section two 20-way IDC female connectors and  flat ribbon cables are used to assemble a cable with an IDC connector.
 
- 
+
 
 **The following ribbon cables with IDC connecters are needed to wire the system devices:**
 
@@ -10,18 +10,18 @@ The Arduino control unit, the LED drivers, optogenetic LED panels, solenoid valv
 
 | Description                              | Connection  devices                      | Length                                   | Qt:  | End  1                | End  2         | Image                                    |
 | ---------------------------------------- | ---------------------------------------- | ---------------------------------------- | ---- | --------------------- | -------------- | ---------------------------------------- |
-| 20-way  ribbon cable terminated either  end with IDC connector. | IDOC  setup to the front powering platform inside the enclosure. | 25 cm                                    | 1    | 20-way IDC  connector | 20-way IDC     | ![Double-IDC-connectors-cable.PNG](assets/Images/Double-IDC-connectors-cable.PNG) |
-| 20-way  ribbon cable one end open while the other end is terminated with IDC connector | Enclosure  back powering platform outside of the enclosure to the Arduino control board. | 100-150  cm  Depend  on the distance between the enclosure and the Arduino control unit | 1    | IDC  connector        | IDC  connector | ![Double-IDC-connectors-cable.PNG](assets/Images/Double-IDC-connectors-cable.PNG) |
-| 20-way  ribbon cable one end open while the other end is terminated with IDC connector | LED  panel and enclosure powering platform.  Each  pair of the open end is connected to a LED string. | 100cm                                    | 8    | IDC  connector        | Open  end      | ![open-ended-IDC-ribbon-cable.PNG](assets/Images/open-ended-IDC-ribbon-cable.PNG) |
-| 20-way  ribbon cable terminated either  end with IDC connector. | Enclosure  wiring platform and connection of LED strings in series connection. | 50cm                                     | 10   | IDC  connector        | IDC  connector | ![Double-IDC-connectors-cable.PNG](assets/Images/Double-IDC-connectors-cable.PNG) |
-| 20-way  ribbon cable terminated either  end with IDC connector. | These cables mate with the 20way PCB headers  of the LED driver | 100-150cm                                | 5    | IDC  connector        | IDC  connector | ![Double-IDC-connectors-cable.PNG](assets/Images/Double-IDC-connectors-cable.PNG) |
-| 20-way  ribbon cable one end open while the other end is terminated with IDC connector | Connect  the Arduino control board to the screw terminal block of the solenoid valves. | 100-150  mm  Depend  on the distance between the solenoids and the control unit | 1    | IDC  connector        | Open  end      | ![open-ended-IDC-ribbon-cable.PNG](assets/Images/open-ended-IDC-ribbon-cable.PNG) |
+| 20-way  ribbon cable terminated either  end with IDC connector. | IDOC  setup to the front powering platform inside the enclosure. | 25 cm                                    | 1    | 20-way IDC  connector | 20-way IDC     | ![Double-IDC-connectors-cable.PNG](/assets/Images/Double-IDC-connectors-cable.PNG) |
+| 20-way  ribbon cable one end open while the other end is terminated with IDC connector | Enclosure  back powering platform outside of the enclosure to the Arduino control board. | 100-150  cm  Depend  on the distance between the enclosure and the Arduino control unit | 1    | IDC  connector        | IDC  connector | ![Double-IDC-connectors-cable.PNG](/assets/Images/Double-IDC-connectors-cable.PNG) |
+| 20-way  ribbon cable one end open while the other end is terminated with IDC connector | LED  panel and enclosure powering platform.  Each  pair of the open end is connected to a LED string. | 100cm                                    | 8    | IDC  connector        | Open  end      | ![open-ended-IDC-ribbon-cable.PNG](/assets/Images/open-ended-IDC-ribbon-cable.PNG) |
+| 20-way  ribbon cable terminated either  end with IDC connector. | Enclosure  wiring platform and connection of LED strings in series connection. | 50cm                                     | 10   | IDC  connector        | IDC  connector | ![Double-IDC-connectors-cable.PNG](/assets/Images/Double-IDC-connectors-cable.PNG) |
+| 20-way  ribbon cable terminated either  end with IDC connector. | These cables mate with the 20way PCB headers  of the LED driver | 100-150cm                                | 5    | IDC  connector        | IDC  connector | ![Double-IDC-connectors-cable.PNG](/assets/Images/Double-IDC-connectors-cable.PNG) |
+| 20-way  ribbon cable one end open while the other end is terminated with IDC connector | Connect  the Arduino control board to the screw terminal block of the solenoid valves. | 100-150  mm  Depend  on the distance between the solenoids and the control unit | 1    | IDC  connector        | Open  end      | ![open-ended-IDC-ribbon-cable.PNG](/assets/Images/open-ended-IDC-ribbon-cable.PNG) |
 | 6-way  ribbon cable terminated either  end with IDC connector. | Connect  the Arduino control board to contacts box of the exhaust solenoid valves. | 100-150  mm  Depend  on the distance between the solenoids and the control unit | 2    | IDC  connector        | IDC  connector |                                          |
 | 6-way  ribbon cable one end open while the other end is terminated with IDC connector | Connect  the IR-LED light indicators of the setup . | 25 cm                                    | 4    | IDC  connector        | Open  end      |                                          |
 
- 
 
-**Assembling 20 -way IDC Ribbon Cable** 
+
+**Assembling 20 -way IDC Ribbon Cable**
 
 For this step, you will need:
 
@@ -56,7 +56,7 @@ For this step, you will need:
 
 
 
-![Ribbon-cable-mapping.PNG](assets/Images/Ribbon-cable-mapping.PNG)
+![Ribbon-cable-mapping.PNG](/assets/Images/Ribbon-cable-mapping.PNG)
 
 
 
@@ -77,7 +77,7 @@ Straight PCB Header, 2.54mm Pitch, 6 Way, 2 Row, Through Hole (RS Components, [8
 
 Straight Pin Header, 2.54mm Pitch, 6 Way, 2 Row (RS Components, [251-8137](https://benl.rs-online.com/web/p/pcb-headers/2518137))
 
-**you also need:** 
+**you also need:**
 
 - Soldering Station (RS Components, [122-7917](https://benl.rs-online.com/web/p/soldering-stations/1227917); for Hot Air Amazon.de, [8786D](https://www.amazon.de/-/en/Soldering-Desoldering-Temperature-Adjustable-Conversion/dp/B08C51QRH5/))
 - Lead Free Solder (RS Componentss, [756-8884](https://benl.rs-online.com/web/p/solder/7568884) ; [625-8233](https://benl.rs-online.com/web/p/solder/6258233))
@@ -88,13 +88,13 @@ Straight Pin Header, 2.54mm Pitch, 6 Way, 2 Row (RS Components, [251-8137](https
 
 **Steps**
 
-1. Clamp the end of straight pin header with box using a soldering arm stand. 
+1. Clamp the end of straight pin header with box using a soldering arm stand.
 
 2. Heat your soldering iron station to 350-400 degrees Celsius.
 3. Add a small portion of soldering material to the end of the outside terminals
 4. solder another opened headers to the pre-dropped materials on the the edge of the fixed header
-5. Once you have attached the two wires, wait for at least 30 seconds for it to cool down. 
-6. Align both headers and then solder all pins  from both sides. There are a lot of them!. 
+5. Once you have attached the two wires, wait for at least 30 seconds for it to cool down.
+6. Align both headers and then solder all pins  from both sides. There are a lot of them!.
 
 
 
