@@ -4,7 +4,9 @@
 
 This section will provide you with the necessary steps for running an IDOC experiment. The core principle for carrying out an IDOC run will remain the same, regardless of your experimental design. Variations between experimental plans will mainly depend on which paradigm you subject the flies to, and how you treat the flies between IDOC sessions.
 
-## Odour preparation
+## Odor preparation
+
+TODO
 
 ## IDOC Start-up protocol
 
