@@ -1,24 +1,30 @@
-# **Camera mounting**
+# Camera mounting
 
 
+## Table of Contents
 
-The IDOC system consists of a custom-built enclosure that holds a camera and allows it to be positioned in a precise location in the top of the IDOC chamber. Building the camera enclosure and mounting requires a moderate level of technical expertise, as it involves designing and building custom hardware components and properly aligning the camera for optimal monitoring of *Drosophila* behavior.
+1. [Overview](#overview)
+2. [Select the camera](#select-the-camera)
 
 
+# Overview
+
+The IDOC system consists of a custom-built enclosure that holds a camera and allows it to be positioned in a precise location at the top of the IDOC chamber. After building the camera enclosure and mounting it, you must make sure it is  properly aligning for optimal monitoring of *Drosophila* behavior.
 
 Building the IDOC enclosure camera mounting system involves several steps:
 
-1.    Select the suitable camera for video tracking.
+1.    Select a suitable camera for video tracking (ideally moderate framerate, monocolor, and connected via USB).
 2.    Install a camera mounting bracket inside the enclosure, which allows the camera to be securely attached and positioned in the desired location.
-3.    Install a camera onto the mounting bracket, ensuring that it is securely fastened and properly     aligned.
-4.    Connect the camera to a monitoring system or computer to enable live monitoring and recording of     Drosophila behavior during experiments.
-5.    Design and build the custom enclosure, which is typically made of optical posts, metal rails s and hardboard  and is designed to be placed on the top of the setup enclosure to provide camera protection
+3.    Install a camera onto the mounting bracket, ensuring that it is securely fastened and properly aligned.
+4.    Connect the camera to the computer to enable live monitoring and recording of *Drosophila* behavior during experiments.
+5.    Build the custom enclosure, which is typically made of optical posts, metal rails and hardboard, and is designed to be placed on the top of the setup enclosure to provide camera protection.
 
 
+## Select the camera
 
-**Select the camera:**
+We use two camera models from Basler to record the preference choices of the fly in two different setups. We recommend sticking to Basler, however, you can modify the code to support other providers (Flir, etc). Below you can find the specs of each camera and how we mounted them in our setups.
 
-We used two camera models from Basler Company to record the preference choices of the fly. However, our tracking software is not restricted to specific camera since it is combatable with any model of Basler Camera. Below you can find the details of the camera models:
+Please note, the oldest of the two cameras was discontinued by Basler at the time we built the second setup (2022).
 
 First setup model:
 
@@ -44,53 +50,44 @@ Second setup model:
 
 
 
- The fly chambers were viewed from above by a Basler camera equipped with a C-mount lens. The camera is placed on the top of the setup enclosure assembly to avoid [camera overheating](https://www.baslerweb.com/fp-1629376268/media/downloads/documents/application_notes/AW00171101000_How_Excessive_Temperatures_Affect_ace_2_Cameras_AppNote.pdf). Optical clamps, mounting base and metal posts from Thorlabs were used to fix the camera.
+The fly chambers are viewed from above by a camera equipped with a C-mount lens. The camera is placed on the top of the setup enclosure assembly to avoid [camera overheating](https://www.baslerweb.com/fp-1629376268/media/downloads/documents/application_notes/AW00171101000_How_Excessive_Temperatures_Affect_ace_2_Cameras_AppNote.pdf). Optical clamps, mounting base and metal posts from Thorlabs were used to fix the camera.
 
+## Installation of base at the top of the enclosure
 
-
-**Installation of base at the top of the enclosure**
-
-
-
-The post holder base is used for positioning and fastening the camera mount at the top of enclosure. The post holders include a spring-loaded thumbscrew that holds posts in place before tightening
+The post holder base is used for positioning and fastening the camera mount at the top of the enclosure. The post holders include a spring-loaded thumbscrew that holds posts in place before tightening
 
 ![Camera-mounting-base.PNG](/assets/Images/Camera-mounting-base.PNG)
 
-
-
-
 The following parts are needed to create a base for the above camera mount construction:
 
-\-     Ø12.7 mm Post Holder, Spring-Loaded Hex-Locking Thumbscrew, L=75 mm (PH75/M, Thorlabs) (Q: 2x)
+- Ø12.7 mm Post Holder, Spring-Loaded Hex-Locking Thumbscrew, L=75 mm ([PH75/M](https://www.thorlabs.com/thorproduct.cfm?partnumber=PH75/M), Thorlabs) (Q: 2x)
 
-\-     M6 x 1.0 stainless steel cap screw, 10 mm Long (SH6MS10, Thorlabs) (Q: 2x)
+- M6 x 1.0 stainless steel cap screw, 10 mm Long ([SH6MS10](https://www.thorlabs.com/thorproduct.cfm?partnumber=SH6MS10), Thorlabs) (Q: 2x)
 
-\-     M6 x 1.0 stainless steel cap screw, 16 mm Long (SH6MS16, Thorlabs) (Q: 2x)
+- M6 x 1.0 stainless steel cap screw, 16 mm Long ([SH6MS16](https://www.thorlabs.com/thorproduct.cfm?partnumber=SH6MS16), Thorlabs) (Q: 2x)
 
-\-     Mounting Base, 25 mm x 58 mm x 10 mm (BA1S/M, Thorlabs) (Q: 2x)
+- Mounting Base, 25 mm x 58 mm x 10 mm ([BA1S/M](https://www.thorlabs.com/thorproduct.cfm?partnumber=BA1S/M), Thorlabs) (Q: 2x)
 
-\-     5-mm balldriver or hex key.
-
-
-
- **Procedures**
-
-1.85.    Connect the post holder to a mounting base by inserting a 10-mm M6 screw through the bottom-located counterbores in the base.
-
-1.86.    Screw and tighten the M6 screw at the middle hole of the post holder using a 5-mm hex key, be sure the direction of the thumbscrew is in the outside face to facilitate and stabilize post mounting.
-
-1.87.    Attach one the assembled base post holder to the right 25-mm rail at the top of the setup enclosure,
-
-1.88.    Use 16-mm M6 screw and pre-slotted Low-Profile T-Nut (see step: Build the enclosure roof) to establish and tighten base connection to the right rail.
-
-1.89.    Attach the other assembled base post holder to the left 25-mm rail at the top of the setup enclosure,
-
-1.90.    Use 16-mm M6 screw and pre-slotted Low-Profile T-Nut to establish and tighten the base connection to the left rail. Make sure that both right and left holders are aligned to the end of the IR-filter window.
+- 5-mm balldriver or hex key.
 
 
+### Procedure
 
-**Installation of** **mounting stage**
+1. Connect the post holder to a mounting base by inserting a 10-mm M6 screw through the bottom-located counterbores in the base.
 
+2. Screw and tighten the M6 screw at the middle hole of the post holder using a 5-mm hex key, be sure the direction of the thumbscrew is in the outside face to facilitate and stabilize post mounting.
+
+3. Attach one the assembled base post holder to the right 25-mm rail at the top of the setup enclosure.
+
+4. Use 16-mm M6 screw and pre-slotted Low-Profile T-Nut (see step: Build the enclosure roof) to establish and tighten base connection to the right rail.
+
+5. Attach the other assembled base post holder to the left 25-mm rail at the top of the setup enclosure.
+
+6. Use 16-mm M6 screw and pre-slotted Low-Profile T-Nut to establish and tighten the base connection to the left rail. Make sure that both right and left holders are aligned to the end of the IR-filter window.
+
+
+
+## Installation of **mounting stage**
 
 
 ![Camera-mounting-base_2.PNG](/assets/Images/Camera-mounting-base_2.PNG)
@@ -98,21 +95,21 @@ The following parts are needed to create a base for the above camera mount const
 
 The following parts are needed to construct the camera mount:
 
- \-     Ø12.7 mm Optical Post, SS, M4 Setscrew, M6 Tap, L = 300 mm (TR300/M, Thorlabs) (Q: 2x)
+  * Ø12.7 mm Optical Post, SS, M4 Setscrew, M6 Tap, L = 300 mm (TR300/M, Thorlabs) (Q: 2x)
 
-\-     Ø12.7 mm Optical Post, SS, M4 Setscrew, M6 Tap, L = 250 mm (TR250/M, Thorlabs) (Q: 2x)
+ * Ø12.7 mm Optical Post, SS, M4 Setscrew, M6 Tap, L = 250 mm (TR250/M, Thorlabs) (Q: 2x)
 
-\-     Ø12.7 mm Optical Post, SS, M4 Setscrew, M6 Tap, L = 100 mm (TR100/M-P5, Thorlabs). (Q: 3x)
+ * Ø12.7 mm Optical Post, SS, M4 Setscrew, M6 Tap, L = 100 mm (TR100/M-P5, Thorlabs). (Q: 3x)
 
-\-     Parallel Clamp for Ø1/2" Posts, M4 Counterbore and 5 mm Hex (RA360/M, Thorlabs) (Q: 2x)
+ * Parallel Clamp for Ø1/2" Posts, M4 Counterbore and 5 mm Hex (RA360/M, Thorlabs) (Q: 2x)
 
-\-     Right-Angle Clamp for Ø1/2" Posts, 5 mm Hex (RA90/M-P5, Thorlabs) (Q: 2x)
+ * Right-Angle Clamp for Ø1/2" Posts, 5 mm Hex (RA90/M-P5, Thorlabs) (Q: 2x)
 
-\-     M4 x 0.7 stainless steel cap screw, 10 mm Long (SH4MS10, Thorlabs) (Q: 2x)
+ * M4 x 0.7 stainless steel cap screw, 10 mm Long (SH4MS10, Thorlabs) (Q: 2x)
 
-\-     2-mm balldriver or hex key.
+ * 2-mm balldriver or hex key.
 
-\-     3-mm balldriver or hex key
+ * 3-mm balldriver or hex key
 
 
 
@@ -124,11 +121,11 @@ The following parts are needed to construct the camera mount:
 
 1.93.    Connect 250-mm and 300-mm posts together to form one single long post, to do that add one M-6 setscrew at the end of the 250-mm, then attach the 300-mm post to the setscrew. Rotate both posts in different directions until they are well tightened.
 
-1.94.     Insert one right-angle clamp in each combined long post, move to the center.
+1.94. Insert one right-angle clamp in each combined long post, move to the center.
 
-1.95.     connect each end of the combined post to the end of the parallel clamp.
+1.95. connect each end of the combined post to the end of the parallel clamp.
 
-1.96.     Add 100-mm post in the middle of the combined posts to be clamped by the two right-angle clamps. This post is needed to fix the camera using M6- Setscrew at the base of the mounting plate of the camera. See: how to attach the camera to the mounting stage)
+1.96. Add 100-mm post in the middle of the combined posts to be clamped by the two right-angle clamps. This post is needed to fix the camera using M6- Setscrew at the base of the mounting plate of the camera. See: how to attach the camera to the mounting stage)
 
 1.97.    The mounting stage is ready to be mounted through the base at the top of the setup enclosure (see step), to do that; place the vertical 100-mm post of the above assembled stage at each post holder. The post holders include a spring-loaded thumbscrew that holds posts in the correct place before tightening.
 
@@ -147,17 +144,17 @@ The following parts are needed to construct the camera mount:
 
 The following parts are needed to create a base for the above camera mount construction:
 
-\-     Ø12.7 mm Optical Post, SS, M4 Setscrew, M6 Tap, L = 100 mm (TR100/M, Thorlabs). (Q: 1x)
+ * Ø12.7 mm Optical Post, SS, M4 Setscrew, M6 Tap, L = 100 mm (TR100/M, Thorlabs). (Q: 1x)
 
-\-     M6 x 1.0 Stainless Steel Setscrew, 10 mm Long (SS6MS10, Thorlabs). (Q: 1x)
+ * M6 x 1.0 Stainless Steel Setscrew, 10 mm Long (SS6MS10, Thorlabs). (Q: 1x)
 
-\-     Tripod Mount ace2 - Camera Mount Adapter (2200000314, Basler) (Q: 1x)
+ * Tripod Mount ace2 - Camera Mount Adapter (2200000314, Basler) (Q: 1x)
 
-\-     M3 Stainless Steel screw, 10 mm Long (supplied with camera mount adaptor). (Q: 3x)
+ * M3 Stainless Steel screw, 10 mm Long (supplied with camera mount adaptor). (Q: 3x)
 
-\-     2-mm balldriver or hex key.
+ * 2-mm balldriver or hex key.
 
-\-     3-mm balldriver or hex key
+ * 3-mm balldriver or hex key
 
 
 
@@ -195,15 +192,15 @@ The camera enclosure placed on the top of the setup enclosure to provide minimum
 
 The following supplies are needed:
 
-\-     [Black hardboard](https://www.thorlabs.de/newgrouppage9.cfm?objectgroup_id=190#2535) (TB4, Thorlabs)
+ * [Black hardboard](https://www.thorlabs.de/newgrouppage9.cfm?objectgroup_id=190#2535) (TB4, Thorlabs)
 
-\-     Pencil
+ * Pencil
 
-\-     Cutter
+ * Cutter
 
-\-     Tape measure or ruler
+ * Tape measure or ruler
 
-\-     Aluminum flat bar
+ * Aluminum flat bar
 
 Be sure that the correct size of the black board has been ordered or in house customized to fit the dimensions of the camera enclosure. Only TB4 blackboard is  used. The camera enclosure is not fully closed, the left and right walls are free.
 
@@ -236,19 +233,19 @@ Be sure that the correct size of the black board has been ordered or in house cu
 
 For this step, you will need:
 
-\-     Low-Profile Channel Screw (Q: 16x)
+ * Low-Profile Channel Screw (Q: 16x)
 
-\-     Construction Cube with Slotted Corners (Q: 4x)
+ * Construction Cube with Slotted Corners (Q: 4x)
 
-\-     25-mm square construction rail 250-mm length (Q: 6x)
+ * 25-mm square construction rail 250-mm length (Q: 6x)
 
-\-     25-mm square construction rail 500-mm length (Q: 2x)
+ * 25-mm square construction rail 500-mm length (Q: 2x)
 
-\-     Customized (510-mm x 255-mm) black hardboard (Q: 3x)
+ * Customized (510-mm x 255-mm) black hardboard (Q: 3x)
 
-\-     Mounting base T-brackets; to connect camera enclosure to setup enclosure, [3D designed]( /src/3D_printed_parts/Mounting_base_T-brackets-vertical-rails-connecter.stl) (Q: 4x)
+ * Mounting base T-brackets; to connect camera enclosure to setup enclosure, [3D designed]( /src/3D_printed_parts/Mounting_base_T-brackets-vertical-rails-connecter.stl) (Q: 4x)
 
-\-     4-mm balldriver or hex key
+ * 4-mm balldriver or hex key
 
 
 

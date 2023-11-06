@@ -7,8 +7,8 @@ nav:
     - How to build:
         - Air delivery system: how-to-build/Air-odors-delivery-system.md
         - Electric Shock Circuit: how-to-build/Electric_Shock_Circuit.md
-        - Enclosure breadboard system: how-to-build/Enclosure-Breadboard-System.md
-        - Enclosure mounting: how-to-build/Enclosure-Camera-Mounting.md
+        - Breadboard enclosure: how-to-build/Breadboard-Enclosure.md
+        - Camera enclosure: how-to-build/Camera-Enclosure.md
         - Heatsink: how-to-build/Heatsink-Installation.md
         - IDOC Chamber assembly: how-to-build/IDOC-Chamber_Assembly.md
         - 3D parts: how-to-build/IDOC_3D_Assemply_Parts.md
@@ -21,8 +21,6 @@ nav:
     - Analysis:
         - Analysis: analysis.md
     - Additional Info:
-        - Fly food and crosses: fly-food-and-crosses.md
-        - Sigmacote: sigmacote.md
         - FAQs: faqs.md
 
 theme: readthedocs
