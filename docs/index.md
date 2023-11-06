@@ -39,3 +39,5 @@ Here we provide a step-by-step instruction on how to build an IDOC setup. The st
 **The protocols** section provides step-by-step procedures for behavior monitoring during the learning and memory experiments using the IDOC system. The section includes information on how to prepare the flies, how to perform the experiments, and how to analyze the results.
 
 **Installation and usage** section provide steps to install the necessary software dependencies including Python packages to train several *Drosophila* individuals using odors, electro shocks and optogenetics.
+
+Reach out to elsayed.baz@kuleuven.be, erik.tedre@kuleuven.be or antonio.ortega@kuleuven.be if you need clarification on anything!
