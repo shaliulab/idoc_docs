@@ -1,24 +1,23 @@
 # **IDOC Assembly:**
 
-Editor note - this entire section should be renamed, as it covers all about assembling the base box, not just the necessary 3D printing. Calling this the "Assembly" section would make the most sense, as there are also a few tangents that need to be taken for more detailed descriptions in other sections. To illustrate, the heatsink requires a lot of fabrication to finalize it, but in the assembly its just a matter of slotting it into the system. Similar stuff applies to the chamber tray, that needs a lot of unique processing, but here we just want to cover how the whole system comes together.
+This section will focus on the assembly of the main testing area contained in the enclosure. Note that while most of the assembly revolves around joining together 3D printed parts, there are certain components/sections of the system that warrant their own section where their development is documented with more detail. Here we're mainly trying to show how all these parts come together.
 
-The IDOC setup consists of multiple 3D printed parts. The dimension of the setup is 400x350 mm (L x W). Due to its relatively large size that cannot fit into the build volume of our 3D printers, components have been split into smaller parts to be printed part by part. Printed parts have been assembled with screws and plastic adhesive glue. Cyanoacrylate, or superglue **(RS Components, [133-0093](https://benl.rs-online.com/web/p/glues/1330093/))**, is the best option for gluing 3D printed parts together. Overall, 3D printing is performed in three steps. The first step involves designing and modeling using Onshape's cloud-based CAD package. From there, the object models can be saved as a stereolithography (STL) file. The second step involves printing these parts with a 3D printer. The last step consists of assembling, finishing, and testing.
+The IDOC setup consists of multiple 3D printed parts. The dimension of the setup is 400x350 mm (L x W) and due to its relatively large size that cannot fit into the build volume of our 3D printers, components have been split into smaller parts to be printed part by part. Printed parts have been assembled with screws and plastic adhesive glue. Cyanoacrylate, or superglue **(RS Components, [133-0093](https://benl.rs-online.com/web/p/glues/1330093/))**, is the best option for gluing 3D printed parts together. 
 
 Using 3D printing can be a cost-effective and efficient way to build the IDOC system, as it eliminates the need for custom machining or purchasing expensive components. However, it requires access to a 3D printer and a moderate level of technical expertise to assemble the parts and construct the system to perform olfactory, optogenetic, and thermogenetic experiments on *Drosophila*.
 
+The relevant 3D designs will be linked to wherever relevant, and they should be accompanied by descriptions of printing parameters that could be deemed necessary to achieve satisfactory print quality.
 
 
-Here we provide step-by-step instructions on how to print, build and assemble the parts of the IDOC setup as well as tips & tricks!
 
-## **Files to print**
+## **Printing overview**
 
-The 3D printed parts are available for download on Onshape website and from IDOC GitHub page, and can be printed using a 3D printer with a suitable material (see below).
+The entire catalogue of 3D printed parts is available for download from the IDOC GitHub page (https://github.com/shaliulab/idoc_docs/tree/master/docs/assets/src/3D_printed_parts). Each file should be accompanied by a Cura profile file containing the optimal parameters for printing. Regarding materials, you have some options, however the ones listed below are deemed optimal for these applications.
 
 [List of files](../src/3D_printed_parts/IDOC_setup/)
 
 
-
-Custom components were 3D printed in-house. We have one Ultimaker 2+ and one Ultimaker S3 in the lab. The listed 3D items should be printed with very solid and tough materials to ensure they can handle the light, heat, air pressure, and odors. The suggested materials will achieve best surface quality with increased mechanical and thermal performance without risk of the materials turning too brittle over time.
+For our prints, we used the Ultimaker 2+ and S3 series printers. The listed 3D items should be printed with very solid and tough materials to ensure they can handle the light, heat, air pressure, and odors. The suggested materials will achieve best surface quality with increased mechanical and thermal performance without risk of the materials turning too brittle over time.
 
 
 
@@ -37,7 +36,7 @@ Ultimaker CPE+ (co-polyester) is similar to Ultimaker CPE, but tougher and with 
 
 **Note:** We don’t recommend using PLA or Tough PLA filament. Items printed with PLA can lose their properties and may become brittle over time. In addition, both filaments may deform at temperatures above 50 °C.
 
-**Note:**  Printing in PC can be challenging due to the high temperature required to print.
+**Note:**  Printing with PC can be challenging due to the high temperature required to print.
 
 
 
@@ -61,6 +60,7 @@ For further information, refer to the material data sheets for technical data an
 
 ![Tubing-wires box.PNG](/assets/Images/Tubing-wires box.PNG)
 
+This box will act as an important base for the IDOC system contained in the enclosure. It houses all the tubing and wiring necessary for the stimulations, while also acting as a foundation for the heatsinks and lighting box. The base is designed to protect the sensitive interior with acrylic covers and vibration damping rubber feet.
 
 This box is necessary for housing the inflow manifold, the outflow vacuum/exhaust tubing, and the wiring that is required to power the setup components. The bottom side of the box holds the rubber feet for the whole setup, while the top side of the box serves as a foundation for the heatsink and lighting box.
 
