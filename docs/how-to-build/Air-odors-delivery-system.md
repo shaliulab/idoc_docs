@@ -162,7 +162,7 @@ To ensure that the odors are precisely delivered at only the time of the applica
 - Wire Stripper (RS Components, [613-044](https://benl.rs-online.com/web/p/wire-strippers/0613044/))
 
 
-**Procedures:**
+**Procedure:**
 
 - Attach  12 female [luer fittings](https://www.aliexpress.com/item/4000025751111.html) at each circle of the holder, screw them with the included plastic nut and fixers. 
 

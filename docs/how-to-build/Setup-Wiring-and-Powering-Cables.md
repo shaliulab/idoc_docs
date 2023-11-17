@@ -37,7 +37,7 @@ For this step, you will need:
 
 
 
-**Procedures:**
+**Procedure:**
 
 1. Cut pieces of ribbon cable to the desired length (see the above table). compensate for about 2 cm more length for strain relief because this will turn cable back 180 degrees.
 2. Identify pin 1 on the IDC connector which is marked by a narrow arrow as shown in the image below.

@@ -12,7 +12,7 @@ The relevant 3D designs will be linked to wherever relevant, and they should be 
 
 ## **Printing overview**
 
-The entire catalogue of 3D printed parts is available for download from the IDOC GitHub page (https://github.com/shaliulab/idoc_docs/tree/master/docs/assets/src/3D_printed_parts). Each file should be accompanied by a Cura profile file containing the optimal parameters for printing. Regarding materials, you have some options, however the ones listed below are deemed optimal for these applications.
+The entire catalogue of 3D printed parts is available for download from the IDOC GitHub page (https://github.com/shaliulab/idoc_docs/tree/master/assets/src/3D_printed_parts). Each file should be accompanied by a Cura profile file containing the optimal parameters for printing. Regarding materials, you have some options, however the ones listed below are deemed optimal for these applications.
 
 [List of files](../src/3D_printed_parts/IDOC_setup/)
 
@@ -105,7 +105,7 @@ The heatsink relies on 3D printed mounting brackets that connect it to the flat 
 
 ![Basement_heatsink.PNG](/assets/Images/Basement_heatsink.PNG)
 
-**Light box**
+## Light box
 
 This box is mounted on the top heatsink to cover the IR-LED backlighting and optogenetic LED panels. The light box mainly acts as a frame for the the chamber holder to ensure proper alignment of the parts.
 

@@ -13,5 +13,5 @@ We have developed the following designs:
 
 
 
-![IDOC-Chamber.PNG](......./docs/assets/Images/IDOC-Chamber.PNG)
+![IDOC-Chamber.PNG](......./assets/Images/IDOC-Chamber.PNG)
 

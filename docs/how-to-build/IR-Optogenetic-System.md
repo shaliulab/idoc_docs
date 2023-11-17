@@ -1,5 +1,3 @@
-****
-
 #   Optogenetic System
 
 ## **Introduction**
@@ -10,7 +8,7 @@ When selecting an optogenetic light source, you need to consider two key factors
 
 ****
 
-**Here we explain all the key components necessary to build an optogenetics setup including power supply,  LED-drivers, high power LED-light sources, cooling system, control unit, and more. Components are custom-designed or sold separately from different seller, all of them are designed to work with each other.**
+**Here we explain all the key components necessary to build an optogenetics setup including power supply, LED-drivers, high power LED-light sources, cooling system, control unit, and more. Components are custom-designed or sold separately from different seller, all of them are designed to work with each other.**
 
 ****
 
@@ -18,7 +16,7 @@ When selecting an optogenetic light source, you need to consider two key factors
 
 The following sketch shows the optogenetics system components:
 
-  ![Optogenetic-system-components.PNG](/docs/assets/Images/Optogenetic-system-components.PNG)
+  ![Optogenetic-system-components.PNG](/assets/Images/Optogenetic-system-components.PNG)
 
 
 
@@ -332,7 +330,7 @@ you also need:
 
 
 
-**Procedures:**
+**Procedure:**
 
 1. Using jumper wire to connect the +ve and -ve side of the 20-way PCB headers from each side
 
@@ -417,7 +415,7 @@ For this step, you will need:
   9. Wiring the IR-LED-stripes together by connecting the positive to the positive copper pads and the negative to the negative pads.
   10. Once you have attached the two wires, wait for at least 30 seconds for it to cool down.
   11. Use hot air gun to place a shrink tube over the exposed soldered part at the end of each LED stripes.
-  12. At the end of the stripe connect a JST wire with female plug to be connected to the male JST power supply plug on the setup powering panel at the back side of the wiring box.
+  12. At the end of the strip connect a JST wire with female plug to be connected to the male JST power supply plug on the setup powering panel at the back side of the wiring box.
 
 
 
@@ -448,7 +446,7 @@ Beneath eachhalf-chamber we can mount eight aluminum 10-mm square bases, four fo
 
 We  mounted our LEDs on Saber brand 10 mm Square Metal CorePrinted Circuit Board construction (MCPCB) Aluminum blank bases ([LXB-RS10A](https://www.luxeonstar.com/saber-10mm-square-blank-mcpcb-base-for-rebel-leds), Luxeonstar). Each base is designedto accommodate a single Luxeon Rebel LED.
 
-We decided toorder the power LEDs from Digikey and their MCPCB bases (Luexeonstar) to be assembled with standard handsoldering method using anappropriate lead-free solder paste with a hot air soldering iron or topsoldering hotplate and accordingto the [assembly procedures forLUXEON® Rebel LEDs.](https://lumstatic.com/En/0i/WQb7sgG5kseBR4dwjA.pdf)
+We decided toorder the power LEDs from Digikey and their MCPCB bases (Luexeonstar) to be assembled with standard handsoldering method using anappropriate lead-free solder paste with a hot air soldering iron or topsoldering hotplate and accordingto the [assembly Procedure forLUXEON® Rebel LEDs.](https://lumstatic.com/En/0i/WQb7sgG5kseBR4dwjA.pdf)
 
 Homemade solderingensures that all of LEDs with same specific flux, color, and forward voltage bins. In addition,you will not need to wait for fourto five weeks to have additional stock.
 
@@ -458,7 +456,7 @@ An extra reason tosolder the LEDs ourselves is that same order of multiple LEDs 
 
 
 
-**LED assembly procedures**
+**LED assembly Procedure**
 
 1. Order the solder free paste, refrigerate it at 4-8°C.
 2. At the date of the soldering allow the paste to reach the room temperature before heating up (~ i-2 hour).

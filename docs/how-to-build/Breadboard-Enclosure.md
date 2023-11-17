@@ -44,7 +44,7 @@ The parts needed are provided in a separate [table](/docs/List-of-Commercial-Par
 
 ### 3D-printed
 
-[3D Designed STL files ](/assets/src/3D_printed_parts/Enclosure&Powering)
+[3D Designed STL files](/assets/src/3D_printed_parts/Enclosure&Powering)
 
 ## Building the enclosure
 
@@ -55,7 +55,7 @@ For this step, you will need:
 * Black hardboard ([TB4](https://www.thorlabs.de/thorproduct.cfm?partnumber=TB4), Thorlabs)
 * Black hardboard ([TB5](https://www.thorlabs.de/thorproduct.cfm?partnumber=TB5), Thorlabs)
 * Adhesive double-sided tape ([273-598](https://benl.rs-online.com/web/p/double-sided-tapes/0273598), RS Components)
-* Aluminium flat bar ([681-104](https://ie.rs-online.com/web/p/metal-bars-metal-rods/0681104), RS Components)
+* aluminum flat bar ([681-104](https://ie.rs-online.com/web/p/metal-bars-metal-rods/0681104), RS Components)
 * Pencil
 * Cutter
 * Tape measure or ruler
@@ -72,7 +72,7 @@ The final size of the panels:
 ##### Procedure
 
 1. Use a tape to mark a line by pencil on the face of the board. The final size should be ~ 5 mm longer and wider than the rail length to fit in the walls and the roof.
-2. Cut all the way through the board following the pencil lines. The board is soft, so proceed carefully, an aluminium flat bar can be used to maintain a straight cut.
+2. Cut all the way through the board following the pencil lines. The board is soft, so proceed carefully, an aluminum flat bar can be used to maintain a straight cut.
 3. Remove the cuts and trim the rough edges of the board.
 4. Attach and align the adhesive double-sided tape within the inside face/ edge of the TB5 board.
 5. Simply peel off the tape backing and assemble one TB4 and one TB5 boards together, the adhesive double-sided tape should not be visible on the board when done.
@@ -210,7 +210,7 @@ From our *in vivo* patch clamp electrophysiology data, we see that only high int
 #### Procedure (installation)
 
 1. Once everything in the enclosure is set, you can peel off the tape backing expose the adhesive side
-2. Place the blue LED strip of tape at the black aluminium rail on the roof.
+2. Place the blue LED strip of tape at the black aluminum rail on the roof.
 3. Make sure to press firmly on the LED strips to prevent it from peeling it off.
 4. Connect the female JST wire to the male JST power supply plug on the top powering platform at the backside of the enclosure. While the opposite side of the plug can then be connected to a power supply and dimmer switch.
 
@@ -244,17 +244,17 @@ To install the exhaust vents cap, you will need the following:
 The following parts are needed:
 
 * [Black hardboard](https://www.thorlabs.de/newgrouppage9.cfm?objectgroup_id=190#2535)  510mmx762mm (L x W) ([TB5](https://www.thorlabs.de/thorproduct.cfm?partnumber=TB5), Thorlabs) (Q: 2x)
-* Aluminium Sandwich Panel Black 510x762 mm (Plexikopen, [Black RAL 9005 3 mm](https://www.plexikopen.be/aluminium-sandwichpaneel-kleur)
+* aluminum Sandwich Panel Black 510x762 mm (Plexikopen, [Black RAL 9005 3 mm](https://www.plexikopen.be/aluminum-sandwichpaneel-kleur)
 * Adhesive double-sided tape ([273-598](https://benl.rs-online.com/web/p/double-sided-tapes/0273598), Rs)
 
 
-To close the front side of the enclosure during an experiment, we combined one of [TB5](https://www.thorlabs.de/thorproduct.cfm?partnumber=TB5) black hardboards together with a black aluminium [sandwich panel](https://www.plexikopen.be/aluminium-sandwichpaneel-kleur) to provide more hardness, thickness and to eliminate the passage of light or air through the corners or edges. Be sure that the correct size of the black board has been ordered to fit the dimensions of the door area. There is no need to cut the board.
+To close the front side of the enclosure during an experiment, we combined one of [TB5](https://www.thorlabs.de/thorproduct.cfm?partnumber=TB5) black hardboards together with a black aluminum [sandwich panel](https://www.plexikopen.be/aluminum-sandwichpaneel-kleur) to provide more hardness, thickness and to eliminate the passage of light or air through the corners or edges. Be sure that the correct size of the black board has been ordered to fit the dimensions of the door area. There is no need to cut the board.
 
 
 
 #### Procedure
 
-1. Use Adhesive double-sided tape to combine one of [TB5](https://www.thorlabs.de/thorproduct.cfm?partnumber=TB5) black hardboard together with a black aluminium [sandwich panel](https://www.plexikopen.be/aluminium-sandwichpaneel-kleur).
+1. Use Adhesive double-sided tape to combine one of [TB5](https://www.thorlabs.de/thorproduct.cfm?partnumber=TB5) black hardboard together with a black aluminum [sandwich panel](https://www.plexikopen.be/aluminum-sandwichpaneel-kleur).
 2. To close the enclosure, slide the door board from the top into the top parallel channels of the cube-rail-constructions.
 3. To remove the door, push the bottom of the board up until it completely comes out from the parallel guide of the front rails.
 
@@ -316,7 +316,7 @@ We also need to connect the LED drivers for optogenetics manipulation; and the A
 
 ## [Baseplate](https://reiserlab.github.io/Component-Designs/miscellaneous/baseplate)
 
-A solid black aluminium breadboard / baseplate with threaded mounting holes provides a convenient platform for mounting the setup enclosure and other components. The plate should be bigger than the setup base, i.e, larger in both length and width. To isolate the setup from the light and airflow coming from the threaded mounting holes in the baseplate, attach a [black hardboard](https://www.thorlabs.de/newgrouppage9.cfm?objectgroup_id=190#2535) panel to the bottom breadboard. You can mount it with four [Sorbothane feet (ThorLabs AV5/M)](https://www.thorlabs.com/thorproduct.cfm?partnumber=AV5/M). These Sorbothane mounting feet also offer excellent isolation of vibration and possible acoustic noise. The parts needed are provided in the figure below.
+A solid black aluminum breadboard / baseplate with threaded mounting holes provides a convenient platform for mounting the setup enclosure and other components. The plate should be bigger than the setup base, i.e, larger in both length and width. To isolate the setup from the light and airflow coming from the threaded mounting holes in the baseplate, attach a [black hardboard](https://www.thorlabs.de/newgrouppage9.cfm?objectgroup_id=190#2535) panel to the bottom breadboard. You can mount it with four [Sorbothane feet (ThorLabs AV5/M)](https://www.thorlabs.com/thorproduct.cfm?partnumber=AV5/M). These Sorbothane mounting feet also offer excellent isolation of vibration and possible acoustic noise. The parts needed are provided in the figure below.
 
 ![Baseplate-rubber-feet.PNG](/assets/Images/Baseplate-rubber-feet.PNG)
 ![Baseplate.PNG](/assets/Images/Baseplate.PNG)
@@ -326,7 +326,7 @@ A solid black aluminium breadboard / baseplate with threaded mounting holes prov
 
 Construct the baseplate in the following manner:
 
-1. Insert a [black hardboard](https://www.thorlabs.de/newgrouppage9.cfm?objectgroup_id=190#2535) panel below the aluminium breadboard at the bottom side,
+1. Insert a [black hardboard](https://www.thorlabs.de/newgrouppage9.cfm?objectgroup_id=190#2535) panel below the aluminum breadboard at the bottom side,
 
 2. Inset four (M6) cap screws in the counterbored holes at each corner of the breadboard,
 

@@ -113,7 +113,7 @@ The following parts are needed to construct the camera mount:
 
 
 
- **Procedures**
+ **Procedure**
 
 1.91.    Remove the M4 setscrew at the end of 100-mm posts using a 2-mm hex key.
 
@@ -158,7 +158,7 @@ The following parts are needed to create a base for the above camera mount const
 
 
 
-**Procedures**
+**Procedure**
 
 1.98.    Use a 2-mm hex key to secure three screws supplied with the camera mount to attach the camera to the mounting plate
 
@@ -219,7 +219,7 @@ Be sure that the correct size of the black board has been ordered or in house cu
 
 
 
-**Procedures**
+**Procedure**
 
 1.103.   Using a tape measure mark a line by pencil on the face of black board to the correct size. Be sure that the final size is about 5 mm longer and 5 mm wider than the rail length to fit in the walls and the roof.
 
@@ -256,7 +256,7 @@ For this step, you will need:
 
 
 
- **Procedures**
+ **Procedure**
 
 1.106.   Attach low-profile channel screw to a construction cube. Then, push the screw into the threaded hole in the end of each 500-mm rail and tighten both screws down with the balldriver to connect the two rails.
 
@@ -283,7 +283,7 @@ For this step, you will need:
  ![Camera-mounting-base.PNG](/assets/Images/Camera-mounting-base.PNG)
 
 
-**Procedures**
+**Procedure**
 
 1.115.   After installation, mounting and adjust the camera. Move the camera enclosure to the top of the setup enclosure to protect the camera.
 

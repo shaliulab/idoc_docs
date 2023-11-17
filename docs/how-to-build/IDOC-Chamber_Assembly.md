@@ -8,11 +8,7 @@ For our IDOC system, we have 2 main chamber variants:
 
 The following sections should elucidate how to build and test either of the chamber types. Since both of these are made from a combination of 3D printed and bought parts, a printing and shopping list will be linked for each. Overlapping components will be highlighted where relevant.
 
-![IDOC-Chamber.PNG](assets/Images/IDOC-Chamber.PNG)
-
-
-
-
+![IDOC-Chamber.PNG](/assets/Images/IDOC-Chamber.PNG)
 
 
 ## **Fabricating the normal IDOC chambers**
@@ -95,7 +91,7 @@ For aversive electric shock learning conditioning, we used patterned coated indi
 
 
 
-![ITO-slide-design.PNG](assets/Images/ITO-slide-design.PNG)
+![ITO-slide-design.PNG](/assets/Images/ITO-slide-design.PNG)
 
 
 | **Indium Tin Oxide coated patterned glass slides ** |
@@ -137,7 +133,7 @@ For aversive electric shock learning conditioning, we used patterned coated indi
 
 Each chamber is designed to have four custom-made electrodes that create a connection between the interior and exterior of the IDOC chambers. Inside the chambers, each electrode pin is connected to a long metal strip that connects the left and right side of the chambers. Also, to ensure that the entire ITO slide is subjected to the current, 2 of these metal strips are needed - one for the top and another for the bottom half of the chamber. The ITO slides themselves will rest in contact with these metal strips.
 
-![IDOC-Chamber.PNG](assets/Images/IDOC-Chamber.PNG)
+![IDOC-Chamber.PNG](/assets/Images/IDOC-Chamber.PNG)
 
 Both the pins and the connecting metal strip are made in-house from standard electrical components. The metal strips are made from the flat section that crimp sockets are usually delivered with (Farnell, [1593529](https://be.farnell.com/multicomp/2226tg/crimp-terminal-24-28awg/dp/1593529?ost=1593529)). The pins that connect the interior and exterior of the chambers are also simply taken from fairly standard pin headers ([548-7171](https://benl.rs-online.com/web/p/pcb-headers/5487171) or  [548-7222](https://benl.rs-online.com/web/p/pcb-headers/5487222)). To establish a connection between the pins and metal strips, you will simply have to solder them together.
 
