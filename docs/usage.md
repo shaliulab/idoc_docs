@@ -10,30 +10,42 @@ This section will provide you with the necessary steps for running an IDOC exper
 
 ## Odor preparation
 
-TODO
 
 ## IDOC Start-up protocol
+
 
 This section will guide you through the first set-up steps required to make sure the machine is running properly. Ideally follow this section first, as most possible issues with your experiment can already be identified here.
 
 * Power on the machine and verify that all the PSUs are providing the expected voltages.
 
-* Verify camera and IR light functionality.
-    * Activate the IR light via the switch on the relay control box.
-    * Use the Pylon camera software on your PC to connect to the camera and activate a live feed. You should see a grayscale image with all the IDOC ROIs and the 3 tracking dots clearly illuminated. Make sure there is no image tearing or any artefacts.
+
+* Verify camera and IR light functionality
+    * Activate the IR light via the switch on the relay control box 
+    *Picture highlighting where the switch is*
+    * Use the Pylon camera software on your PC to connect to the camera and activate a live feed. You should see a grayscale image with all the IDOC ROIs and the 3 tracking dots clearly illuminated. Make sure there is no image tearing or any artefacts. 
+    *2 pictures - 1 for how to interpret the buttons in the Pylon software, 1 for an image of what to look for in the video feed, highlighting the dots*
         * If image tearing/artefacts show up, you will need to plug-and-unplug the camera from the PC. Pay special attention to how stable the USB connection is (connector not wobbling in socket).
 
 * Verify proper functionality of air/odour delivery system
     * Check whether the water level in the air washing and warming section is sufficient. The air washing bottle should have roughly 600ml of water, and the water bath should have enough to submerge most of the washing bottle in.
+
+    * IMPORTANT! Inside the enclosure, check that the 3-way stopcock is positioned to allow for air/odour delivery and that the passive airflow is blocked.
+    * Connect your mineral oil and odour bottles to their respective in-/out-flow tubes. Make sure the air inflow into the bottles is directed into the oil (air needs to bubble through the oil). If done wrong, you can end up pumping oils into the airflow system of the IDOC!
     * IMPORTANT! Check that the 3-way stopcock is positioned to allow for air/odour delivery and that the passive airflow is blocked
     * Connect your mineral oil and odour bottles to their respective in-/out-flow tubes. Make sure the air inflow into the bottles is directed into the oil (air needs to bubble through the oil). If done wrong, you can end up pumping oil into the airflow system of IDOC!
+
     * Activate both the main air supply and the vacuum pumps from the relay control panel, and check the following:
         * Air inflow rates for both left and right side should be matching. Make any necessary adjustments at the inflow manifold
         * Air inflow and vacuumed outflow rates should be matching.
         * Flow rates for odour and clean air should be equal. To check this, activate odour flow from the relay control panel for just one of the sides (left/right) and see if the flow rates match for both channels. Repeat this process for both channels. If flow rates become unequal when switching to odour, you will have to check the flow path for leaks or blockages.
-            * Make sure all luers and bottle caps are tight.
-            * Verify the state of the tubing. Make sure there are no points of blockage (tight bends, debris, weight on tubing) or leakage. You can check for the latter by squeezing the tube shut. If the inflow rate does not go to 0 when you do this, then there is a leak between the odour bottle and crimp point.
-    * Finish up by turning off the airflow and vacuum from the relay control panel.
+
+            * Make sure all luers and bottle caps are tight
+            * Verify the state of the tubing. Make sure there are no points of blockage (tight bends, debris, weight on tubing) or leakage. You can check for leaks by squeezing the tube shut. If the inflow rate does not go to 0 when you do this, then there is a leak between the odour bottle and your crimp point.
+    * Finish up by turning off the airflow and vacuum from the relay control panel
+*Video - First scene checking the air washing stage: look at temp and water levels. Second scene to highlight us turning the valve inside the enclosure and pointing out which way it needs to be with edits. Third scene to point out us switching on the relevant valves, followed by us pointing out the matching levels on the flowmeters*
+<!-- Embed YouTube Video -->
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEOID" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 
 * Start up the IDOC logs on your control PC and make sure there are no error messages in the logs.
 
@@ -49,6 +61,10 @@ The first part of this section will highlight the basics of running an experimen
 * Connect all the inflow and outflow tubes to the chambers. Pay attention to 2 key things here:
     * Prevent the outflow tubes from blocking the chamber window, loop the tube around the neigbouring chambers outflow tube before connecting it to the outflow port. (Picture needed for this section)
     * Do not mix up left and right side inflow tubes. This is mainly just a risk in the middle of the enclosure, as there the L/R inflows can get crossed up
+
+*Video - Show us loading flies into chambers, and sealing the chamber shut with the plug. Show a stack of 10 chambers with loaded flies and how we would load them into the chamber slots in the machine. Emphasize in the video that since we only have 10 flies, we still need to fill out the other empty slots with empty chambers. Show us connecting the tubes, emphasize that you need to distinguish between left and right inflow, especially in the middle of the machine.*
+<!-- Embed YouTube Video -->
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEOID" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 * Cover up the front of the enclosure when done loading the chambers.
 
@@ -76,7 +92,13 @@ The first part of this section will highlight the basics of running an experimen
 
 * Once the paradigm has finished running, you should see the timer stop and hear the airflow end. Remove your chambers from the enclosure and follow up with any steps your experimental design has intended for the flies.
 
-## Example training experiment
+
+*Video - Scene where we go through selecting a paradigm and hitting "Start". Show the expected video feed.Emphasize us checking the timer in the video feed + looking for the EShock or odour LEDs (A or B indicators). Follow up with quick scene of chambers being disconnected from tubing and being removed from enclosure. Final scene of how to remove flies. For trying to preserve flies, show the sucking method + tube method where they walk out by themselves. For discarding flies, simply show the vacuum pump method.*
+<!-- Embed YouTube Video -->
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEOID" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+**Example training experiment**
+
 
 * Pre-test to establish the flies baseline preference for odour vs. no odour
     * Load flies into non-ITO chambers and run them through a paradigm where they are exposed to odours from both left and right sides of their chambers separately
