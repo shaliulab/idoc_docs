@@ -8,10 +8,13 @@
 
 The IDOC (<b>I</b>ndividual *<b>D</b>rosophila*  <b>O</b>lfactory  <b>C</b>onditioner) is a versatile custom-built system, developed at [Fly Sleep Lab](https://www.flysleeplab.com), for studying olfactory learning and memory in individual Drosophila. This documentation provides researchers with detailed guidance for using the IDOC system to study fly learning and memory, as well as for constructing and configuring the system for their experimental needs. It includes:
 
-Experimental Procedure: An outline of how to use the IDOC system.
-Equipment and Materials: A list of items needed for constructing the IDOC.
-Assembly Instructions: A step-by-step guide for building IDOC chambers and setting up the system.
-Software and Data Analysis: Information on software installation, including video tracking and data processing.
+* Experimental Procedure: An outline of how to use the IDOC system.
+
+* Equipment and Materials: A list of items needed for constructing the IDOC.
+
+* Assembly Instructions: A step-by-step guide for building IDOC chambers and setting up the system.
+
+* Software and Data Analysis: Information on software installation, including video tracking and data processing.
 
 For detailed discribtion of IDOC system, please see the [preprint].
 
