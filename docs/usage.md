@@ -9,13 +9,14 @@ This section will provide you with the necessary steps for running an IDOC exper
 
 ## Odor preparation
 
-To be filled out
 
 ## IDOC Start-up protocol
+
 
 This section will guide you through the first set-up steps required to make sure the machine is running properly. Ideally follow this section first, as most possible issues with your experiment can already be identified here.
 
 * Power on the machine and verify that all the PSUs are providing the expected voltages.
+
 * Verify camera and IR light functionality
     * Activate the IR light via the switch on the relay control box 
     *Picture highlighting where the switch is*
@@ -24,15 +25,28 @@ This section will guide you through the first set-up steps required to make sure
         * If image tearing/artefacts show up, you will need to plug-and-unplug the camera from the PC. Pay special attention to how stable the USB connection is (connector not wobbling in socket).
 * Verify proper functionality of air/odour delivery system
     * Check whether the water level in the air washing and warming section is sufficient. The air washing bottle should have roughly 600ml of water, and the water bath should have enough to submerge most of the washing bottle in.
+
     * IMPORTANT! Inside the enclosure, check that the 3-way stopcock is positioned to allow for air/odour delivery and that the passive airflow is blocked.
     * Connect your mineral oil and odour bottles to their respective in-/out-flow tubes. Make sure the air inflow into the bottles is directed into the oil (air needs to bubble through the oil). If done wrong, you can end up pumping oils into the airflow system of the IDOC!
-        * Activate both the main air supply and the vacuum pumps from the relay control panel, and check the following:
+    * IMPORTANT! Check that the 3-way stopcock is positioned to allow for air/odour delivery and that the passive airflow is blocked
+    * Connect your mineral oil and odour bottles to their respective in-/out-flow tubes. Make sure the air inflow into the bottles is directed into the oil (air needs to bubble through the oil). If done wrong, you can end up pumping oil into the airflow system of IDOC!
+
+    * Activate both the main air supply and the vacuum pumps from the relay control panel, and check the following:
         * Air inflow rates for both left and right side should be matching. Make any necessary adjustments at the inflow manifold
         * Air inflow and vacuumed outflow rates should be matching.
         * Flow rates for odour and clean air should be equal. To check this, activate odour flow from the relay control panel for just one of the sides (left/right) and see if the flow rates match for both channels. Repeat this process for both channels. If flow rates become unequal when switching to odour, you will have to check the flow path for leaks or blockages.
+
             * Make sure all luers and bottle caps are tight
             * Verify the state of the tubing. Make sure there are no points of blockage (tight bends, debris, weight on tubing) or leakage. You can check for leaks by squeezing the tube shut. If the inflow rate does not go to 0 when you do this, then there is a leak between the odour bottle and your crimp point.
-    * Finish up by turning off the airflow and vacuum from the relay control panel. These do not need to stay manually activated for the experiments as their triggers are controlled by the paradigm scripts.
+    * Finish up by turning off the airflow and vacuum from the relay control panel
+    
+*Video - First scene checking the air washing stage: look at temp and water levels. Second scene to highlight us turning the valve inside the enclosure and pointing out which way it needs to be with edits. Third scene to point out us switching on the relevant valves, followed by us pointing out the matching levels on the flowmeters*
+
+
+<!-- Embed YouTube Video -->
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEOID" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
 * Start up the IDOC logs on your control PC and make sure there are no error messages in the logs.
 
 ## Experimental protocol
@@ -47,6 +61,9 @@ The first part of this section will highlight the basics of running an experimen
 
 <!-- Embed YouTube Video -->
 <iframe width="560" height="315" src="https://www.youtube.com/embed/KCPsX5z7BI0?si=_qtdwb09p_fjraX_&start=165" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+*Video - Show us loading flies into chambers, and sealing the chamber shut with the plug. Show a stack of 10 chambers with loaded flies and how we would load them into the chamber slots in the machine. Emphasize in the video that since we only have 10 flies, we still need to fill out the other empty slots with empty chambers. Show us connecting the tubes, emphasize that you need to distinguish between left and right inflow, especially in the middle of the machine.*
+
 
 * Cover up the front of the enclosure when done loading the chambers.
 
@@ -75,6 +92,10 @@ The first part of this section will highlight the basics of running an experimen
 
 <!-- Embed YouTube Video -->
 <iframe width="560" height="315" src="https://www.youtube.com/embed/KCPsX5z7BI0?si=_qtdwb09p_fjraX_&start=635" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+*Video - Scene where we go through selecting a paradigm and hitting "Start". Show the expected video feed.Emphasize us checking the timer in the video feed + looking for the EShock or odour LEDs (A or B indicators). Follow up with quick scene of chambers being disconnected from tubing and being removed from enclosure. Final scene of how to remove flies. For trying to preserve flies, show the sucking method + tube method where they walk out by themselves. For discarding flies, simply show the vacuum pump method.*
+
+
 
 **Example training experiment**
 
