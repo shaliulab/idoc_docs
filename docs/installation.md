@@ -193,21 +193,17 @@ This is achieved with a systemd service file, which must be placed under `/etc/s
     WantedBy=multi-user.target
 ```
 
-1. Copy this code into a txt file
-----------------------------------------------------
+#### 1. Copy this code into a txt file
 
-2. Edit the `ExecStart` line so:
-----------------------------------------------------
+#### 2. Edit the `ExecStart` line so:
 
    * the first token points to the python binary of your conda environment
    * the second token points to the `server.py` script
 
-3. Place the file under `/etc/system/systemd/idoc_server.service` (you will need sudo permissions)
-----------------------------------------------------
+#### 3. Place the file under `/etc/system/systemd/idoc_server.service` (you will need sudo permissions)
 
 
-4. Link the configuration (installed under the normal user namespace) to the root user
-----------------------------------------------------
+#### 4. Link the configuration (installed under the normal user namespace) to the root user
 
 ```
     sudo mkdir -p /root/.config/idoc/
@@ -215,16 +211,14 @@ This is achieved with a systemd service file, which must be placed under `/etc/s
     sudo ln -sf ${HOME}/.config/idoc/machine-name /root/.config/idoc/machine-name
 ```
 
-5. Refresh systemd and start the service like so
-----------------------------------------------------
+#### 5. Refresh systemd and start the service like so
 
 ```
     systemctl daemon-reload
     systemctl enable --now idoc_server
 ```
 
-6. You can check the logs by running
-----------------------------------------------------
+#### 6. You can check the logs by running
 
 ```
     journalctl -fu idoc_server
