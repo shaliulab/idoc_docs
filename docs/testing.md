@@ -1,8 +1,5 @@
 
-----------------
-
 ## Testing
---------------
 
 If you wish to test if your hardware is operative, we provide a convenience script available with the entrypoint `idoc_batch`
 You can use this script to turn on any pin of the Arduino board interactively and watch whether it actually drives the equipment or not
@@ -71,7 +68,8 @@ The idoc cli provides the following menu:
     9: EXPORT
     10: RESTART
     11: QUIT
-    Enter number:
+
+    Enter number: 
 ```
 
 
@@ -97,9 +95,7 @@ You can quickly extract them by opening one of the snapshots with GIMP and hover
 GIMP will report the coordinates of the mouse.
 
 Save and provide the absolute path to this file under
-
    * ``roi_builder.target_coord_file``
 
 
 2. Restart the idoc program and run it as usual
-
