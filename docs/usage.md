@@ -40,11 +40,12 @@ This section will guide you through the first set-up steps required to make sure
             * Verify the state of the tubing. Make sure there are no points of blockage (tight bends, debris, weight on tubing) or leakage. You can check for leaks by squeezing the tube shut. If the inflow rate does not go to 0 when you do this, then there is a leak between the odour bottle and your crimp point.
     * Finish up by turning off the airflow and vacuum from the relay control panel
     
+<!-- Embed YouTube Video -->
+<iframe width="560" height="315" src="https://www.youtube.com/embed/KCPsX5z7BI0?si=_qtdwb09p_fjraX_&start=165 title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 *Video - First scene checking the air washing stage: look at temp and water levels. Second scene to highlight us turning the valve inside the enclosure and pointing out which way it needs to be with edits. Third scene to point out us switching on the relevant valves, followed by us pointing out the matching levels on the flowmeters*
 
 
-<!-- Embed YouTube Video -->
-<iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEOID" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
 * Start up the IDOC logs on your control PC and make sure there are no error messages in the logs.
