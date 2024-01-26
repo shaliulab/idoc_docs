@@ -9,6 +9,12 @@ This section will provide you with the necessary steps for running an IDOC exper
 
 ## Odor preparation
 
+For odor based conditioning, you will most likely need to custom-make your own odors. This section will describe how we have made our odors for our experiments, however there is a lot of room to customize parameters as needed. Our main 2 odor agents are MCH and OCT and both are mixed with neutral mineral oil. Note that the described protocol will be for 2 bottles of odor, since a typical experiment will need 2 bottles of odor and 2 bottles of clean mineral oil. This is to ensure that both the left and right side of the chamber can be provided with clean air or odor.
+
+* Measure out 60 ml of mineral oil into a bottle. Note that the mineral oil is quite heavy and thus the measured amount will need some extra time to fully drip out of the pippete
+* Add 120 ul of your odor agent of choice. We are aiming for a 1:500 ratio of odor-to-oil but this can be adapted as needed
+* Seal the bottle with a cap suitable for bubbling the mixture (has 2 air nozzles, with 1 that can be submerged in the oil-odor mixture). Connect the bottle to a bubbler and let it run for roughly 1-2 minutes to properly mix the solution
+* Once thoroughly mixed, divide the 60 ml of odorized mineral oil into 2x30 ml portions
 
 ## IDOC Start-up protocol
 
