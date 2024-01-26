@@ -3,7 +3,7 @@
 A run-through of a typical IDOC experiment can be seen in the following video.
 
 <!-- Embed YouTube Video -->
-<iframe width="560" height="315" src="https://www.youtube.com/embed/KCPsX5z7BI0?si=_qtdwb09p_fjraX_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HGXVpZsmcog?si=Kp8FnGSLXkYTT4S-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 This section will provide you with the necessary steps for running an IDOC experiment. The core principle for carrying out an IDOC run will remain the same, regardless of your experimental design. Variations between experimental plans will mainly depend on which paradigm you subject the flies to, and how you treat the flies between IDOC sessions.
 
@@ -19,9 +19,7 @@ This section will guide you through the first set-up steps required to make sure
 
 * Verify camera and IR light functionality
     * Activate the IR light via the switch on the relay control box 
-    *Picture highlighting where the switch is*
     * Use the Pylon camera software on your PC to connect to the camera and activate a live feed. You should see a grayscale image with all the IDOC ROIs and the 3 tracking dots clearly illuminated. Make sure there is no image tearing or any artefacts. 
-    *2 pictures - 1 for how to interpret the buttons in the Pylon software, 1 for an image of what to look for in the video feed, highlighting the dots*
         * If image tearing/artefacts show up, you will need to plug-and-unplug the camera from the PC. Pay special attention to how stable the USB connection is (connector not wobbling in socket).
 * Verify proper functionality of air/odour delivery system
     * Check whether the water level in the air washing and warming section is sufficient. The air washing bottle should have roughly 600ml of water, and the water bath should have enough to submerge most of the washing bottle in.
@@ -35,19 +33,9 @@ This section will guide you through the first set-up steps required to make sure
         * Air inflow rates for both left and right side should be matching. Make any necessary adjustments at the inflow manifold
         * Air inflow and vacuumed outflow rates should be matching.
         * Flow rates for odour and clean air should be equal. To check this, activate odour flow from the relay control panel for just one of the sides (left/right) and see if the flow rates match for both channels. Repeat this process for both channels. If flow rates become unequal when switching to odour, you will have to check the flow path for leaks or blockages.
-
             * Make sure all luers and bottle caps are tight
             * Verify the state of the tubing. Make sure there are no points of blockage (tight bends, debris, weight on tubing) or leakage. You can check for leaks by squeezing the tube shut. If the inflow rate does not go to 0 when you do this, then there is a leak between the odour bottle and your crimp point.
     * Finish up by turning off the airflow and vacuum from the relay control panel
-    
-<!-- Embed YouTube Video -->
-<iframe width="560" height="315" src="https://www.youtube.com/embed/KCPsX5z7BI0?si=_qtdwb09p_fjraX_&start=165 title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-*Video - First scene checking the air washing stage: look at temp and water levels. Second scene to highlight us turning the valve inside the enclosure and pointing out which way it needs to be with edits. Third scene to point out us switching on the relevant valves, followed by us pointing out the matching levels on the flowmeters*
-
-
-
-
 * Start up the IDOC logs on your control PC and make sure there are no error messages in the logs.
 
 ## Experimental protocol
@@ -61,9 +49,9 @@ The first part of this section will highlight the basics of running an experimen
     * Do not mix up left and right side inflow tubes. This is mainly just a risk in the middle of the enclosure, as there the L/R inflows can get crossed up
 
 <!-- Embed YouTube Video -->
-<iframe width="560" height="315" src="https://www.youtube.com/embed/KCPsX5z7BI0?si=_qtdwb09p_fjraX_&start=165" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HGXVpZsmcog?si=Kp8FnGSLXkYTT4S-&start=165" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-*Video - Show us loading flies into chambers, and sealing the chamber shut with the plug. Show a stack of 10 chambers with loaded flies and how we would load them into the chamber slots in the machine. Emphasize in the video that since we only have 10 flies, we still need to fill out the other empty slots with empty chambers. Show us connecting the tubes, emphasize that you need to distinguish between left and right inflow, especially in the middle of the machine.*
+*The above video should highlight the process of loading the flies into their respective chambers, and how those in turn get loaded into the IDOC system. In case the video doesn't jump to the correct timestamps, the fly loading can be seen at 2:45 and the chamber loading seen at 6:53.*
 
 
 * Cover up the front of the enclosure when done loading the chambers.
@@ -90,11 +78,12 @@ The first part of this section will highlight the basics of running an experimen
 * Select "Start" to start the paradigm. Make sure that the timer in the video feed actually starts, since sometimes the experiment can fail to start despite giving the command. If this happens then select "Stop", followed by "Restart". Then simply repeat the paradigm selection process and start the experiment again.
     * To be sure the stimuli are being provided as necessary, you should keep monitoring the video feed throughout the paradigm's execution. Whenever a stimulus (odour or electroshock) is being applied, a corresponding light should switch on in the enclosure and show up on the video feed.
 * Once the paradigm has finished running, you should see the timer stop and hear the airflow end. Remove your chambers from the enclosure and follow up with any steps your experimental design has intended for the flies.
+    * Remove the flies from their chambers ASAP, since they are constantly making the chambers dirtier, leading to you needing more frequent cleaning sessions.
 
 <!-- Embed YouTube Video -->
-<iframe width="560" height="315" src="https://www.youtube.com/embed/KCPsX5z7BI0?si=_qtdwb09p_fjraX_&start=635" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HGXVpZsmcog?si=Kp8FnGSLXkYTT4S-&start=609" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-*Video - Scene where we go through selecting a paradigm and hitting "Start". Show the expected video feed.Emphasize us checking the timer in the video feed + looking for the EShock or odour LEDs (A or B indicators). Follow up with quick scene of chambers being disconnected from tubing and being removed from enclosure. Final scene of how to remove flies. For trying to preserve flies, show the sucking method + tube method where they walk out by themselves. For discarding flies, simply show the vacuum pump method.*
+*The above video should illustrate the steps needed to start the experiment once all your chambers have been loaded into the IDOC system. All the relevant markers that you can use to verify that the system is working as intended are also shown. In case the video doesn't jump to the correct timestamps, the process of choosing and activating the paradigms starts at 10:08 in the video*
 
 
 
