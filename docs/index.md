@@ -1,9 +1,10 @@
 
 # Individual Drosophila Olfactory Conditioner (IDOC)
 
+Paper describing the tool coming out soon to _bioarxiv_.
 
 <!-- Embed YouTube Video -->
-<iframe width="560" height="315" src="https://www.youtube.com/embed/WrRvziT4CCk?si=PqejeFb9SjmcuttM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/oatrOTn3igg?si=PqejeFb9SjmcuttM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
 The IDOC (<b>I</b>ndividual *<b>D</b>rosophila*  <b>O</b>lfactory  <b>C</b>onditioner) is a versatile custom-built system, developed at [Fly Sleep Lab](https://www.flysleeplab.com), for studying olfactory learning and memory in individual Drosophila. This documentation provides researchers with detailed guidance for using the IDOC system to study fly learning and memory, as well as for constructing and configuring the system for their experimental needs. It includes:
@@ -18,6 +19,6 @@ The IDOC (<b>I</b>ndividual *<b>D</b>rosophila*  <b>O</b>lfactory  <b>C</b>ondit
 
 For detailed discribtion of IDOC system, please see the [preprint].
 
-Contact: erik.tedre@kuleuven.be, antonio.ortega@kuleuven.be, or elsayed.baz@kuleuven.be
+Contact: erik.tedre@kuleuven.be, antonio.ortega@kuleuven.be, or e.baz@science.suez.edu.eg.
 
-Updated on Jan 2024
+Updated on Feb 2024
