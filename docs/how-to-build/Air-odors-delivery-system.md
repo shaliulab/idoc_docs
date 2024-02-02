@@ -26,6 +26,8 @@ The IDOC Air/Odors Delivery System is in charge of delivering controlled air and
 
 ## Map
 
+NOTE: This map shows the connections needed to run a 1-odor conditioning experment. If you wish to run 2-odor conditioning, you need to add one more valve on each side (to switch between either of the odors)  
+
 ![Flow_system.PNG](/assets/Images/Flow_system.PNG)
 
 1. Air is provided from a controlled constant pressure source.
@@ -72,7 +74,7 @@ The IDOC Air/Odors Delivery System is in charge of delivering controlled air and
 
     TODO chemical resistant silicon tubing or Tygon tubing  then collected from the tubing-wiring box and a male luer is connected to the other end which is connected to recording chambers female Luer.
 
-9. After the odor valves are closed, there can be an undesired residual flow of diluted odor arriving to the animals.  To ensure that this never happens, and the stimuli are delivered with high time precision, each input is first passed through a **3-port exhaust valve** (Solenoid release exhaust valve S 3-way (Aliexpress/Miniyard, [32881849871 (12V)](https://www.aliexpress.com/item/32881849871.html)) that only opens when getting a 12V DC signal. This way, when stopping the odor valves, the residual odour is diverted to the NO port of the **exhaust valve**, which  collects to a waste bottle. We found that a residual current was present (via visible bubbling) in the waste bottle for about 7 seconds after stopping the **3-port solenoid valve**.
+9. After the odor valves are closed, there can be an undesired residual flow of diluted odor arriving to the animals.  To ensure that this never happens, and the stimuli are delivered with high time precision, each input is first passed through a **3-port exhaust valve** (Solenoid release exhaust valve S 3-way (Aliexpress/Miniyard, [32881849871 (12V)](https://www.aliexpress.com/item/32881849871.html)) that only opens when getting a 12V DC signal. This way, when stopping the odor valves, the residual odor is diverted to the NO port of the **exhaust valve**, which  collects to a waste bottle. We found that a residual current was present (via visible bubbling) in the waste bottle for about 7 seconds after stopping the **3-port solenoid valve**.
 
 
 

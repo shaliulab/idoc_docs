@@ -1,12 +1,12 @@
 Installation
 --------------
 
-To use idoc we recommend creating a conda environment. Please install anaconda or miniconda and proceed as follows.
+To use idoc we recommend creating a conda environment. mamba may also work but we haven't tested it. Please install anaconda or miniconda and proceed as follows.
 
 ## 1. Create a conda environoment
 
 ```
-    conda create --name python=3.8.10 idoc
+    conda create --name idoc python=3.8.10
     conda activate idoc
 ```
 
@@ -17,24 +17,13 @@ without conflicts with other pieces of software on the same computer
 ## 2. Install idoc
 
 ```
-    pip install idoc==2.1.5
+    pip install idoc
 ```
 
-This will install the idoc package version version 2.1.5 from https://pypi.org/ as well as all the dependencies
+This will install the last version of the idoc package (2.1.8 as of February 2024) from https://pypi.org/ as well as all the dependencies
 
 
-## 3. Run post install script
-
-```
-    idoc_postinstall
-```
-
-This will create the default configuration, but still some human intervention is needed,
-as explained in the steps below
-
-
-## 4. Set path pointers in config
-
+## 3. Set path pointers in config
 
 
 The configuration is by default installed to ``$HOME/.config/idoc/idoc.yaml`` in YAML format.
@@ -48,7 +37,7 @@ You need to update the following fields to make them match your system.
 4. `controller.paradigm_path`: Filename of a .csv file available under the `folders.paradigms.path`
 
 
-## 5. Provide a default mapping and default paradigm
+## 4. Provide a default mapping and default paradigm
 
 
 A valid mapping would look like this:
@@ -95,7 +84,6 @@ This is the paradigm selected by default upon installation of idoc
     ONBOARD_LED,0,5,500,500,o,1
 ```
 
-
 **Please note:**
 
 idoc needs the paradigm and mapping passed in the config to be available at boot.
@@ -105,14 +93,13 @@ Therefore, you need to make sure the file listed in the config under:
 * ``controller.paradigm_path`` exists in the directory under ``folders.paradigms.path``.
 * ``controller.mapping_path`` exists in the directory under ``folders.mappings.path``.
 
-## 6. Create  machine_name
+## 5. Create  machine_name
 
-Linux users need to make sure the contents of `$HOME/.config/idoc/machine_name` have the name they want their machine to have, for example `IDOC_001`.
+Linux users need to make sure the contents of `/$HOME/.config/idoc/machine-name` have the name they want their machine to have, for example `IDOC_001`.
 If this file does not exist, it must be created as plain text file with no extensions.
 This will set the name of the folder under which all experiments will be saved.
 
-
-## 7. Configure logs
+## 6. Configure logs
 
 You must have a file called `$HOME/.config/idoc/logging.yaml` with the following content:
 
@@ -185,7 +172,7 @@ This is achieved with a systemd service file, which must be placed under `/etc/s
     [Service]
     Type=simple
     Environment="HOME=/root"
-    ExecStart=/home/vibflysleep/miniconda3/envs/idoc/bin/python  /home/vibflysleep/opt/idoc/idoc/server/bin/server.py --control --recognize --adaptation-time 0
+    ExecStart=/home/vibflysleep/miniconda3/envs/idoc/bin/python  /home/vibflysleep/anaconda3/envs/idoc/lib/python3.8/site-packages/idoc/server/bin/server.py --control --recognize --adaptation-time 0
     RestartSec=5
     Restart=always
 
@@ -197,8 +184,9 @@ This is achieved with a systemd service file, which must be placed under `/etc/s
 
 #### 2. Edit the `ExecStart` line so:
 
-   * the first token points to the python binary of your conda environment
-   * the second token points to the `server.py` script
+
+   * the first token (`/home/vibflysleep/miniconda3/envs/idoc/bin/python`) points to the python binary of your conda environment
+   * the second token (`/home/vibflysleep/anaconda3/envs/idoc/lib/python3.8/site-packages/idoc/server/bin/server.py`) points to the `server.py` script. It should have the same prefix as your python binary (if you installed using conda)
 
 #### 3. Place the file under `/etc/system/systemd/idoc_server.service` (you will need sudo permissions)
 
@@ -229,16 +217,18 @@ your user needs to belong to the adm group. You can get that done by
 
 ```
     sudo su # become superuser
-    usermod -aG YOUR_NORMAL_USER adm
+    usermod -aG your_user adm
 ```
 
 and logout or reboot the pc
 
 
-## 9. Install gooogle chrome and extension to refresh page
+## 9. Install gooogle chrome and extension to refresh page or sxiv
 
+Install a program that can open a png file and refresh it every few seconds. We recommend
 
-Install a program that can open a png file and refresh it every few seconds. We recommend simply installing google chrome and any extension that refreshes the open page every second or so.
+1) Simply installing google chrome and any extension that refreshes the open page every second or so.
+2) We recently found sxiv can also render a .png that is frequently updated to generate a pseudofeed. You can intall it with `sudo apt install sxiv`
 
 
 ## 10. Udev rule (Linux, OPTIONAL).
@@ -246,9 +236,8 @@ Install a program that can open a png file and refresh it every few seconds. We 
 Linux users can write a udev rule so the file under `/dev` that represents the Arduino board is always the same,
 regardless of how many boards are plugged or the order in which they were plugged.
 Then, in the config file, update `controller.arduino_port` to match the file created by the udev rule.
-Otherwise, set `controller.arduino_port` to `"/dev/ttyACM0"` in Linux and `"/dev/USB0"` in Windows 
+Otherwise, set `controller.arduino_port` to `"/dev/ttyACM0"` in Linux and `"/dev/USB0"` in Windows
 
 ## 11. Test connection between computer and Arduino
 
-
-See section Usage > testing
+TODO
