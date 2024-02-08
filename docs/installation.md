@@ -89,14 +89,13 @@ This is the paradigm selected by default upon installation of idoc
 idoc needs the paradigm and mapping passed in the config to be available at boot.
 Therefore, you need to make sure the file listed in the config under:
 
-
 * ``controller.paradigm_path`` exists in the directory under ``folders.paradigms.path``.
 * ``controller.mapping_path`` exists in the directory under ``folders.mappings.path``.
 
-## 5. Create  machine_name
+## 5. Create  machine-name
 
 Linux users need to make sure the contents of `/$HOME/.config/idoc/machine-name` have the name they want their machine to have, for example `IDOC_001`.
-If this file does not exist, it must be created as plain text file with no extensions.
+If this file does not exist, it must be created as a plain text file with no extensions.
 This will set the name of the folder under which all experiments will be saved.
 
 ## 6. Configure logs
