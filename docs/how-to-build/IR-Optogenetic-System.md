@@ -48,16 +48,11 @@ The following sketch shows the optogenetics system components:
 | Dekimo  Layers Leuven NV  Rijschoolstraat  11 - B-3000 Leuven - Belgium |
 
 
-
-A custom-made LED drivers was used for controlling high power LEDs mounted below each recording chambers. The LED-drivers board is relatively small (9 x 11 cm), and contains 10 drivers  for individually adjust of the LED intensity to be the same across all recording chambers.  The LED current delivered to turn LEDs ON can be limited by means of a single turn control potentiometer knob at the top of each drivers to set the maximum current needed for each channel  to ensure that all led strings getting the same forward current.. A global pulse width modulation (PWM) signal then be used to control the LEDs current and the brightness of the LEDs via the software communication.  We also added a I²C  (the IC is an [PCA9685](https://www.nxp.com/docs/en/data-sheet/PCA9685.pdf) )) to PWM driver. This ship is the same as the one used in the Adafruit PCA9685 16-Channel Servo Driver ([Adafruit PCA9685 library](https://learn.adafruit.com/16-channel-pwm-servo-driver/using-the-adafruit-library)). This chip could allow us to calibrate the LEDs in software if someone later want this as on option (to expand the functionality of this board up to 16-Channel LED controller) this chip has a general PWM + an individual PWM for each output. So using the individual you can equalize the light output, and with the general PWM you can control the overall light output.
-
+Custom-made LED drivers were used for controlling high power LEDs mounted below each recording chambers. The LED-drivers board is relatively small (9 x 11 cm), and contains 10 drivers for individually adjustment of the LED intensity to be the same across all recording chambers. The LED current delivered to turn LEDs ON can be limited by means of a single turn control potentiometer knob at the top of each driver to set the maximum current needed for each channel  to ensure that all LED strings get the same forward current. A global pulse width modulation (PWM) signal is used to control the LEDs current and the brightness of the LEDs via the software communication. We also added a I²C (the IC is an [PCA9685](https://www.nxp.com/docs/en/data-sheet/PCA9685.pdf) to PWM driver). This chip is the same as the one used in the Adafruit PCA9685 16-Channel Servo Driver ([Adafruit PCA9685 library](https://learn.adafruit.com/16-channel-pwm-servo-driver/using-the-adafruit-library)). This chip could allow us to calibrate the LEDs in software if someone later wants this as an option (to expand the functionality of this board up to 16-Channel LED controller) this chip has a general PWM and an individual PWM for each output. So using the individual PWM you can equalize the light output, and with the general PWM you can control the overall light output.
 
 ![LED-driver-board-V.01.PNG](/assets/Images/LED-driver-board-V.01.PNG)
 
-| **" alt="relative" style="width: 80%;" />** | **<img src="assets/Images/LED-driver-board-V.01.PNG)
-** |
-| ---------------------------------------- | ---------------------------------------- |
-| the board footprint is 9 x 11 cm and contains 10 drivers or via PCA9685 16-Channels. | LED power can be adjusted using the potentiometer on front panel.  Each channel can be regulated independently *but* they all have the same PWM signal & Frequency to run. |
+The board footprint is 9 x 11 cm and contains 10 drivers or via PCA9685 16-Channels. LED power can be adjusted using the potentiometer on front panel. Each channel can be regulated independently *but* they all have the same PWM signal & Frequency to run.
 
 **Specifications**
 
@@ -75,7 +70,6 @@ A custom-made LED drivers was used for controlling high power LEDs mounted below
 | **Light Source**                       | High Power LEDs                          |
 | **Board dimensions**                   | 9 x 11 cm                                |
 
-****
 
 #### **Number of required boards**
 
@@ -84,25 +78,18 @@ At least 2 boards are needed to run the left and right side optogenetic panels i
 ![LED-driver-2-boards.PNG](/assets/Images/LED-driver-2-boards.PNG)
 
 
-
-
 #### **Output ports and pinouts**
 
 There are 10 output ports. Each port has 2 pins: V+, GND (-ve) . The LED drivers and optogenetic LED panels are connected via the ribbon cables with 20-way IDC connector, which is compatible with all LED assemblies in the system - see Section LED Connectors & IDC Cables. The figure below shows the pin-out of the male connector at the bottom of the driver board
 
-**![LED-driver-piout-1.PNG](/assets/Images/LED-driver-piout-1.PNG)
-**
-
-**![LED-driver-piout-2.PNG](/assets/Images/LED-driver-piout-2.PNG)
-**
+![LED-driver-piout-1.PNG](/assets/Images/LED-driver-piout-1.PNG)
 
 
+![LED-driver-piout-2.PNG](/assets/Images/LED-driver-piout-2.PNG)
 
 #### **LED-Driver enclosure & mounting**
 
- We designed a 3D plastic enclosure [(Onshape)](https://cad.onshape.com/documents/7311a44d87579c0899650b4a/w/81c191560d810e89a94453ba/e/f0a8bf10642312bda53f0c61?renderMode=0&uiState=6244479bfbeafd34ddca1a1c) to hold and protect the board of the LED driver. at least two independently boards are required to drive both right and left LED panels at each half of the setup. So two enclosures are also needed to mount both boards.
-
-
+We designed a 3D plastic enclosure [(Onshape)](https://cad.onshape.com/documents/7311a44d87579c0899650b4a/w/81c191560d810e89a94453ba/e/f0a8bf10642312bda53f0c61?renderMode=0&uiState=6244479bfbeafd34ddca1a1c) to hold and protect the board of the LED driver. at least two independently boards are required to drive both right and left LED panels at each half of the setup. So two enclosures are also needed to mount both boards.
 
 **The front panel of Optogenetics-LED driver enclosure features:**
 
@@ -110,24 +97,14 @@ There are 10 output ports. Each port has 2 pins: V+, GND (-ve) . The LED drivers
 - Connector socket for PWM signal for control of LED power from Arduino & Computer,
 - Toggle switch PWM Input/External to enable LED (ON/OFF) by external 0-5 VDC signal
 
-
-
 ![LED-driver-board-V.01-front-panel.PNG](/assets/Images/LED-driver-board-V.01-front-panel.PNG)
-
-
-****
 
 **The back panel of Optogenetics-LED unit features:**
 
 - Connector socket for external input (0-5V) for control of LED power ON/OFF manually.
 - Connector socket for Indicator IR LED during recording.
 
-
-
 ![LED-driver-board-V.01-back-panel.PNG](/assets/Images/LED-driver-board-V.01-back-panel.PNG)
-
-
-****
 
 **The top panel of Optogenetics-LED driver board features:**
 
@@ -137,14 +114,7 @@ There are 10 output ports. Each port has 2 pins: V+, GND (-ve) . The LED drivers
 - IR LED straight pin header, 2.54mm pitch, 20 way, 1 row, Marker signal.
 
 
-
-
-
-
 ![LED-driver-board-V.01-top-panel.PNG](/assets/Images/LED-driver-board-V.01-top-panel.PNG)
-
-
-
 
 
 **To assembly the LED-Board enclosure you will need the following :**
