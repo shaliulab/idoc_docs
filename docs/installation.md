@@ -23,24 +23,24 @@ without conflicts with other pieces of software on the same computer
 This will install the last version of the idoc package (2.1.8 as of February 2024) from https://pypi.org/ as well as all the dependencies
 
 
-## 3. Set path pointers in config
+## 3. Set results folder, paradigms folder and mapping
 
 
-The configuration is by default installed to ``$HOME/.config/idoc/idoc.yaml`` in YAML format.
+The configuration is by default installed to `$HOME/.config/idoc/idoc.yaml` in YAML format.
 Upon installation of idoc, this file is created automatically.
 You need to update the following fields to make them match your system.
-
 
 1. `folders.results.path`: Path to a directory where the data from the new experiments will be saved
 2. `folders.paradigms.path`: Path to a directory containing at least one paradigm .csv file
 3. `controller.mapping_path`: Path to a directory containing at least one mapping .csv file
-4. `controller.paradigm_path`: Filename of a .csv file available under the `folders.paradigms.path`
+4. `controller.paradigm_path`: Filename of a .csv file available under the `folders.paradigms.path` used as default paradigm
 
 
 ## 4. Provide a default mapping and default paradigm
 
+### Mapping
 
-A valid mapping would look like this:
+A valid mapping is a .csv file with two columns called `hardware` and `pin_number`. It looks like this:
 
 ```
   hardware,pin_number
@@ -49,10 +49,14 @@ A valid mapping would look like this:
   LED_R_RIGHT,2
 ```
 
-so there are two columns called **hardware** and **pin_number**.
-
 * The pin number corresponds to the number written on the GPIO of the Arduino board you use.
 * The hardware column should contain a user-friendly name you give to this hardware. No spaces are allowed!
+
+[This](/assets/src/mega.csv) is the mapping we use in one of our idocs.
+
+
+### Paradigm
+
 
 A valid paradigm would look like this
 
@@ -63,34 +67,38 @@ A valid paradigm would look like this
   LED_R_RIGHT,1,2,1,1,o,1
 ```
 
-
-* We again have the hardware column, which should contain the same set of names you used in the hardware column of your mapping.
+* The hardware column contains the same set of names you used in the hardware column of your mapping.
 * **start** and **end** show the moment when the hardware will start and end its duty, in minutes since experiment start.
 * **on** and **off** are the number of seconds the hardware should be on and off, if it should cycle during its duty. If no cycle is needed, leave NaN.
-* **mode** must be either ``o``/``p`` where ``o`` is the default and ``p`` is if you want to use PWM, which allows you to modulate the output of the hardware (say light intensity).
-    In that case, the hardware must be connected to a PWM supporting pin (see the board specs).
-* **value** must be 1 everytime **mode** is ``o`` and between 0 and 1 if **mode** is set to ``p``.
+* **mode** must be either `o`/`p` where `o` is the default and `p` is if you want to use PWM, which allows you to modulate the output of the hardware (say light intensity). In that case, the hardware must be connected to a PWM supporting pin (see the board specs).
+* **value** must be 1 everytime **mode** is `o` and between 0 and 1 if **mode** is set to `p`.
+
+All these columns are **required** in your paradigms.
 
 ### Example of a paradigm: the warm_up
 
-This is the paradigm selected by default upon installation of idoc
+This paradigm will turn on the IR light and activate a clean air flow through the chambers, but will deliver no other stimuli the animals
 
 ```
     hardware,start,end,on,off,mode,value
-    MAIN_VALVE,0,5,NaN,NaN,o,1
-    VACUUM,0,5,NaN,NaN,o,1
-    IRLED,0,5,NaN,NaN,o,1
-    TARGETS,0,.2,NaN,NaN,o,1
-    ONBOARD_LED,0,5,500,500,o,1
+    MAIN_VALVE,0,5,NaN,NaN,o,1  # inflow
+    VACUUM,0,5,NaN,NaN,o,1      # outflow
+    IRLED,0,5,NaN,NaN,o,1       # IR light
+    TARGETS,0,.2,NaN,NaN,o,1    # targets for the detection of the arena
+    ONBOARD_LED,0,5,500,500,o,1 # just the LED on the Arduino flashing at 1 Hz for 5 minutes.
 ```
+[Link](/assets/warm_up.csv)
 
 **Please note:**
 
 idoc needs the paradigm and mapping passed in the config to be available at boot.
 Therefore, you need to make sure the file listed in the config under:
 
-* ``controller.paradigm_path`` exists in the directory under ``folders.paradigms.path``.
-* ``controller.mapping_path`` exists in the directory under ``folders.mappings.path``.
+* `controller.paradigm_path` exists in the directory under `folders.paradigms.path`.
+* `controller.mapping_path` exists in the directory under `folders.mappings.path`.
+
+Additionally, your other paradigms should be saved in .csv format wherever `folders.paradigms.path` points to.
+
 
 ## 5. Create  machine-name
 
@@ -241,3 +249,6 @@ Otherwise, set `controller.arduino_port` to `"/dev/ttyACM0"` in Linux and `"/dev
 ## 10. Test connection between computer and Arduino
 
 TODO
+
+
+PS The IDOC software draws heavy inspiration from the ethoscope, a platform developed in [the lab of Giorgio Gilestro](https://github.com/gilestrolab) to quantify fly behavior in high-throughput in isolated flies. 

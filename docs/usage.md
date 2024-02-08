@@ -18,7 +18,7 @@ For odor based conditioning, you will most likely need to custom-make your own o
 
 ## Writing a paradigm
 
-TODO
+See [the section](/installation/#paradigm) in the installation section.
 
 ## IDOC Start-up protocol
 
@@ -68,7 +68,7 @@ The first part of this section will highlight the basics of running an experimen
 idoc_cli
 ```
 
-![](./assets/Images/idoc_cli.jpg)
+![](/assets/Images/idoc_cli.jpg)
 
 NOTE: In the image above we have split the terminal, so the right half shows the logs of idoc. You can read them too by running
 
@@ -96,21 +96,21 @@ You should see the following menu:
 
 * Select your desired experimental paradigm with "Load paradigm" by pressing `1`.
 
-![](./assets/Images/idoc_cli-menu-1.jpg)
+![](/assets/Images/idoc_cli-menu-1.jpg)
 
 
 Select your desired paradigm, in the video we selected number `7`, so we enter 7 in the interface.
 
 
-![](./assets/Images/idoc_cli-menu-7.jpg)
+![](/assets/Images/idoc_cli-menu-7.jpg)
 
 
 follow with "Warm up" by pressing `3` and wait for a live feed of the enclosure to open
  
-![](./assets/Images/idoc_cli-menu-3.jpg)
+![](/assets/Images/idoc_cli-menu-3.jpg)
 
 
-![](./assets/Images/idoc-live-feed.jpg)
+![](/assets/Images/idoc-live-feed.jpg)
 
 
 Make sure you give enough time for all the flies to be picked up by the tracking software. If the flies are not moving and not getting detected by the tracking software, then activate the vibrator for short bursts until they move again.
@@ -118,12 +118,12 @@ Make sure you give enough time for all the flies to be picked up by the tracking
 * Select "Start" to start the paradigm by pressing `5`.
 
 
-![](./assets/Images/idoc_cli-menu-5.jpg)
+![](/assets/Images/idoc_cli-menu-5.jpg)
 
 
 Make sure that the timer in the video feed actually starts, since sometimes the experiment can fail to start despite giving the command.  If this happens then select "Stop", followed by "Restart". Then simply repeat the paradigm selection process and start the experiment again.
 
-![](./assets/Images/idoc_cli-started.jpg)
+![](/assets/Images/idoc_cli-started.jpg)
 
 * To be sure the stimuli are being provided as necessary, you should keep monitoring the video feed throughout the paradigm's execution. Whenever a stimulus (odor or electroshock) is being applied, a corresponding light should switch on in the enclosure and show up on the video feed.
 * Once the paradigm has finished running, you should see the timer stop and hear the airflow end. Remove your chambers from the enclosure and follow up with any steps your experimental design has intended for the flies.

@@ -52,8 +52,9 @@ The following sketch shows the optogenetics system components:
 A custom-made LED drivers was used for controlling high power LEDs mounted below each recording chambers. The LED-drivers board is relatively small (9 x 11 cm), and contains 10 drivers  for individually adjust of the LED intensity to be the same across all recording chambers.  The LED current delivered to turn LEDs ON can be limited by means of a single turn control potentiometer knob at the top of each drivers to set the maximum current needed for each channel  to ensure that all led strings getting the same forward current.. A global pulse width modulation (PWM) signal then be used to control the LEDs current and the brightness of the LEDs via the software communication.  We also added a I²C  (the IC is an [PCA9685](https://www.nxp.com/docs/en/data-sheet/PCA9685.pdf) )) to PWM driver. This ship is the same as the one used in the Adafruit PCA9685 16-Channel Servo Driver ([Adafruit PCA9685 library](https://learn.adafruit.com/16-channel-pwm-servo-driver/using-the-adafruit-library)). This chip could allow us to calibrate the LEDs in software if someone later want this as on option (to expand the functionality of this board up to 16-Channel LED controller) this chip has a general PWM + an individual PWM for each output. So using the individual you can equalize the light output, and with the general PWM you can control the overall light output.
 
 
+![LED-driver-board-V.01.PNG](/assets/Images/LED-driver-board-V.01.PNG)
 
-| **![LED-driver-board-V.01.PNG](/assets/Images/LED-Driver-Board-dimention-footprint.jpg" alt="relative" style="width: 80%;" />** | **<img src="assets/Images/LED-driver-board-V.01.PNG)
+| **" alt="relative" style="width: 80%;" />** | **<img src="assets/Images/LED-driver-board-V.01.PNG)
 ** |
 | ---------------------------------------- | ---------------------------------------- |
 | the board footprint is 9 x 11 cm and contains 10 drivers or via PCA9685 16-Channels. | LED power can be adjusted using the potentiometer on front panel.  Each channel can be regulated independently *but* they all have the same PWM signal & Frequency to run. |

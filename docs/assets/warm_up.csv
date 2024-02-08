@@ -1,0 +1,6 @@
+hardware,start,end,on,off,mode,value
+MAIN_VALVE,0,5,NaN,NaN,o,1
+VACUUM,0,5,NaN,NaN,o,1
+IRLED,0,5,NaN,NaN,o,1
+TARGETS,0,.2,NaN,NaN,o,1
+ONBOARD_LED,0,5,500,500,o,1
