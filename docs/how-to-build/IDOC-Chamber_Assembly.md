@@ -176,7 +176,7 @@ The ITO chambers are assembled from a combination of 3D printed parts and storeb
 
 ![ITO_component_overview.png](/assets/Images/ITO_component_overview.png)
 
-*Figure X: Overview of all the necessary components to build an ITO chamber*
+*Figure 0: Overview of all the necessary components to build an ITO chamber*
 
 
 ### **Assembly guide**
