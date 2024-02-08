@@ -18,7 +18,7 @@ For odor based conditioning, you will most likely need to custom-make your own o
 
 ## Writing a paradigm
 
-See [the section](/installation/#paradigm) in the installation section.
+See [the section](/installation/#paradigm) in the installation page.
 
 ## IDOC Start-up protocol
 
