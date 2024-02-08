@@ -143,6 +143,7 @@ Both the pins and the connecting metal strip are made in-house from standard ele
 
 ### **ITO chamber component list**
 The ITO chambers are assembled from a combination of 3D printed parts and storebought parts (which have been further modified in some cases). The overall list of parts looks as follows:
+
 * 3D printed parts:
     * Main chamber body (link)
     * Top window (link)
@@ -176,7 +177,7 @@ The ITO chambers are assembled from a combination of 3D printed parts and storeb
     * 0.8mm drill bit + handle of your choice
     * Multimeter
 
-(Add picture of all the components you will be using here)
+![ITO_component_overview.png](/assets/Images/ITO_component_overview.PNG)
 
 ### **Assembly guide**
 
@@ -190,6 +191,8 @@ This is an optional section for those using the 3D printed template for the rubb
     * Cut the bottom, middle and top rubber shapes from your starting pieces by using the corresponding template pieces.
         * Place your starting rubber piece on the template base. Cover it with the corresponding template piece and fix it in place with the hex nuts. Make sure there is no warping of the rubber after tightening the nuts.
         * Proceed to cut along the inner and outer walls of the template. Note that you will need to do small cuts afterwards to finish the areas where the template supports are covering the rubber.
+
+![ITO_rubber_cut.png](/assets/Images/ITO_rubber_cut.PNG)
 
 **2. Quality control for 3D printed parts**
 
@@ -205,7 +208,10 @@ This is an optional section for those using the 3D printed template for the rubb
 * For the L-shaped plug:
     * Check if the airflow path is clear with a needle. 
 
+![print_cleaning.PNG](/assets/Images/print_cleaning.PNG)
+
 **3. Making the electrodes**
+
 * Prepare the electrodes. The instructions below describe how to assemble a single electrode, but keep in mind you will need to make 4 in total (and maybe some extras as back-up, as some will inevitably break during assembly):
     * Cut a 2cm piece of a metal strip. In case it still has leftover material from the attachment points, trim them off with pliers and/or sand them down with a file.
     * Solder the pin to one of the holes. Try to leave as much of the pin sticking out as possible.
@@ -213,14 +219,20 @@ This is an optional section for those using the 3D printed template for the rubb
     * Cut down the remaining metal until there is roughly 3-5mm to either side of the pin.
     * Using tweezers, bend the flat metal sections so they form a very thin U-shape
 
+![electrode_assembly.PNG](/assets/Images/electrode_assembly.PNG)
+
 **4. Assembling the base of the chamber**
+
 * Insert the 8x 2Mx12mm screws to the bulk of the chamber.
 * Add the bottom rubber insert to the base of the IDOC chamber.
 * Place the ITO-glass slide on top of the rubber. It should fit snugly and be roughly level with the surrounding steps in the chamber.
 * Add strips of conductive copper tape to both sides of the ITO-glass slide. The strips should be long enough to reach to the electrode holes in the sides.
     * For the bottom side (with the big open port), we need the conductive tape to not obscure the path into the chamber, hence we leave a small gap in the tape there. See picture for clarification.
 
+![chamber_base_assembly.PNG](/assets/Images/chamber_base_assembly.PNG)
+
 **5. Assembling the middle layer of the chamber**
+
 * Add the 4 electrodes (from step 3) into the chamber.
     * These need to be pushed as far out as possible so as to take minimal space inside the chamber. Make sure that the each electrode is making contact with the copper tape on the inside of the chamber.
 * Inserting the middle rubber layer
@@ -229,7 +241,11 @@ This is an optional section for those using the 3D printed template for the rubb
     * Insert the middle rubber piece and ensure that its properly pushed to all the edges of the chamber
     * Insert the inner chamber frame
 
+![electrode_insertion.PNG](/assets/Images/electrode_insertion.PNG)
+![mid_layer_insert.PNG](/assets/Images/mid_layer_insert.PNG)
+
 **6. Finalizing the airflow channels**
+
 * Prepare the airflow paths on the sides and top with a 0.8mm needle.
 * Make and insert the side inflow needles:
     * Cut the needle so that roughly 15mm of metal is left. This could vary for different needle body shapes. The important factor is that the needle can reach inside the triangular section of the inner chamber frame without extending too far into the rest of the chamber.
@@ -241,17 +257,27 @@ This is an optional section for those using the 3D printed template for the rubb
     * File both ends of the needle down
     * Insert the filed needle. Push it in by gently pressing with tweezers/pliers. Make sure that by the end there is little to no excess both in and outside the chamber.
 
+![needle_prep.PNG](/assets/Images/needle_prep.PNG)
+![needle_insertion.PNG](/assets/Images/needle_insertion.PNG)
+
 **7. Finalizing the electrode connections**
+
 * Make and insert the top electrode strips
     * The top electrode strips are made from the same metal strips as were used for the electrodes themselves. Measure out 2 strips long enough to reach from the left to the right electrode. To ensure a good fit, make sure you trim any excess material off of the strip.
     * To insert, tuck both ends under the lip of the chamber or underneath the protruding piece of electrode. Make sure that they are not bulging and rest flat
 
+![top_electrode_insert.PNG](/assets/Images/top_electrode_insert.PNG)
+
 **8. Closing the chamber**
+
 * Add the top ITO-glass slide and make sure it is properly centered in the slot.
 * Cover the glass with the top rubber. Again, make sure the glass is centered and the rubber hadn't moved it.
 * Add the top chamber cover and add the 8 nuts to secure it. Start tightening them from the middle outwards. To achieve the best seal without breaking anything, do not apply too much force while turning, but instead press down harder and then turn.
 
+![chamber_closing.PNG](/assets/Images/chamber_closing.PNG)
+
 **9. External finishes and outflow tubes**
+
 * Apply liquid silicone/sealant at the electrode entry points. Make sure to press the sealant down into the hole and wipe away the excess.
 * Add a short piece (around 3.5mm) of 6mm tubing to the bottom outflow.
 * Assemble and connect the top outflow tube.
@@ -260,6 +286,7 @@ This is an optional section for those using the 3D printed template for the rubb
 * Assemble the L-shaped outflow tube for the bottom of the chamber. Note that this piece does not need to remain connected to the chamber and is only needed during actual usage.
     * Cut a 45mm piece of 3mm tubing and connect it to the end of the 3D printed L-shaped plug. Add a luer to the other end.
 
+![outflow_tubing.PNG](/assets/Images/outflow_tubing.PNG)
 
 # **Quality control for chambers**
 
