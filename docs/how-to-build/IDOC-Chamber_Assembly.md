@@ -188,32 +188,32 @@ This is an optional section for those using the 3D printed template for the rubb
 * On both the template base and the top inserts, prepare the screw holes with a 1.8mm drill bit.
 * Insert the 2Mx12mm screws and make sure the top templates can fit nicely on top
 * Pre-cutting the rubber inserts
-    * Cut out 3 rectangles of 19mm x 78mm from your silicone sheet. These don't need to be exact as they are just the starting parts that will be further cut into the desired shapes with the template (Figure X+1 A).
-    * Cut the bottom, middle and top rubber shapes from your starting pieces by using the corresponding template pieces. Results can be seen in figure X+1 B.
+    * Cut out 3 rectangles of 19mm x 78mm from your silicone sheet. These don't need to be exact as they are just the starting parts that will be further cut into the desired shapes with the template (Figure 1 A).
+    * Cut the bottom, middle and top rubber shapes from your starting pieces by using the corresponding template pieces. Results can be seen in Figure 1 B.
         * Place your starting rubber piece on the template base. Cover it with the corresponding template piece and fix it in place with the hex nuts. Make sure there is no warping of the rubber after tightening the nuts.
         * Proceed to cut along the inner and outer walls of the template. Note that you will need to do small cuts afterwards to finish the areas where the template supports are covering the rubber.
 
 ![ITO_rubber_cut.png](/assets/Images/rubber_cut.png)
 
-*Figure X+1: The process of making the rubber seals from a silicone sheet, starting with generic template pieces (A) and finishing up with rubber pieces fit for their specific chamber layer (B)*
+*Figure 1: The process of making the rubber seals from a silicone sheet, starting with generic template pieces (A) and finishing up with rubber pieces fit for their specific chamber layer (B)*
 
 **2. Quality control for 3D printed parts**
 
 * Make sure you've thoroughly soaked the parts long enough to dissolve all the PVA. Verify that any and all holes are clear with a needle and pressurised air.
 * For the main chamber body:
     * Inspect the insides for any printing faults. Pay special attention to areas with overhangs, as errors mainly happen there. Remove any excess material with a scalpel/tweezers.
-    * Prepare the 8 screw holes with the 1.8mm drill bit. You might even need to upgrade to a 1.9mm drill bit (Figure X+2 B).
-    * Prepare the airflow holes with a 0.8mm needle by rotating and pressing it through the pre-existing holes on the sides and top of the chamber (Figure X+2 C).
-    * Check if your pin headers can fit through the pin slots near left/right inflows. If not, use a drill bit to remove some material until they can fit snugly (Figure X+2 A).
+    * Prepare the 8 screw holes with the 1.8mm drill bit. You might even need to upgrade to a 1.9mm drill bit (Figure 2 B).
+    * Prepare the airflow holes with a 0.8mm needle by rotating and pressing it through the pre-existing holes on the sides and top of the chamber (Figure 2 C).
+    * Check if your pin headers can fit through the pin slots near left/right inflows. If not, use a drill bit to remove some material until they can fit snugly (Figure 2 A).
     * Check if the glass slides can fit snugly into the bottom. If not, remove material where relevant with a file or blade. The usual areas with issues should be highlighted in the following image:
 * For the inner chamber frame:
-    * Prepare the holes on the sides and top with a 0.8mm needle (Figure X+2 D).
+    * Prepare the holes on the sides and top with a 0.8mm needle (Figure 2 D).
 * For the L-shaped plug:
     * Check if the airflow path is clear with a needle.
 
 ![print_cleaning.PNG](/assets/Images/print_cleaning.png)
 
-*Figure X+2: Verifying the quality of the air and screw holes in the 3D printed parts. Image A shows the prep for the electrode holes. Image B shows the prep for the screw holes used to seal the chamber later. Images C and D show how you'd make sure that the needles can fit through the chamber base and inner chamber frame respectively.*
+*Figure 2: Verifying the quality of the air and screw holes in the 3D printed parts. Image A shows the prep for the electrode holes. Image B shows the prep for the screw holes used to seal the chamber later. Images C and D show how you'd make sure that the needles can fit through the chamber base and inner chamber frame respectively.*
 
 **3. Making the electrodes**
 
@@ -226,7 +226,7 @@ This is an optional section for those using the 3D printed template for the rubb
 
 ![electrode_assembly.PNG](/assets/Images/electrode_assembly.png)
 
-*Figure X+3: Making the electrodes from start to finish. Figure X+3 A shows what is meant by removing the excess material on the strips - the top one has the extra material while the bottom one has them cut and filed off. Figure X+3 B illustrates how the pin and strip are meant to be combined. Figure X+3 C also highlights the final length trimming and bending of the strips into the desired U-shape.*
+*Figure 3: Making the electrodes from start to finish. Figure 3 A shows what is meant by removing the excess material on the strips - the top one has the extra material while the bottom one has them cut and filed off. Figure 3 B illustrates how the pin and strip are meant to be combined. Figure 3 C also highlights the final length trimming and bending of the strips into the desired U-shape.*
 
 
 **4. Assembling the base of the chamber**
@@ -235,11 +235,11 @@ This is an optional section for those using the 3D printed template for the rubb
 * Add the bottom rubber insert to the base of the IDOC chamber.
 * Place the ITO-glass slide on top of the rubber. It should fit snugly and be roughly level with the surrounding steps in the chamber.
 * Add strips of conductive copper tape to both sides of the ITO-glass slide. The strips should be long enough to reach to the electrode holes in the sides.
-    * For the bottom side (with the big open port), we need the conductive tape to not obscure the path into the chamber, hence we leave a small gap in the tape there. See Figure X+4 D for clarification.
+    * For the bottom side (with the big open port), we need the conductive tape to not obscure the path into the chamber, hence we leave a small gap in the tape there. See Figure 4 D for clarification.
 
 ![chamber_base_assembly.PNG](/assets/Images/chamber_base_assembly.png)
 
-*Figure X+4: Assembling the base layer of the chamber. Figure A shows the screw insertions. Figures B and C illustrate how the rubber and ITO-glass slide should rest in the chamber respectively. Figure D highlights how the conductive copper tape is positioned and how one side needs to be split down the middle.*
+*Figure 4: Assembling the base layer of the chamber. Figure A shows the screw insertions. Figures B and C illustrate how the rubber and ITO-glass slide should rest in the chamber respectively. Figure D highlights how the conductive copper tape is positioned and how one side needs to be split down the middle.*
 
 **5. Assembling the middle layer of the chamber**
 
@@ -253,11 +253,11 @@ This is an optional section for those using the 3D printed template for the rubb
 
 ![electrode_insertion.PNG](/assets/Images/electrode_insertion.png)
 
-*Figure X+5: Inserting the electrodes into the chamber. Figure B highlights how the electrodes should rest in the chamber.*
+*Figure 5: Inserting the electrodes into the chamber. Figure B highlights how the electrodes should rest in the chamber.*
 
 ![mid_layer_insert.PNG](/assets/Images/mid_layer_insert.png)
 
-*Figure X+6: Visualization of how the inner frame and the middle rubber layer should be inserted. Figure A highlights how the inner frame should be able to be surrounded by the rubber without any warping of either part. Figures B and C highlight the orientation of the 2 parts and how they should rest in the chamber.*
+*Figure 6: Visualization of how the inner frame and the middle rubber layer should be inserted. Figure A highlights how the inner frame should be able to be surrounded by the rubber without any warping of either part. Figures B and C highlight the orientation of the 2 parts and how they should rest in the chamber.*
 
 **6. Finalizing the airflow channels**
 
@@ -274,11 +274,11 @@ This is an optional section for those using the 3D printed template for the rubb
 
 ![needle_prep.PNG](/assets/Images/needle_prep.png)
 
-*Figure X+7: How the prepare one of the side airflow needles. Figure A highlights how much of the needle you need to keep, while Figures B and C show how the rubber O-ring shoudl rest around the needle.*
+*Figure 7: How the prepare one of the side airflow needles. Figure A highlights how much of the needle you need to keep, while Figures B and C show how the rubber O-ring shoudl rest around the needle.*
 
 ![needle_insertion.PNG](/assets/Images/needle_insert.png)
 
-*Figure X+8: How the needles should be inserted. Figure A shows how the side needle should rest once inserted, just barely entering the triangle/fish-shaped section of the inner frame. Figure B highlights what the top airflow needle should look like after preparation and where it should be inserted.*
+*Figure 8: How the needles should be inserted. Figure A shows how the side needle should rest once inserted, just barely entering the triangle/fish-shaped section of the inner frame. Figure B highlights what the top airflow needle should look like after preparation and where it should be inserted.*
 
 **7. Finalizing the electrode connections**
 
@@ -288,7 +288,7 @@ This is an optional section for those using the 3D printed template for the rubb
 
 ![top_electrode_insert.PNG](/assets/Images/top_electrode_insert.png)
 
-*Figure X+9: Illustration of the chamber before (A) and after (B) adding the top layer of electrode strips.*
+*Figure 9: Illustration of the chamber before (A) and after (B) adding the top layer of electrode strips.*
 
 **8. Closing the chamber**
 
@@ -298,7 +298,7 @@ This is an optional section for those using the 3D printed template for the rubb
 
 ![chamber_closing.PNG](/assets/Images/chamber_closing.png)
 
-*Figure X+10: Building the final layer of the chamber. Figure A shows how the glass should rest on the electrodes, B shows the rubber thats been added and finally C shows the full chamber in its sealed form.*
+*Figure 10: Building the final layer of the chamber. Figure A shows how the glass should rest on the electrodes, B shows the rubber thats been added and finally C shows the full chamber in its sealed form.*
 
 **9. External finishes and outflow tubes**
 
@@ -312,7 +312,7 @@ This is an optional section for those using the 3D printed template for the rubb
 
 ![outflow_tubing.PNG](/assets/Images/outflow_tubing.png)
 
-*Figure X+11: How to assemble and connect the outflow tubing. Figures A and B illustrate the process for the top outflow, while C and D illustrate it for the bottom outflow tube.*
+*Figure 11: How to assemble and connect the outflow tubing. Figures A and B illustrate the process for the top outflow, while C and D illustrate it for the bottom outflow tube.*
 
 # **Quality control for chambers**
 
