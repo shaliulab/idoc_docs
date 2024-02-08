@@ -155,7 +155,7 @@ You can optionally adjust the logging level of the idoc modules by adding more l
         propagate: no
 ```
 
-## 8. Install systemd service
+## 7. Install systemd service
 
 
 We recommend running the idoc_server as a service that is always spawned in the background.
@@ -222,21 +222,22 @@ your user needs to belong to the adm group. You can get that done by
 and logout or reboot the pc
 
 
-## 9. Install gooogle chrome and extension to refresh page or sxiv
+## 8. Install gooogle chrome and extension to refresh page or sxiv
 
-Install a program that can open a png file and refresh it every few seconds. We recommend
+Install a program that can open a png file and refresh it every few seconds. We recommend:
 
 1) Simply installing google chrome and any extension that refreshes the open page every second or so.
-2) We recently found sxiv can also render a .png that is frequently updated to generate a pseudofeed. You can intall it with `sudo apt install sxiv`
+
+2) We recently found [sxiv](https://manpages.ubuntu.com/manpages/xenial/man1/sxiv.1.html) can also render a .png that is frequently updated to generate a pseudofeed. You can install it with `sudo apt install sxiv`.
 
 
-## 10. Udev rule (Linux, OPTIONAL).
+## 9. Udev rule (Linux, OPTIONAL).
 
 Linux users can write a udev rule so the file under `/dev` that represents the Arduino board is always the same,
 regardless of how many boards are plugged or the order in which they were plugged.
 Then, in the config file, update `controller.arduino_port` to match the file created by the udev rule.
 Otherwise, set `controller.arduino_port` to `"/dev/ttyACM0"` in Linux and `"/dev/USB0"` in Windows
 
-## 11. Test connection between computer and Arduino
+## 10. Test connection between computer and Arduino
 
 TODO
