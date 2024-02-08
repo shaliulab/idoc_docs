@@ -4,9 +4,9 @@ The IDOC chambers are the key to delivering stimuli to isolated flies while also
 
 For our IDOC system, we have 2 main chamber variants:
 1. "Normal" IDOC chambers which only have air/odor as the in/outputs
-2. Electroshock chambers, which have the basic air/odor functionality but also incorporate a conductive glass to deliver currents to the flies
+2. Electroshock chambers, which have the basic air/odor functionality but also incorporate a conductive glass to deliver current to the flies.
 
-The following sections should elucidate how to build and test either of the chamber types. Since both of these are made from a combination of 3D printed and bought parts, a printing and shopping list will be linked for each. Overlapping components will be highlighted where relevant.
+The following sections describe how to build and test either of the chamber types. Since both of these are made from a combination of 3D-printed and bought parts, a printing and shopping list will be linked for each. Overlapping components will be highlighted where relevant.
 
 ![IDOC-Chamber.PNG](/assets/Images/IDOC-Chamber.PNG)
 
@@ -14,7 +14,7 @@ The following sections should elucidate how to build and test either of the cham
 ## **Fabricating the normal IDOC chambers**
 
 
-[List of files to print](../src/3D_printed_parts/Recording_chambers/)
+[List of files to print](/assets/src/3D_printed_parts/Recording_chambers/)
 
 
 **1. Cleaning and Adjusting printed parts**:
@@ -24,9 +24,6 @@ The following sections should elucidate how to build and test either of the cham
 * 1.2 - Remove any excess material in the 8 screw holes using a **[2 mm drill bit](https://www.amazon.de/-/en/FOCCTS-0-5-3-0-Rotating-Jewellery-Beeswax/dp/B07DXLFRQ8)**.
 
 * 1.3 - Ensure that the needle holes are clean by removing any excess material in them with a **[0.8 mm drill bit](https://www.amazon.de/-/en/FOCCTS-0-5-3-0-Rotating-Jewellery-Beeswax/dp/B07DXLFRQ8)**. Check all 3 needle holes (top, left and right).
-
-
-
 
 
 **2. Screws and Needles Insertion**:
@@ -96,7 +93,7 @@ For aversive electric shock learning conditioning, we used patterned coated indi
 
 | **Indium Tin Oxide coated patterned glass slides ** |
 | ---------------------------------------- |
-| **- [Design_ITO_glass_Slide](../src/ElectricShock)** CAD DXF drawing |
+| **- [Design_ITO_glass_Slide](/assets/src/ElectricShock)** CAD DXF drawing |
 | 69.0 mm length x 14.0 mm width x 1.1 mm Thicknesses [0.5 mm ITO electrodes (100 electrodes) – 0.1 mm inter electrode-spacing ] |
 | **Prepared for the  laboratory of**      |
 | **Sha Liu**                              |

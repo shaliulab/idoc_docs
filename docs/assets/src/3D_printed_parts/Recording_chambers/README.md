@@ -1,17 +1,13 @@
 
 
-Currently, we have not shared the chambers 3D-designs, but please get in contact if you need further information.
-
+Currently, we have not shared the chamber 3D-designs, but please get in contact if you need further information.
 
 
 We have developed the following designs:
 
 - Chamber_with- ITO_glass --> to provide the electric shocks during training.
 - Chamber_ Non ITO_glass--> to be used for pre- and post- conditioning  testing.
-- Chamber_Heater_glass --> to provide an increase in the temperature while testing. 
-- Chamber_saving_rack 
+- Chamber_Heater_glass --> to provide an increase in the temperature while testing.
+- Chamber_saving_rack.
 
-
-
-![IDOC-Chamber.PNG](......./assets/Images/IDOC-Chamber.PNG)
-
+![IDOC-Chamber.PNG](/assets/Images/IDOC-Chamber.PNG)

@@ -14,7 +14,7 @@ The relevant 3D designs will be linked to wherever relevant, and they should be 
 
 The entire catalogue of 3D printed parts is available for download from the IDOC GitHub page (https://github.com/shaliulab/idoc_docs/tree/master/assets/src/3D_printed_parts). Each file should be accompanied by a Cura profile file containing the optimal parameters for printing. Regarding materials, you have some options, however the ones listed below are deemed optimal for these applications.
 
-[List of files](../src/3D_printed_parts/IDOC_setup/)
+[List of files](/assets/src/3D_printed_parts/IDOC_setup/3d_files.zip)
 
 
 For our prints, we used the Ultimaker 2+ and S3 series printers. The listed 3D items should be printed with very solid and tough materials to ensure they can handle the light, heat, air pressure, and odors. The suggested materials will achieve best surface quality with increased mechanical and thermal performance without risk of the materials turning too brittle over time.
@@ -52,7 +52,7 @@ For further information, refer to the material data sheets for technical data an
 
 - Driver Bit Set **(RS Components, [668-5723](https://benl.rs-online.com/web/p/screwdriver-bit-sets/6685727); amazon.de, [B01M7PPJI7](https://www.amazon.co.uk/Precision-Screwdriver-Magnetic-Macbook-Electronics/dp/B01M7PPJI7))** &  M2 self-tapping screws with countersunk head **(Amazon.nl, [B07RYLM9N2](https://www.amazon.nl/-/en/dp/B07RYLM9N2))** are necessary tools to fix the parts together
 
-- This **[file](/docs/IDOC_3D_Assemply_Parts.pdf)** provides a step by step guide for assembling the different 3D printed parts.
+- This **[file](/IDOC_3D_Assembly_Parts.pdf)** provides a step by step guide for assembling the different 3D printed parts.
 
 
 
@@ -64,12 +64,12 @@ This box will act as an important base for the IDOC system contained in the encl
 
 This box is necessary for housing the inflow manifold, the outflow vacuum/exhaust tubing, and the wiring that is required to power the setup components. The bottom side of the box holds the rubber feet for the whole setup, while the top side of the box serves as a foundation for the heatsink and lighting box.
 
-The box size is 400 mm x 350 mm. For 3D printability, we need to split this box to four parts of equal surface area (LxW 200mm x175mm). Printed parts can be assembled with screws. For figures illustrating the assembly of the box, see pages 1-4 of this **[file](/docs/IDOC_3D_Assemply_Parts.pdf)**.
+The box size is 400 mm x 350 mm. For 3D printability, we need to split this box to four parts of equal surface area (LxW 200mm x175mm). Printed parts can be assembled with screws. For figures illustrating the assembly of the box, see pages 1-4 of this **[file](/IDOC_3D_Assembly_Parts.pdf)**.
 
 
 To bring power to the setup, this box also holds a panel with all the necessary sockets built in. This panel consists of [pin headers]() to hold [IDC cable]() to power the setup. IR-LED, Electric shocks, odor indicators, and vibration motors. This panel is placed on the backside of the tubing & wiring box, at the allocated slot.
 
-For illustrations of the powering panel assembly and attachment, see pages 8-10 of this **[file](/docs/IDOC_3D_Assemply_Parts.pdf)**.
+For illustrations of the powering panel assembly and attachment, see pages 8-10 of this **[file](/IDOC_3D_Assembly_Parts.pdf)**.
 
 ![Powering-platform.PNG](/assets/Images/Powering-platform.PNG)
  
@@ -90,7 +90,7 @@ Info needed
 
 ### Tubing collector
 
-This part is placed at on the flat top part of the basement box. It is designed to hold the air/odor inflow tubes in place. There is one hole for each tube coming from the main manifold inside the basement box total 40 tubes. The assembly of these tube collectors and their attachment to the base box is illustrated in pages 5-7 of this **[file](/docs/IDOC_3D_Assemply_Parts.pdf)**.
+This part is placed at on the flat top part of the basement box. It is designed to hold the air/odor inflow tubes in place. There is one hole for each tube coming from the main manifold inside the basement box total 40 tubes. The assembly of these tube collectors and their attachment to the base box is illustrated in pages 5-7 of this **[file](/IDOC_3D_Assembly_Parts.pdf)**.
 
 ![Tubing_collectors.PNG](/assets/Images/Tubing_collectors.PNG)
 
@@ -101,7 +101,7 @@ This part is placed at on the flat top part of the basement box. It is designed 
 
 The heatsink is a heavily customized assembly of commercial parts, and as such it has its own section regarding it's manufacturing and assembly (see link). This section will simply illustrate how to install it into the rest of the setup.
 
-The heatsink relies on 3D printed mounting brackets that connect it to the flat side of the basement box. For a more detailed illustration of how it's attached, see page 11 of **[file](/docs/IDOC_3D_Assemply_Parts.pdf)**.
+The heatsink relies on 3D printed mounting brackets that connect it to the flat side of the basement box. For a more detailed illustration of how it's attached, see page 11 of [**file**](/IDOC_3D_Assembly_Parts.pdf).
 
 ![Basement_heatsink.PNG](/assets/Images/Basement_heatsink.PNG)
 
@@ -109,7 +109,7 @@ The heatsink relies on 3D printed mounting brackets that connect it to the flat 
 
 This box is mounted on the top heatsink to cover the IR-LED backlighting and optogenetic LED panels. The light box mainly acts as a frame for the the chamber holder to ensure proper alignment of the parts.
 
-Like many other parts, the light box has to be printed in multiple smaller parts due to printer limitations. For detailed figures of how to join the parts together, see pages 12-13 of **[file](/docs/IDOC_3D_Assemply_Parts.pdf)**.
+Like many other parts, the light box has to be printed in multiple smaller parts due to printer limitations. For detailed figures of how to join the parts together, see pages 12-13 of **[file](/IDOC_3D_Assembly_Parts.pdf)**.
 
 ![Light-box.PNG](/assets/Images/Light-box.PNG)
 
