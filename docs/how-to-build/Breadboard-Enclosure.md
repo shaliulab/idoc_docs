@@ -35,7 +35,7 @@ The enclosure has three main sections: The breadboard, enclosure itself, and the
 
 The enclosure is made from [25 mm rails](https://www.thorlabs.de/newgrouppage9.cfm?objectgroup_id=194) and [black hardboard](https://www.thorlabs.de/newgrouppage9.cfm?objectgroup_id=190#2535) panels. The panels are placed between the rail channels. The enclosure is designed with the following inner dimensions (L x W x H) 500mm x 500mm x 700 mm.
 
-![Enclosure.png](/assets/Images/Enclosure.png)
+![Enclosure.png](../assets/Images/Enclosure.png)
 
 ## List of components
 
@@ -44,7 +44,7 @@ The parts needed are provided in a separate [table](/docs/List-of-Commercial-Par
 
 ### 3D-printed
 
-[3D Designed STL files](/assets/src/3D_printed_parts/Enclosure&Powering)
+[3D Designed STL files](../assets/src/3D_printed_parts/Enclosure&Powering)
 
 ## Building the enclosure
 
@@ -67,7 +67,7 @@ The final size of the panels:
 * Vertical panels that form the walls of the enclosure: 710 mm x 510 mm (L x W)
 * The top panel that forms the roof of the enclosure: 510 mm x 450 mm (L x W)
 
-![Black-board-setup-enclosure.PNG](/assets/Images/Black-board-setup-enclosure.PNG)
+![Black-board-setup-enclosure.PNG](../assets/Images/Black-board-setup-enclosure.PNG)
 
 ##### Procedure
 
@@ -89,7 +89,7 @@ For this step, you will need:
 * Customized (710 mm x 510 mm) black hardboard (Q: 3x, see step 1)
 * 4 mm balldriver or hex key
 
-![Setup-enclosure.PNG](/assets/Images/Setup-enclosure.PNG)
+![Setup-enclosure.PNG](../assets/Images/Setup-enclosure.PNG)
 
 #### Procedure
 
@@ -104,7 +104,7 @@ For this step, you will need:
 
 The roof is special because you need to cut a window through which the camera can image the behavioral chambers. You can also optionally install ventilation valves that improve the evacuation of odor.
 
-![Top-roof.PNG](/assets/Images/Top-roof.PNG)
+![Top-roof.PNG](../assets/Images/Top-roof.PNG)
 
 For this step, you will need:
 
@@ -139,13 +139,13 @@ Since the construction cube provided by Thorlabs ([RM1S - 1](https://www.thorlab
 
 A window (112 mm x 112 mm) is made in the center of the roof to allow the visualization of chambers. This window hosts a 3D-printed box which holds a [polyester infra-red (IR) sheet](https://www.leefilters.com/index.php/camera-directory/camera-dir-list/category/infrared) (100 mm x 100 mm) which has two uses. 1) to prevent unwanted visible light to transmit inside the enclosure and 2) only IR light can be visualized by the camera. Also, the inside face of 3D-printed box can hold a light source (e.g. white LED strip) that might be needed to illuminate the setup while cleaning or during maintenance work.
 
-![IR-window-top-roof.PNG](/assets/Images/IR-window-top-roof.PNG)
-![IR-window-top-roof-mount.PNG](/assets/Images/IR-window-top-roof-mount.PNG)
+![IR-window-top-roof.PNG](../assets/Images/IR-window-top-roof.PNG)
+![IR-window-top-roof-mount.PNG](../assets/Images/IR-window-top-roof-mount.PNG)
 
 For installation of the IR-Filter and white LED light source you will need the following:
 
-* IR_sheet_holder_roof_fixation_LED_light_stripe_inside_part_1_of_2 [3D-designed](/assets/src/3D_printed_parts/Enclosure&Powering/Roof_IR_Sheet_holder/IR_sheet_holder_roof_fixation_LED_light_stripe_inside_part_1_of_2.stl) (Q:1x)
-* IR_sheet_holder_roof_fixation_LEE_filter_ouside_part_2_of_2 [3D-designed](/assets/src/3D_printed_parts/Enclosure&Powering/Roof_IR_Sheet_holder/IR_sheet_holder_roof_fixation_LED_light_stripe_inside_part_2_of_2.stl)  (Q:1x)
+* IR_sheet_holder_roof_fixation_LED_light_stripe_inside_part_1_of_2 [3D-designed](../assets/src/3D_printed_parts/Enclosure&Powering/Roof_IR_Sheet_holder/IR_sheet_holder_roof_fixation_LED_light_stripe_inside_part_1_of_2.stl) (Q:1x)
+* IR_sheet_holder_roof_fixation_LEE_filter_ouside_part_2_of_2 [3D-designed](../assets/src/3D_printed_parts/Enclosure&Powering/Roof_IR_Sheet_holder/IR_sheet_holder_roof_fixation_LED_light_stripe_inside_part_2_of_2.stl)  (Q:1x)
 * Cut_guide_template [3D-designed]() (Q:1x)
 * LEE Polyester 87 Infrared 100mm filter ([LEEB10087C ](https://www.robertwhite.co.uk/lee-filters-100mm-system-polyester-87c-infrared-filter.html)) (Q:1x)
 * Soldering station ([Amazon](https://www.amazon.de/-/en/Soldering-Desoldering-Temperature-Adjustable-Conversion/dp/B08C51QRH5/ref=sr_1_17?keywords=alpha+metals+om338+pastelötmittel&qid=1639747374&sr=8-17)) ([**122-7917**](https://benl.rs-online.com/web/p/soldering-stations/1227917)**,** RS components)
@@ -181,7 +181,7 @@ You may carry experiments with animals expressing an optogenetic tool that might
 
 From our *in vivo* patch clamp electrophysiology data, we see that only high intensity blue light can cause problems.Therefore, we illuminate the setup enclosure with a very dim blue light (less than 1µW/mm2). Skip this step if you don't need light.
 
-![Blue-light-installation.PNG](/assets/Images/Blue-light-installation.PNG)
+![Blue-light-installation.PNG](../assets/Images/Blue-light-installation.PNG)
 
 
 **Wiring the blue lighting strip.**
@@ -219,13 +219,13 @@ From our *in vivo* patch clamp electrophysiology data, we see that only high int
 
 Proper ventilation inside the enclosure will preserve its ambient temperature and remove excess odorants. To achieve it, we added two roof vents on the roof. A **Vacuum pump** is used to remove the exhaust air outside of the room, because the smell can severely affect the quality of the experiments.
 
-![Suction_vent.PNG](/assets/Images/Suction_vent.PNG)
+![Suction_vent.PNG](../assets/Images/Suction_vent.PNG)
 
 To install the exhaust vents cap, you will need the following:
 
-* Threaded_cap_top_external_vacuum_succion_size_GL45_part_1_of_2 [3D Designed](/assets/src/3D_printed_parts/Enclosure&Powering/Exhaust_vents/Threaded_cap_top_external_vacuum_succion_size_GL45_part_1_of_2.stl) (Q: 2x)
+* Threaded_cap_top_external_vacuum_succion_size_GL45_part_1_of_2 [3D Designed](../assets/src/3D_printed_parts/Enclosure&Powering/Exhaust_vents/Threaded_cap_top_external_vacuum_succion_size_GL45_part_1_of_2.stl) (Q: 2x)
 
-* Threaded_cap_top_external_vacuum_succion_size_GL45_part_2_of_2 [3D Designed](/assets/src/3D_printed_parts/Enclosure&Powering/Exhaust_vents/Threaded_cap_top_external_vacuum_succion_size_GL45_part_2_of_2.stl) (Q: 2x)
+* Threaded_cap_top_external_vacuum_succion_size_GL45_part_2_of_2 [3D Designed](../assets/src/3D_printed_parts/Enclosure&Powering/Exhaust_vents/Threaded_cap_top_external_vacuum_succion_size_GL45_part_2_of_2.stl) (Q: 2x)
 
 * Push in 6 mm fitting Straight adaptor G 1/8 Male ([121-6009](https://benl.rs-online.com/web/p/pneumatic-fittings/1216009), RS Components) (Q:2x)
 * 13 mm Fork ring wrench or spanner (amazon.de, [M19652](https://www.amazon.de/-/en/Brothers-Mannesmann-M19652-wrench-pieces/dp/B000ET7G0E?th=1) ; [B001ILAFRI](https://www.amazon.de/-/en/171198-Combination-Spanner-Set-SW/dp/B001ILAFRI/))
@@ -262,12 +262,12 @@ To close the front side of the enclosure during an experiment, we combined one o
 
 To fully automate the control of the setup, lighting, odor/air delivery tubing and powering the optogenetic LEDs, some holes are needed to hold the powering platforms, cable connections and tubing.
 
-![Holes_on_back_side_enclosure.PNG](/assets/Images/Holes_on_back_side_enclosure.PNG)
-![Holes-on-back-side-enclosure-2.PNG](/assets/Images/Enclosure-back-side.PNG)
+![Holes_on_back_side_enclosure.PNG](../assets/Images/Holes_on_back_side_enclosure.PNG)
+![Holes-on-back-side-enclosure-2.PNG](../assets/Images/Enclosure-back-side.PNG)
 
 The followings items are needed:
 
-* [Open_screw_thread_neck_size_GL45_tubing_insertion_part_1of_2 3D-Design](/assets/src/3D_printed_parts/Enclosure&Powering/Holes_backside_enclosure/Tubing_hole/Open_screw_thread_neck_size_GL45_tubing_insertion_part_1of_2.stl)
+* [Open_screw_thread_neck_size_GL45_tubing_insertion_part_1of_2 3D-Design](../assets/src/3D_printed_parts/Enclosure&Powering/Holes_backside_enclosure/Tubing_hole/Open_screw_thread_neck_size_GL45_tubing_insertion_part_1of_2.stl)
 * Open_topped_screw_cap_size_GL45_tubing_insertion_part_2_of_2 3D-Design
 * IDC_connector_RED_BLUE_LEDs+IIndicators_LEFT_powering_panel_part_1_of_3
 * Ouside_fixation_box_bottom_powering_panel_part_2_of_3
@@ -288,8 +288,8 @@ The followings items are needed:
 
 Tubes for odor delivery and suction access the setup through two holes in the bottom back of the enclosure. The holes are drilled carefully and a custom 3D-designed neck is fixed to protect the edges and prevent bendings.
 
-![Tubing-holes.PNG](/assets/Images/Tubing-holes.PNG)
-![tubing-insertion-assembly.PNG](/assets/Images/tubing-insertion-assembly.PNG)
+![Tubing-holes.PNG](../assets/Images/Tubing-holes.PNG)
+![tubing-insertion-assembly.PNG](../assets/Images/tubing-insertion-assembly.PNG)
 
 #### Procedure
 
@@ -302,8 +302,8 @@ Tubes for odor delivery and suction access the setup through two holes in the bo
 
 We also need to connect the LED drivers for optogenetics manipulation; and the Arduino controller to power the setup and deliver the electric shocks and IR illumination. We achieved this by designing a custom 3D-printed panel that bridges connections with with male and female IDC wires.
 
-![Bottom-powering-window.PNG](/assets/Images/Bottom-powering-window.PNG)
-![Ouside_wire_box_cover_bottom.PNG](/assets/Images/Ouside_fixation_frame_bottom.PNG)
+![Bottom-powering-window.PNG](../assets/Images/Bottom-powering-window.PNG)
+![Ouside_wire_box_cover_bottom.PNG](../assets/Images/Ouside_fixation_frame_bottom.PNG)
 
 #### Procedure
 
@@ -318,8 +318,8 @@ We also need to connect the LED drivers for optogenetics manipulation; and the A
 
 A solid black aluminum breadboard / baseplate with threaded mounting holes provides a convenient platform for mounting the setup enclosure and other components. The plate should be bigger than the setup base, i.e, larger in both length and width. To isolate the setup from the light and airflow coming from the threaded mounting holes in the baseplate, attach a [black hardboard](https://www.thorlabs.de/newgrouppage9.cfm?objectgroup_id=190#2535) panel to the bottom breadboard. You can mount it with four [Sorbothane feet (ThorLabs AV5/M)](https://www.thorlabs.com/thorproduct.cfm?partnumber=AV5/M). These Sorbothane mounting feet also offer excellent isolation of vibration and possible acoustic noise. The parts needed are provided in the figure below.
 
-![Baseplate-rubber-feet.PNG](/assets/Images/Baseplate-rubber-feet.PNG)
-![Baseplate.PNG](/assets/Images/Baseplate.PNG)
+![Baseplate-rubber-feet.PNG](../assets/Images/Baseplate-rubber-feet.PNG)
+![Baseplate.PNG](../assets/Images/Baseplate.PNG)
 
 
 #### Baseplate assembly procedure
@@ -344,9 +344,9 @@ Construct the baseplate in the following manner:
 
 The enclosure is attached directly to the baseplate using the XE25CL2 Clamp to mount a 25 mm rail horizontally to a M6 tapped surface by using a side-located rail channel.
 
-![Baseplate-enclosure-mount.PNG](/assets/Images/Baseplate-enclosure-mount.PNG)
-![IDOC-baseplate-brackets-connection.PNG](/assets/Images/IDOC-baseplate-brackets-connection.PNG)
-![IDOC-baseplate-brackets-connection-cut.PNG](/assets/Images/IDOC-baseplate-brackets-connection-cut.PNG)
+![Baseplate-enclosure-mount.PNG](../assets/Images/Baseplate-enclosure-mount.PNG)
+![IDOC-baseplate-brackets-connection.PNG](../assets/Images/IDOC-baseplate-brackets-connection.PNG)
+![IDOC-baseplate-brackets-connection-cut.PNG](../assets/Images/IDOC-baseplate-brackets-connection-cut.PNG)
 
 1. Put the assembled enclosure on top of the assembled baseplate,
 2. Align and center the enclosure to the breadboard by mount bottom rails horizontally on breadboard,

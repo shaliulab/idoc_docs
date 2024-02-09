@@ -16,19 +16,19 @@ The electric shock system in the IDOC can be grouped into 3 key sections.
 
 To deliver the current to the pins of the IDOC chambers, we embed connector sockets into the tray that holds the chambers. For each chamber, there is a set of 4 contact sockets, totalling to 80 sockets for the entire IDOC setup. The connectors are made by combining the "clamp-side" of a connector socket (Digi-Key, [962876-2](https://www.digikey.be/en/products/detail/te-connectivity-amp-connectors/962876-2/2332160)) with a basic pin header (RS Components, [681-2994](https://benl.rs-online.com/web/p/pcb-headers/6812994/)) soldered into its bottom half.
 
-![ESock-socket.PNG](/assets/Images/ESock-socket.PNG)
+![ESock-socket.PNG](../assets/Images/ESock-socket.PNG)
 
 Either side of the chamber has 2 sockets, one negative and one positive. The wiring design can be seen in the figure below.
 
-![ESock-socket-connection.PNG](/assets/Images/ESock-socket-connection.PNG)
+![ESock-socket-connection.PNG](../assets/Images/ESock-socket-connection.PNG)
 
 Once the wiring in the chamber tray is finalized, the whole system is properly covered and insulated with 3D printed covers
 
-![ESock-socket-connection-cover.PNG](/assets/Images/ESock-socket-connection-cover.PNG)
+![ESock-socket-connection-cover.PNG](../assets/Images/ESock-socket-connection-cover.PNG)
 
 Finally, the entire electroshock system is controlled by the Arduino relay switch unit. Here the shocks are sent into the rest of the circuit we have established in this section.
 
-![ESock-Arduino-relay.PNG](/assets/Images/ESock-Arduino-relay.PNG)
+![ESock-Arduino-relay.PNG](../assets/Images/ESock-Arduino-relay.PNG)
 
 **Power Supply Specifications**
 

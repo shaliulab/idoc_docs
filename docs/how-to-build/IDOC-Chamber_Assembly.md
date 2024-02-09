@@ -8,13 +8,13 @@ For our IDOC system, we have 2 main chamber variants:
 
 The following sections describe how to build and test either of the chamber types. Since both of these are made from a combination of 3D-printed and bought parts, a printing and shopping list will be linked for each. Overlapping components will be highlighted where relevant.
 
-![IDOC-Chamber.PNG](/assets/Images/IDOC-Chamber.PNG)
+![IDOC-Chamber.PNG](../assets/Images/IDOC-Chamber.PNG)
 
 
 ## **Fabricating the normal IDOC chambers**
 
 
-[List of files to print](/assets/src/3D_printed_parts/Recording_chambers/)
+[List of files to print](../assets/src/3D_printed_parts/Recording_chambers/)
 
 
 **1. Cleaning and Adjusting printed parts**:
@@ -88,12 +88,12 @@ For aversive electric shock learning conditioning, we used patterned coated indi
 
 
 
-![ITO-slide-design.PNG](/assets/Images/ITO-slide-design.PNG)
+![ITO-slide-design.PNG](../assets/Images/ITO-slide-design.PNG)
 
 
 | **Indium Tin Oxide coated patterned glass slides ** |
 | ---------------------------------------- |
-| **- [Design_ITO_glass_Slide](/assets/src/ElectricShock)** CAD DXF drawing |
+| **- [Design_ITO_glass_Slide](../assets/src/ElectricShock)** CAD DXF drawing |
 | 69.0 mm length x 14.0 mm width x 1.1 mm Thicknesses [0.5 mm ITO electrodes (100 electrodes) – 0.1 mm inter electrode-spacing ] |
 | **Prepared for the  laboratory of**      |
 | **Sha Liu**                              |
@@ -130,7 +130,7 @@ For aversive electric shock learning conditioning, we used patterned coated indi
 
 Each chamber is designed to have four custom-made electrodes that create a connection between the interior and exterior of the IDOC chambers. Inside the chambers, each electrode pin is connected to a long metal strip that connects the left and right side of the chambers. Also, to ensure that the entire ITO slide is subjected to the current, 2 of these metal strips are needed - one for the top and another for the bottom half of the chamber. The ITO slides themselves will rest in contact with these metal strips.
 
-![IDOC-Chamber.PNG](/assets/Images/IDOC-Chamber.PNG)
+![IDOC-Chamber.PNG](../assets/Images/IDOC-Chamber.PNG)
 
 Both the pins and the connecting metal strip are made in-house from standard electrical components. The metal strips are made from the flat section that crimp sockets are usually delivered with (Farnell, [1593529](https://be.farnell.com/multicomp/2226tg/crimp-terminal-24-28awg/dp/1593529?ost=1593529)). The pins that connect the interior and exterior of the chambers are also simply taken from fairly standard pin headers ([548-7171](https://benl.rs-online.com/web/p/pcb-headers/5487171) or  [548-7222](https://benl.rs-online.com/web/p/pcb-headers/5487222)). To establish a connection between the pins and metal strips, you will simply have to solder them together.
 
@@ -174,7 +174,7 @@ The ITO chambers are assembled from a combination of 3D printed parts and storeb
     * 0.8mm drill bit + handle of your choice
     * Multimeter
 
-![ITO_component_overview.png](/assets/Images/ITO_component_overview.png)
+![ITO_component_overview.png](../assets/Images/ITO_component_overview.png)
 
 *Figure 0: Overview of all the necessary components to build an ITO chamber*
 
@@ -193,7 +193,7 @@ This is an optional section for those using the 3D printed template for the rubb
         * Place your starting rubber piece on the template base. Cover it with the corresponding template piece and fix it in place with the hex nuts. Make sure there is no warping of the rubber after tightening the nuts.
         * Proceed to cut along the inner and outer walls of the template. Note that you will need to do small cuts afterwards to finish the areas where the template supports are covering the rubber.
 
-![ITO_rubber_cut.png](/assets/Images/rubber_cut.png)
+![ITO_rubber_cut.png](../assets/Images/rubber_cut.png)
 
 *Figure 1: The process of making the rubber seals from a silicone sheet, starting with generic template pieces (A) and finishing up with rubber pieces fit for their specific chamber layer (B)*
 
@@ -211,7 +211,7 @@ This is an optional section for those using the 3D printed template for the rubb
 * For the L-shaped plug:
     * Check if the airflow path is clear with a needle.
 
-![print_cleaning.PNG](/assets/Images/print_cleaning.png)
+![print_cleaning.PNG](../assets/Images/print_cleaning.png)
 
 *Figure 2: Verifying the quality of the air and screw holes in the 3D printed parts. Image A shows the prep for the electrode holes. Image B shows the prep for the screw holes used to seal the chamber later. Images C and D show how you'd make sure that the needles can fit through the chamber base and inner chamber frame respectively.*
 
@@ -224,7 +224,7 @@ This is an optional section for those using the 3D printed template for the rubb
     * Cut down the remaining metal until there is roughly 3-5mm to either side of the pin.
     * Using tweezers, bend the flat metal sections so they form a very thin U-shape
 
-![electrode_assembly.PNG](/assets/Images/electrode_assembly.png)
+![electrode_assembly.PNG](../assets/Images/electrode_assembly.png)
 
 *Figure 3: Making the electrodes from start to finish. Figure 3 A shows what is meant by removing the excess material on the strips - the top one has the extra material while the bottom one has them cut and filed off. Figure 3 B illustrates how the pin and strip are meant to be combined. Figure 3 C also highlights the final length trimming and bending of the strips into the desired U-shape.*
 
@@ -237,7 +237,7 @@ This is an optional section for those using the 3D printed template for the rubb
 * Add strips of conductive copper tape to both sides of the ITO-glass slide. The strips should be long enough to reach to the electrode holes in the sides.
     * For the bottom side (with the big open port), we need the conductive tape to not obscure the path into the chamber, hence we leave a small gap in the tape there. See Figure 4 D for clarification.
 
-![chamber_base_assembly.PNG](/assets/Images/chamber_base_assembly.png)
+![chamber_base_assembly.PNG](../assets/Images/chamber_base_assembly.png)
 
 *Figure 4: Assembling the base layer of the chamber. Figure A shows the screw insertions. Figures B and C illustrate how the rubber and ITO-glass slide should rest in the chamber respectively. Figure D highlights how the conductive copper tape is positioned and how one side needs to be split down the middle.*
 
@@ -251,11 +251,11 @@ This is an optional section for those using the 3D printed template for the rubb
     * Insert the middle rubber piece and ensure that its properly pushed to all the edges of the chamber
     * Insert the inner chamber frame
 
-![electrode_insertion.PNG](/assets/Images/electrode_insertion.png)
+![electrode_insertion.PNG](../assets/Images/electrode_insertion.png)
 
 *Figure 5: Inserting the electrodes into the chamber. Figure B highlights how the electrodes should rest in the chamber.*
 
-![mid_layer_insert.PNG](/assets/Images/mid_layer_insert.png)
+![mid_layer_insert.PNG](../assets/Images/mid_layer_insert.png)
 
 *Figure 6: Visualization of how the inner frame and the middle rubber layer should be inserted. Figure A highlights how the inner frame should be able to be surrounded by the rubber without any warping of either part. Figures B and C highlight the orientation of the 2 parts and how they should rest in the chamber.*
 
@@ -272,11 +272,11 @@ This is an optional section for those using the 3D printed template for the rubb
     * File both ends of the needle down
     * Insert the filed needle. Push it in by gently pressing with tweezers/pliers. Make sure that by the end there is little to no excess both in and outside the chamber.
 
-![needle_prep.PNG](/assets/Images/needle_prep.png)
+![needle_prep.PNG](../assets/Images/needle_prep.png)
 
 *Figure 7: How the prepare one of the side airflow needles. Figure A highlights how much of the needle you need to keep, while Figures B and C show how the rubber O-ring shoudl rest around the needle.*
 
-![needle_insertion.PNG](/assets/Images/needle_insert.png)
+![needle_insertion.PNG](../assets/Images/needle_insert.png)
 
 *Figure 8: How the needles should be inserted. Figure A shows how the side needle should rest once inserted, just barely entering the triangle/fish-shaped section of the inner frame. Figure B highlights what the top airflow needle should look like after preparation and where it should be inserted.*
 
@@ -286,7 +286,7 @@ This is an optional section for those using the 3D printed template for the rubb
     * The top electrode strips are made from the same metal strips as were used for the electrodes themselves. Measure out 2 strips long enough to reach from the left to the right electrode. To ensure a good fit, make sure you trim any excess material off of the strip.
     * To insert, tuck both ends under the lip of the chamber or underneath the protruding piece of electrode. Make sure that they are not bulging and rest flat
 
-![top_electrode_insert.PNG](/assets/Images/top_electrode_insert.png)
+![top_electrode_insert.PNG](../assets/Images/top_electrode_insert.png)
 
 *Figure 9: Illustration of the chamber before (A) and after (B) adding the top layer of electrode strips.*
 
@@ -296,7 +296,7 @@ This is an optional section for those using the 3D printed template for the rubb
 * Cover the glass with the top rubber. Again, make sure the glass is centered and the rubber hadn't moved it.
 * Add the top chamber cover and add the 8 nuts to secure it. Start tightening them from the middle outwards. To achieve the best seal without breaking anything, do not apply too much force while turning, but instead press down harder and then turn.
 
-![chamber_closing.PNG](/assets/Images/chamber_closing.png)
+![chamber_closing.PNG](../assets/Images/chamber_closing.png)
 
 *Figure 10: Building the final layer of the chamber. Figure A shows how the glass should rest on the electrodes, B shows the rubber thats been added and finally C shows the full chamber in its sealed form.*
 
@@ -310,7 +310,7 @@ This is an optional section for those using the 3D printed template for the rubb
 * Assemble the L-shaped outflow tube for the bottom of the chamber. Note that this piece does not need to remain connected to the chamber and is only needed during actual usage.
     * Cut a 45mm piece of 3mm tubing and connect it to the end of the 3D printed L-shaped plug. Add a luer to the other end.
 
-![outflow_tubing.PNG](/assets/Images/outflow_tubing.png)
+![outflow_tubing.PNG](../assets/Images/outflow_tubing.png)
 
 *Figure 11: How to assemble and connect the outflow tubing. Figures A and B illustrate the process for the top outflow, while C and D illustrate it for the bottom outflow tube.*
 

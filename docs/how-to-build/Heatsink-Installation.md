@@ -21,7 +21,7 @@ We order an extruded aluminum heatsink from Digikey ([345-1936-ND](https://www.d
 
 ## 2. Cut to a specified length
 
- ![Heatsink-cut.PNG](/assets/Images/Heatsink-cut.PNG)
+ ![Heatsink-cut.PNG](../assets/Images/Heatsink-cut.PNG)
 
 As mentioned above, the total length of the heatsink is about 914mm. So, we cut it to two pieces with 400mm each. We got help from the technical logistic services of our center to perform the cutting step.
 
@@ -36,8 +36,8 @@ As mentioned above, the total length of the heatsink is about 914mm. So, we cut 
 
 Additionally, we mounted an angle profile aluminum (Amazon.nl, ‎[470302.0  alu -1000x15x10](https://www.amazon.nl/-/en/gp/product/B00ZXPLX3K/)) at each side of the heat sink to organize the wiring cables outside of the LEDs matrix area and to add extra extrusion to hold the 3D printed light box. If necessary, an extra LED strip can be added on this aluminum heatsink.
 
-![Heatsink-cut-profile.PNG](/assets/Images/Heatsink-cut-profile.PNG)
-![Heatsink-profile-angle.PNG](/assets/Images/Heatsink-profile-angle.PNG)
+![Heatsink-cut-profile.PNG](../assets/Images/Heatsink-cut-profile.PNG)
+![Heatsink-profile-angle.PNG](../assets/Images/Heatsink-profile-angle.PNG)
 
 
 **Procedure:**
@@ -61,7 +61,7 @@ Additionally, we mounted an angle profile aluminum (Amazon.nl, ‎[470302.0  alu
 
 The aim of the above angle aluminum profile is to provide an organized space for the LED wiring connections at each side of the heatsinks. We kept about 15-mm wide area on each side of the heat sink to collect all of the cables. The cables then connect to each LED string by inserting the wires through a series of holes along the aluminum profile.
 
-![Heatsink-side-holes.PNG](/assets/Images/Heatsink-side-holes.PNG)
+![Heatsink-side-holes.PNG](../assets/Images/Heatsink-side-holes.PNG)
 
 **Procedure:**
 
@@ -73,7 +73,7 @@ The aim of the above angle aluminum profile is to provide an organized space for
 
 The heatsink is mounted on top of the bottom box of the setup ([see Wiring section](/how-to-build/Setup-Wiring-and-Powering-Cables/)) by two mounting brackets for each side.
 
-![heatsink-tubingbox-connection.PNG](/assets/Images/heatsink-tubingbox-connection.PNG)
+![heatsink-tubingbox-connection.PNG](../assets/Images/heatsink-tubingbox-connection.PNG)
 
 
 **For this step you will need:**
@@ -102,8 +102,8 @@ Screwdriver Set (RS Components, [668-5723](https://benl.rs-online.com/web/p/scre
 
 The IR optogenetic panels are then covered by a 3D-printed box (light box). The middle part of this box contains a rail to slot IR filter separator to divide the LEDs beneath each chamber into right and left side. The mid-rail must be fixed very well to the midline of the heatsink to prevent any light leak through the sides, and we will do tha by drilling holes in the heatsink.
 
-![Heatsink-lightbox-connection.PNG](/assets/Images/Heatsink-lightbox-connection.PNG)
-![Heatsink-lightbox-connection-midline-holes.PNG](/assets/Images/Heatsink-lightbox-connection-midline-holes.PNG)
+![Heatsink-lightbox-connection.PNG](../assets/Images/Heatsink-lightbox-connection.PNG)
+![Heatsink-lightbox-connection-midline-holes.PNG](../assets/Images/Heatsink-lightbox-connection-midline-holes.PNG)
 
 
 **You need the following**
@@ -136,4 +136,4 @@ Connect the heatsink to a running airflow, if necessary, to regulate the tempera
 3.  Install the assembled 3D parts to the IDOC box, ensuring that it is securely fastened and in good contact  with the heat sink surface.
 4. Connect the parts to a temperature controlled  air system to provide fresh and cool air to regulate the     temperature inside the IDOC chamber during experiments.
 
-![Heatsink-cooling.PNG](/assets/Images/Heatsink-cooling.PNG)
+![Heatsink-cooling.PNG](../assets/Images/Heatsink-cooling.PNG)

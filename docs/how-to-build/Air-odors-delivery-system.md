@@ -28,7 +28,7 @@ The IDOC Air/Odors Delivery System is in charge of delivering controlled air and
 
 NOTE: This map shows the connections needed to run a 1-odor conditioning experment. If you wish to run 2-odor conditioning, you need to add one more valve on each side (to switch between either of the odors)  
 
-![Flow_system.PNG](/assets/Images/Flow_system.PNG)
+![Flow_system.PNG](../assets/Images/Flow_system.PNG)
 
 1. Air is provided from a controlled constant pressure source.
 2. The air is passed through an activated carbon capsule (Fisher, [10526921](https://www.fishersci.be/shop/products/whatman-carbon-cap-disposable-activated-carbon-capsules/10526921)) to be filtered and dried.
@@ -95,7 +95,7 @@ If you need only air flow to your chambers, if you only perform an optogenetics 
 The installation of in and out flow meters has the same procedure. Use fork ring wrench  or spanner #13 (amazon.de, [M19652](https://www.amazon.de/-/en/Brothers-Mannesmann-M19652-wrench-pieces/dp/B000ET7G0E?th=1) ; [B001ILAFRI](https://www.amazon.de/-/en/171198-Combination-Spanner-Set-SW/dp/B001ILAFRI/))  to connect straight threaded adaptor, G 1/8 Male to Push In 6 mm, Threaded-to-Tube Connection Style (RS Components, [121-6009](https://benl.rs-online.com/web/p/pneumatic-fittings/1216009/)) to the Variable Area Flow Meter, 0.05 L/min → 0.5 L/min, (RS Components, [198-2896](https://benl.rs-online.com/web/p/flow-sensors/198-2896)). Then use screws provided with the flowmeters to fix them to the 3D printed holders. Connect a 10-cm optical post to each holder to be fixed at the mounting base of the breadboard.
 
 
-![Flow-regulators.PNG](/assets/Images/Flow-regulators.PNG)
+![Flow-regulators.PNG](../assets/Images/Flow-regulators.PNG)
 
 Tip: Backlighting of the flow helps to precisely adjust the meters to the same level. Just add a white LED in the back hole of each flow regulators, and then connect all LEDs in series with a switch so they only illuminate when needed (especially important when recording in a dark room).
 
@@ -104,7 +104,7 @@ Tip: Backlighting of the flow helps to precisely adjust the meters to the same l
 
 Use fork ring wrench or spanner #12 (amazon.de, [M19652](https://www.amazon.de/-/en/Brothers-Mannesmann-M19652-wrench-pieces/dp/B000ET7G0E?th=1) ; [B001ILAFRI](https://www.amazon.de/-/en/171198-Combination-Spanner-Set-SW/dp/B001ILAFRI/))  to connect the Straight Threaded-to-Tube Adapter, Uni 1/8 Male, Push In 6 mm (RS Components, [771-5100](https://benl.rs-online.com/web/p/pneumatic-fittings/7715100/)) to the 2 ports of the **2-port Main Valve**, NC, 12 V dc, 1/8in (RS Components, [840-7020](https://benl.rs-online.com/web/p/solenoid-valves/8407020/)). Then use 2 M3x10mm screws to fix the **2-port Main Valve** to the 3D printed holders. 
 
-![Main-valve.PNG](/assets/Images/Main-valve.PNG)
+![Main-valve.PNG](../assets/Images/Main-valve.PNG)
 
 
 ## Installation of the **3-port solenoid valve**
@@ -112,7 +112,7 @@ Use fork ring wrench or spanner #12 (amazon.de, [M19652](https://www.amazon.de/-
 Use fork ring wrench or spanner #12 (amazon.de, [M19652](https://www.amazon.de/-/en/Brothers-Mannesmann-M19652-wrench-pieces/dp/B000ET7G0E?th=1) ; [B001ILAFRI](https://www.amazon.de/-/en/171198-Combination-Spanner-Set-SW/dp/B001ILAFRI/)) to connect Elbow Threaded Adaptor, M5 Male to Push In 6 mm, Threaded-to-Tube Connection Style (RS Components, [121-6024](https://benl.rs-online.com/web/p/pneumatic-fittings/1216024)) to the top outlet of the **3-port solenoid valve**, NO/NC, 12 V dc, M5 (RS Components, [838-8660](https://benl.rs-online.com/web/p/solenoid-valves/8388660)). Then connect the Straight Threaded Adaptor, M5 Male to Push In 6 mm, Threaded-to-Tube Connection Style (RS Components, [121-6039 ](https://benl.rs-online.com/web/p/pneumatic-fittings/1216039/)) to the other ports of the **3-port solenoid valve**. Then use 2 M3x10mm screws to fix the base of each valve to the 3D printed holder. Attach a 10-cm optic post to each holder to be fixed at the mounting base of the breadboard. In total, four **3-port solenoid valves** are needed to switch a two odor system.
 
 
-![Solenoid-valves.PNG](/assets/Images/Solenoid-valves.PNG)
+![Solenoid-valves.PNG](../assets/Images/Solenoid-valves.PNG)
 
 ------
 
@@ -125,11 +125,11 @@ Fix the terminal strip connector with M3 10mm screws to the 3D printed powering 
 With the use of a wire stripper, remove at least 1 cm casing to expose the cut wires and then flip the breadboard to the back and insert the wires through the back holes, to be connected to the screw terminal from the top of the breadboard. 
 
 
-![Powering-valves.PNG](/assets/Images/Powering-valves.PNG)
+![Powering-valves.PNG](../assets/Images/Powering-valves.PNG)
 
 **Here is the pinout mapping of the cable connections:**
 
-![Ribbon-cable-mapping.PNG](/assets/Images/Ribbon-cable-mapping.PNG)
+![Ribbon-cable-mapping.PNG](../assets/Images/Ribbon-cable-mapping.PNG)
 
 
 ## Installation of the **Exhaust release Valves**
@@ -194,11 +194,11 @@ To ensure that the odors are precisely delivered at only the time of the applica
 Each chamber has two outputs in the middle. Each output allows the air to flow out of the chamber. To provide clear decision zones we connected each outlet port to an active vacuum. It is important that the out flow equals the inflow, which can be challenging to achieve. To make sure the systme is balanced, we connect each outlet individually via a luer fitting male-female connection. Then all tubes are bundled together to be embedded into a vacuum receiver for each side. A 3D-designed and printed GL45 threaded cap with 20 holes were used to gather all of the tubes of one side. Glue and/or silicon paste was used to completely fix the tubing to the holes of the each cap. Each cap has an outlet port that connects to a threaded adaptor, G 1/8 Male to Push In 6 mm, Threaded-to-Tube Connection Style (RS Components, [121-6009](https://benl.rs-online.com/web/p/pneumatic-fittings/1216009/)), which is connected to the manifold of the vacuum system.
 
 
-![Vacuum-suction-tubing.PNG](/assets/Images/Vacuum-suction-tubing.PNG)
+![Vacuum-suction-tubing.PNG](../assets/Images/Vacuum-suction-tubing.PNG)
 
 **Vacuum manifold:**
 
-![Vacuum-manifold.PNG](/assets/Images/Vacuum-manifold.PNG)
+![Vacuum-manifold.PNG](../assets/Images/Vacuum-manifold.PNG)
 
 ## Parts index  
 
