@@ -43,7 +43,7 @@
 ## How to Replace the Relay
 - A Turned Pin Open Frame IC Dip Socket, with 14 Way ([674-2476](https://benl.rs-online.com/web/p/dil-sockets/6742476/)) is utilized for the relay. To replace, remove the old relay and insert the new one as shown:
 
-![Relay-input-output.PNG](/assets/Images/Relay-input-output.PNG)
+![Relay-input-output.PNG](../assets/Images/Relay-input-output.PNG)
 
 - EShock relays: SPDT Reed Relay, 5V dc, PCB Mount ([256-2241](https://benl.rs-online.com/web/p/reed-relays/2562241/)) [datasheet](https://docs.rs-online.com/0e08/0900766b813980e6.pdf)
 - IR & Vibration motors: SPNO Reed Relay, 5V dc, PCB Mount ([291-9710](https://benl.rs-online.com/web/p/reed-relays/2919710?sra=pstk)) [datasheet](https://docs.rs-online.com/d68b/0900766b81580421.pdf)
