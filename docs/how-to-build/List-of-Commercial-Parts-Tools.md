@@ -1,22 +1,48 @@
-In this section, we provide a comprehensive list of all the commercial components and tools required for building the IDOC system. This list includes various commercial components and tools such as cables, connectors, power supplies, cameras, and other electronic equipment.
+# Component list
 
-The list is organized by category, making it easy to find the specific component or tool needed for the IDOC system. The categories include:
+In this section, we provide a comprehensive list of all the commercial components and tools required for building the IDOC system. This list includes various commercial components and tools such as cables, connectors, power supplies, cameras, and other electronic equipment. Since the full list of components is very extensive, they have been categorized into some key sections to facilitate searching:
 
-- Enclosure & Mounting:  This section includes a list of all required components that contains a breadboard for mounting and connecting the  IDOC system inside the enclosure.
-- Air delivery system components required for the IDOC system, such as pumps, tubing, connectors, flow meters, and  solenoid valves.
-- Electrical Components: This section includes a list of all the commercial electrical components     required for the IDOC system, such as resistors, capacitors, and diodes.
-- Cables and Connectors: This section includes a list of all the commercial cables and connectors     required for the IDOC system, such as USB cables, power cables, and data cables.
-- Power Supplies: This section includes a list of all the commercial power supplies required for the IDOC system, such as AC/DC adapters and batteries.
-- Cameras: This section includes a list of all the commercial cameras required for the IDOC system.
-- Opto- and Thermo- equipment: This section includes a list of all the commercial equipment required for the IDOC system, such as high power LEDs, drivers and heaters.
+- [Enclosure and mounting](#enclosure--mounting)
+- [Screws and fixation](#screws--fixation)
+- [Workshop tools and equipment](#workshop-tools-and-equipment)
+- [Springs and magnets](#springs--magnets)
+- [Adhesive tape and glue](#adhesive-tape--glue)
+- [Wires and power cables](#wires--power-cables)
+- [Thermal management and heatsink](#thermal-management--heatsink)
+- [Vibration isolation](#vibration-isolation)
+- [Plastic sheets and light diffusers](#plastic-sheets--light-diffuser)
+- [Silicone rubber sheets](#silicon-rubber-sheet)
+- [Glass tubing](#glass-tubing)
+- [Relays and MOSFET](#relays--mosfet)
+- [Vibration motors](#vibration-motors)
+- [Water bath and vacuum](#water-bath--vacuum)
+- [Crimping sockets](#crimping-sockets)
+- [PCB pin headers](#pcb-pin-headers)
+- [Toggle switches](#toggle-switches)
+- [Screw terminal block connectors](#screw-terminal-block-connectors)
+- [Resistors and diodes](#resistors--diodes)
+- [Solderable breadboard PCB](#solderable-breadboard-pcb)
+- [3D printer materials](#3d-printer-materials)
+- [Arduino](#arduino)
+- [Power supply](#power-supply)
+- [Thermal management and regulators](#thermal-management--regulators)
+- [PCB headers and IDC connectors](#pcb-headers-and-idc-connectors)
+- [Tubing fitting and manifolds](#tubing-fitting--manifolds)
+- [Solenoid valves](#solenoid-valves)
+- [Tubing](#tubing)
+- [Glass bottles](#glass-bottles)
+- [Syringe needles](#syringe-needles)
+- [Luer fittings](#luer-fittings)
+- [Lighting LEDs](#lightings-leds)
 
-Each category includes at least a suggested link to purchase them from various suppliers. This list is a valuable resource for anyone building the IDOC system, as it ensures that all required components and tools are available and easily accessible. A full list of materials for the parts materials may  be downloaded as a CSV file from [here]().
+
+Each category includes at least one suggested link to purchase them from various suppliers. This list is a valuable resource for anyone building the IDOC system, as it ensures that all required components and tools are available and easily accessible. A full list of materials for the parts materials may  be downloaded as a CSV file from [here]().
 
 
+### **Enclosure & Mounting**
 
-| **Article   Description**                | **Qty**     | **Supplier**                     | **Item # & link**                        | **Supplier   Image**                     |
+| **Article Description**                | **Qty**     | **Supplier**                     | **Item # & link**                        | **Supplier   Image**                     |
 | ---------------------------------------- | ----------- | -------------------------------- | ---------------------------------------- | ---------------------------------------- |
-| **Enclosure & Mounting**                 |             |                                  |                                          |                                          |
 | 25 mm Square Construction Rail, 500 mm  Long, M6 Taps (Thorlabs, [XE25L500/M](https://www.thorlabs.de/thorproduct.cfm?partnumber=XE25L500/M)) | 10          | Thorlabs                         | [XE25L500/M](https://www.thorlabs.de/thorproduct.cfm?partnumber=XE25L500/M) | ![Thorlabs-XE25L500](/assets/Images/Commercial_Parts_Suppliers_Stock_Images/Thorlabs-XE25L500.jpg) |
 | 25 mm Square Construction Rail, 700 mm  Long, M6 Taps (Thorlabs,  [XE25L700/M](https://www.thorlabs.de/thorproduct.cfm?partnumber=XE25L700/M)) | 4           | Thorlabs                         | [XE25L700/M](https://www.thorlabs.de/thorproduct.cfm?partnumber=XE25L700/M) | ![Image](/assets/Images/Commercial_Parts_Suppliers_Stock_Images/Thorlabs-XE25L700.jpg) |
 | Construction Cube with Slotted Corners,  Three 1/4" (M6) Counterbored Holes  Thorlabs, ([RM1S - 1](https://www.thorlabs.de/thorproduct.cfm?partnumber=RM1S#ad-image-0)) | 6           | Thorlabs                         | [RM1S - 1](https://www.thorlabs.de/thorproduct.cfm?partnumber=RM1S#ad-image-0) | ![Image](/assets/Images/Commercial_Parts_Suppliers_Stock_Images/Thorlabs-RM1S.jpg) |
@@ -44,8 +70,12 @@ Each category includes at least a suggested link to purchase them from various s
 | BA1S/M-P5 - Mounting Base, 25 mm x 58 mm x 10 mm, 5 Pack (Thorlabs, [BA1S/M-P5](https://www.thorlabs.de/thorproduct.cfm?partnumber=BA1S/M-P5)) | 2           | Thorlabs                         | [BA1S/M-P5](https://www.thorlabs.de/thorproduct.cfm?partnumber=BA1S/M-P5) | ![Image](/assets/Images/Commercial_Parts_Suppliers_Stock_Images/Thorlabs-BA1S.png) |
 | - Mounting Base, 25 mm x 75 mm x 10 mm (Thorlabs, [BA1SL/M](https://www.thorlabs.de/thorproduct.cfm?partnumber=BA1SL/M#ad-image-0)) | 2           | Thorlabs                         | [BA1SL/M](https://www.thorlabs.de/thorproduct.cfm?partnumber=BA1SL/M#ad-image-0) | ![Image](/assets/Images/Commercial_Parts_Suppliers_Stock_Images/Thorlabs-BA1SL.jpg) |
 | - Mounting Base, 25 mm x 115 mm x 10 mm (Thorlabs, [BA1L/M](https://www.thorlabs.de/thorproduct.cfm?partnumber=BA1L/M#ad-image-0)) | 2           | Thorlabs                         | [BA1L/M](https://www.thorlabs.de/thorproduct.cfm?partnumber=BA1L/M#ad-image-0) | ![Image](/assets/Images/Commercial_Parts_Suppliers_Stock_Images/Thorlabs-BA1L.jpg) |
-|                                          |             |                                  |                                          |                                          |
-| **Screws & Fixation**                    |             |                                  |                                          |                                          |
+|
+
+### **Screws & Fixation**
+
+| **Article Description**                | **Qty**     | **Supplier**                     | **Item # & link**                        | **Supplier   Image**                     |
+| ---------------------------------------- | ----------- | -------------------------------- | ---------------------------------------- | ---------------------------------------- |
 | Low-Profile T-Nut, M6 x 1.0 Tapped Hole  (Thorlabs,  [XE25T3/M](https://www.thorlabs.de/thorproduct.cfm?partnumber=XE25T3/M)) | 4           | Thorlabs                         | [XE25T3/M](https://www.thorlabs.de/thorproduct.cfm?partnumber=XE25T3/M) | ![Image](/assets/Images/Commercial_Parts_Suppliers_Stock_Images/Thorlabs-XE25T3.png) |
 | M6 x 1.0 Low-Profile Channel Screw, 10 mm Long, 100 Pack (Thorlabs, [SH6M10LP](https://www.thorlabs.de/thorproduct.cfm?partnumber=SH6M10LP)) | 1           | Thorlabs                         | [SH6M10LP](https://www.thorlabs.de/thorproduct.cfm?partnumber=SH6M10LP) | ![Image](/assets/Images/Commercial_Parts_Suppliers_Stock_Images/Thorlabs-SH6M10LP.png) |
 | M4 x 0.7 Stainless Steel Cap Screw, 10 mm Long, 50 Pack (Thorlabs, [SH4MS10](https://www.thorlabs.de/thorproduct.cfm?partnumber=SH4MS10)) | 1           | Thorlabs                         | [SH4MS10](https://www.thorlabs.de/thorproduct.cfm?partnumber=SH4MS10) | ![Image](/assets/Images/Commercial_Parts_Suppliers_Stock_Images/Thorlabs-SH4MS10.png) |
@@ -72,8 +102,12 @@ Each category includes at least a suggested link to purchase them from various s
 | M2 x 6mm Pozidriv   Countersunk Stainless Steel, Machine Screw (RS Components, [914-1753](https://benl.rs-online.com/web/p/machine-screws/9141753)) | 2pkg        | RS Components                    | [914-1753](https://benl.rs-online.com/web/p/machine-screws/9141753) | ![Image](/assets/Images/Commercial_Parts_Suppliers_Stock_Images/RS-914-1753.png) |
 | M1.6 x 6 mm Pozi Csk   Machine Screw (RS Components, [179-5667](https://benl.rs-online.com/web/p/machine-screws/1795667)) | 1pkg        | RS Components                    | [179-5667](https://benl.rs-online.com/web/p/machine-screws/1795667) | ![Image](/assets/Images/Commercial_Parts_Suppliers_Stock_Images/RS-179-5667.png) |
 | M2 x 8mm Screw Stainless   Steel (RS Components, [914-1762](https://benl.rs-online.com/web/p/machine-screws/9141762/)) | 1pkg        | RS Components                    | [914-1762](https://benl.rs-online.com/web/p/machine-screws/9141762/) | ![Image](/assets/Images/Commercial_Parts_Suppliers_Stock_Images/RS-914-1762.png) |
-|                                          |             |                                  |                                          |                                          |
-| **Workshop Tools and Equipment**         |             |                                  |                                          |                                          |
+|
+
+### **Workshop Tools and Equipment**
+
+| **Article Description**                | **Qty**     | **Supplier**                     | **Item # & link**                        | **Supplier   Image**                     |
+| ---------------------------------------- | ----------- | -------------------------------- | ---------------------------------------- | ---------------------------------------- |
 | File set (Conrad,   [829638](https://www.conrad.be/nl/p/c-k-t0124p-naaldvijlenset-6-delig-140-mm-1-stuk-s-829638.html?searchType=SearchRedirect) , [406897](https://www.conrad.be/nl/p/bernstein-5-240-set-sleutelvijlen-met-houten-heft-in-etui-6-dlg-100-mm-1-stuk-s-406897.html?searchType=SearchRedirect) ;  Amazon.de, [B012DDEK16](https://www.amazon.de/Draper-68904-68904-Redline-Feilen-Set-16-teilig/dp/B012DDEK16) | 1           | Conrad                           | [406897](https://www.conrad.be/nl/p/bernstein-5-240-set-sleutelvijlen-met-houten-heft-in-etui-6-dlg-100-mm-1-stuk-s-406897.html?searchType=SearchRedirect) [B012DDEK16](https://www.amazon.de/Draper-68904-68904-Redline-Feilen-Set-16-teilig/dp/B012DDEK16) | ![Image](/assets/Images/Commercial_Parts_Suppliers_Stock_Images/Conrad-406897.jpg) |
 | Mini Drill                               | 1           | Conrad                           | [VTHD05](https://www.conrad.be/nl/p/multifunctioneel-gereedschap-162-delen-velleman-vthd05-135-w-85101.html?searchType=SearchRedirect) | ![Image](/assets/Images/Commercial_Parts_Suppliers_Stock_Images/Conrad-VTHD05.jpg) |
 | Table Jigsaw (Conrad,   [818878](https://www.conrad.be/nl/p/dremel-ms20-1-5-tafeldecoupeerzaag-70-w-zaagblad-lengte-100-mm-818878.html?searchType=SearchRedirect));  Saw Blade Set (Conrad, [819573- 8J](https://www.conrad.be/nl/p/universele-houtzaag-ms51-dremel-2615ms51ja-n-a-819573.html)) | 1           | Conrad                           | [818878](https://www.conrad.be/nl/p/dremel-ms20-1-5-tafeldecoupeerzaag-70-w-zaagblad-lengte-100-mm-818878.html?searchType=SearchRedirect) | ![Image](/assets/Images/Commercial_Parts_Suppliers_Stock_Images/Conrad-818878.jpg) |
@@ -108,8 +142,12 @@ Each category includes at least a suggested link to purchase them from various s
 | Drill set bits (Amazon.nl,   [DT40283-GER](https://www.amazon.nl/-/en/dp/B08F7L4RWB)) | 1           | Amazon.nl                        | [DT40283-GER](https://www.amazon.nl/-/en/dp/B08F7L4RWB) | ![Image](/assets/Images/Commercial_Parts_Suppliers_Stock_Images/Amazon-DT40283-GER.png) |
 | Drill Tap bits,  Metric thread M3-M10  (Amazon.nl,   [B086C2PGR9](https://www.amazon.nl/dp/B086C2PGR9/)) | 1           | Amazon.nl                        | [B086C2PGR9](https://www.amazon.nl/dp/B086C2PGR9/) | ![Image](/assets/Images/Commercial_Parts_Suppliers_Stock_Images/Amazon-B086C2PGR9.png) |
 | Digitales Thermo-Hygrometer  (Amazon.de, [B01H1R0K68](https://www.amazon.de/-/en/ThermoPro-TP50-thermo-hygrometer-temperature-humidity/dp/B01H1R0K68/) ; Amazon.nl, [B01H1R0K68](https://www.amazon.nl/ThermoPro-TP50-hygrometer-binnenklimaat-indicator-binnenklimaatbeheersing/dp/B01H1R0K68/)) | 3           | Amazon.de                        | [B01H1R0K68](https://www.amazon.de/-/en/ThermoPro-TP50-thermo-hygrometer-temperature-humidity/dp/B01H1R0K68/) | ![Image](/assets/Images/Commercial_Parts_Suppliers_Stock_Images/Amazon-B01H1R0K68.png) |
-|                                          |             |                                  |                                          |                                          |
-| **Springs & Magnets**                    |             |                                  |                                          |                                          |
+|
+
+### **Springs & Magnets**
+
+| **Article Description**                | **Qty**     | **Supplier**                     | **Item # & link**                        | **Supplier   Image**                     |
+| ---------------------------------------- | ----------- | -------------------------------- | ---------------------------------------- | ---------------------------------------- |
 | Stainless Steel Compression  Spring, 20.6mm x 2.82mm (RS Components, [821-267](https://benl.rs-online.com/web/p/compression-springs/0821267/)) | 2pkg        | RS Components                    | [821-267](https://benl.rs-online.com/web/p/compression-springs/0821267/) | ![Image](/assets/Images/Commercial_Parts_Suppliers_Stock_Images/RS-821-267.png) |
 | Steel Alloy Compression Spring, 15.7mm x 2.75mm (RS Components,   [751-360](https://benl.rs-online.com/web/p/compression-springs/0751360/)) | 2pkg        | RS Components                    | [751-360](https://benl.rs-online.com/web/p/compression-springs/0751360/) | ![Image](/assets/Images/Commercial_Parts_Suppliers_Stock_Images/RS-751-360.png) |
 | Stainless Steel   Compression Spring, 15.7mm x 2.75mm (RS Components, [821-245 ](https://benl.rs-online.com/web/p/compression-springs/0821245/)) | 2pkg        | RS Components                    | [821-245 ](https://benl.rs-online.com/web/p/compression-springs/0821245/) | ![Image](/assets/Images/Commercial_Parts_Suppliers_Stock_Images/RS-821-245.png) |
@@ -117,15 +155,23 @@ Each category includes at least a suggested link to purchase them from various s
 | 3 mm x 1 mm Thick Neodymium  Magnet (Amazon.de, [F331-N35-50 3](https://www.amazon.de/-/en/first4magnets-F331-N35-50-Diameter-Neodymium-Magnet/dp/B00TACKU36)) | 3           | Amazon.de                        | [F331-N35-50 3](https://www.amazon.de/-/en/first4magnets-F331-N35-50-Diameter-Neodymium-Magnet/dp/B00TACKU36) | ![Image](/assets/Images/Commercial_Parts_Suppliers_Stock_Images/Amazon-F331-N35-50-3.png) |
 | 5 mm x 1 mm Thick Neodymium  Magnet (Amazon.de, [F351-N35-50 5](https://www.amazon.de/-/en/first4magnets-F351-N35-50-Diameter-Neodymium-Magnet/dp/B00TACKN4M)) | 2           | Amazon.de                        | [F351-N35-50 5](https://www.amazon.de/-/en/first4magnets-F351-N35-50-Diameter-Neodymium-Magnet/dp/B00TACKN4M) | ![Image](/assets/Images/Commercial_Parts_Suppliers_Stock_Images/Amazon-F351-N35-50-5.png) |
 | 2mm x 1 mm Thick Magnet  (Amazon.de, [F321-50](https://www.amazon.de/-/en/MAGNET-Expert-0-13kg-Neodymium-Magnets/dp/B007JTKHR6)) | 3           | Amazon.de                        | [F321-50](https://www.amazon.de/-/en/MAGNET-Expert-0-13kg-Neodymium-Magnets/dp/B007JTKHR6) | ![Image](/assets/Images/Commercial_Parts_Suppliers_Stock_Images/Amazon-F321-50.png) |
-|                                          |             |                                  |                                          |                                          |
-| **Adhesive Tape & Glue**                 |             |                                  |                                          |                                          |
+|
+
+### **Adhesive Tape & Glue**
+
+| **Article Description**                | **Qty**     | **Supplier**                     | **Item # & link**                        | **Supplier   Image**                     |
+| ---------------------------------------- | ----------- | -------------------------------- | ---------------------------------------- | ---------------------------------------- |
 | White Silicone Sealant  Paste Tube (RS Components, [494-118](https://benl.rs-online.com/web/p/silicone-sealants/0494118/) ; Farnell, [2289630](https://be.farnell.com/dowsil-formerly-dow-corning/732-white-90ml/rtv-silicone-732-white-90ml/dp/2289630)) | 1           | RS Components                    | [494-118](https://benl.rs-online.com/web/p/silicone-sealants/0494118/) | ![Image](/assets/Images/Commercial_Parts_Suppliers_Stock_Images/RS-494-118.png) |
 | Loctite 431 20 g Super Glue  (RS Components, [313-8596](https://benl.rs-online.com/web/p/cyanoacrylate-adhesives/3138596)) | 2           | RS Components                    | [313-8596](https://benl.rs-online.com/web/p/cyanoacrylate-adhesives/3138596) | ![Image](/assets/Images/Commercial_Parts_Suppliers_Stock_Images/RS-313-8596.png) |
 | Loctite 406 20 g Super Glue  (RS Componentss, [133-0093](https://benl.rs-online.com/web/p/glues/1330093/)) | 5           | RS Componentss                   | [133-0093](https://benl.rs-online.com/web/p/glues/1330093/) | ![Image](/assets/Images/Commercial_Parts_Suppliers_Stock_Images/RS-133-0093.png) |
 | Silicon paste clear(  Farnell, [2289628](https://be.farnell.com/dowsil-formerly-dow-corning/732-clear-90ml/rtv-silicone-732-clear-90ml/dp/2289628?ost=2289628) ; white Farnell, [2289630](https://be.farnell.com/dowsil-formerly-dow-corning/732-white-90ml/rtv-silicone-732-white-90ml/dp/2289630)) | 1           | Farnell                          | [2289628](https://be.farnell.com/dowsil-formerly-dow-corning/732-clear-90ml/rtv-silicone-732-clear-90ml/dp/2289628?ost=2289628)  [2289630](https://be.farnell.com/dowsil-formerly-dow-corning/732-white-90ml/rtv-silicone-732-white-90ml/dp/2289630) | ![Image](/assets/Images/Commercial_Parts_Suppliers_Stock_Images/Farnell-2289628.jpg) |
 | Adhesive double-sided tape (RS Components, [273-598](https://benl.rs-online.com/web/p/double-sided-tapes/0273598)) | 1           | RS Components                    | [273-598](https://benl.rs-online.com/web/p/double-sided-tapes/0273598) | ![Image](/assets/Images/Commercial_Parts_Suppliers_Stock_Images/RS-273-598.png) |
-|                                          |             |                                  |                                          |                                          |
-| **Wires & Power Cables**                 |             |                                  |                                          |                                          |
+|
+
+### **Wires & Power Cables**
+
+| **Article Description**                | **Qty**     | **Supplier**                     | **Item # & link**                        | **Supplier   Image**                     |
+| ---------------------------------------- | ----------- | -------------------------------- | ---------------------------------------- | ---------------------------------------- |
 | 4 mm Test lead With Needle   Test Probe Male, 1.2m Lead Length (RS Components, [888-3705](https://benl.rs-online.com/web/p/4-mm-test-probe-leads/8883705/)) | 1           | RS Components                    | [888-3705](https://benl.rs-online.com/web/p/4-mm-test-probe-leads/8883705/) | ![Image](/assets/Images/Commercial_Parts_Suppliers_Stock_Images/RS-888-3705.png) |
 | Cable (red and black pair),   banana , male (World Percision Instruments, [504713](https://www.wpiinc.com/504713-extension-cable-male-banana-to-male-banana-36)) | 5           | World Percision   Instruments    | [504713](https://www.wpiinc.com/504713-extension-cable-male-banana-to-male-banana-36) | ![Image](/assets/Images/Commercial_Parts_Suppliers_Stock_Images/WPI-504713.png) |
 | 4 mm Test Lead Banana to Banana (60" Digi-Key, [501-1791-ND](https://www.digikey.be/de/products/detail/pomona-electronics/2BA-60/736432); 48" Digi-Key, [501-1663-ND](https://www.digikey.be/de/products/detail/pomona-electronics/2BA-48/736431) ;24" [501-1696-ND](https://www.digikey.be/de/products/detail/pomona-electronics/2BA-24/736429)) | 4           | Digi-Key                         | [501-1791-ND](https://www.digikey.be/de/products/detail/pomona-electronics/2BA-60/736432) | ![Image](/assets/Images/Commercial_Parts_Suppliers_Stock_Images/Digi-Key-501-1791-ND.jpg) |
@@ -151,8 +197,12 @@ Each category includes at least a suggested link to purchase them from various s
 | JST PH 2 Pin Female Cable  (Digi-Key, [1528-1126-ND](https://www.digikey.be/product-detail/en/adafruit-industries-llc/261/1528-1126-ND/5353586)) | 100         | Digi-Key                         | [1528-1126-ND](https://www.digikey.be/product-detail/en/adafruit-industries-llc/261/1528-1126-ND/5353586) | ![Image](/assets/Images/Commercial_Parts_Suppliers_Stock_Images/Digi-Key-1528-1126-ND.jpg) |
 | JST PH 2 pin cable male  Header (Digi-Key, [1528-2617-ND](https://www.digikey.be/product-detail/en/adafruit-industries-llc/3814/1528-2617-ND/9380221)) | 50          | Digi-Key                         | [1528-2617-ND](https://www.digikey.be/product-detail/en/adafruit-industries-llc/3814/1528-2617-ND/9380221) | ![Image](/assets/Images/Commercial_Parts_Suppliers_Stock_Images/Digi-Key-1528-2617-ND.jpg) |
 | 3-pin female to female  jumper wire dupont cable (Amazon.nl, [B07DK31W19](https://www.amazon.nl/-/en/dp/B07DK31W19) ) | 1           | Amazon.nl                        | [B07DK31W19](https://www.amazon.nl/-/en/dp/B07DK31W19) | ![Image](/assets/Images/Commercial_Parts_Suppliers_Stock_Images/Amazon-B07DK31W19.jpg) |
-|                                          |             |                                  |                                          |                                          |
-| **Thermal management & Heatsink**        |             |                                  |                                          |                                          |
+|
+
+### **Thermal management & Heatsink**
+
+| **Article Description**                | **Qty**     | **Supplier**                     | **Item # & link**                        | **Supplier   Image**                     |
+| ---------------------------------------- | ----------- | -------------------------------- | ---------------------------------------- | ---------------------------------------- |
 | Heatsink Aluminum Top   Mount, Extrusion   136.53mm   x 914.40mm (Digikey, [345-1936-ND](https://www.digikey.be/product-detail/en/wakefield-vette/125404/345-1936-ND/9957688)) | 1           | Digikey                          | [345-1936-ND](https://www.digikey.be/product-detail/en/wakefield-vette/125404/345-1936-ND/9957688) | ![Image](/assets/Images/Commercial_Parts_Suppliers_Stock_Images/Digi-Key-345-1936-ND.jpg) |
 | Heatsink Aluminum  (Digi-Key, [AE10889-ND](https://www.digikey.be/product-detail/en/assmann-wsw-components/V6560Y/AE10889-ND/3511467)) | 1           | Digi-Key                         | [AE10889-ND](https://www.digikey.be/product-detail/en/assmann-wsw-components/V6560Y/AE10889-ND/3511467) | ![Image](/assets/Images/Commercial_Parts_Suppliers_Stock_Images/Digi-Key-AE10889-ND.jpg) |
 | aluminum Flat Bar, 609.6mm  x 25.4mm (RS Components, [681-104](https://benl.rs-online.com/web/p/metal-bars-metal-rods/0681104/)) | 2           | RS Components                    | [681-104](https://benl.rs-online.com/web/p/metal-bars-metal-rods/0681104/) | ![Image](/assets/Images/Commercial_Parts_Suppliers_Stock_Images/RS-681-104.png) |
@@ -163,13 +213,21 @@ Each category includes at least a suggested link to purchase them from various s
 | Thermal pad 100mmX100mm Digi-Key,  [1168-1951-ND](https://www.digikey.be/nl/products/detail/t-global-technology/LI98CN-100-100-0-18/3064388) | 5           | Digi-Key                         | [1168-1951-ND](https://www.digikey.be/nl/products/detail/t-global-technology/LI98CN-100-100-0-18/3064388) | ![Image](/assets/Images/Commercial_Parts_Suppliers_Stock_Images/Digi-Key-1168-1951-ND.jpg) |
 | Thermally Conductive Double-Sided Tape (Thorlabs, [TCDT1](https://www.thorlabs.de/thorproduct.cfm?partnumber=TCDT1)) | 1           | Thorlabs                         | [TCDT1](https://www.thorlabs.de/thorproduct.cfm?partnumber=TCDT1) | ![Image](/assets/Images/Commercial_Parts_Suppliers_Stock_Images/Thorlabs-TCDT1.jpg) |
 | Heatsink, , 84 x 28 x  10.3mm, (RS Components, [722-6883](https://benl.rs-online.com/web/p/heatsinks/7226883)) | 2           | RS Components                    | [722-6883](https://benl.rs-online.com/web/p/heatsinks/7226883) | ![Image](/assets/Images/Commercial_Parts_Suppliers_Stock_Images/RS-722-6883.png) |
-|                                          |             |                                  |                                          |                                          |
-| **Vibration Isolation**                  |             |                                  |                                          |                                          |
+|
+
+### **Vibration Isolation**
+
+| **Article Description**                | **Qty**     | **Supplier**                     | **Item # & link**                        | **Supplier   Image**                     |
+| ---------------------------------------- | ----------- | -------------------------------- | ---------------------------------------- | ---------------------------------------- |
 | Anti Vibration Feet 12.7mm  Natural Rubber (RS Components, [236-509](https://benl.rs-online.com/web/p/anti-slip-pads/0236509/)) | 1           | RS Components                    | [236-509](https://benl.rs-online.com/web/p/anti-slip-pads/0236509/) | ![Image](/assets/Images/Commercial_Parts_Suppliers_Stock_Images/RS-236-509.png) |
 | Hemisphere Anti Vibration  Feet (RS Components, [236-464 ](https://benl.rs-online.com/web/p/anti-slip-pads/0236464/)) ,11.1mm dia. Natural Rubber | 1           | RS Components                    | [236-464 ](https://benl.rs-online.com/web/p/anti-slip-pads/0236464/) | ![Image](/assets/Images/Commercial_Parts_Suppliers_Stock_Images/RS-236-464.png) |
 | Anti Vibration Feet 22.4mm  Natural Rubber (RS Components, [179-4808](https://benl.rs-online.com/web/p/anti-slip-pads/1794808/)) | 3           | RS Components                    | [179-4808](https://benl.rs-online.com/web/p/anti-slip-pads/1794808/) | ![Image](/assets/Images/Commercial_Parts_Suppliers_Stock_Images/RS-179-4808.png) |
-|                                          |             |                                  |                                          |                                          |
-| **Plastic Sheets & Light Diffuser**      |             |                                  |                                          |                                          |
+|
+
+### **Plastic Sheets & Light Diffuser**
+
+| **Article Description**                | **Qty**     | **Supplier**                     | **Item # & link**                        | **Supplier   Image**                     |
+| ---------------------------------------- | ----------- | -------------------------------- | ---------------------------------------- | ---------------------------------------- |
 | Clear Plastic Sheet, 500mm  x 400mm x 5mm (RS Components, [824-676](https://benl.rs-online.com/web/p/plastic-sheets/0824660)) | 1           | RS Components                    | [824-676](https://benl.rs-online.com/web/p/plastic-sheets/0824660) | ![Image](/assets/Images/Commercial_Parts_Suppliers_Stock_Images/RS-824-676.png) |
 | Clear Plastic Sheet, 500mm  x 400mm x 1.5mm (RS Componentss,  [769-8724](https://benl.rs-online.com/web/p/plastic-sheets/7698724)) | 1           | RS Componentss                   | [769-8724](https://benl.rs-online.com/web/p/plastic-sheets/7698724) | ![Image](/assets/Images/Commercial_Parts_Suppliers_Stock_Images/RS-769-8724.png) |
 | Light Diffuser  2mm (Pyrasied,  [Colorado LED DB 71 opal](https://pyrasied.com/en/all-plastics/colours/opal/colorado-led-db-71-opal-1/)) | 1           | pyrasied                         | [Colorado LED DB 71 opal](https://pyrasied.com/en/all-plastics/colours/opal/colorado-led-db-71-opal-1/) | ![Image](/assets/Images/Commercial_Parts_Suppliers_Stock_Images/Pyrasied-Colorado-LED-DB-71-opal.jpg) |
@@ -180,38 +238,66 @@ Each category includes at least a suggested link to purchase them from various s
 | ITO (Indium Tin Oxide) Coated  PET Plastic - 100mm x 200mm (Mouser.be/adafruit /, [1309](https://www.mouser.be/ProductDetail/Adafruit/1309?qs=GURawfaeGuBVbBVf4Krrdw%3D%3D)) | 2           | Mouser.be/Adafruit               | [1309](https://www.mouser.be/ProductDetail/Adafruit/1309?qs=GURawfaeGuBVbBVf4Krrdw%3D%3D) | ![Image](/assets/Images/Commercial_Parts_Suppliers_Stock_Images/Adafruit-1309.jpg) |
 | LEE Filters 100mm System  Polyester 87 Infrared Filter unmounted (Robertwhite, [LEEB10087C](https://www.robertwhite.co.uk/lee-filters-100mm-system-polyester-87c-infrared-filter.html)) | 3           | RobertWhite                      | [LEEB10087C](https://www.robertwhite.co.uk/lee-filters-100mm-system-polyester-87c-infrared-filter.html) | ![Image](/assets/Images/Commercial_Parts_Suppliers_Stock_Images/Robertwhite-LEEB10087C.jpg) |
 | Aluminum Sandwich Panel Black 510x762 mm  (Plexikopen, [Black RAL 9005 3 mm](https://www.plexikopen.be/aluminum-sandwichpaneel-kleur)) | 2           | Plexikopen                       | [Black RAL 9005 3 mm](https://www.plexikopen.be/aluminum-sandwichpaneel-kleur) | ![Image](/assets/Images/Commercial_Parts_Suppliers_Stock_Images/Plexikopen-Black-RAL-9005-3 mm.jpg) |
-|                                          |             |                                  |                                          |                                          |
-| **Silicon rubber sheet**                 |             |                                  |                                          |                                          |
+|
+
+### **Silicon rubber sheet**
+
+| **Article Description**                | **Qty**     | **Supplier**                     | **Item # & link**                        | **Supplier   Image**                     |
+| ---------------------------------------- | ----------- | -------------------------------- | ---------------------------------------- | ---------------------------------------- |
 | 0.3mm Thicknes 500x500MM  (20"x20") Silicone Rubber Sheet Plate Mat High Temp Commercial  Grade | 1           | Amazon.co.uk                     | [B06XG14FG4](https://www.amazon.co.uk/Thicknes-500x500MM-Silicone-Rubber-Commercial/dp/B06XG14FG4) | ![Image](/assets/Images/Commercial_Parts_Suppliers_Stock_Images/Amazon-B06XG14FG4.png) |
 | Translucent Silicone Rubber  Sheet, 600mm x 600mm x 1.5mm (RS Components, [840-5541](https://benl.rs-online.com/web/p/silicone-rubber-sheets/8405541/)) | 1           | RS Components                    | [840-5541](https://benl.rs-online.com/web/p/silicone-rubber-sheets/8405541/) | ![Image](/assets/Images/Commercial_Parts_Suppliers_Stock_Images/RS-840-5541.png) |
-|                                          |             |                                  |                                          |                                          |
-| **Glass Tubing**                         |             |                                  |                                          |                                          |
+|
+
+### **Glass Tubing**
+
+| **Article Description**                | **Qty**     | **Supplier**                     | **Item # & link**                        | **Supplier   Image**                     |
+| ---------------------------------------- | ----------- | -------------------------------- | ---------------------------------------- | ---------------------------------------- |
 | Glass Tubing, Borosilicate  Glass, Out Diameter 4mm (Amazon.com, [B017CNYUV2](https://www.amazon.com/Pack-Glass-Tubing-Borosilicate-Diameter/dp/B017CNYUV2)) | 1 pack      | Amazon.com                       | [B017CNYUV2](https://www.amazon.com/Pack-Glass-Tubing-Borosilicate-Diameter/dp/B017CNYUV2) | ![Image](/assets/Images/Commercial_Parts_Suppliers_Stock_Images/Amazon-B017CNYUV2.png) |
 | Glass Tubing, Borosilicate  Glass, Out Diameter 6mm (Amazon.com, [B017DVI4TC](https://www.amazon.com/Pack-Glass-Tubing-Borosilicate-Diameter/dp/B017DVI4TC)) |             | Amazon.com                       | [B017DVI4TC](https://www.amazon.com/Pack-Glass-Tubing-Borosilicate-Diameter/dp/B017DVI4TC) | ![Image](/assets/Images/Commercial_Parts_Suppliers_Stock_Images/Amazon-B017DVI4TC.jpg) |
 | Pyrex Glass Tubing (TriKinetics, [PGT5x80](https://trikinetics.com/)) | 1 pack      | TriKinetics                      | [PGT5x80](https://trikinetics.com/)      | ![Image](/assets/Images/Commercial_Parts_Suppliers_Stock_Images/TriKinetics-PGT5x80.png) |
-|                                          |             |                                  |                                          |                                          |
-| **Relays & MOSFET**                      |             |                                  |                                          |                                          |
+|
+
+### **Relays & MOSFET**
+
+| **Article Description**                | **Qty**     | **Supplier**                     | **Item # & link**                        | **Supplier   Image**                     |
+| ---------------------------------------- | ----------- | -------------------------------- | ---------------------------------------- | ---------------------------------------- |
 | Dual powerful MOSFET   trigger switch drive module  PWM DC   5V-36V 15A (Amazon.nl, [B07VRCXGFY](https://www.amazon.nl/dp/B07VRCXGFY/)) | 1           | Amazon.nl                        | [B07VRCXGFY](https://www.amazon.nl/dp/B07VRCXGFY/) | ![Image](/assets/Images/Commercial_Parts_Suppliers_Stock_Images/Amazon-B07VRCXGFY.png) |
 | 5V one channel relay module  board Shield for Arduino relay (Amazon.de, [B07DJ4ZD99](https://www.amazon.de/DollaTek-KY-019-Relais-Shield-Arduino/dp/B07DJ4ZD99); Amazon.nl,   [B07DJ4ZD99](https://www.amazon.nl/dp/B07DJ4ZD99/)) | 1           | Amazon.de                        | [B07DJ4ZD99](https://www.amazon.de/DollaTek-KY-019-Relais-Shield-Arduino/dp/B07DJ4ZD99) | ![Image](/assets/Images/Commercial_Parts_Suppliers_Stock_Images/Amazon-B07DJ4ZD99.png) |
 | SPNO Reed Relay, 5V dc, PCB  Mount (RS Components, [291-9710](https://benl.rs-online.com/web/p/reed-relays/2919710?sra=pstk)) | 10          | RS Components                    | [291-9710](https://benl.rs-online.com/web/p/reed-relays/2919710?sra=pstk) | ![Image](/assets/Images/Commercial_Parts_Suppliers_Stock_Images/RS-291-9710.png) |
 | SPDT Reed Relay, 5V dc, PCB  Mount (RS Components, [256-2241 ](https://benl.rs-online.com/web/p/reed-relays/2562241/)) | 10          | RS Components                    | [256-2241 ](https://benl.rs-online.com/web/p/reed-relays/2562241/) | ![Image](/assets/Images/Commercial_Parts_Suppliers_Stock_Images/RS-256-2241.png) |
 | SPDT Reed Relay, 5V dc, PCB  Mount (Digi-Key, [HE100-ND](https://www.digikey.be/nl/products/detail/littelfuse-inc/HE721A0500/133183)) | 10          | Digi-Key                         | [HE100-ND](https://www.digikey.be/nl/products/detail/littelfuse-inc/HE721A0500/133183) | ![Image](/assets/Images/Commercial_Parts_Suppliers_Stock_Images/Digi-Key-HE100-ND.jpg) |
-|                                          |             |                                  |                                          |                                          |
-| **Vibration Motors**                     |             |                                  |                                          |                                          |
+|
+
+### **Vibration Motors**
+
+| **Article Description**                | **Qty**     | **Supplier**                     | **Item # & link**                        | **Supplier   Image**                     |
+| ---------------------------------------- | ----------- | -------------------------------- | ---------------------------------------- | ---------------------------------------- |
 | Vibration Motor  11000 RPM 5VDC (Digi-Key, [1528-1177-ND](https://www.digikey.be/nl/products/detail/adafruit-industries-llc/1201/5353637)) | 10          | Digi-Key                         | 1528-[1177-ND](https://www.digikey.be/nl/products/detail/adafruit-industries-llc/1201/5353637) | ![Image](/assets/Images/Commercial_Parts_Suppliers_Stock_Images/Digi-Key-1528-1177-ND.jpg) |
-|                                          |             |                                  |                                          |                                          |
-| **Water bath & Vacuum**                  |             |                                  |                                          |                                          |
+| 
+
+### **Water bath & Vacuum**
+
+| **Article Description**                | **Qty**     | **Supplier**                     | **Item # & link**                        | **Supplier   Image**                     |
+| ---------------------------------------- | ----------- | -------------------------------- | ---------------------------------------- | ---------------------------------------- |
 | Water bath, 2 L (VWR, [462-0554](https://be.vwr.com/store/product?keyword=462-0554%20)) | 1           | VWR                              | [462-0554](https://be.vwr.com/store/product?keyword=462-0554%20) | ![Image](/assets/Images/Commercial_Parts_Suppliers_Stock_Images/VWR-462-0554.png) |
 | Vacuum Pump  Fisherbrand™ FB70155 (Fisher, [11533485](https://www.fishersci.be/shop/products/product/11533485)) | 2           | Fisher                           | [11533485](https://www.fishersci.be/shop/products/product/11533485) | ![Image](/assets/Images/Commercial_Parts_Suppliers_Stock_Images/Fisher-11533485.png) |
-|                                          |             |                                  |                                          |                                          |
-| **Crimping Sockets**                     |             |                                  |                                          |                                          |
+|
+
+### **Crimping Sockets**
+
+| **Article Description**                | **Qty**     | **Supplier**                     | **Item # & link**                        | **Supplier   Image**                     |
+| ---------------------------------------- | ----------- | -------------------------------- | ---------------------------------------- | ---------------------------------------- |
 | Socket, Crimp,  Wire-to-Board Crimp Housings (Farnell, [1593529](https://be.farnell.com/multicomp/2226tg/crimp-terminal-24-28awg/dp/1593529?ost=1593529)) | 1500        | Farnell                          | [1593529](https://be.farnell.com/multicomp/2226tg/crimp-terminal-24-28awg/dp/1593529?ost=1593529) | ![Image](/assets/Images/Commercial_Parts_Suppliers_Stock_Images/Farnell-1593529.jpg) |
 | Connector Socket   Crimp,  Micro Timer 2 Contact with Double Locking  Lance (Digi-Key, [962876-2](https://www.digikey.be/en/products/detail/te-connectivity-amp-connectors/962876-2/2332160)) | 250         | Digi-Key                         | [962876-2](https://www.digikey.be/en/products/detail/te-connectivity-amp-connectors/962876-2/2332160) | ![Image](/assets/Images/Commercial_Parts_Suppliers_Stock_Images/Digi-Key-962876-2.jpg) |
 | Connector Housing, 2 Ways,  2.54 mm (Farnell, [1593506](https://be.farnell.com/multicomp/2226a-02/crimp-housing-1-row-2-way/dp/1593506)) | 50          | Farnell                          | [1593506](https://be.farnell.com/multicomp/2226a-02/crimp-housing-1-row-2-way/dp/1593506) | ![Image](/assets/Images/Commercial_Parts_Suppliers_Stock_Images/Farnell-1593506.jpg) |
 | Connector Housing, 4 Ways,  2.54 mm (RS Components, [681-2824](https://benl.rs-online.com/web/p/wire-housings-plugs/6812824/)) | 30          | RS Components                    | [681-2824](https://benl.rs-online.com/web/p/wire-housings-plugs/6812824/) | ![Image](/assets/Images/Commercial_Parts_Suppliers_Stock_Images/RS-681-2824.png) |
 | 2.54 mm Male Female  Dupont Wire Jumper with Pin Header Connector Housing Kit (amazon.de, [B07BTB3MC7](https://www.amazon.de/-/en/KINCREA-Female-Dupont-Connector-Housing/dp/B07BTB3MC7)) | 1           | amazon.de                        | [B07BTB3MC7](https://www.amazon.de/-/en/KINCREA-Female-Dupont-Connector-Housing/dp/B07BTB3MC7) | ![Image](/assets/Images/Commercial_Parts_Suppliers_Stock_Images/Amazon-B07BTB3MC7.png) |
-|                                          |             |                                  |                                          |                                          |
-| **PCB Pin Headers**                      |             |                                  |                                          |                                          |
+|
+
+### **PCB Pin Headers**
+
+| **Article Description**                | **Qty**     | **Supplier**                     | **Item # & link**                        | **Supplier   Image**                     |
+| ---------------------------------------- | ----------- | -------------------------------- | ---------------------------------------- | ---------------------------------------- |
 | Straight Pin Header, 2.54mm  Pitch, 6 Way, 2 Row (RS Components, [251-8137](https://benl.rs-online.com/web/p/pcb-headers/2518137)) | 50          | RS Components                    | [251-8137](https://benl.rs-online.com/web/p/pcb-headers/2518137) | ![Image](/assets/Images/Commercial_Parts_Suppliers_Stock_Images/RS-251-8137.png) |
 | Straight Pin Header, 2.54mm  Pitch, 6 Way, 1 Row (RS Components, [681-2994](https://benl.rs-online.com/web/p/pcb-headers/6812994/)) | 50          | RS Components                    | [681-2994](https://benl.rs-online.com/web/p/pcb-headers/6812994/) | ![Image](/assets/Images/Commercial_Parts_Suppliers_Stock_Images/RS-681-2994.png) |
 | Turned Pin Open Frame IC  Dip Socket, 2.54mm Pitch 14 Way (RS Components, [674-2476](https://benl.rs-online.com/web/p/dil-sockets/6742476/)) | 20          | RS Components                    | [674-2476](https://benl.rs-online.com/web/p/dil-sockets/6742476/) | ![Image](/assets/Images/Commercial_Parts_Suppliers_Stock_Images/RS-674-2476.png) |
@@ -221,15 +307,23 @@ Each category includes at least a suggested link to purchase them from various s
 | Contact, PST Straight Pin  Header, 1.0/ 4-3.5, 4 Way, 1 Row (RS Components,   [548-7222](https://benl.rs-online.com/web/p/pcb-headers/5487222)) | 40          | RS Components                    | [548-7222](https://benl.rs-online.com/web/p/pcb-headers/5487222) | ![Image](/assets/Images/Commercial_Parts_Suppliers_Stock_Images/RS-548-7222.png) |
 | 32 Way SIL Sockel  2,54 mm – Turned Pin – 2 Stück | 2           | Amazon.de                        | [B00KM1K0NE](https://www.amazon.de/32-Way-SIL-Sockel-Turned-St%C3%BCck/dp/B00KM1K0NE) | ![Image](/assets/Images/Commercial_Parts_Suppliers_Stock_Images/Amazon-B00KM1K0NE.png) |
 | 2 Way Preci-Dip Straight  Through Hole 2.54mm SIL Socket, Solder, 3A 100 V ac, 150 V dc | 5           | RS Components                    | [702-2969](https://benl.rs-online.com/web/p/sil-sockets/7022969) | ![Image](/assets/Images/Commercial_Parts_Suppliers_Stock_Images/RS-702-2969.png) |
-|                                          |             |                                  |                                          |                                          |
-| **Toggle Switches**                      |             |                                  |                                          |                                          |
+|
+
+### **Toggle Switches**
+
+| **Article Description**                | **Qty**     | **Supplier**                     | **Item # & link**                        | **Supplier   Image**                     |
+| ---------------------------------------- | ----------- | -------------------------------- | ---------------------------------------- | ---------------------------------------- |
 | Cap Toggle Bat Black   (Digi-Key, [EG2471-ND](https://www.digikey.be/product-detail/en/e-switch/T1002BLKTOGGLECAP/EG2471-ND/378940)) | 10          | Digi-Key                         | [EG2471-ND](https://www.digikey.be/product-detail/en/e-switch/T1002BLKTOGGLECAP/EG2471-ND/378940) | ![Image](/assets/Images/Commercial_Parts_Suppliers_Stock_Images/Digi-Key-EG2471-ND.jpg) |
 | Toggle Switch DPDT  (Digi-Key, [EG2400-ND](https://www.digikey.be/product-detail/en/e-switch/100DP1T1B1M2QEH/EG2400-ND/378869)) | 4           | Digi-Key                         | [EG2400-ND](https://www.digikey.be/product-detail/en/e-switch/100DP1T1B1M2QEH/EG2400-ND/378869) | ![Image](/assets/Images/Commercial_Parts_Suppliers_Stock_Images/Digi-Key-EG2400-ND.jpg) |
 | Toggle Switch SPDT   (Digi-Key, [EG2352-ND](https://www.digikey.de/en/products/detail/e-switch/100SP1T1B1M2QEH/378821)) | 5           | Digi-Key                         | [EG2352-ND](https://www.digikey.de/en/products/detail/e-switch/100SP1T1B1M2QEH/378821) | ![Image](/assets/Images/Commercial_Parts_Suppliers_Stock_Images/Digi-Key-EG2352-ND.jpg) |
 | Push Button Switch, 6.5   (Dia.) mm, Panel Mount (RS Components, [332-830](https://benl.rs-online.com/web/p/push-button-switches/0332830/); [133-6502](https://benl.rs-online.com/web/p/push-button-switches/1336502/)) | 10          | RS Components                    | [332-830](https://benl.rs-online.com/web/p/push-button-switches/0332830/) | ![Image](/assets/Images/Commercial_Parts_Suppliers_Stock_Images/RS-332-830.png) |
 | Push Button Switch, Panel   Mount SPST (Digi-Key, [40-4526-00](https://www.digikey.be/product-detail/en/judco-manufacturing-inc/40-4526-00/545PB-ND/1277805)) | 10          | Digi-Key                         | [40-4526-00](https://www.digikey.be/product-detail/en/judco-manufacturing-inc/40-4526-00/545PB-ND/1277805) | ![Image](/assets/Images/Commercial_Parts_Suppliers_Stock_Images/Digi-Key-40-4526-00.jpg) |
-|                                          |             |                                  |                                          |                                          |
-| **Screw terminal block connectors**      |             |                                  |                                          |                                          |
+|
+
+### **Screw terminal block connectors**
+
+| **Article Description**                | **Qty**     | **Supplier**                     | **Item # & link**                        | **Supplier   Image**                     |
+| ---------------------------------------- | ----------- | -------------------------------- | ---------------------------------------- | ---------------------------------------- |
 | Terminal Block   2P side 5.08mm  PCB (Digi-Key, [A113320-ND](https://www.digikey.be/products/en?keywords=A113320-ND)) | 10          | Digi-Key                         | [A113320-ND](https://www.digikey.be/products/en?keywords=A113320-ND) | ![Image](/assets/Images/Commercial_Parts_Suppliers_Stock_Images/Digi-Key-A113320-ND.jpg) |
 | Terminal Block   2P side 5.08mm  PCB (Digi-Key, [ED2609-ND](https://www.digikey.be/products/en?keywords=ED2609-ND)) | 25          | Digi-Key                         | [ED2609-ND](https://www.digikey.be/products/en?keywords=ED2609-ND) | ![Image](/assets/Images/Commercial_Parts_Suppliers_Stock_Images/Digi-Key-ED2609-ND.jpg) |
 | Terminal Block   3P side 5.08mm  PCB (Digi-Key, [ED2610-ND](https://www.digikey.be/products/en?keywords=ED2610-ND)) | 10          | Digi-Key                         | [ED2610-ND](https://www.digikey.be/products/en?keywords=ED2610-ND) | ![Image](/assets/Images/Commercial_Parts_Suppliers_Stock_Images/Digi-Key-ED2610-ND.jpg) |
@@ -239,19 +333,31 @@ Each category includes at least a suggested link to purchase them from various s
 | Terminal Block Connector   for Arduino, 5mm pitch 2-pin and 3-pin PCB Mounting Screw (Amazon.nl, [B087RN8FDZ](https://www.amazon.nl/-/en/dp/B087RN8FDZ/)) | 1           | Amazon.nl                        | [B087RN8FDZ](https://www.amazon.nl/-/en/dp/B087RN8FDZ/) | ![Image](/assets/Images/Commercial_Parts_Suppliers_Stock_Images/Amazon-B087RN8FDZ.png) |
 | 12 Circuit - Terminal   Strip Connector Screws (Digi-Key, [277-15432-ND](https://www.digikey.be/en/products/detail/phoenix-contact/3240171/3603832)) | 4           | Digi-Key                         | [277-15432-ND](https://www.digikey.be/en/products/detail/phoenix-contact/3240171/3603832) | ![Image](/assets/Images/Commercial_Parts_Suppliers_Stock_Images/Digi-Key-277-15432-ND.jpg) |
 | 12 Circuit - Terminal   Strip Connector Screws (Digi-Key,   [277-15433-ND](https://www.digikey.be/en/products/detail/phoenix-contact/3240173/4484753)) | 4           | Digi-Key                         | [277-15433-ND](https://www.digikey.be/en/products/detail/phoenix-contact/3240173/4484753) | ![Image](/assets/Images/Commercial_Parts_Suppliers_Stock_Images/Digi-Key-277-15433-ND.jpg) |
-|                                          |             |                                  |                                          |                                          |
-| **Resistors & Diode**                    |             |                                  |                                          |                                          |
+|
+
+### **Resistors & Diodes**
+
+| **Article Description**                | **Qty**     | **Supplier**                     | **Item # & link**                        | **Supplier   Image**                     |
+| ---------------------------------------- | ----------- | -------------------------------- | ---------------------------------------- | ---------------------------------------- |
 | Resistor Kit, 10ohm to   1Mohm Resistors (Farnell, [MF0W4FFE006KIT](https://be.farnell.com/multicomp/mf0w4ffe006kit/resistor-kit-0-25w-1-e6/dp/9342362)) |             | Farnell                          | [MF0W4FFE006KIT](https://be.farnell.com/multicomp/mf0w4ffe006kit/resistor-kit-0-25w-1-e6/dp/9342362) | ![Image](/assets/Images/Commercial_Parts_Suppliers_Stock_Images/Farnell-MF0W4FFE006KIT.jpg) |
 | Diode (RS Components, [628-8931](https://benl.rs-online.com/web/p/rectifier-diodes-schottky-diodes/6288931/)) | 20          | RS Components                    | [628-8931](https://benl.rs-online.com/web/p/rectifier-diodes-schottky-diodes/6288931/) | ![Image](/assets/Images/Commercial_Parts_Suppliers_Stock_Images/RS-628-8931.png) |
-|                                          |             |                                  |                                          |                                          |
-| **Solderable Breadboard PCB**            |             |                                  |                                          |                                          |
+|
+
+### **Solderable Breadboard PCB**
+
+| **Article Description**                | **Qty**     | **Supplier**                     | **Item # & link**                        | **Supplier   Image**                     |
+| ---------------------------------------- | ----------- | -------------------------------- | ---------------------------------------- | ---------------------------------------- |
 | Solderable Breadboard With  Adaption Circuit Board 42.54 x 31.75 x 1.5mm (RS Components, [897-1654](https://benl.rs-online.com/web/p/breadboards/8971654/)) | 10          | RS Components                    | [897-1654](https://benl.rs-online.com/web/p/breadboards/8971654/) | ![Image](/assets/Images/Commercial_Parts_Suppliers_Stock_Images/RS-897-1654.png) |
 | EPCB Prototype Board,  Snappable Strip Board (Amazon.nl, [B081R45KN8](https://www.amazon.nl/-/en/dp/B081R45KN8) ) | 1           | Amazon.nl                        | [B081R45KN8](https://www.amazon.nl/-/en/dp/B081R45KN8) | ![Image](/assets/Images/Commercial_Parts_Suppliers_Stock_Images/Amazon-B081R45KN8.jpg) |
 | RE 521-HP, Single-Sided  Stripboard FR-2 100 x 160 x 1.5mm DIN 41612 FR2 | 10          | RS Components                    | [206-5879](https://benl.rs-online.com/web/p/stripboards/2065879) | ![Image](/assets/Images/Commercial_Parts_Suppliers_Stock_Images/RS-206-5879.png) |
 | Stripboard Cutter (RS  Components, [543-535](https://benl.rs-online.com/web/p/stripboard-cutters/543535)) | 1           | RS Components                    | [543-535](https://benl.rs-online.com/web/p/stripboard-cutters/543535) | ![Image](/assets/Images/Commercial_Parts_Suppliers_Stock_Images/RS-543-535.png) |
 | Tinned-Copper Wire  Breadboard Jumper Wire (RS Components,0.5mm [199-6217](https://benl.rs-online.com/web/p/breadboard-jumper-wire/1996217) ;0.8mm RS Componentss, [199-6231](https://benl.rs-online.com/web/p/breadboard-jumper-wires/1996228) ;1mm RS Componentss, [199-6228](https://benl.rs-online.com/web/p/breadboard-jumper-wires/1996231)) | 3           | RS Components                    | [199-6217](https://benl.rs-online.com/web/p/breadboard-jumper-wire/1996217) | ![Image](/assets/Images/Commercial_Parts_Suppliers_Stock_Images/RS-199-6217.png) |
-|                                          |             |                                  |                                          |                                          |
-| 3D-printer Materials                     |             |                                  |                                          |                                          |
+|
+
+### **3D-printer Materials**
+
+| **Article Description**                | **Qty**     | **Supplier**                     | **Item # & link**                        | **Supplier   Image**                     |
+| ---------------------------------------- | ----------- | -------------------------------- | ---------------------------------------- | ---------------------------------------- |
 | Ultimaker 2.85mm Black PC  3D Printer Filament, 750g (RS Components, [159-6351](https://benl.rs-online.com/web/p/3d-printing-materials/1596351)) | 1           | RS Components                    | [159-6351](https://benl.rs-online.com/web/p/3d-printing-materials/1596351) | ![Image](/assets/Images/Commercial_Parts_Suppliers_Stock_Images/RS-159-6351.png) |
 | Ultimaker 2.85mm  Transparent 3D Printer Filament, 750g (RS Components, [159-6352](https://benl.rs-online.com/web/p/3d-printing-materials/1596352/)) | 1           | RS Components                    | [159-6352](https://benl.rs-online.com/web/p/3d-printing-materials/1596352/) | ![Image](/assets/Images/Commercial_Parts_Suppliers_Stock_Images/RS-159-6352.png) |
 | Ultimaker 2.85mm Black CPE  3D Printer Filament, 750g (RS Components, [134-8174](https://benl.rs-online.com/web/p/3d-printing-materials/1348174)) | 4           | RS Components                    | [134-8174](https://benl.rs-online.com/web/p/3d-printing-materials/1348174) | ![Image](/assets/Images/Commercial_Parts_Suppliers_Stock_Images/RS-134-8174.png) |
@@ -259,14 +365,17 @@ Each category includes at least a suggested link to purchase them from various s
 | Ultimaker 2.85mm White CPE+  3D Printer Filament, 700g (RS Components, [159-6350](https://benl.rs-online.com/web/p/3d-printing-materials/1596350)) | 1           | RS Components                    | [159-6350](https://benl.rs-online.com/web/p/3d-printing-materials/1596350) | ![Image](/assets/Images/Commercial_Parts_Suppliers_Stock_Images/RS-159-6352.png) |
 | Ultimaker Print Table Glass  (RS Components, [908-2950](https://benl.rs-online.com/web/p/3d-printer-parts/9082950)) | 2           | RS Components                    | [908-2950](https://benl.rs-online.com/web/p/3d-printer-parts/9082950) | ![Image](/assets/Images/Commercial_Parts_Suppliers_Stock_Images/RS-908-2950.png) |
 |                                          |             |                                  |                                          |                                          |
-## Arduino
-| **Article   Description**                | **Qty**     | **Supplier**                     | **Item # & link**                        | **Supplier   Image**                     |
+
+### **Arduino** 
+
+| **Article Description**                | **Qty**     | **Supplier**                     | **Item # & link**                        | **Supplier   Image**                     |
 | ---------------------------------------- | ----------- | -------------------------------- | ---------------------------------------- | ---------------------------------------- |
 | Arduino Mega2560  (Digi-Key, [1050-1018-ND](https://www.digikey.be/nl/products/detail/arduino/A000067/2639006?s=N4IgTCBcDaIIwAYCsCC0i4A5UDkAiIAugL5A); RS Components, [715-4084 ](https://benl.rs-online.com/web/p/arduino/7154084/)) | 1           | Digi-Key                         | [1050-1018-ND](https://www.digikey.be/nl/products/detail/arduino/A000067/2639006?s=N4IgTCBcDaIIwAYCsCC0i4A5UDkAiIAugL5A) | ![Image](/assets/Images/Commercial_Parts_Suppliers_Stock_Images/Digi-Key-1050-1018-ND.jpg) |
 |                                          |             |                                  |                                          |                                          |
 
-## Power Supply
-| **Article   Description**                | **Qty**     | **Supplier**                     | **Item # & link**                        | **Supplier   Image**                     |
+### **Power Supply** 
+
+| **Article Description**                | **Qty**     | **Supplier**                     | **Item # & link**                        | **Supplier   Image**                     |
 | ---------------------------------------- | ----------- | -------------------------------- | ---------------------------------------- | ---------------------------------------- |
 | AC/DC Converter 12V 600W  (Digi-Key, [SE-600-12](https://www.digikey.be/nl/products/detail/mean-well-usa-inc/SE-600-12/7706613)) | 1           | Digi-Key                         | [SE-600-12](https://www.digikey.be/nl/products/detail/mean-well-usa-inc/SE-600-12/7706613) | ![Image](/assets/Images/Commercial_Parts_Suppliers_Stock_Images/Digi-Key-SE-600-12.jpg) |
 | DC Laboratory Power Supply,  0-30V 0-10A DC   Adjustable Switching  (banggood, [1121229](https://nl.banggood.com/LONG-WEI-LW-K3010D-110V-or-220V-30V-10A-Adjustable-Digital-DC-Power-Supply-Switching-Power-Supply-p-1121229.html); amazon.de, [KPS-3010D](https://www.amazon.de/-/en/Eventek-Laboratory-Adjustable-Stabilised-Digital/dp/B071HW378T/) ; [B085S34NNW](https://www.amazon.de/-/en/KAIWEETS-Laboratory-adjustable-DC0-10A-overload/dp/B085S34NNW/); [B07D358Q96](https://www.amazon.de/dp/B07D358Q96/)) | 1           | amazon.de                        | [KPS-3010D](https://www.amazon.de/-/en/Eventek-Laboratory-Adjustable-Stabilised-Digital/dp/B071HW378T/) | ![Image](/assets/Images/Commercial_Parts_Suppliers_Stock_Images/Amazon-KPS-3010D.png) |
@@ -279,8 +388,9 @@ Each category includes at least a suggested link to purchase them from various s
 | Digital Voltmeter two Line  DC 2.6-30 V (Digikey.be, [1597-1237-ND](https://www.digikey.be/de/products/detail/seeed-technology-co-ltd/114990164/5487639)) | 5           | Digikey.be                       | [1597-1237-ND](https://www.digikey.be/de/products/detail/seeed-technology-co-ltd/114990164/5487639) | ![Image](/assets/Images/Commercial_Parts_Suppliers_Stock_Images/Digi-Key-1597-1237-ND.jpg) |
 |                                          |             |                                  |                                          |                                          |
 
-## Thermal Management & regulators
-| **Article   Description**                | **Qty**     | **Supplier**                     | **Item # & link**                        | **Supplier   Image**                     |
+### **Thermal Management & regulators** 
+
+| **Article Description**                | **Qty**     | **Supplier**                     | **Item # & link**                        | **Supplier   Image**                     |
 | ---------------------------------------- | ----------- | -------------------------------- | ---------------------------------------- | ---------------------------------------- |
 | Digital LED Temperature   Control Module,   Thermostat Switch   (Amazon.nl, [B07RJD44J1](https://www.amazon.nl/-/en/dp/B07RJD44J1/) ; [B08RDJZM7X](https://www.amazon.nl/-/en/dp/B08RDJZM7X/); [B08JP82MV8](https://www.amazon.nl/-/en/dp/B08JP82MV8/)) | 1           | Amazon.nl                        | [B07RJD44J1](https://www.amazon.nl/-/en/dp/B07RJD44J1/) | ![Image](/assets/Images/Commercial_Parts_Suppliers_Stock_Images/Amazon-B07RJD44J1.png) |
 | Heating Element, 400 W, 240  V ac (RS Components, [860-7185](https://benl.rs-online.com/web/p/heating-elements/8607185)) | 1           | RS Components                    | [860-7185](https://benl.rs-online.com/web/p/heating-elements/8607185) | ![Image](/assets/Images/Commercial_Parts_Suppliers_Stock_Images/RS-860-7185.png) |
@@ -289,9 +399,9 @@ Each category includes at least a suggested link to purchase them from various s
 | Thermal Interface Sheet,  Graphite, Self-Adhesive (RS Components, [882-0228](https://benl.rs-online.com/web/p/thermal-pads/8820228/)) | 1           | RS Components                    | [882-0228](https://benl.rs-online.com/web/p/thermal-pads/8820228/) | ![Image](/assets/Images/Commercial_Parts_Suppliers_Stock_Images/RS-882-0228.png) |
 |                                          |             |                                  |                                          |                                          |
 
-## PCB Headers and IDC connectors
-
-| **Article   Description**                | **Qty**     | **Supplier**                     | **Item # & link**                        | **Supplier   Image**                     |
+### **PCB Headers and IDC connectors**
+ 
+| **Article Description**                | **Qty**     | **Supplier**                     | **Item # & link**                        | **Supplier   Image**                     |
 | ---------------------------------------- | ----------- | -------------------------------- | ---------------------------------------- | ---------------------------------------- |
 | Straight PCB Header, 2.54mm  Pitch, 6 Way, 2 Row, Through Hole (RS Components, [832-3496](https://benl.rs-online.com/web/p/pcb-headers/8323496/)) | 25          | RS Components                    | [832-3496](https://benl.rs-online.com/web/p/pcb-headers/8323496/) | ![Image](/assets/Images/Commercial_Parts_Suppliers_Stock_Images/RS-832-3496.png) |
 | 6-Way IDC Connector Socket  for Cable Mount, 2-Row (Farnell, [T812106A101CEU](https://be.farnell.com/amphenol/t812106a101ceu/socket-idc-s-relief-2-54mm-6way/dp/2215245); RS Components, [832-3648](https://benl.rs-online.com/web/p/idc-connectors/8323648/)) | 25          | RS Components                    | [832-3648](https://benl.rs-online.com/web/p/idc-connectors/8323648/) | ![Image](/assets/Images/Commercial_Parts_Suppliers_Stock_Images/RS-832-3648.png) |
@@ -303,9 +413,9 @@ Each category includes at least a suggested link to purchase them from various s
 | Ribbon Cable - 10 wire  (15ft) (Amazon.de, [B076ZDKSVW](https://www.amazon.nl/Platte-kabelband-Bestomz-IDC-kabel-regenboog/dp/B076ZDKSVW/)) | 1           | Amazon.de                        | [B076ZDKSVW](https://www.amazon.nl/Platte-kabelband-Bestomz-IDC-kabel-regenboog/dp/B076ZDKSVW/) | ![Image](/assets/Images/Commercial_Parts_Suppliers_Stock_Images/Amazon-B076ZDKSVW.png) |
 |                                          |             |                                  |                                          |                                          |
 
-##Tubing Fitting & Manifolds
+### **Tubing Fitting & Manifolds**
 
-| **Article   Description**                | **Qty**     | **Supplier**                     | **Item # & link**                        | **Supplier   Image**                     |
+| **Article Description**                | **Qty**     | **Supplier**                     | **Item # & link**                        | **Supplier   Image**                     |
 | ---------------------------------------- | ----------- | -------------------------------- | ---------------------------------------- | ---------------------------------------- |
 | Straight Threaded Adaptor, M5 Male to   Push In 6 mm, Threaded-to-Tube Connection Style (RS   Components, [121-6039 ](https://benl.rs-online.com/web/p/pneumatic-fittings/1216039/)) | 1  bag      | RS Components                    | [121-6039 ](https://benl.rs-online.com/web/p/pneumatic-fittings/1216039/) | ![Image](/assets/Images/Commercial_Parts_Suppliers_Stock_Images/RS-121-6039.png) |
 | Straight Threaded-to-Tube   Adapter, R 1/8 Male, Push In 6 mm (RS Components, [771-5080 ](https://benl.rs-online.com/web/p/pneumatic-fittings/7715080/)) | 1 Pack      | RS Components                    | [771-5080 ](https://benl.rs-online.com/web/p/pneumatic-fittings/7715080/) | ![Image](/assets/Images/Commercial_Parts_Suppliers_Stock_Images/RS-771-5080.png) |
@@ -330,11 +440,9 @@ Each category includes at least a suggested link to purchase them from various s
 | Carbon-Cap Disposable Activated Carbon Capsules(Fisher, [10526921](https://www.fishersci.be/shop/products/whatman-carbon-cap-disposable-activated-carbon-capsules/10526921) | 2           | Fisher                           | [10526921](https://www.fishersci.be/shop/products/whatman-carbon-cap-disposable-activated-carbon-capsules/10526921) | ![Image](/assets/Images/Commercial_Parts_Suppliers_Stock_Images/Fisher-10526921.png) |
 |                                          |             |                                  |                                          |                                          |
 
-## Solenoid Valves 
-
-| **Article   Description**                | **Qty**     | **Supplier**                     | **Item # & link**                        | **Supplier   Image**                     |
+### **Solenoid Valves** 
+| **Article Description**                | **Qty**     | **Supplier**                     | **Item # & link**                        | **Supplier   Image**                     |
 | ---------------------------------------- | ----------- | -------------------------------- | ---------------------------------------- | ---------------------------------------- |
-                     |             |                                  |                                          |                                          |
 | Solenoid Valve 3 port(s) ,  NO/NC, 12 V dc, M5 (RS  Components, [838-8660](https://benl.rs-online.com/web/p/solenoid-valves/8388660)) | 4           | RS Components                    | [838-8660](https://benl.rs-online.com/web/p/solenoid-valves/8388660) | ![Image](/assets/Images/Commercial_Parts_Suppliers_Stock_Images/RS-838-8660.png) |
 | Solenoid Valve 2 port(s) ,  NC, 12 V dc, 1/8in (RS Components,  [840-7020](https://benl.rs-online.com/web/p/solenoid-valves/8407020/)) | 2           | RS Components                    | [840-7020](https://benl.rs-online.com/web/p/solenoid-valves/8407020/) | ![Image](/assets/Images/Commercial_Parts_Suppliers_Stock_Images/RS-840-7020.png) |
 | DC 4.5V Solenoid Air Gas  valve Release exhaust Valve Switch 2-position 3-way (Aliexpress/Miniyard,  [32881849871 (4.5V)](https://www.aliexpress.com/item/32881849871.html)) | 20          | Aliexpress/Miniyard              | [32881849871 (4.5V)](https://www.aliexpress.com/item/32881849871.html) | ![Image](/assets/Images/Commercial_Parts_Suppliers_Stock_Images/Aliexpress-Miniyard-32881849871-4.5V.png) |
@@ -342,7 +450,10 @@ Each category includes at least a suggested link to purchase them from various s
 | Two-position Three-way Air  Gas Exhaust Valve Switch DC 12V Solenoid Valve (Aliexpress/Miniyard, [32884679847 (12V)](https://www.aliexpress.com/item/32884679847.html)) | 10          | Aliexpress/Miniyard              | [32884679847 (12V)](https://www.aliexpress.com/item/32884679847.html) | ![Image](/assets/Images/Commercial_Parts_Suppliers_Stock_Images/Aliexpress-Miniyard-32884679847-12V.png) |
 | DC 12V Electric Solenoid  Valve N/C Normally Closed Air Release Valve 2-way for Gas Air Valve (Aliexpress/Motor-house  Store, [1005001840156994 (12V)](https://www.aliexpress.com/item/1005001840156994.html)) | 20          | Aliexpress/Motor-house  Store    | [1005001840156994 (12V)](https://www.aliexpress.com/item/1005001840156994.html) | ![Image](/assets/Images/Commercial_Parts_Suppliers_Stock_Images/Aliexpress-Motor-house-Store-1005001840156994-12V.png) |
 |                                          |             |                                  |                                          |                                          |
-| **Tubing**                               |             |                                  |                                          |                                          |
+
+### **Tubing**
+| **Article Description**                | **Qty**     | **Supplier**                     | **Item # & link**                        | **Supplier   Image**                     |
+| ---------------------------------------- | ----------- | -------------------------------- | ---------------------------------------- | ---------------------------------------- |
 | PTFE Tube High Temperature  Pressure Resistant   White-OD 2mm x ID 1mm (Aliexpress/NGS  Pneumatic Store, [1005001908520315](https://www.aliexpress.com/item/1005001908520315.html)) | 1           | Aliexpress/NGS Pneumatic  Store  | [1005001908520315](https://www.aliexpress.com/item/1005001908520315.html) | ![Image](/assets/Images/Commercial_Parts_Suppliers_Stock_Images/Aliexpress-NGS-Pneumatic-Store-1005001908520315.png) |
 | PTFE Tube High Temperature  Pressure Resistant White-OD 4mm x ID 2mm (Aliexpress/NGS Pneumatic Store, [1005001908520315](https://www.aliexpress.com/item/1005001908520315.html)) | 1           | Aliexpress/NGS Pneumatic  Store  | [1005001908520315](https://www.aliexpress.com/item/1005001908520315.html) | ![Image](/assets/Images/Commercial_Parts_Suppliers_Stock_Images/Aliexpress-NGS-Pneumatic-Store-1005001908520315.png) |
 | PTFE Tube High Temperature  Pressure Resistant   White-OD 6mm x ID 4mm (Aliexpress/NGS  Pneumatic Store, [1005001908520315](https://www.aliexpress.com/item/1005001908520315.html)) | 2           | Aliexpress/NGS Pneumatic  Store  | [1005001908520315](https://www.aliexpress.com/item/1005001908520315.html) | ![Image](/assets/Images/Commercial_Parts_Suppliers_Stock_Images/Aliexpress-NGS-Pneumatic-Store-1005001908520315.png) |
@@ -361,13 +472,19 @@ Each category includes at least a suggested link to purchase them from various s
 | Transparent Tygon 3603 Hose  Pipe,   (2.4mm ID X 4mm OD X 0.8mm  WT)  (RS  Componentss, [313-9482](https://befr.rs-online.com/web/p/hose-pipes/3139482/)) | 2           | RS Componentss                   | [313-9482](https://befr.rs-online.com/web/p/hose-pipes/3139482/) | ![Image](/assets/Images/Commercial_Parts_Suppliers_Stock_Images/RS-313-9482.png) |
 | Transparent Tygon 3603 Hose  Pipe,   Metric  (4mm ID X 6mm OD X 1mm WT)   (RS Componentss, [418-9882](https://befr.rs-online.com/web/p/hose-pipes/4189882)) | 2           | RS Componentss                   | [418-9882](https://befr.rs-online.com/web/p/hose-pipes/4189882) | ![Image](/assets/Images/Commercial_Parts_Suppliers_Stock_Images/RS-418-9882.png) |
 |                                          |             |                                  |                                          |                                          |
-| **Glass Bottles**                        |             |                                  |                                          |                                          |
+
+### **Glass Bottles**
+| **Article Description**                | **Qty**     | **Supplier**                     | **Item # & link**                        | **Supplier   Image**                     |
+| ---------------------------------------- | ----------- | -------------------------------- | ---------------------------------------- | ---------------------------------------- |
 | Laboratory bottles, 100 ML (VWR, [LENZ07105037](https://be.vwr.com/store/product?keyword=LENZ07105037)) | 1           | VWR                              | [LENZ07105037](https://be.vwr.com/store/product?keyword=LENZ07105037) | ![Image](/assets/Images/Commercial_Parts_Suppliers_Stock_Images/VWR-LENZ07105037.png) |
 | Laboratory bottles, 5000 ML (VWR, [215-0057](https://be.vwr.com/store/product/en/544458/laboratory-bottles-round)) | 4           | VWR                              | [215-0057](https://be.vwr.com/store/product/en/544458/laboratory-bottles-round) | ![Image](/assets/Images/Commercial_Parts_Suppliers_Stock_Images/VWR-215-0057.png) |
 | Laboratory bottles, 2000 ML (VWR, [215-1596](https://be.vwr.com/store/product/en/544458/laboratory-bottles-round)) | 4           | VWR                              | [215-1596](https://be.vwr.com/store/product/en/544458/laboratory-bottles-round) | ![Image](/assets/Images/Commercial_Parts_Suppliers_Stock_Images/VWR-215-1596.png) |
 | GL 45 Cap Connection  System, 2 Hose Barb Connectors (Fisher, [15363647](https://www.fishersci.be/shop/products/gl45-screw-cap-pyrex-gl-45-media-lab-bottle-1/15193927)) | 5           | Fisher                           | [15363647](https://www.fishersci.be/shop/products/gl45-screw-cap-pyrex-gl-45-media-lab-bottle-1/15193927) | ![Image](/assets/Images/Commercial_Parts_Suppliers_Stock_Images/Fisher-15363647.png) |
 |                                          |             |                                  |                                          |                                          |
-| **Syringe Needles**                      |             |                                  |                                          |                                          |
+
+### **Syringe Needles**
+| **Article Description**                | **Qty**     | **Supplier**                     | **Item # & link**                        | **Supplier   Image**                     |
+| ---------------------------------------- | ----------- | -------------------------------- | ---------------------------------------- | ---------------------------------------- |
 | BD microlance 3  1,2mm x    40mm (Becton   Dickinson, [304622](https://www.farmaline.be/apotheek/bestellen/bd-microlance-3-naald-18g-12mm-x-40mm-rose-100-stuks/)) | 2           | Becton Dickinson                 | [304622](https://www.farmaline.be/apotheek/bestellen/bd-microlance-3-naald-18g-12mm-x-40mm-rose-100-stuks/) | ![Image](/assets/Images/Commercial_Parts_Suppliers_Stock_Images/BD-microlance.png) |
 | BD    microlance 3  1,6mm x  40mm (Becton Dickinson, [300637](https://www.farmaline.be/apotheek/bestellen/bd-microlance-3-naald-16g-1-12-lavendel-300637/)) | 4           | Becton Dickinson                 | [300637](https://www.farmaline.be/apotheek/bestellen/bd-microlance-3-naald-16g-1-12-lavendel-300637/) | ![Image](/assets/Images/Commercial_Parts_Suppliers_Stock_Images/BD-microlance.png) |
 | BD    microlance 3  11mm x  40mm (Becton Dickinson, [301500](https://www.farmaline.be/apotheek/bestellen/bd-microlance-3-naald-19g-1-12-rb-11mm-40mm-cr/)) | 2           | Becton Dickinson                 | [301500](https://www.farmaline.be/apotheek/bestellen/bd-microlance-3-naald-19g-1-12-rb-11mm-40mm-cr/) | ![Image](/assets/Images/Commercial_Parts_Suppliers_Stock_Images/BD-microlance.png) |
@@ -376,15 +493,19 @@ Each category includes at least a suggested link to purchase them from various s
 | BD microlance 3 0,8 mm x 40mm (Becton Dickinson, [304423](https://www.farmaline.be/apotheek/bestellen/bd-microlance-3-naald-21g-1-12-rb-08x40-mm-groen-1/)) | 1           | Becton Dickinson                 | [304423](https://www.farmaline.be/apotheek/bestellen/bd-microlance-3-naald-21g-1-12-rb-08x40-mm-groen-1/) | ![Image](/assets/Images/Commercial_Parts_Suppliers_Stock_Images/BD-microlance.png) |
 | BD microlance 3 0,8 mm x 50mm (Becton   Dickinson, [301155](https://www.farmaline.be/apotheek/bestellen/bd-microlance-3-wegwerpnaalden-08mm-x-50mm-ref-301155/)) | 2           | Becton Dickinson                 | [301155](https://www.farmaline.be/apotheek/bestellen/bd-microlance-3-wegwerpnaalden-08mm-x-50mm-ref-301155/) | ![Image](/assets/Images/Commercial_Parts_Suppliers_Stock_Images/BD-microlance.png) |
 | BD Plastipak  20ml  Leur (Becton   Dickinson, [300613](https://www.farmaline.be/apotheek/bestellen/bd-plastipak-spuit-luer-20ml-300613/)) | 1           | Becton Dickinson                 | [300613](https://www.farmaline.be/apotheek/bestellen/bd-plastipak-spuit-luer-20ml-300613/) | ![Image](/assets/Images/Commercial_Parts_Suppliers_Stock_Images/BD-microlance.png) |
-| BD Plastipak  50ml  Leur (Becton   Dickinson, [300866](https://www.farmaline.be/apotheek/bestellen/wegwerpspuit-bd-zonder-naald-luer-50-60-ml-300866/)) | 1           | Becton Dickinson                 | [300866](https://www.farmaline.be/apotheek/bestellen/wegwerpspuit-bd-zonder-naald-luer-50-60-ml-300866/) | ![Image](/assets/Images/Commercial_Parts_Suppliers_Stock_Images/BD-microlance.png) |
-|                                          |             |                                  |                                          |                                          |
-| **Luer Fittings**                        |             |                                  |                                          |                                          |
+| BD Plastipak  50ml  Leur (Becton   Dickinson, [300866](https://www.farmaline.be/apotheek/bestellen/wegwerpspuit-bd-zonder-naald-luer-50-60-ml-300866/)) | 1           | Becton Dickinson                 | [300866](https://www.farmaline.be/apotheek/bestellen/wegwerpspuit-bd-zonder-naald-luer-50-60-ml-300866/) | ![Image](/assets/Images/Commercial_Parts_Suppliers_Stock_Images/BD-microlance.png)
+|
+
+
+
+### **Luer Fittings**
+| **Article Description**                | **Qty**     | **Supplier**                     | **Item # & link**                        | **Supplier   Image**                     |
+| ---------------------------------------- | ----------- | -------------------------------- | ---------------------------------------- | ---------------------------------------- |
 | Nylon Female Luer Cap (Fisher, [11780199](https://www.fishersci.be/shop/products/nylon-female-luer-cap/11780199)) | 2           | Fisher                           | [11780199](https://www.fishersci.be/shop/products/nylon-female-luer-cap/11780199) | ![Image](/assets/Images/Commercial_Parts_Suppliers_Stock_Images/Fisher-11780199.png) |
 | Nylon Male Luer Lock Plug (Fisher, [11790199](https://www.fishersci.be/shop/products/nylon-male-luer-lock-plug/11790199)) | 2           | Fisher                           | [11790199](https://www.fishersci.be/shop/products/nylon-male-luer-lock-plug/11790199) | ![Image](/assets/Images/Commercial_Parts_Suppliers_Stock_Images/Fisher-11790199.png) |
 | Luer Accessory, Snap Luer   Lock Rings, (Cole-Parmer ,    [GZ-45518-74](https://www.coleparmer.de/i/masterflex-fitting-polypropylene-straight-snap-luer-lock-ring-25-pk/4551874?searchterm=GZ-45518-74)) | 4           | Cole-Parmer                      | [GZ-45518-74](https://www.coleparmer.de/i/masterflex-fitting-polypropylene-straight-snap-luer-lock-ring-25-pk/4551874?searchterm=GZ-45518-74) | ![Image](/assets/Images/Commercial_Parts_Suppliers_Stock_Images/Cole-Parmer-GZ-45518-74.png) |
 | Polycarbonate Female Luer   Fitting ( Female luer x female luer adapter) (Fisher, [13477728](https://www.fishersci.be/shop/products/polycarbonate-female-luer-fitting-5/13477728)) | 2           | Fisher                           | [13477728](https://www.fishersci.be/shop/products/polycarbonate-female-luer-fitting-5/13477728) | ![Image](/assets/Images/Commercial_Parts_Suppliers_Stock_Images/Fisher-13477728.png) |
 | Polycarbonate Female Luer   Fitting ¼ (Fisher, [13518810](https://www.fishersci.be/shop/products/polycarbonate-female-luer-fitting-5/13518810)) | 2           | Fisher                           | [13518810](https://www.fishersci.be/shop/products/polycarbonate-female-luer-fitting-5/13518810) | ![Image](/assets/Images/Commercial_Parts_Suppliers_Stock_Images/Fisher-13518810.png) |
-|                                          |             |                                  |                                          |                                          |
 | Nylon Male Luer Fitting   1/4 (Fisher, [11720089](https://www.fishersci.be/shop/products/cole-parmer-nylon-male-luer-fitting/11720089)) | 1           | Fisher                           | [11720089](https://www.fishersci.be/shop/products/cole-parmer-nylon-male-luer-fitting/11720089) | ![Image](/assets/Images/Commercial_Parts_Suppliers_Stock_Images/Fisher-11720089.png) |
 | Polycarbonate Female Luer   Fitting 1/16 (Fisher, [15819911](https://www.fishersci.be/shop/products/polycarbonate-female-luer-fitting-5/15819911)) | 2           | Fisher                           | [15819911](https://www.fishersci.be/shop/products/polycarbonate-female-luer-fitting-5/15819911) | ![Image](/assets/Images/Commercial_Parts_Suppliers_Stock_Images/Fisher-15819911.png) |
 | Polypropylene Male Luer   Adapter 1/16 (Fisher, [15240428](https://www.fishersci.be/shop/products/polypropylene-male-luer-adapter-5/15240428)) | 4           | Fisher                           | [15240428](https://www.fishersci.be/shop/products/polypropylene-male-luer-adapter-5/15240428) | ![Image](/assets/Images/Commercial_Parts_Suppliers_Stock_Images/Fisher-15240428.png) |
@@ -415,9 +536,14 @@ Each category includes at least a suggested link to purchase them from various s
 | Luer Valve Assortment Kit (World Percision   Instruments, [14011](https://www.wpiinc.com/14011-luer-valve-assortment-kit)) | 1           | World Percision   Instruments    | [14011](https://www.wpiinc.com/14011-luer-valve-assortment-kit) | ![Image](/assets/Images/Commercial_Parts_Suppliers_Stock_Images/WPI-14011.png) |
 | Luer-to-Tubing Coupler   Assortment Kit (polypropylene) (World Percision Instruments, [504954](https://www.wpiinc.com/var-504954-luer-to-tubing-coupler-assortment-kit)) | 1           | World Percision   Instruments    | [504954](https://www.wpiinc.com/var-504954-luer-to-tubing-coupler-assortment-kit) | ![Image](/assets/Images/Commercial_Parts_Suppliers_Stock_Images/WPI-504954.png) |
 | Metal Dispensing   Needlewith Blunt Tip, (1" x 11G) (Aliexpress, [1005003616968306](https://www.aliexpress.com/item/1005003616968306.html)) | 7           | Aliexpress                       | [1005003616968306](https://www.aliexpress.com/item/1005003616968306.html) | ![Image](/assets/Images/Commercial_Parts_Suppliers_Stock_Images/Aliexpress-1005003616968306.png) |
-| Female Luer Bulkhead   Fitting (Aliexpress/MicroFluidics   Store, [RH-C-M024](https://www.aliexpress.com/item/4000025751111.html)) | 1           | Aliexpress/MicroFluidics   Store | [RH-C-M024](https://www.aliexpress.com/item/4000025751111.html) | ![Image](/assets/Images/Commercial_Parts_Suppliers_Stock_Images/Aliexpress-MicroFluidics-StoreRH-C-M024.png) |
-|                                          |             |                                  |                                          |                                          |
-| **Lightings LEDs**                       |             |                                  |                                          |                                          |
+| Female Luer Bulkhead   Fitting (Aliexpress/MicroFluidics   Store, [RH-C-M024](https://www.aliexpress.com/item/4000025751111.html)) | 1           | Aliexpress/MicroFluidics   Store | [RH-C-M024](https://www.aliexpress.com/item/4000025751111.html) | ![Image](/assets/Images/Commercial_Parts_Suppliers_Stock_Images/Aliexpress-MicroFluidics-StoreRH-C-M024.png) 
+|
+
+
+### **Lightings LEDs**
+
+| **Article Description**                | **Qty**     | **Supplier**                     | **Item # & link**                        | **Supplier   Image**                     |
+| ---------------------------------------- | ----------- | -------------------------------- | ---------------------------------------- | ---------------------------------------- |
 | DC 12V Blue Dimmable Flexible LED  Strips 120 LEDs Per Meter 8mm Width (LEDLightsWorld, [5M-HK-8MM-F3528Blue60-NW-12](https://ledlightsworld.com/products/colorful-dc-12v-dimmable-smd3528-600-flexible-led-strips-120-leds-per-meter-8mm-width-600lm-per-meter?variant=17870690320474)) |             | LEDLightsWorld                   | [5M-HK-8MM-F3528Blue60-NW-12](https://ledlightsworld.com/products/colorful-dc-12v-dimmable-smd3528-600-flexible-led-strips-120-leds-per-meter-8mm-width-600lm-per-meter?variant=17870690320474) | ![Image](/assets/Images/Commercial_Parts_Suppliers_Stock_Images/LEDLightsWorld-5M-HK-8MM-F3528Blue60-NW-12.jpg) |
 | DC 12V Red Dimmable Flexible LED Strips  120 LEDs Per Meter 8mm (LEDLightsWorld, [5M-HK-8MM-F3528Red60-NW-12](https://ledlightsworld.com/products/colorful-dc-12v-dimmable-smd3528-600-flexible-led-strips-120-leds-per-meter-8mm-width-600lm-per-meter?variant=17870690189402)) |             | LEDLightsWorld                   | [5M-HK-8MM-F3528Red60-NW-12](https://ledlightsworld.com/products/colorful-dc-12v-dimmable-smd3528-600-flexible-led-strips-120-leds-per-meter-8mm-width-600lm-per-meter?variant=17870690189402) | ![Image](/assets/Images/Commercial_Parts_Suppliers_Stock_Images/LEDLightsWorld-5M-HK-8MM-F3528Blue60-NW-125M-HK-8MM-F3528Red60-NW-12.jpg) |
 | DC 12V Green Dimmable Flexible LED  Strips 120 LEDs Per Meter 8mm Width (LEDLightsWorld, [5M-HK-8MM-F3528Green60-WW-12](https://ledlightsworld.com/products/colorful-dc-12v-dimmable-smd3528-600-flexible-led-strips-120-leds-per-meter-8mm-width-600lm-per-meter?variant=17870690451546)) |             | LEDLightsWorld                   | [5M-HK-8MM-F3528Green60-WW-12](https://ledlightsworld.com/products/colorful-dc-12v-dimmable-smd3528-600-flexible-led-strips-120-leds-per-meter-8mm-width-600lm-per-meter?variant=17870690451546) | ![Image](/assets/Images/Commercial_Parts_Suppliers_Stock_Images/LEDLightsWorld-5M-HK-8MM-F3528Blue60-NW-125M-HK-8MM-F3528Green60-WW-12.jpg) |
@@ -445,5 +571,4 @@ Each category includes at least a suggested link to purchase them from various s
 | Lumileds LXM2-PD01-0050,  LUXEON Rebel 627 nm Red High-Power LED, 3-Pin SMD package | 200         | Digi-Key                         | [LXM2-PD01-0050](https://www.digikey.be/nl/products/detail/lumileds/LXM2-PD01-0050/3961247) | ![Image](/assets/Images/Commercial_Parts_Suppliers_Stock_Images/Digi-Key-LXM2-PD01-0050.jpg) |
 | Flexible Lightpipe FLX 08  LED Tubes / FLX_08 VCC | 50          | Mouser                           | [593-FLX08](https://www.mouser.be/ProductDetail/VCC/FLX_08?qs=%2FvU7ivDUWU%2FE3tZ6zoTTZA%3D%3D) | ![Image](/assets/Images/Commercial_Parts_Suppliers_Stock_Images/Mouser-593-FLX08.jpg) |
 | 3 mm 5 mm LED  with 5 colors (amazon.de, [110040_SML](https://www.amazon.de/-/en/APTWONZ-Diffuse-Emitting-Electronic-Components/dp/B06X3VT6TD)) | 1           | amazon.de                        | [110040_SML](https://www.amazon.de/-/en/APTWONZ-Diffuse-Emitting-Electronic-Components/dp/B06X3VT6TD) | ![Image](/assets/Images/Commercial_Parts_Suppliers_Stock_Images/Amazon-110040_SML.png) |
-|                                          |             |                                  |                                          |                                          |
-|                                          |             |                                  |                                          |                                          |
+|
