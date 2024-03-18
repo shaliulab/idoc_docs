@@ -91,41 +91,6 @@ For aversive electric shock learning conditioning, we used patterned coated indi
 ![ITO-slide-design.PNG](/assets/Images/ITO-slide-design.PNG)
 
 
-| **Indium Tin Oxide coated patterned glass slides ** |
-| ---------------------------------------- |
-| **- [Design_ITO_glass_Slide](/assets/src/ElectricShock)** CAD DXF drawing |
-| 69.0 mm length x 14.0 mm width x 1.1 mm Thicknesses [0.5 mm ITO electrodes (100 electrodes) – 0.1 mm inter electrode-spacing ] |
-| **Prepared for the  laboratory of**      |
-| **Sha Liu**                              |
-| Principle Investigator                   |
-| **Email:  [sha.liu@kuleuven.be](mailto:sha.liu@kuleuven.be)** |
-| Laboratory of Sleep and Synaptic Plasticity |
-| VIB-KU Leuven, Center for Brain and Disease Research, Herestraat 49 - Box 602 B-3000 Leuven - Belgium |
-|                                          |
-| **Contact Scientist**                    |
-| **El-Sayed Baz**                         |
-| Postdoctoral Scientist                   |
-| **Emails: [elsayed.baz@kuleuven.be](mailto:elsayed.baz@kuleuven.be)      &   [e.baz@science.suez.edu.eg](mailto:e.baz@science.suez.edu.eg)** |
-| Laboratory of Sleep and Synaptic Plasticity |
-| VIB-KU Leuven, Center for Brain and Disease Research, Herestraat 49 - Box 602 B-3000 Leuven - Belgium |
-|                                          |
-| **Production laser etching**             |
-| **Visiontek systems ltd**                |
-| 1 The Acorns, Upton,  Chester,  Cheshire CH2 1JL - United Kingdom. |
-| **Email:   **  [visiontek.sales@gmail.com](mailto:visiontek.sales@gmail.com)               & http://www.visionteksystems.co.uk/ito-glass.htm |
-|                                          |
-
-**Reorder Details:** 
-
-**15ohm/sq ITOGLASS 15p SODA LIME**
-
-**surface: polished**
-
-**pattern: ZY0423**
-
-**size : 14mm x 69mm x 1.1mm**
-
-
 **Electrical connections in the chamber**
 
 Each chamber is designed to have four custom-made electrodes that create a connection between the interior and exterior of the IDOC chambers. Inside the chambers, each electrode pin is connected to a long metal strip that connects the left and right side of the chambers. Also, to ensure that the entire ITO slide is subjected to the current, 2 of these metal strips are needed - one for the top and another for the bottom half of the chamber. The ITO slides themselves will rest in contact with these metal strips.

@@ -572,3 +572,39 @@ Each category includes at least one suggested link to purchase them from various
 | Flexible Lightpipe FLX 08  LED Tubes / FLX_08 VCC | 50          | Mouser                           | [593-FLX08](https://www.mouser.be/ProductDetail/VCC/FLX_08?qs=%2FvU7ivDUWU%2FE3tZ6zoTTZA%3D%3D) | ![Image](/assets/Images/Commercial_Parts_Suppliers_Stock_Images/Mouser-593-FLX08.jpg) |
 | 3 mm 5 mm LED  with 5 colors (amazon.de, [110040_SML](https://www.amazon.de/-/en/APTWONZ-Diffuse-Emitting-Electronic-Components/dp/B06X3VT6TD)) | 1           | amazon.de                        | [110040_SML](https://www.amazon.de/-/en/APTWONZ-Diffuse-Emitting-Electronic-Components/dp/B06X3VT6TD) | ![Image](/assets/Images/Commercial_Parts_Suppliers_Stock_Images/Amazon-110040_SML.png) |
 |
+
+### **Custom order parts**
+
+| **Indium Tin Oxide coated patterned glass slides** |
+| ---------------------------------------- |
+| **[Design_ITO_glass_Slide](/assets/src/ElectricShock)** CAD DXF drawing |
+| 69.0 mm length x 14.0 mm width x 1.1 mm Thicknesses [0.5 mm ITO electrodes (100 electrodes) – 0.1 mm inter electrode-spacing] |
+| **Prepared for the  laboratory of**      |
+| **Sha Liu**                              |
+| Principle Investigator                   |
+| **Email:  [sha.liu@kuleuven.be](mailto:sha.liu@kuleuven.be)** |
+| Laboratory of Sleep and Synaptic Plasticity |
+| VIB-KU Leuven, Center for Brain and Disease Research, Herestraat 49 - Box 602 B-3000 Leuven - Belgium |
+|                                          |
+| **Contact Scientist**                    |
+| **El-Sayed Baz**                         |
+| Postdoctoral Scientist                   |
+| **Emails: [elsayed.baz@kuleuven.be](mailto:elsayed.baz@kuleuven.be)      &   [e.baz@science.suez.edu.eg](mailto:e.baz@science.suez.edu.eg)** |
+| Laboratory of Sleep and Synaptic Plasticity |
+| VIB-KU Leuven, Center for Brain and Disease Research, Herestraat 49 - Box 602 B-3000 Leuven - Belgium |
+|                                          |
+| **Production laser etching**             |
+| **Visiontek systems ltd**                |
+| 1 The Acorns, Upton,  Chester,  Cheshire CH2 1JL - United Kingdom. |
+| **Email:**  [visiontek.sales@gmail.com](mailto:visiontek.sales@gmail.com)               & http://www.visionteksystems.co.uk/ito-glass.htm |
+|                                          |
+
+**Reorder Details:** 
+
+**15ohm/sq ITOGLASS 15p SODA LIME**
+
+**surface: polished**
+
+**pattern: ZY0423**
+
+**size : 14mm x 69mm x 1.1mm**
