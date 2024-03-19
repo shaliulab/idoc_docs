@@ -23,29 +23,6 @@ The following sketch shows the optogenetics system components:
 
 ### A-    LED Drivers
 
-| **Optogenetic  LED Driver_.01**          |
-| ---------------------------------------- |
-| **- [Design_Files_LED_Driver_.01](/assets/src/Design_Files_LED_Driver_.01)** |
-|                                          |
-| **Prepared for the  laboratory of**      |
-| **Sha Liu**                              |
-| Principle Investigator                   |
-| **Email:  [sha.liu@kuleuven.be](mailto:sha.liu@kuleuven.be)** |
-| Laboratory of Sleep and Synaptic Plasticity |
-| VIB-KU Leuven, Center for Brain and Disease Research, Herestraat 49 - Box 602 B-3000 Leuven - Belgium |
-|                                          |
-| **Contact Scientist**                    |
-| **El-Sayed Baz**                         |
-| Postdoctoral Scientist                   |
-| **Emails: [elsayed.baz@kuleuven.be](mailto:elsayed.baz@kuleuven.be)      &   [e.baz@science.suez.edu.eg](mailto:e.baz@science.suez.edu.eg)** |
-| Laboratory of Sleep and Synaptic Plasticity |
-| VIB-KU Leuven, Center for Brain and Disease Research, Herestraat 49 - Box 602 B-3000 Leuven - Belgium |
-|                                          |
-| **Production & Engineer**                |
-| **Wim Van Gool**                         |
-| Electrical Engineer                      |
-| **Email:  [Wim.VanGool@dekimo.com](mailto:Wim.VanGool@dekimo.com)** |
-| Dekimo  Layers Leuven NV  Rijschoolstraat  11 - B-3000 Leuven - Belgium |
 
 
 Custom-made LED drivers were used for controlling high power LEDs mounted below each recording chambers. The board of LED-drivers is relatively small (9 x 11 cm), and contains 10 drivers for the individual adjustment of LED intensities to ensure they are the same across all recording chambers. The current delivered to turn LEDs ON can be limited by means of a single turn-control potentiometer knob at the top of each driver to set the maximum current needed for each channel to ensure that all LED strings get the same forward current. A global pulse width modulation (PWM) signal is used to control the current and the brightness of the LEDs via the software communication. We also added a I²C (the IC is a [PCA9685](https://www.nxp.com/docs/en/data-sheet/PCA9685.pdf) to PWM driver). This chip is the same as the one used in the Adafruit PCA9685 16-Channel Servo Driver ([Adafruit PCA9685 library](https://learn.adafruit.com/16-channel-pwm-servo-driver/using-the-adafruit-library)). This chip could allow us to calibrate the LEDs in software if someone later wants this as an option (to expand the functionality of this board up to 16-Channel LED controller). This chip has a general PWM and an individual PWM for each output. So using the individual PWM you can equalize the light output, and with the general PWM you can control the overall light output.

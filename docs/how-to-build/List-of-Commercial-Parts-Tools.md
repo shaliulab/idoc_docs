@@ -608,3 +608,29 @@ Each category includes at least one suggested link to purchase them from various
 **pattern: ZY0423**
 
 **size : 14mm x 69mm x 1.1mm**
+
+
+| **Optogenetic  LED Driver_.01**          |
+| ---------------------------------------- |
+| **- [Design_Files_LED_Driver_.01](/assets/src/Design_Files_LED_Driver_.01)** |
+|                                          |
+| **Prepared for the  laboratory of**      |
+| **Sha Liu**                              |
+| Principle Investigator                   |
+| **Email:  [sha.liu@kuleuven.be](mailto:sha.liu@kuleuven.be)** |
+| Laboratory of Sleep and Synaptic Plasticity |
+| VIB-KU Leuven, Center for Brain and Disease Research, Herestraat 49 - Box 602 B-3000 Leuven - Belgium |
+|                                          |
+| **Contact Scientist**                    |
+| **El-Sayed Baz**                         |
+| Postdoctoral Scientist                   |
+| **Emails: [elsayed.baz@kuleuven.be](mailto:elsayed.baz@kuleuven.be)      &   [e.baz@science.suez.edu.eg](mailto:e.baz@science.suez.edu.eg)** |
+| Laboratory of Sleep and Synaptic Plasticity |
+| VIB-KU Leuven, Center for Brain and Disease Research, Herestraat 49 - Box 602 B-3000 Leuven - Belgium |
+|                                          |
+| **Production & Engineer**                |
+| **Wim Van Gool**                         |
+| Electrical Engineer                      |
+| **Email:  [Wim.VanGool@dekimo.com](mailto:Wim.VanGool@dekimo.com)** |
+| Dekimo  Layers Leuven NV  Rijschoolstraat  11 - B-3000 Leuven - Belgium |
+
