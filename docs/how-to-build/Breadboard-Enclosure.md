@@ -29,7 +29,7 @@ Building the IDOC enclosure involves several steps:
 2. Install a breadboard to mount the enclosure, which provides a platform for mounting and connecting electronic components.
 3. Install and wire any necessary electronic, lighting, air/odor components.
 
-The enclosure has three main sections: The breadboard, enclosure itself, and the camera enclosure. In this page we will explain how to build the first two, see [Camera enclosure](/how-to-build/Camera-Enclosure) for the last one.
+The enclosure has three main sections: The breadboard, enclosure itself, and the camera enclosure. In this page we will explain how to build the first two, see the [camera enclosure](/how-to-build/Camera-Enclosure) section for the last one.
 
 The enclosure is made from [25 mm rails](https://www.thorlabs.de/newgrouppage9.cfm?objectgroup_id=194) and [black hardboard](https://www.thorlabs.de/newgrouppage9.cfm?objectgroup_id=190#2535) panels. The panels are placed between the rail channels. The enclosure is designed with the following inner dimensions (L x W x H) 500mm x 500mm x 700 mm.
 
@@ -49,10 +49,10 @@ The parts needed are provided in a separate [table](/docs/List-of-Commercial-Par
 
 For this step, you will need:
 
-* Black hardboard ([TB4](https://www.thorlabs.de/thorproduct.cfm?partnumber=TB4), Thorlabs)
-* Black hardboard ([TB5](https://www.thorlabs.de/thorproduct.cfm?partnumber=TB5), Thorlabs)
-* Adhesive double-sided tape ([273-598](https://benl.rs-online.com/web/p/double-sided-tapes/0273598), RS Components)
-* aluminum flat bar ([681-104](https://ie.rs-online.com/web/p/metal-bars-metal-rods/0681104), RS Components)
+* Black hardboard (Thorlabs, [TB4](https://www.thorlabs.de/thorproduct.cfm?partnumber=TB4))
+* Black hardboard (Thorlabs, [TB5](https://www.thorlabs.de/thorproduct.cfm?partnumber=TB5))
+* Adhesive double-sided tape (RS Components, [273-598](https://benl.rs-online.com/web/p/double-sided-tapes/0273598))
+* aluminum flat bar (RS Components, [681-104](https://ie.rs-online.com/web/p/metal-bars-metal-rods/0681104))
 * Pencil
 * Cutter
 * Tape measure or ruler
@@ -115,7 +115,7 @@ For this step, you will need:
 * 4 mm balldriver or hex key
 
 
-Since the construction cube provided by Thorlabs ([RM1S - 1](https://www.thorlabs.de/thorproduct.cfm?partnumber=RM1S#ad-image-0) ) only has slotted corners, we modified the later and 3D printed this [(3D design)]( /src/3D_printed_parts/Construction_cube_with_slotted_channel_door_connection_universal.stl) This cube is connected at each top of the front rails and so creates a parallel channel with front rails (see step: Build the enclosure roof). The modified cube creates a slider that allows us to insert the door.
+Since the construction cube provided by Thorlabs ([RM1S - 1](https://www.thorlabs.de/thorproduct.cfm?partnumber=RM1S#ad-image-0)) only has slotted corners, we modified the later and 3D printed this [(3D design)]( /src/3D_printed_parts/Construction_cube_with_slotted_channel_door_connection_universal.stl) This cube is connected at each top of the front rails and so creates a parallel channel with front rails (see step: Build the enclosure roof). The modified cube creates a slider that allows us to insert the door.
 
 
 
@@ -145,9 +145,9 @@ For installation of the IR-Filter and white LED light source you will need the f
 * IR_sheet_holder_roof_fixation_LEE_filter_ouside_part_2_of_2 [3D-designed](/assets/src/3D_printed_parts/Enclosure&Powering/Roof_IR_Sheet_holder/IR_sheet_holder_roof_fixation_LED_light_stripe_inside_part_2_of_2.stl)  (Q:1x)
 * Cut_guide_template [3D-designed]() (Q:1x)
 * LEE Polyester 87 Infrared 100mm filter ([LEEB10087C ](https://www.robertwhite.co.uk/lee-filters-100mm-system-polyester-87c-infrared-filter.html)) (Q:1x)
-* Soldering station ([Amazon](https://www.amazon.de/-/en/Soldering-Desoldering-Temperature-Adjustable-Conversion/dp/B08C51QRH5/ref=sr_1_17?keywords=alpha+metals+om338+pastelötmittel&qid=1639747374&sr=8-17)) ([**122-7917**](https://benl.rs-online.com/web/p/soldering-stations/1227917)**,** RS components)
-* 22 AWG wire ([168-1571](https://benl.rs-online.com/web/p/harsh-environment-wire/1681571) red wire & [168-1559](https://benl.rs-online.com/web/p/harsh-environment-wire/1681559) black wire, RS components)
-* 60 cm white LED Strips ([F5050PW30-NW](https://ledlightsworld.com/products/dc-12v-dimmable-smd5050-300-flexible-led-strips-60-leds-per-meter-10mm-width-900lm-per-meter-1?variant=17867978080346), ledlightsworld) (Q:4x cut 15 cm each)
+* Soldering station ([Amazon](https://www.amazon.de/-/en/Soldering-Desoldering-Temperature-Adjustable-Conversion/dp/B08C51QRH5/ref=sr_1_17?keywords=alpha+metals+om338+pastelötmittel&qid=1639747374&sr=8-17)) (RS components, [**122-7917**](https://benl.rs-online.com/web/p/soldering-stations/1227917))
+* 22 AWG wire (RS components: red wire [168-1571](https://benl.rs-online.com/web/p/harsh-environment-wire/1681571) & black wire [168-1559](https://benl.rs-online.com/web/p/harsh-environment-wire/1681559))
+* 60 cm white LED Strips (ledlightsworld, [F5050PW30-NW](https://ledlightsworld.com/products/dc-12v-dimmable-smd5050-300-flexible-led-strips-60-leds-per-meter-10mm-width-900lm-per-meter-1?variant=17867978080346)) (Q:4x cut 15 cm each)
 * Cutter
 
 #### Procedure (Build)
@@ -185,7 +185,7 @@ From our *in vivo* patch clamp electrophysiology data, we see that only high int
 
  For this step, you will need:
 
-* 100 cm Blue LED Strips ([F3528Blue60-NW](https://ledlightsworld.com/products/colorful-dc-12v-dimmable-smd3528-600-flexible-led-strips-120-leds-per-meter-8mm-width-600lm-per-meter?variant=17870690320474), ledlightsworld) (Q:2x cut 50 cm each)
+* 100 cm Blue LED Strips (ledlightsworld, [F3528Blue60-NW](https://ledlightsworld.com/products/colorful-dc-12v-dimmable-smd3528-600-flexible-led-strips-120-leds-per-meter-8mm-width-600lm-per-meter?variant=17870690320474)) (Q:2x cut 50 cm each)
 * Soldering station ([Amazon](https://www.amazon.de/-/en/Soldering-Desoldering-Temperature-Adjustable-Conversion/dp/B08C51QRH5/ref=sr_1_17?keywords=alpha+metals+om338+pastelötmittel&qid=1639747374&sr=8-17)) ([**122-7917**](https://benl.rs-online.com/web/p/soldering-stations/1227917)**,** RS components)
 * Soldering Arm Stand (RS Components, [208-3892](https://benl.rs-online.com/web/p/soldering-accessories/2083892)
 * Heat shrink tubing (amazon.de, [ET1002](https://www.amazon.de/Eventronic-ET1002-Schrumpfschlauch-Farben-560-tlg/dp/B071D7LJ31))
@@ -224,7 +224,7 @@ To install the exhaust vents cap, you will need the following:
 
 * Threaded_cap_top_external_vacuum_succion_size_GL45_part_2_of_2 [3D Designed](/assets/src/3D_printed_parts/Enclosure&Powering/Exhaust_vents/Threaded_cap_top_external_vacuum_succion_size_GL45_part_2_of_2.stl) (Q: 2x)
 
-* Push in 6 mm fitting Straight adaptor G 1/8 Male ([121-6009](https://benl.rs-online.com/web/p/pneumatic-fittings/1216009), RS Components) (Q:2x)
+* Push in 6 mm fitting Straight adaptor G 1/8 Male (RS Components, [121-6009](https://benl.rs-online.com/web/p/pneumatic-fittings/1216009)) (Q:2x)
 * 13 mm Fork ring wrench or spanner (amazon.de, [M19652](https://www.amazon.de/-/en/Brothers-Mannesmann-M19652-wrench-pieces/dp/B000ET7G0E?th=1) ; [B001ILAFRI](https://www.amazon.de/-/en/171198-Combination-Spanner-Set-SW/dp/B001ILAFRI/))
 * Pencil
 * Cutter
@@ -240,9 +240,9 @@ To install the exhaust vents cap, you will need the following:
 
 The following parts are needed:
 
-* [Black hardboard](https://www.thorlabs.de/newgrouppage9.cfm?objectgroup_id=190#2535)  510mmx762mm (L x W) ([TB5](https://www.thorlabs.de/thorproduct.cfm?partnumber=TB5), Thorlabs) (Q: 2x)
-* aluminum Sandwich Panel Black 510x762 mm (Plexikopen, [Black RAL 9005 3 mm](https://www.plexikopen.be/aluminum-sandwichpaneel-kleur)
-* Adhesive double-sided tape ([273-598](https://benl.rs-online.com/web/p/double-sided-tapes/0273598), Rs)
+* [Black hardboard](https://www.thorlabs.de/newgrouppage9.cfm?objectgroup_id=190#2535)  510mmx762mm (L x W) (Thorlabs, [TB5](https://www.thorlabs.de/thorproduct.cfm?partnumber=TB5)) (Q: 2x)
+* aluminum Sandwich Panel Black 510x762 mm (Plexikopen, [Black RAL 9005 3 mm](https://www.plexikopen.be/aluminum-sandwichpaneel-kleur))
+* Adhesive double-sided tape (RS Components, [273-598](https://benl.rs-online.com/web/p/double-sided-tapes/0273598))
 
 
 To close the front side of the enclosure during an experiment, we combined one of [TB5](https://www.thorlabs.de/thorproduct.cfm?partnumber=TB5) black hardboards together with a black aluminum [sandwich panel](https://www.plexikopen.be/aluminum-sandwichpaneel-kleur) to provide more hardness, thickness and to eliminate the passage of light or air through the corners or edges. Be sure that the correct size of the black board has been ordered to fit the dimensions of the door area. There is no need to cut the board.
@@ -276,7 +276,7 @@ The followings items are needed:
 * Ouside_fixation_box_top_powering_panel_part_2_of_3
 * Outside_box_cover_top_powering_panel__part_1_of_3
 * Black (RS Component, [787-2338](https://benl.rs-online.com/web/p/banana-connectors/7872338) ; [738-474](https://benl.rs-online.com/web/p/banana-connectors/0738474/))
-* Red 4mm Socket (RS Components(RS Components; [738-480](https://benl.rs-online.com/web/p/banana-connectors/0738480/) ; [787-2332](https://benl.rs-online.com/web/p/banana-connectors/7872332/) )
+* Red 4mm Socket (RS Components; [738-480](https://benl.rs-online.com/web/p/banana-connectors/0738480/) ; [787-2332](https://benl.rs-online.com/web/p/banana-connectors/7872332/))
 * Pencil
 * Cutter
 * Tape measure or ruler
@@ -313,7 +313,7 @@ We also need to connect the LED drivers for optogenetics manipulation; and the A
 
 ## [Baseplate](https://reiserlab.github.io/Component-Designs/miscellaneous/baseplate)
 
-A solid black aluminum breadboard / baseplate with threaded mounting holes provides a convenient platform for mounting the setup enclosure and other components. The plate should be bigger than the setup base, i.e, larger in both length and width. To isolate the setup from the light and airflow coming from the threaded mounting holes in the baseplate, attach a [black hardboard](https://www.thorlabs.de/newgrouppage9.cfm?objectgroup_id=190#2535) panel to the bottom breadboard. You can mount it with four [Sorbothane feet (ThorLabs AV5/M)](https://www.thorlabs.com/thorproduct.cfm?partnumber=AV5/M). These Sorbothane mounting feet also offer excellent isolation of vibration and possible acoustic noise. The parts needed are provided in the figure below.
+A solid black aluminum breadboard / baseplate with threaded mounting holes provides a convenient platform for mounting the setup enclosure and other components. The plate should be bigger than the setup base, i.e, larger in both length and width. To isolate the setup from the light and airflow coming from the threaded mounting holes in the baseplate, attach a [black hardboard](https://www.thorlabs.de/newgrouppage9.cfm?objectgroup_id=190#2535) panel to the bottom breadboard. You can mount it with four Sorbothane feet (Thorlabs, [AV5/M](https://www.thorlabs.com/thorproduct.cfm?partnumber=AV5/M)). These Sorbothane mounting feet also offer excellent isolation of vibration and possible acoustic noise. The parts needed are provided in the figure below.
 
 ![Baseplate-rubber-feet.PNG](/assets/Images/Baseplate-rubber-feet.PNG)
 ![Baseplate.PNG](/assets/Images/Baseplate.PNG)
