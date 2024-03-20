@@ -13,7 +13,7 @@ The relevant 3D designs will be linked to wherever relevant, and they should be 
 
 ## **Printing overview**
 
-The entire catalogue of 3D printed parts is available for download from the IDOC GitHub page (https://github.com/shaliulab/idoc_docs/tree/master/assets/src/3D_printed_parts). Each file is accompanied by a Cura profile file containing the optimal parameters for printing. Regarding materials, you have some options, however the ones listed below are deemed optimal for these applications.
+The entire catalogue of 3D printed parts is available for download from the [IDOC GitHub page](https://github.com/shaliulab/idoc_docs/tree/master/docs/assets/src/3D_printed_parts). Each file is accompanied by a Cura profile file containing the optimal parameters for printing. Regarding materials, you have some options, however the ones listed below are deemed optimal for these applications.
 
 [List of files](/assets/src/3D_printed_parts/IDOC_setup/3d_files.zip)
 
@@ -89,15 +89,15 @@ This part is placed at on the flat top part of the basement box. It is designed 
 ![Tubing_collectors.PNG](/assets/Images/Tubing_collectors.PNG)
 
 
-### **Heatsink installation**
+### Heatsink installation
 
-The heatsink is a heavily customized assembly of commercial parts, and as such it has its own section regarding it's manufacturing and assembly (see link). This section will simply illustrate how to install it into the rest of the setup.
+The heatsink is a heavily customized assembly of commercial parts, and as such it has its [own section](/how-to-build/Heatsink-Installation/) regarding it's manufacturing and assembly. This section will simply illustrate how to install it into the rest of the setup.
 
 The heatsink relies on 3D printed mounting brackets that connect it to the flat side of the basement box. For a more detailed illustration of how it's attached, see page 11 of [**file**](/IDOC_3D_Assembly_Parts.pdf).
 
 ![Basement_heatsink.PNG](/assets/Images/Basement_heatsink.PNG)
 
-## Light box
+### Light box
 
 This box is mounted on the top heatsink to cover the IR-LED backlighting and optogenetic LED panels. The light box mainly acts as a frame for the the chamber holder to ensure proper alignment of the parts.
 
