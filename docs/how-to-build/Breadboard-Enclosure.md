@@ -1,21 +1,21 @@
 # Main Enclosure
 
+![Enclosure.png](/assets/Images/Enclosure.png)
 
 ## Table of Contents
 
-- 1 [Overview](#overview)
-- 2 [Schematics](#schematics)
-- 3 [List of components](#list-of-components)
-- 4 [Building the enclosure](#building-the-enclosure)
-  - 4.1 [Get the hardboard](#1-get-the-hardboard)
-  - 4.2 [Join the rails and build the walls](#2-join-the-rails-and-build-the-walls)
-  - 4.3 [Build the enclosure roof](#3-build-the-enclosure-roof)
-  - 4.4 [Visualization window](#4-visualization-window)
-  - 4.5 [Blue light LED strip](#5-blue-light-led-strip)
-  - 4.6 [Roof exhaust vent](#6-roof-exhaust-vent)
-  - 4.7 [Enclosure door](#7-enclosure-door)
-  - 4.8 [Holes and power holes](#8-holes-and-power-holes)
-- 5 [Baseplate](#baseplate)
+1. [Overview](#overview)
+2. [List of components](#list-of-components)
+3. [Building the enclosure](#building-the-enclosure)
+    1. [Get the hardboard](#1-get-the-hardboard)
+    2. [Join the rails and build the walls](#2-join-the-rails-and-build-the-walls)
+  - 3.3 [Build the enclosure roof](#3-build-the-enclosure-roof)
+  - 3.4 [Visualization window](#4-visualization-window)
+  - 3.5 [Blue light LED strip](#5-blue-light-led-strip)
+  - 3.6 [Roof exhaust vent](#6-roof-exhaust-vent)
+  - 3.7 [Enclosure door](#7-enclosure-door)
+  - 3.8 [Holes and power holes](#8-holes-and-power-holes)
+4. [Baseplate](#baseplate)
   
 ##  Overview
 
@@ -29,13 +29,10 @@ Building the IDOC enclosure involves several steps:
 2. Install a breadboard to mount the enclosure, which provides a platform for mounting and connecting electronic components.
 3. Install and wire any necessary electronic, lighting, air/odor components.
 
-## Schematics
-
 The enclosure has three main sections: The breadboard, enclosure itself, and the camera enclosure. In this page we will explain how to build the first two, see [Camera enclosure](/how-to-build/Camera-Enclosure) for the last one.
 
 The enclosure is made from [25 mm rails](https://www.thorlabs.de/newgrouppage9.cfm?objectgroup_id=194) and [black hardboard](https://www.thorlabs.de/newgrouppage9.cfm?objectgroup_id=190#2535) panels. The panels are placed between the rail channels. The enclosure is designed with the following inner dimensions (L x W x H) 500mm x 500mm x 700 mm.
 
-![Enclosure.png](/assets/Images/Enclosure.png)
 
 ## List of components
 
