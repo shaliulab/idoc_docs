@@ -9,12 +9,12 @@
 3. [Building the enclosure](#building-the-enclosure)
     1. [Get the hardboard](#1-get-the-hardboard)
     2. [Join the rails and build the walls](#2-join-the-rails-and-build-the-walls)
-  - 3.3 [Build the enclosure roof](#3-build-the-enclosure-roof)
-  - 3.4 [Visualization window](#4-visualization-window)
-  - 3.5 [Blue light LED strip](#5-blue-light-led-strip)
-  - 3.6 [Roof exhaust vent](#6-roof-exhaust-vent)
-  - 3.7 [Enclosure door](#7-enclosure-door)
-  - 3.8 [Holes and power holes](#8-holes-and-power-holes)
+    3. [Build the enclosure roof](#3-build-the-enclosure-roof)
+    4. [Visualization window](#4-visualization-window)
+    5. [Blue light LED strip](#5-blue-light-led-strip)
+    6. [Roof exhaust vent](#6-roof-exhaust-vent)
+    7. [Enclosure door](#7-enclosure-door)
+    8. [Holes and power holes](#8-holes-and-power-holes)
 4. [Baseplate](#baseplate)
   
 ##  Overview
