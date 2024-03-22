@@ -1,5 +1,10 @@
 #   Optogenetic System
 
+## Table of contents
+1. [LED drivers](#led-drivers)
+2. [Power supply](#power-supply)
+3. [Light sources](#light-sources-ir--optogenetic-leds-panel-stuffing-and-arrangements) 
+
 ## **Introduction**
 
 The Optogenetics-LED module is specially designed to provide high power light to control neural activity, enabling study of *Drosophila* associated behaviors related to neuron networks. Optogenetic experiments carried out with freely moving fly inside a custom-made chamber.
@@ -12,7 +17,7 @@ When selecting an optogenetic light source, you need to consider two key factors
 
 ****
 
-## **Set-up of the optogenetic device**
+**Set-up of the optogenetic device**
 
 The following sketch shows the optogenetics system components:
 
@@ -21,7 +26,7 @@ The following sketch shows the optogenetics system components:
 
 
 
-### A-    LED Drivers
+## LED Drivers
 
 
 
@@ -47,7 +52,7 @@ The board footprint is 9 x 11 cm and contains 10 drivers or via PCA9685 16-Chann
 | **Light Source**                       | High Power LEDs                          |
 | **Board dimensions**                   | 9 x 11 cm                                |
 
-
+****
 #### **Number of required boards**
 
 At least 2 boards are needed to run the left and right side optogenetic panels independently. 5 boards would be perfectly  required to drive the complete setup in case you use Red, Green and Blue light. Having 5 identical boards with 10 channels each are cheaper and easier to produce than large board with all the drivers.
@@ -66,7 +71,7 @@ There are 10 output ports. Each port has 2 pins: V+ and GND (-ve). The LED drive
 
 #### **LED-Driver enclosure & mounting**
 
-We designed a 3D plastic enclosure [(Onshape)](https://cad.onshape.com/documents/7311a44d87579c0899650b4a/w/81c191560d810e89a94453ba/e/f0a8bf10642312bda53f0c61?renderMode=0&uiState=6244479bfbeafd34ddca1a1c) to hold and protect the board of the LED driver. At least two independent boards are required to drive both right and left LED panels at either half of the setup. By extension, two enclosures are also needed to mount both boards.
+We designed a 3D plastic enclosure ([Onshape](https://cad.onshape.com/documents/7311a44d87579c0899650b4a/w/81c191560d810e89a94453ba/e/f0a8bf10642312bda53f0c61?renderMode=0&uiState=6244479bfbeafd34ddca1a1c)) to hold and protect the board of the LED driver. At least two independent boards are required to drive both right and left LED panels at either half of the setup. By extension, two enclosures are also needed to mount both boards.
 
 **The front panel of Optogenetics-LED driver enclosure features:**
 
@@ -120,7 +125,7 @@ You also need:
 
 - Soldering Station (RS Components, [122-7917](https://benl.rs-online.com/web/p/soldering-stations/1227917); for Hot Air Amazon.de, [8786D](https://www.amazon.de/-/en/Soldering-Desoldering-Temperature-Adjustable-Conversion/dp/B08C51QRH5/))
 
-- Lead Free Solder (RS Componentss, [756-8884](https://benl.rs-online.com/web/p/solder/7568884) ; [625-8233](https://benl.rs-online.com/web/p/solder/6258233))
+- Lead Free Solder (RS Components, [756-8884](https://benl.rs-online.com/web/p/solder/7568884) ; [625-8233](https://benl.rs-online.com/web/p/solder/6258233))
 
 - Crimping  tool, (Amazon.nl,[97 22 240 ](https://www.amazon.nl/KNIPEX-Krimptang-240-97-22/dp/B004LY28J2/))
 
@@ -251,14 +256,14 @@ You'll also need the following tools:
 
 ![Series-connection-LED-PCB-2Box-post.PNG](/assets/Images/Series-connection-LED-PCB-2Box-post.PNG)
 
-## B- Power supply
+## Power supply
 
 In addition to our customized LED driver, you will also need a DC power supply. The drivers are connected to the power supply using high load power leads. It is necessary that the input DC voltage and current are more than the inputs required to run the LEDs. Use of LEDs with a lower or high forward current could result in damage to the LED. Power supply with an output voltage of 30V, and a current output of more than 7A would be ideal to run 20 series circuits of 4 square PCBs with each 1 LED at 0.35A e.g. (DC Laboratory Power Supply, 0-30V 0-10A DC Adjustable Switching (Banggood, [1121229](https://nl.banggood.com/LONG-WEI-LW-K3010D-110V-or-220V-30V-10A-Adjustable-Digital-DC-Power-Supply-Switching-Power-Supply-p-1121229.html); amazon.de, [KPS-3010D](https://www.amazon.de/-/en/Eventek-Laboratory-Adjustable-Stabilised-Digital/dp/B071HW378T/) ; [B085S34NNW](https://www.amazon.de/-/en/KAIWEETS-Laboratory-adjustable-DC0-10A-overload/dp/B085S34NNW/); [B07D358Q96](https://www.amazon.de/dp/B07D358Q96/))). One of the possible power supplies for the LED star drivers also would be the [LRS-350-36](https://www.digikey.be/en/products/detail/mean-well-usa-inc/LRS-350-36/7705032) from Meanwell to run  20 series circuits of 4 star PCBs with each 3 LEDs at 0.35A = 7A. for example using switching power supplies, the LED driver will output 0.35A at 12xVf (which could be as low as 30.6V or as high as 33.48V).
 
 LED drivers and power supply are connected via 4 mm Test Lead Banana to Banana  (60" Digi-Key, [501-1791-ND](https://www.digikey.be/de/products/detail/pomona-electronics/2BA-60/736432); 48" Digi-Key, [501-1663-ND](https://www.digikey.be/de/products/detail/pomona-electronics/2BA-48/736431) ;24" [501-1696-ND](https://www.digikey.be/de/products/detail/pomona-electronics/2BA-24/736429)) (Digi-Key, 9.4" [BKCT2062-25-0-ND](https://www.digikey.be/de/products/detail/cal-test-electronics/CT2062-25-0/5398848); 24" [BKCT2062-50-0-ND](https://www.digikey.be/de/products/detail/cal-test-electronics/CT2062-50-0/5398854); 39.4" [BKCT2060-100-0-ND](https://www.digikey.be/de/products/detail/cal-test-electronics/CT2060-100-0/5398800); 59.1" [BKCT2062-150-0-ND](https://www.digikey.be/de/products/detail/cal-test-electronics/CT2062-150-0/5398836); [BKCT2062-25-2-ND](https://www.digikey.be/de/products/detail/cal-test-electronics/CT2062-25-2/5398849); 24" [BKCT2062-50-2-ND](https://www.digikey.be/de/products/detail/cal-test-electronics/CT2062-50-2/5398855); 39.4" [BKCT2062-100-2-ND](https://www.digikey.be/de/products/detail/cal-test-electronics/CT2062-100-2/5398831); 59.1" [BKCT2062-150-2-ND](https://www.digikey.be/de/products/detail/cal-test-electronics/CT2062-150-2/5398837)) the length of the cable depend on the distance between different devices.
 
 
-## C- Light Source (IR & Optogenetic LEDs panel stuffing and arrangements)
+## Light Sources (IR & Optogenetic LEDs panel stuffing and arrangements)
 
 We designed and 3D printed plastic stencils to be fixed on the top surface of the heatsink to be used as a guide for stuffing the LEDs in the correct positions to provide homogenous illumination beneath each recording chamber.
 
