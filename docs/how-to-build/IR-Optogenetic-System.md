@@ -141,7 +141,7 @@ You also need:
 
 1. Connect the banana socket (RS, [888-4588](https://benl.rs-online.com/web/p/banana-connectors/8884588)) at the two holes named Vin in the front panel of the enclosure, solder two 10cm hook wires to the end of the socket, insulate both with a heat shrink tubing. the other opened end will be connected to the LED drivers board
 
-![LED-driver-board-V.01-2-banana-socket.PNG](/assets/Images/LED-driver-board-V.01-2-banana-socket.PNG)
+  ![LED-driver-board-V.01-2-banana-socket.PNG](/assets/Images/LED-driver-board-V.01-2-banana-socket.PNG)
 
 2. Add one toggle switch DPDT at the right hole to switch between signal comes from Arduino PWM signal or an external source
 3. Insert one JST PH 2 pin cable male Header into the PWM socket in the front of the box.
