@@ -139,61 +139,61 @@ You also need:
 
 **Steps**
 
-1. Connect the banana socket (RS, [888-4588](https://benl.rs-online.com/web/p/banana-connectors/8884588)) at the two holes named Vin in the front panel of the enclosure, solder two 10cm hook wires to the end of the socket, insulate both with a heat shrink tubing. the other opened end will be connected to the LED drivers board
+**1\.** Connect the banana socket (RS, [888-4588](https://benl.rs-online.com/web/p/banana-connectors/8884588)) at the two holes named Vin in the front panel of the enclosure, solder two 10cm hook wires to the end of the socket, insulate both with a heat shrink tubing. the other opened end will be connected to the LED drivers board
 
 ![LED-driver-board-V.01-2-banana-socket.PNG](/assets/Images/LED-driver-board-V.01-2-banana-socket.PNG)
 
-2. Add one toggle switch DPDT at the right hole to switch between signal comes from Arduino PWM signal or an external source
-3. Insert one JST PH 2 pin cable male Header into the PWM socket in the front of the box.
-4. With the use of a wire stripper, remove at least 1 cm casing to expose the cut wires and then add two pieces of heat shrink tubes on each wire.
-5. Solder the end of the cable with male header to the pins of the  left side of the switch then solder the middle pins of the toggle switch to the pre-cut wires. The black and red wires should be at the same direction. This open ended wires will be connected to PWM connector screw terminal at the PCB.
+**2\.** Add one toggle switch DPDT at the right hole to switch between signal comes from Arduino PWM signal or an external source
+**3\.** Insert one JST PH 2 pin cable male Header into the PWM socket in the front of the box.
+**4\.** With the use of a wire stripper, remove at least 1 cm casing to expose the cut wires and then add two pieces of heat shrink tubes on each wire.
+**5\.** Solder the end of the cable with male header to the pins of the  left side of the switch then solder the middle pins of the toggle switch to the pre-cut wires. The black and red wires should be at the same direction. This open ended wires will be connected to PWM connector screw terminal at the PCB.
 
 ![LED-driver-board-V.01-PWM.PNG](/assets/Images/LED-driver-board-V.01-PWM.PNG)
 
-6. Add a second JST PH 2 pin cable male header from the back panel into the left socket  named (external 0-5VDC), add heat shrink tubing, then solder these wire endings to the right bins of the toggle switch.
+**6\.** Add a second JST PH 2 pin cable male header from the back panel into the left socket  named (external 0-5VDC), add heat shrink tubing, then solder these wire endings to the right bins of the toggle switch.
 
-7. Add one last wire into the IR-LED socket, the other opened end should be then connected to crimp socket to be connected to the straight pins in the PCB named IR.
+**7\.** Add one last wire into the IR-LED socket, the other opened end should be then connected to crimp socket to be connected to the straight pins in the PCB named IR.
 
 ![LED-driver-board-V.01-5V-input.PNG](/assets/Images/LED-driver-board-V.01-5V-input.PNG)
 
 ![LED-driver-board-V.01-IR-marker-connection.PNG](/assets/Images/LED-driver-board-V.01-IR-marker-connection.PNG)
 
-8. Place the LED driver board into the the center of the enclosure. Connect the power hook up wires to the left terminal blocks, where the red socket must be connected to the positive while the black socket must be connected to the GND.
-9. Then connect the middle wires of the toggle switch to the PWM screws terminal block. Where the red socket must connected to the PWM +ve while the black cable must connected to the GND.
-10. Mount the board to the center of the enclosure with four M3 screws at each corner.
+**8\.** Place the LED driver board into the the center of the enclosure. Connect the power hook up wires to the left terminal blocks, where the red socket must be connected to the positive while the black socket must be connected to the GND.
+**9\.** Then connect the middle wires of the toggle switch to the PWM screws terminal block. Where the red socket must connected to the PWM +ve while the black cable must connected to the GND.
+**10\.** Mount the board to the center of the enclosure with four M3 screws at each corner.
 
 ![LED-driver-board-V.01-cable-connection-mounting.PNG](/assets/Images/LED-driver-board-V.01-cable-connection-mounting.PNG)
 
-11. Repeat the above steps to install other boards
+**11\.** Repeat the above steps to install other boards
 
 
 **Tip!** The inputs and outputs of the front and back panels are marked and engraved during 3D-printing.  For making it easy readable even with dim light just fill the engraved text with a white paste e g. Silicon Rubber (RS , [494-118](https://benl.rs-online.com/web/p/silicone-sealants/0494118/) ; Farnell, [2289630](https://be.farnell.com/dowsil-formerly-dow-corning/732-white-90ml/rtv-silicone-732-white-90ml/dp/2289630))
 
 ![LED-driver-enclosure-engraves.PNG](/assets/Images/LED-driver-enclosure-engraves.PNG)
 
-12.  To connect two assembled box-board  just slide both enclosures together and then screw them with 2 M3x10mm screws from the front and the back panel of the enclosure.
+**12\.**  To connect two assembled box-board  just slide both enclosures together and then screw them with 2 M3x10mm screws from the front and the back panel of the enclosure.
 
 
 ![LED-driver-board-V.01-2-enclosures-assembly.PNG](/assets/Images/LED-driver-board-V.01-2-enclosures-assembly.PNG)
 
-13. If you are going to use the same power supply you can connect both board  via bridge hook up wires through right screw terminal of each board.
+**13\.** If you are going to use the same power supply you can connect both board  via bridge hook up wires through right screw terminal of each board.
 
 ![LED-driver-board-V.01-2-enclosures-wiring.PNG](/assets/Images/LED-driver-board-V.01-2-enclosures-wiring.PNG)
 
 
 Initial operation & test of LED Driver
 
-14. Connect the driver to the power supply. Also the power supply can be connected directly via terminal screws at the PCB. **Attention!** Connect the LED driver to an already powered external power supply. Be sure that the input voltage corresponds to the input voltage range of the power LEDs.
+**14\.** Connect the driver to the power supply. Also the power supply can be connected directly via terminal screws at the PCB. **Attention!** Connect the LED driver to an already powered external power supply. Be sure that the input voltage corresponds to the input voltage range of the power LEDs.
 
-15. Connect LED panel with 20-way ribbon cable to the socket of the LED driver. Do not operate the connector with excessive force.
+**15\.** Connect LED panel with 20-way ribbon cable to the socket of the LED driver. Do not operate the connector with excessive force.
 
-16. Connect an external 5VDC volt to the header from the back panel of the enclosure and PWM signal from the Arduino
+**16\.** Connect an external 5VDC volt to the header from the back panel of the enclosure and PWM signal from the Arduino
 
 **Note:** The LED (ON/OFF) is controlled by two means of signal: PWM or external mode. When operating in external mode, an external up to 5VDC signal starts the LEDs of all channels at high brightness. This is ideal for checking the system. The LED current limit control potentiometer is placed on the front side of the driver. A screwdriver is necessary to adjust the LED current limit to 350mA.
 
-17. Switch the toggle switch in the front panel to the external mode and then Increase the voltage from 0 to 5V and notice how the LED brightness increases accordingly.
-18. If a PWM signal is applied via Arduino, switch the toggle switch in the front panel to the PWM mode, then LED is modulated accordingly.
-19. Your LED driver is now ready for use.
+**17\.** Switch the toggle switch in the front panel to the external mode and then Increase the voltage from 0 to 5V and notice how the LED brightness increases accordingly.
+**18\.** If a PWM signal is applied via Arduino, switch the toggle switch in the front panel to the PWM mode, then LED is modulated accordingly.
+**19\.** Your LED driver is now ready for use.
 
 
 ![LED-driver-board-V.01-enclosure-installation.PNG](/assets/Images/LED-driver-board-V.01-enclosure-installation.PNG)
