@@ -144,8 +144,11 @@ You also need:
 ![LED-driver-board-V.01-2-banana-socket.PNG](/assets/Images/LED-driver-board-V.01-2-banana-socket.PNG)
 
 **2\.** Add one toggle switch DPDT at the right hole to switch between signal comes from Arduino PWM signal or an external source
+
 **3\.** Insert one JST PH 2 pin cable male Header into the PWM socket in the front of the box.
+
 **4\.** With the use of a wire stripper, remove at least 1 cm casing to expose the cut wires and then add two pieces of heat shrink tubes on each wire.
+
 **5\.** Solder the end of the cable with male header to the pins of the  left side of the switch then solder the middle pins of the toggle switch to the pre-cut wires. The black and red wires should be at the same direction. This open ended wires will be connected to PWM connector screw terminal at the PCB.
 
 ![LED-driver-board-V.01-PWM.PNG](/assets/Images/LED-driver-board-V.01-PWM.PNG)
@@ -159,7 +162,9 @@ You also need:
 ![LED-driver-board-V.01-IR-marker-connection.PNG](/assets/Images/LED-driver-board-V.01-IR-marker-connection.PNG)
 
 **8\.** Place the LED driver board into the the center of the enclosure. Connect the power hook up wires to the left terminal blocks, where the red socket must be connected to the positive while the black socket must be connected to the GND.
+
 **9\.** Then connect the middle wires of the toggle switch to the PWM screws terminal block. Where the red socket must connected to the PWM +ve while the black cable must connected to the GND.
+
 **10\.** Mount the board to the center of the enclosure with four M3 screws at each corner.
 
 ![LED-driver-board-V.01-cable-connection-mounting.PNG](/assets/Images/LED-driver-board-V.01-cable-connection-mounting.PNG)
@@ -192,7 +197,9 @@ Initial operation & test of LED Driver
 **Note:** The LED (ON/OFF) is controlled by two means of signal: PWM or external mode. When operating in external mode, an external up to 5VDC signal starts the LEDs of all channels at high brightness. This is ideal for checking the system. The LED current limit control potentiometer is placed on the front side of the driver. A screwdriver is necessary to adjust the LED current limit to 350mA.
 
 **17\.** Switch the toggle switch in the front panel to the external mode and then Increase the voltage from 0 to 5V and notice how the LED brightness increases accordingly.
+
 **18\.** If a PWM signal is applied via Arduino, switch the toggle switch in the front panel to the PWM mode, then LED is modulated accordingly.
+
 **19\.** Your LED driver is now ready for use.
 
 
@@ -229,30 +236,32 @@ You'll also need the following tools:
 
 **Procedure:**
 
-1. Using jumper wire to connect the +ve and -ve side of the 20-way PCB headers from each side
+**1\.** Using jumper wire to connect the +ve and -ve side of the 20-way PCB headers from each side
 
-2. Connect and solder solder the two +ve sides (line connectign the top and bottom of the board in the figure below)
+**2\.** Connect and solder solder the two +ve sides (line connectign the top and bottom of the board in the figure below)
 
-3. Connect and solder the 20-way PCB headers into the recessed place to establish the series connection (yellow rectangles in figure below)
+**3\.** Connect and solder the 20-way PCB headers into the recessed place to establish the series connection (yellow rectangles in figure below)
 
 ![Series_connection_LED_PCB.PNG](/assets/Images/Series_connection_LED_PCB.PNG)
 
 
-4. After  soldering, to avoid shortcuts, place the board into the 3D-printed box and screw it with 4 3Mx6mm screws.
-5. Cover the box and screw it with 2 3Mx6mm screws
-6. Now the box is ready
+**4\.** After  soldering, to avoid shortcuts, place the board into the 3D-printed box and screw it with 4 3Mx6mm screws.
+
+**5\.** Cover the box and screw it with 2 3Mx6mm screws
+
+**6\.** Now the box is ready
 
 ![Series_connection_LED_PCB_Box.PNG](/assets/Images/Series_connection_LED_PCB_Box.PNG)
 
 
-7. Due to its small size, multiple boxes can be to combined together. To do so, simply connect two boxes through the male and female mate-slides in the opposite directions.
+**7\.** Due to its small size, multiple boxes can be to combined together. To do so, simply connect two boxes through the male and female mate-slides in the opposite directions.
 
 **Series-connection-LED-PCB-2Box**
 
 ![Series-connection-LED-PCB-2Box.PNG](/assets/Images/Series-connection-LED-PCB-2Box.PNG)
 
 
-8. Finally, insert a 4mm screw set to the wall of the one box and then connect an optical post in your desired length to be mounted in the back of the setup of the enclosure.
+**8\.** Finally, insert a 4mm screw set to the wall of the one box and then connect an optical post in your desired length to be mounted in the back of the setup of the enclosure.
 
 ![Series-connection-LED-PCB-2Box-post.PNG](/assets/Images/Series-connection-LED-PCB-2Box-post.PNG)
 
@@ -283,18 +292,29 @@ For this step, you will need:
 
 **Assembly steps:**
 
-  1. Mount the plastic stencil at the top surface of the heatsink. Fix with at least two M1.6x6mm screw from the midline of the heatsink.
-  2. Cut twenty-two pieces of 10-cm LED strips, eleven to be mounted on each heatsink.
-  3. You might want to clean the surface of the heatsink from any remaining residue or dust with some ethanol and air pressure (e.g., "Dust-Off" from RS, [169-9912](https://benl.rs-online.com/web/p/air-dusters/1699912/) or Conrad, [827802](https://www.conrad.be/nl/search.html?search=827802)).
-  4. Peel off the tape backing of the strips back to expose the adhesive side
-  5. Place the IR-LED strip of tape at the top mount of the aluminum heatsink.
-  6. Make sure to press firmly on the IR-LED stripes to prevent it from peeling it off.
-  7. Heat your soldering iron station to 350-400 degrees Celsius.
-  8. Add a small part of soldering material to the surface of the copper pads on the IR LED strips
-  9. Wiring the IR-LED-strips together by connecting the +ve to the +ve copper pads and the -ve to the -ve pads.
-  10. Once you have attached the two wires, wait for at least 30 seconds for it to cool down.
-  11. Use hot air gun to place a shrink tube over the exposed soldered part at the end of each LED stripes.
-  12. At the end of the strip connect a JST wire with female plug to be connected to the male JST power supply plug on the setup powering panel at the back side of the wiring box.
+  **1\.** Mount the plastic stencil at the top surface of the heatsink. Fix with at least two M1.6x6mm screw from the midline of the heatsink.
+
+  **2\.** Cut twenty-two pieces of 10-cm LED strips, eleven to be mounted on each heatsink.
+
+  **3\.** You might want to clean the surface of the heatsink from any remaining residue or dust with some ethanol and air pressure (e.g., "Dust-Off" from RS, [169-9912](https://benl.rs-online.com/web/p/air-dusters/1699912/) or Conrad, [827802](https://www.conrad.be/nl/search.html?search=827802)).
+  
+  **4\.** Peel off the tape backing of the strips back to expose the adhesive side
+
+  **5\.** Place the IR-LED strip of tape at the top mount of the aluminum heatsink.
+
+  **6\.** Make sure to press firmly on the IR-LED stripes to prevent it from peeling it off.
+
+  **7\.** Heat your soldering iron station to 350-400 degrees Celsius.
+
+  **8\.** Add a small part of soldering material to the surface of the copper pads on the IR LED strips
+
+  **9\.** Wiring the IR-LED-strips together by connecting the +ve to the +ve copper pads and the -ve to the -ve pads.
+
+  **10\.** Once you have attached the two wires, wait for at least 30 seconds for it to cool down.
+
+  **11\.** Use hot air gun to place a shrink tube over the exposed soldered part at the end of each LED stripes.
+
+  **12\.** At the end of the strip connect a JST wire with female plug to be connected to the male JST power supply plug on the setup powering panel at the back side of the wiring box.
 
 
 **Type of LEDs used for optogenetic application**
@@ -329,18 +349,29 @@ An extra reason to solder the LEDs ourselves is that same order of multiple LED 
 
 **LED assembly Procedure**
 
-1. Order the solder free paste, refrigerate it at 4-8°C.
-2. At the date of the soldering allow the paste to reach the room temperature before heating up (~ 1-2 hour).
-3. Connect a dispensing blunt tip luer lock needle to the luer taper of the solder syringe.
-4. Cover the three copper pads in the center of the aluminum board with solder paste. Be consistent and do not add too much paste, only enough to achieve a solder joint thickness of approximately 50μm.
-5. Pick up a LED with the sides of the substrate (not touching the lens).
-6. Center the LEDs on the copper pads with the soldering paste.
-7. Move the board + LED onto the warming plate that matches the melting point of the solder paste. For information: The melting temperature for paste XXX is YYY. **Note!** Use tweezers to pick up the board from the sides.
-8. You can also fix the board onto soldering clamp and use hot air iron to heat up the paste to reach its melting point.
-9. Regardless of whether you are using a hot-plate or hot-air to melt the paste, maintain the heating for a couple seconds until you see paste melting from the sides of the LED. Try to balance the time and temperature so that you can get proper paste melting and solder joint forming, without damaging the LED.
-10. Once the board is heated to a peak temperature and the melting point of the solder paste is confirmed, move the board away from the warming area to cool down. It is recommended to move the board onto a heatsink to cool down properly, and allow the solder to freeze in place faster (preventing damage the components or the board).
-11. Test the LEDs using a proper current regulated power source or LED driver
-12. Do not stare while operating LED. May be harmful to the eyes.
+**1\.** Order the solder free paste, refrigerate it at 4-8°C.
+
+**2\.** At the date of the soldering allow the paste to reach the room temperature before heating up (~ 1-2 hour).
+
+**3\.** Connect a dispensing blunt tip luer lock needle to the luer taper of the solder syringe.
+
+**4\.** Cover the three copper pads in the center of the aluminum board with solder paste. Be consistent and do not add too much paste, only enough to achieve a solder joint thickness of approximately 50μm.
+
+**5\.** Pick up a LED with the sides of the substrate (not touching the lens).
+
+**6\.** Center the LEDs on the copper pads with the soldering paste.
+
+**7\.** Move the board + LED onto the warming plate that matches the melting point of the solder paste. For information: The melting temperature for paste XXX is YYY. **Note!** Use tweezers to pick up the board from the sides.
+
+**8\.** You can also fix the board onto soldering clamp and use hot air iron to heat up the paste to reach its melting point.
+
+**9\.** Regardless of whether you are using a hot-plate or hot-air to melt the paste, maintain the heating for a couple seconds until you see paste melting from the sides of the LED. Try to balance the time and temperature so that you can get proper paste melting and solder joint forming, without damaging the LED.
+
+**10\.** Once the board is heated to a peak temperature and the melting point of the solder paste is confirmed, move the board away from the warming area to cool down. It is recommended to move the board onto a heatsink to cool down properly, and allow the solder to freeze in place faster (preventing damage the components or the board).
+
+**11\.** Test the LEDs using a proper current regulated power source or LED driver
+
+**12\.** Do not stare while operating LED. May be harmful to the eyes.
 
 
 
@@ -363,15 +394,23 @@ After soldering the LEDs to MCPCB aluminum base. The assembly is mounted directl
 
  **For stuffing the LEDs on the top of the heatsink:**
 
-1. You might want to clean the surface of the heatsink from any remaining residue or dust with some ethanol and air pressure (e.g., dust off  RS , [169-9912](https://benl.rs-online.com/web/p/air-dusters/1699912/) or Conrad, [827802](https://www.conrad.be/nl/search.html?search=827802)).
-2. Remove the film from one side of the thermal tape to expose the adhesive part of this side.
-3. With forceps, place the thermal tape on the square window and press it down a little to make sure it sticks to the heatsink.
-4. When you have placed every thermal tape, you can unscrew and remove the LED-stuffing guide.
-5. Mark each square as zigzag for blue LED (e.g., B) and red LEDs (e.g., R) to ensure that the LED boards are attached in the correct arrangement.
-6. Remove the remaining top film from the thermal tape for red color LEDs.
-7. Place the LED boards onto the thermal tape with the orienation you see in the figure below. The orientation is important for optimizing space for wiring connections.
-8. Using the 3D-designed part (XX), apply even pressure to each single square LED assembly for at least 30 seconds, to fasten the assembly to the heatsink/thermal tape. Due to the small area of our LED array on the heat sink we could not use the free [assembly press tool](https://www.luxeonstar.com/assembly-press-single-z-leds) provided with the thermal tape  instead we designed, and 3D printed another assembly press tool to ensure an optimal thermal interface is created.
-9. Repeat steps 6,7 and 8 for the blue color LEDs
+**1\.** You might want to clean the surface of the heatsink from any remaining residue or dust with some ethanol and air pressure (e.g., dust off  RS , [169-9912](https://benl.rs-online.com/web/p/air-dusters/1699912/) or Conrad, [827802](https://www.conrad.be/nl/search.html?search=827802)).
+
+**2\.** Remove the film from one side of the thermal tape to expose the adhesive part of this side.
+
+**3\.** With forceps, place the thermal tape on the square window and press it down a little to make sure it sticks to the heatsink.
+
+**4\.** When you have placed every thermal tape, you can unscrew and remove the LED-stuffing guide.
+
+**5\.** Mark each square as zigzag for blue LED (e.g., B) and red LEDs (e.g., R) to ensure that the LED boards are attached in the correct arrangement.
+
+**6\.** Remove the remaining top film from the thermal tape for red color LEDs.
+
+**7\.** Place the LED boards onto the thermal tape with the orienation you see in the figure below. The orientation is important for optimizing space for wiring connections.
+
+**8\.** Using the 3D-designed part (XX), apply even pressure to each single square LED assembly for at least 30 seconds, to fasten the assembly to the heatsink/thermal tape. Due to the small area of our LED array on the heat sink we could not use the free [assembly press tool](https://www.luxeonstar.com/assembly-press-single-z-leds) provided with the thermal tape  instead we designed, and 3D printed another assembly press tool to ensure an optimal thermal interface is created.
+
+**9\.** Repeat steps 6,7 and 8 for the blue color LEDs
 
 
 
@@ -380,13 +419,15 @@ After soldering the LEDs to MCPCB aluminum base. The assembly is mounted directl
 
 Once every LEDs on the heatsink are mounted, you can inter wire the LEDs to form series circuit connections between strings of the same color.
 
-1. Cut about 250 pieces of about 2cm of wire cables (color red for red LED interconnection) while (color blue for blue LED interconnections).
-2. With the use of a wire stripper, remove 0.5cm casing from each side.
-3. Add a small part of soldering material to the surface the copper pads of each LED MCPCB
+**1\.** Cut about 250 pieces of about 2cm of wire cables (color red for red LED interconnection) while (color blue for blue LED interconnections).
 
-4. Wiring the LED-strips together by connecting the positive to the negative copper pads of the LEDs of the same color.
+**2\.** With the use of a wire stripper, remove 0.5cm casing from each side.
 
-5. Once you have attached all wires to all LED strings, insert the 40 powering cable from the holes of the aluminum angle profile and then solder the end of the cable with +ve and -ve of each LED string according to the following mapping and color of the wires.
+**3\.** Add a small part of soldering material to the surface the copper pads of each LED MCPCB
+
+**4\.** Wiring the LED-strips together by connecting the positive to the negative copper pads of the LEDs of the same color.
+
+**5\.** Once you have attached all wires to all LED strings, insert the 40 powering cable from the holes of the aluminum angle profile and then solder the end of the cable with +ve and -ve of each LED string according to the following mapping and color of the wires.
 
    ![Ribbon-cable-mapping.PNG](/assets/Images/Ribbon-cable-mapping.PNG)
 
@@ -395,5 +436,5 @@ Once every LEDs on the heatsink are mounted, you can inter wire the LEDs to form
 
 #### **LED Power Connector**
 
-The LED drivers and optogenetic LED panels are connected via the ribbon cables with 20-way IDC connectors, which are compatible with all LED assemblies in the system. See Section pinout of **LED Driver** , **Arduino control board**. You can go to he section (**Setup wiring & Optogenetic LEDs panel Connectors**) to know how to assemble flat ribbon cables with an IDC connector.
+The LED drivers and optogenetic LED panels are connected via the ribbon cables with 20-way IDC connectors, which are compatible with all LED assemblies in the system. See Section pinout of **LED Driver** , **Arduino control board**. You can go to the section (**Setup wiring & Optogenetic LEDs panel Connectors**) to know how to assemble flat ribbon cables with an IDC connector.
 
