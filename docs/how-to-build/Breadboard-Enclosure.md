@@ -14,7 +14,7 @@
     5. [Blue light LED strip](#5-blue-light-led-strip)
     6. [Roof exhaust vent](#6-roof-exhaust-vent)
     7. [Enclosure door](#7-enclosure-door)
-    8. [Holes and power holes](#8-holes-and-power-holes)
+    8. [Tubing and power holes](#8-holes-and-power-holes)
 4. [Baseplate](#baseplate)
   
 ##  Overview
@@ -25,7 +25,7 @@ The enclosure is mounted on a Thor labs breadboard. The front face of the enclos
 
 Building the IDOC enclosure involves several steps:
 
-1. Build the enclosure proper and 3D parts to fit the IDOC system.
+1. Build the enclosure proper and the 3D parts to fit the IDOC system.
 2. Install a breadboard to mount the enclosure, which provides a platform for mounting and connecting electronic components.
 3. Install and wire any necessary electronic, lighting, air/odor components.
 
@@ -66,7 +66,7 @@ The final size of the panels:
 
 ![Black-board-setup-enclosure.PNG](/assets/Images/Black-board-setup-enclosure.PNG)
 
-##### Procedure
+#### Procedure
 
 1. Use a tape to mark a line by pencil on the face of the board. The final size should be ~ 5 mm longer and wider than the rail length to fit in the walls and the roof.
 2. Cut all the way through the board following the pencil lines. The board is soft, so proceed carefully, an aluminum flat bar can be used to maintain a straight cut.
@@ -181,8 +181,6 @@ From our *in vivo* patch clamp electrophysiology data, we see that only high int
 ![Blue-light-installation.PNG](/assets/Images/Blue-light-installation.PNG)
 
 
-**Wiring the blue lighting strip.**
-
  For this step, you will need:
 
 * 100 cm Blue LED Strips (ledlightsworld, [F3528Blue60-NW](https://ledlightsworld.com/products/colorful-dc-12v-dimmable-smd3528-600-flexible-led-strips-120-leds-per-meter-8mm-width-600lm-per-meter?variant=17870690320474)) (Q:2x cut 50 cm each)
@@ -255,7 +253,7 @@ To close the front side of the enclosure during an experiment, we combined one o
 2. To close the enclosure, slide the door board from the top into the top parallel channels of the cube-rail-constructions.
 3. To remove the door, push the bottom of the board up until it completely comes out from the parallel guide of the front rails.
 
-### 8. Holes and power holes
+### 8. Tubing and power holes
 
 To fully automate the control of the setup, lighting, odor/air delivery tubing and powering the optogenetic LEDs, some holes are needed to hold the powering platforms, cable connections and tubing.
 
@@ -291,13 +289,13 @@ Tubes for odor delivery and suction access the setup through two holes in the bo
 #### Procedure
 
 1. Use a pencil and a round ring to precisely mark two holes in each side of the bottom of the back wall so the tubing can be inserted inside the enclosure.
-2. Cut all the way through the board following the pencil lines. The blackboard is soft, so proceed carefully. A 44 mm hole saw drill can be useful. Be careful not to injury your fingers.
+2. Cut all the way through the board following the pencil lines. The blackboard is soft, so proceed carefully. A 44 mm hole saw drill can be useful. Be careful not to injure your fingers.
 3. Remove the cuts and trim the rough edges of the black hardboard.
 4. Insert the threaded neck part (3D printed) from the inside, attach the open cap part from outside, and then tighten the cap until the assembly is held firmly to the board.
 
 **Power holes**
 
-We also need to connect the LED drivers for optogenetics manipulation; and the Arduino controller to power the setup and deliver the electric shocks and IR illumination. We achieved this by designing a custom 3D-printed panel that bridges connections with with male and female IDC wires.
+We also need to connect the LED drivers for optogenetics manipulation; and the Arduino controller to power the setup and deliver the electric shocks and IR illumination. We achieved this by designing a custom 3D-printed panel that bridges connections with male and female IDC wires.
 
 ![Bottom-powering-window.PNG](/assets/Images/Bottom-powering-window.PNG)
 ![Ouside_wire_box_cover_bottom.PNG](/assets/Images/Ouside_fixation_frame_bottom.PNG)
@@ -308,12 +306,12 @@ We also need to connect the LED drivers for optogenetics manipulation; and the A
 2. The two windows are approximately 5 cm from the bottom of the enclosure. Space these holes about 6 cm apart.
 3. Cut all the way through the board following the pencil lines.
 4. Remove the cuts and trim the rough edges of the black hardboard.
-5. Insert the left and the right powering platform from the inside into the cut area. Aattach the fixation wall from outside.
+5. Insert the left and the right powering platform from the inside into the cut area. Attach the fixation wall from outside.
 6. Use screwdriver to fasten the panel with M2 screw, tighten the screw until the assembly is held firmly to the board. The powering stages should fit exactly so that they have no light or air leakage.
 
 ## [Baseplate](https://reiserlab.github.io/Component-Designs/miscellaneous/baseplate)
 
-A solid black aluminum breadboard / baseplate with threaded mounting holes provides a convenient platform for mounting the setup enclosure and other components. The plate should be bigger than the setup base, i.e, larger in both length and width. To isolate the setup from the light and airflow coming from the threaded mounting holes in the baseplate, attach a [black hardboard](https://www.thorlabs.de/newgrouppage9.cfm?objectgroup_id=190#2535) panel to the bottom breadboard. You can mount it with four Sorbothane feet (Thorlabs, [AV5/M](https://www.thorlabs.com/thorproduct.cfm?partnumber=AV5/M)). These Sorbothane mounting feet also offer excellent isolation of vibration and possible acoustic noise. The parts needed are provided in the figure below.
+A solid black aluminum baseplate with threaded mounting holes provides a convenient platform for mounting the setup enclosure and other components. The plate should be bigger than the setup base, i.e, larger in both length and width. To isolate the setup from the light and airflow coming from the threaded mounting holes in the baseplate, attach a [black hardboard](https://www.thorlabs.de/newgrouppage9.cfm?objectgroup_id=190#2535) panel to the bottom of the baseplate. You can mount it with four Sorbothane feet (Thorlabs, [AV5/M](https://www.thorlabs.com/thorproduct.cfm?partnumber=AV5/M)). These Sorbothane mounting feet also offer excellent isolation from vibration and possible acoustic noise. The parts needed are provided in the figure below:
 
 ![Baseplate-rubber-feet.PNG](/assets/Images/Baseplate-rubber-feet.PNG)
 ![Baseplate.PNG](/assets/Images/Baseplate.PNG)
@@ -345,8 +343,8 @@ The enclosure is attached directly to the baseplate using the XE25CL2 Clamp to m
 ![IDOC-baseplate-brackets-connection.PNG](/assets/Images/IDOC-baseplate-brackets-connection.PNG)
 ![IDOC-baseplate-brackets-connection-cut.PNG](/assets/Images/IDOC-baseplate-brackets-connection-cut.PNG)
 
-1. Put the assembled enclosure on top of the assembled baseplate,
-2. Align and center the enclosure to the breadboard by mount bottom rails horizontally on breadboard,
-3. Slot the clamp into the rail channel to secure it parallel to the breadboard surface,
-4. Inset M6 screw in the clamp long clearance
+1. Put the assembled enclosure on top of the assembled baseplate
+2. Align and center the enclosure on the baseplate by mount bottom rails horizontally on breadboard
+3. Slot the XE25CL2 clamp into the horizontal rail channel to secure it parallel to the bbaseplate surface,
+4. Inset M6 screw in the clamp's long clearance slot
 5. Move the clamps to the corners of the enclosure and tighten down with the [balldriver or hex key](https://www.thorlabs.de/newgrouppage9.cfm?objectgroup_id=1407).
