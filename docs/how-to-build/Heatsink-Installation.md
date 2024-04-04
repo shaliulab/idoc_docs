@@ -120,6 +120,7 @@ The IR optogenetic panels are then covered by a 3D-printed box (light box). The 
 
 - Screwdriver set (RS , [668-5723](https://benl.rs-online.com/web/p/screwdriver-bit-sets/6685727); Amazon, [B01M7PPJI7](https://www.amazon.co.uk/Precision-Screwdriver-Magnetic-Macbook-Electronics/dp/B01M7PPJI7)).
 
+**Procedure**
 
 1. Once you assembled the 3D-printed light box (See: **Light Box Assembly**) and heatsink mounting brackets, insert the 3D-printed U-shaped mounting brackets from the bottom side of the heatsink
 2. Place the light box over the two top holes and allow it to slide down.
