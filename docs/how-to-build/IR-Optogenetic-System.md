@@ -380,7 +380,7 @@ An extra reason to solder the LEDs ourselves is that same order of multiple LED 
 
 
 
-Running high power LEDs requires a cooling system to dissipate the heat produced inside the LEDs. In our setup cooling is already achieved by mounting the LED directly to a finned [aluminum heat sink](https://www.digikey.be/en/products/detail/wakefield-vette/125404/9957688) with a running air flow to extract the heat from the heatsink enclosure.
+Running high power LEDs requires a cooling system to dissipate the heat produced inside the LEDs. In our setup cooling is already achieved by mounting the LED directly to a finned [aluminum heat sink](https://www.digikey.be/en/products/detail/wakefield-vette/125404/9957688) with a running air flow to extract the heat from the heatsink enclosure. The assembly of this is covered in more detail in the [heatsink installation](./Heatsink-Installation.md) section.
 
 ![Heatsink-cooling.PNG](/assets/Images/Heatsink-cooling.PNG)
 
