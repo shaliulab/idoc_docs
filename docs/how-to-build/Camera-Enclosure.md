@@ -83,7 +83,7 @@ The following parts are needed to create a base for the above camera mount const
 
 3. Attach one the assembled base post holder to the right 25-mm rail at the top of the setup enclosure.
 
-4. Use 16-mm M6 screw and pre-slotted Low-Profile T-Nut (see step: Build the enclosure roof) to establish and tighten base connection to the right rail.
+4. Use 16-mm M6 screw and pre-slotted Low-Profile T-Nut (see step: [Build the enclosure roof](./Breadboard-Enclosure.md#3-build-the-enclosure-roof)) to establish and tighten base connection to the right rail.
 
 5. Attach the other assembled base post holder to the left 25-mm rail at the top of the setup enclosure.
 
