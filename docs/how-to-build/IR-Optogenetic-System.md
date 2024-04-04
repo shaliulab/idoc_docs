@@ -7,17 +7,11 @@
 
 ## Overview
 
-The Optogenetics-LED module is specially designed to provide high power light to control neural activity, enabling study of *Drosophila* associated behaviors related to neuron networks. Optogenetic experiments carried out with freely moving fly inside a custom-made chamber.
+The Optogenetics-LED module is specially designed to provide high power light to control neural activity, enabling study of *Drosophila* associated behaviors related to neuron networks. Optogenetic experiments are carried out with a freely moving fly inside a custom-made chamber.
 
 When selecting an optogenetic light source, you need to consider two key factors: the required light wavelength and light intensity. The light intensity is dependent on the illuminated area the opsin channels you select at certain wavelengths of light. Therefore, we selected a power LEDs as a light source, which are so close to the peak wavelength to achieve optimal activation. For example, we used LED wavelengths close to 627nm for optogenetic activation of CsChrimson. We decide to use high power LEDs in our setup for many reasons: LEDs are low cost, have a long lifetime, are stable, easy to mount, easily turned on and off with high frequencies and low operating temperatures. The setup has the capacity to use different wavelengths independently with modulation of the light intensity to stimulate different sets of neurons.
 
-****
-
-**Here we explain all the key components necessary to build an optogenetics setup including power supply, LED-drivers, high power LED-light sources, cooling system, control unit, and more. Components are custom-designed or sold separately from different seller, all of them are designed to work with each other.**
-
-****
-
-**Set-up of the optogenetic device**
+Here we explain all the key components necessary to build an optogenetics setup including power supply, LED-drivers, high power LED-light sources, cooling system, control unit, and more. Components are custom-designed or sold separately from different seller, all of them are designed to work with each other.
 
 The following sketch shows the optogenetics system components:
 
@@ -38,7 +32,7 @@ The board footprint is 9 x 11 cm and contains 10 drivers or via PCA9685 16-Chann
 
 **Specifications**
 
-| Board                                  | **- [LED_Driver_.01](/assets/src/Design_Files_LED_Driver_.01)** |
+| Board                                  | **[LED_Driver_.01](/assets/src/Design_Files_LED_Driver_.01)** |
 | -------------------------------------- | ---------------------------------------- |
 | **Digital modulation inputs**          | TTL, Arduino Mega                        |
 | **Connector for TTL and Analog input** | Terminal block                           |
@@ -53,14 +47,14 @@ The board footprint is 9 x 11 cm and contains 10 drivers or via PCA9685 16-Chann
 | **Board dimensions**                   | 9 x 11 cm                                |
 
 ****
-#### **Number of required boards**
+### Number of required boards
 
 At least 2 boards are needed to run the left and right side optogenetic panels independently. 5 boards would be perfectly  required to drive the complete setup in case you use Red, Green and Blue light. Having 5 identical boards with 10 channels each are cheaper and easier to produce than large board with all the drivers.
 
 ![LED-driver-2-boards.PNG](/assets/Images/LED-driver-2-boards.PNG)
 
 
-#### **Output ports and pinouts**
+### Output ports and pinouts
 
 There are 10 output ports. Each port has 2 pins: V+ and GND (-ve). The LED drivers and optogenetic LED panels are connected via the ribbon cables with 20-way IDC connector, which is compatible with all LED assemblies in the system - see Section LED Connectors & IDC Cables. The figure below shows the pin-out of the male connector at the bottom of the driver board
 
@@ -69,14 +63,14 @@ There are 10 output ports. Each port has 2 pins: V+ and GND (-ve). The LED drive
 
 ![LED-driver-piout-2.PNG](/assets/Images/LED-driver-piout-2.PNG)
 
-#### **LED-Driver enclosure & mounting**
+### LED-Driver enclosure & mounting
 
-We designed a 3D plastic enclosure ([Onshape](https://cad.onshape.com/documents/7311a44d87579c0899650b4a/w/81c191560d810e89a94453ba/e/f0a8bf10642312bda53f0c61?renderMode=0&uiState=6244479bfbeafd34ddca1a1c)) to hold and protect the board of the LED driver. At least two independent boards are required to drive both right and left LED panels at either half of the setup. By extension, two enclosures are also needed to mount both boards.
+We designed a 3D-printable enclosure ([Onshape](https://cad.onshape.com/documents/7311a44d87579c0899650b4a/w/81c191560d810e89a94453ba/e/f0a8bf10642312bda53f0c61?renderMode=0&uiState=6244479bfbeafd34ddca1a1c)) to hold and protect the board of the LED driver. At least two independent boards are required to drive both right and left LED panels at either half of the setup. By extension, two enclosures are also needed to mount both boards.
 
 **The front panel of Optogenetics-LED driver enclosure features:**
 
 - Power input sockets
-- Connector socket for PWM signal for control of LED power from Arduino & Computer,
+- Connector socket for PWM signal for control of LED power from Arduino & computer
 - Toggle switch PWM Input/External to enable LED (ON/OFF) by external 0-5 VDC signal
 
 ![LED-driver-board-V.01-front-panel.PNG](/assets/Images/LED-driver-board-V.01-front-panel.PNG)
@@ -90,7 +84,7 @@ We designed a 3D plastic enclosure ([Onshape](https://cad.onshape.com/documents/
 
 **The Optogenetics-LED driver board itself features:**
 
-- Terminal screw for power input (Right) .
+- Terminal screw for power input (Right).
 - Terminal screws for PWM input (LEFT).
 - 10 turn knop potentiometer for manual setup of output power.
 - IR LED straight pin header, 2.54mm pitch, 20 way, 1 row, Marker signal.
@@ -99,15 +93,19 @@ We designed a 3D plastic enclosure ([Onshape](https://cad.onshape.com/documents/
 ![LED-driver-board-V.01-top-panel.PNG](/assets/Images/LED-driver-board-V.01-top-panel.PNG)
 
 
-**To assemble the LED-Board enclosure you will need the following :**
+### Assembling the LED-board enclosure
+
+You will need the following components:
 
 - 3D-printed boxes (2 in total, 1 per L/R side)
 - LED Driver PCB- [Driver-.01](/assets/src/Design_Files_LED_Driver_.01)
 
 - Black, Red Female Banana Socket - Solder Termination (RS Componentss, [888-4588](https://benl.rs-online.com/web/p/banana-connectors/8884588)) (Q:1 for each box)
+
 - JST PH 2 pin cable male Header (Digi-Key, [1528-2617-ND](https://www.digikey.be/product-detail/en/adafruit-industries-llc/3814/1528-2617-ND/9380221)) (Q: 3 for each box)
 
 - 2 different colors of hook up wire (about 15cm each color)
+
 - Toggle Switch DPDT (Digi-Key, [EG2400-ND](https://www.digikey.be/product-detail/en/e-switch/100DP1T1B1M2QEH/EG2400-ND/378869)) (1 for each)
 
 - Clear Plastic Sheet, 500mm x 400mm x 1.5mm (RS Componentss, [769-8724](https://benl.rs-online.com/web/p/plastic-sheets/7698724))
@@ -119,7 +117,7 @@ We designed a 3D plastic enclosure ([Onshape](https://cad.onshape.com/documents/
 
 
 
-You also need:
+You also need the following tools:
 
 - Screw Driver Bit Set (RS Components, [668-5723](https://benl.rs-online.com/web/p/screwdriver-bit-sets/6685727); amazon.de, [B01M7PPJI7](https://www.amazon.co.uk/Precision-Screwdriver-Magnetic-Macbook-Electronics/dp/B01M7PPJI7))
 
@@ -137,7 +135,7 @@ You also need:
 
 ![LED-driver-board-V.01-components-enclosure.PNG](/assets/Images/LED-driver-board-V.01-components-enclosure.PNG)
 
-**Steps**
+#### Procedure
 
 **1\.** Connect the banana socket (RS, [888-4588](https://benl.rs-online.com/web/p/banana-connectors/8884588)) at the two holes named Vin in the front panel of the enclosure, solder two 10cm hook wires to the end of the socket, insulate both with a heat shrink tubing. the other opened end will be connected to the LED drivers board
 
@@ -212,13 +210,18 @@ Each panel is connected via 20-way IDC cable to the powering platform of the enc
 
 ![Series_connection_LED_sketch.PNG](/assets/Images/Series_connection_LED_sketch.PNG)
 
-**Assembling the custom-made connection hub**
+### Assembling the custom-made connection hub
 
 You will need:
-- PCB Prototype Board, Snappable Strip Board (Amazon.nl, [B081R45KN8](https://www.amazon.nl/-/en/dp/B081R45KN8) )
-- Tinned-Copper Wire Breadboard Jumper Wire (RS Components,0.5mm [199-6217](https://benl.rs-online.com/web/p/breadboard-jumper-wire/1996217) ;0.8mm RS Componentss, [199-6231](https://benl.rs-online.com/web/p/breadboard-jumper-wires/1996228) ;1mm RS Componentss, [199-6228](https://benl.rs-online.com/web/p/breadboard-jumper-wires/1996231))
-- Right Angle PCB Header, 2.54mm Pitch, 20 Way, 2 Row (RS Components, [832-3519](https://benl.rs-online.com/web/p/pcb-headers/8323519))
-- Straight PCB Header, 2.54mm Pitch, 20 Way, 2 Row, Through Hole (RS Components, [832-3499](https://benl.rs-online.com/web/p/pcb-headers/8323499/))
+
+- PCB Prototype Board, Snappable Strip Board (Amazon.nl, [B081R45KN8](https://www.amazon.nl/-/en/dp/B081R45KN8)).
+
+- Tinned-Copper Wire Breadboard Jumper Wire (RS Components,0.5mm [199-6217](https://benl.rs-online.com/web/p/breadboard-jumper-wire/1996217) ;0.8mm RS Componentss, [199-6231](https://benl.rs-online.com/web/p/breadboard-jumper-wires/1996228) ;1mm RS Componentss, [199-6228](https://benl.rs-online.com/web/p/breadboard-jumper-wires/1996231)).
+
+- Right Angle PCB Header, 2.54mm Pitch, 20 Way, 2 Row (RS Components, [832-3519](https://benl.rs-online.com/web/p/pcb-headers/8323519)).
+
+- Straight PCB Header, 2.54mm Pitch, 20 Way, 2 Row, Through Hole (RS Components, [832-3499](https://benl.rs-online.com/web/p/pcb-headers/8323499/)).
+
 - 3D-designed enclosure with cover.
 
 You'll also need the following tools:
@@ -234,7 +237,7 @@ You'll also need the following tools:
 
 ![Series_connection_LED_parts.PNG](/assets/Images/Series_connection_LED_parts.PNG)
 
-**Procedure:**
+#### Procedure:
 
 **1\.** Using jumper wire to connect the +ve and -ve side of the 20-way PCB headers from each side
 
@@ -267,54 +270,70 @@ You'll also need the following tools:
 
 ## Power supply
 
-In addition to our customized LED driver, you will also need a DC power supply. The drivers are connected to the power supply using high load power leads. It is necessary that the input DC voltage and current are more than the inputs required to run the LEDs. Use of LEDs with a lower or high forward current could result in damage to the LED. Power supply with an output voltage of 30V, and a current output of more than 7A would be ideal to run 20 series circuits of 4 square PCBs with each 1 LED at 0.35A e.g. (DC Laboratory Power Supply, 0-30V 0-10A DC Adjustable Switching (Banggood, [1121229](https://nl.banggood.com/LONG-WEI-LW-K3010D-110V-or-220V-30V-10A-Adjustable-Digital-DC-Power-Supply-Switching-Power-Supply-p-1121229.html); amazon.de, [KPS-3010D](https://www.amazon.de/-/en/Eventek-Laboratory-Adjustable-Stabilised-Digital/dp/B071HW378T/) ; [B085S34NNW](https://www.amazon.de/-/en/KAIWEETS-Laboratory-adjustable-DC0-10A-overload/dp/B085S34NNW/); [B07D358Q96](https://www.amazon.de/dp/B07D358Q96/))). One of the possible power supplies for the LED star drivers also would be the [LRS-350-36](https://www.digikey.be/en/products/detail/mean-well-usa-inc/LRS-350-36/7705032) from Meanwell to run  20 series circuits of 4 star PCBs with each 3 LEDs at 0.35A = 7A. for example using switching power supplies, the LED driver will output 0.35A at 12xVf (which could be as low as 30.6V or as high as 33.48V).
+In addition to our customized LED driver, you will also need a DC power supply. The drivers are connected to the power supply using high load power leads. It is necessary that the input DC voltage and current are more than the inputs required to run the LEDs. Use of LEDs with a lower or high forward current could result in damage to the LED. Power supply with an output voltage of 30V, and a current output of more than 7A would be ideal to run 20 series circuits of 4 square PCBs with each 1 LED at 0.35A. An example of a PSU that would fulfil this would be the DC Laboratory Power Supply, 0-30V 0-10A DC Adjustable Switching (Banggood, [1121229](https://nl.banggood.com/LONG-WEI-LW-K3010D-110V-or-220V-30V-10A-Adjustable-Digital-DC-Power-Supply-Switching-Power-Supply-p-1121229.html); amazon.de, [KPS-3010D](https://www.amazon.de/-/en/Eventek-Laboratory-Adjustable-Stabilised-Digital/dp/B071HW378T/) ; [B085S34NNW](https://www.amazon.de/-/en/KAIWEETS-Laboratory-adjustable-DC0-10A-overload/dp/B085S34NNW/); [B07D358Q96](https://www.amazon.de/dp/B07D358Q96/)). 
 
-LED drivers and power supply are connected via 4 mm Test Lead Banana to Banana  (60" Digi-Key, [501-1791-ND](https://www.digikey.be/de/products/detail/pomona-electronics/2BA-60/736432); 48" Digi-Key, [501-1663-ND](https://www.digikey.be/de/products/detail/pomona-electronics/2BA-48/736431) ;24" [501-1696-ND](https://www.digikey.be/de/products/detail/pomona-electronics/2BA-24/736429)) (Digi-Key, 9.4" [BKCT2062-25-0-ND](https://www.digikey.be/de/products/detail/cal-test-electronics/CT2062-25-0/5398848); 24" [BKCT2062-50-0-ND](https://www.digikey.be/de/products/detail/cal-test-electronics/CT2062-50-0/5398854); 39.4" [BKCT2060-100-0-ND](https://www.digikey.be/de/products/detail/cal-test-electronics/CT2060-100-0/5398800); 59.1" [BKCT2062-150-0-ND](https://www.digikey.be/de/products/detail/cal-test-electronics/CT2062-150-0/5398836); [BKCT2062-25-2-ND](https://www.digikey.be/de/products/detail/cal-test-electronics/CT2062-25-2/5398849); 24" [BKCT2062-50-2-ND](https://www.digikey.be/de/products/detail/cal-test-electronics/CT2062-50-2/5398855); 39.4" [BKCT2062-100-2-ND](https://www.digikey.be/de/products/detail/cal-test-electronics/CT2062-100-2/5398831); 59.1" [BKCT2062-150-2-ND](https://www.digikey.be/de/products/detail/cal-test-electronics/CT2062-150-2/5398837)) the length of the cable depend on the distance between different devices.
+One of the possible power supplies for the LED star drivers also would be the [LRS-350-36](https://www.digikey.be/en/products/detail/mean-well-usa-inc/LRS-350-36/7705032) from Meanwell to run  20 series circuits of 4 star PCBs with each 3 LEDs at 0.35A = 7A. for example using switching power supplies, the LED driver will output 0.35A at 12xVf (which could be as low as 30.6V or as high as 33.48V).
+
+LED drivers and power supplies are connected via 4 mm Test Lead Banana to Banana. The length of the cables you need will depend on the distances between different devices, so below you can find a variety of options to accomodate this:
+- 60" Digi-Key, [501-1791-ND](https://www.digikey.be/de/products/detail/pomona-electronics/2BA-60/736432)
+
+- 59.1" Digi-Key, [BKCT2062-150-2-ND](https://www.digikey.be/de/products/detail/cal-test-electronics/CT2062-150-2/5398837) or [BKCT2062-150-0-ND](https://www.digikey.be/de/products/detail/cal-test-electronics/CT2062-150-0/5398836)
+
+- 48" Digi-Key, [501-1663-ND](https://www.digikey.be/de/products/detail/pomona-electronics/2BA-48/736431)
+
+- 39.4" Digi-Key, [BKCT2060-100-0-ND](https://www.digikey.be/de/products/detail/cal-test-electronics/CT2060-100-0/5398800) or [BKCT2062-100-2-ND](https://www.digikey.be/de/products/detail/cal-test-electronics/CT2062-100-2/5398831)
+
+- 24" Digi-Key, [501-1696-ND](https://www.digikey.be/de/products/detail/pomona-electronics/2BA-24/736429)
+
+- 19.7" Digi-Key, [BKCT2062-50-0-ND](https://www.digikey.be/de/products/detail/cal-test-electronics/CT2062-50-0/5398854) or [BKCT2062-50-2-ND](https://www.digikey.be/de/products/detail/cal-test-electronics/CT2062-50-2/5398855)
+
+- 9.8" Digi-Key, [BKCT2062-25-2-ND](https://www.digikey.be/de/products/detail/cal-test-electronics/CT2062-25-2/5398849) or [BKCT2062-25-0-ND](https://www.digikey.be/de/products/detail/cal-test-electronics/CT2062-25-0/5398848)
 
 
-## Light Sources (IR & Optogenetic LEDs panel stuffing and arrangements)
+
+## Light Sources (IR & Optogenetic LED installations)
 
 We designed and 3D printed plastic stencils to be fixed on the top surface of the heatsink to be used as a guide for stuffing the LEDs in the correct positions to provide homogenous illumination beneath each recording chamber.
 
-**Install the IR backlighting**
+### Install the IR backlighting
 
 For this step, you will need:
 
 - 3D-designed part (Q:1x)
 
-- 3D-designedpart (Q:1x)
+- 3D-designed part (Q:1x)
 
-- Soldering station ([Amazon](https://www.amazon.de/-/en/Soldering-Desoldering-Temperature-Adjustable-Conversion/dp/B08C51QRH5/ref=sr_1_17?keywords=alpha+metals+om338+pastel%C3%B6tmittel&qid=1639747374&sr=8-17) or [**122-7917**](https://benl.rs-online.com/web/p/soldering-stations/1227917), RS components)
+- Soldering station ([Amazon](https://www.amazon.de/-/en/Soldering-Desoldering-Temperature-Adjustable-Conversion/dp/B08C51QRH5/ref=sr_1_17?keywords=alpha+metals+om338+pastel%C3%B6tmittel&qid=1639747374&sr=8-17) or RS components, [**122-7917**](https://benl.rs-online.com/web/p/soldering-stations/1227917))
 
-- Male JSC cable(XX, Digikey)
+- Male JSC cable (XX, Digikey)
 
 - 220-cm IR LEDStrips (XX, ledlightsworld) (Q:22x cut 10-cm each)
 
-**Assembly steps:**
+#### Procedure
 
-  **1\.** Mount the plastic stencil at the top surface of the heatsink. Fix with at least two M1.6x6mm screw from the midline of the heatsink.
+**1\.** Mount the plastic stencil at the top surface of the heatsink. Fix with at least two M1.6x6mm screw from the midline of the heatsink.
 
-  **2\.** Cut twenty-two pieces of 10-cm LED strips, eleven to be mounted on each heatsink.
+**2\.** Cut twenty-two pieces of 10-cm LED strips, eleven to be mounted on each heatsink.
 
-  **3\.** You might want to clean the surface of the heatsink from any remaining residue or dust with some ethanol and air pressure (e.g., "Dust-Off" from RS, [169-9912](https://benl.rs-online.com/web/p/air-dusters/1699912/) or Conrad, [827802](https://www.conrad.be/nl/search.html?search=827802)).
-  
-  **4\.** Peel off the tape backing of the strips back to expose the adhesive side
+**3\.** You might want to clean the surface of the heatsink from any remaining residue or dust with some ethanol and air pressure (e.g., "Dust-Off" from RS, [169-9912](https://benl.rs-online.com/web/p/air-dusters/1699912/) or Conrad, [827802](https://www.conrad.be/nl/search.html?search=827802)).
 
-  **5\.** Place the IR-LED strip of tape at the top mount of the aluminum heatsink.
+**4\.** Peel off the tape backing of the strips back to expose the adhesive side
 
-  **6\.** Make sure to press firmly on the IR-LED stripes to prevent it from peeling it off.
+**5\.** Place the IR-LED strip of tape at the top mount of the aluminum heatsink.
 
-  **7\.** Heat your soldering iron station to 350-400 degrees Celsius.
+**6\.** Make sure to press firmly on the IR-LED stripes to prevent it from peeling it off.
 
-  **8\.** Add a small part of soldering material to the surface of the copper pads on the IR LED strips
+**7\.** Heat your soldering iron station to 350-400 degrees Celsius.
 
-  **9\.** Wiring the IR-LED-strips together by connecting the +ve to the +ve copper pads and the -ve to the -ve pads.
+**8\.** Add a small part of soldering material to the surface of the copper pads on the IR LED strips
 
-  **10\.** Once you have attached the two wires, wait for at least 30 seconds for it to cool down.
+**9\.** Wiring the IR-LED-strips together by connecting the +ve to the +ve copper pads and the -ve to the -ve pads.
 
-  **11\.** Use hot air gun to place a shrink tube over the exposed soldered part at the end of each LED stripes.
+**10\.** Once you have attached the two wires, wait for at least 30 seconds for it to cool down.
 
-  **12\.** At the end of the strip connect a JST wire with female plug to be connected to the male JST power supply plug on the setup powering panel at the back side of the wiring box.
+**11\.** Use hot air gun to place a shrink tube over the exposed soldered part at the end of each LED stripes.
+
+**12\.** At the end of the strip connect a JST wire with female plug to be connected to the male JST power supply plug on the setup powering panel at the back side of the wiring box.
 
 
 **Type of LEDs used for optogenetic application**
@@ -327,7 +346,9 @@ For this step, you will need:
 | LUXEON Rebel 627 nm Red High-Power LED, 3-Pin SMD package. | 200  | Digi-Key | [LXM2-PD01-0050](https://www.digikey.be/nl/products/detail/lumileds/LXM2-PD01-0050/3961247) | ![Image](/assets/src/Commercial_Parts/Suppliers-Stock-Images/Digi-Key-LXM2-PD01-0050.jpg) |
 |                                          |      |          |                                          |                                          |
 
-**Number of LEDs and arrangements**
+### Installing LEDs for optogenetics
+
+#### Number of LEDs and arrangements
 
 The number of LEDs depends on the required light intensity that could be able to activate or inhibit select populations of neurons. Another factor is the size of the mounting and illuminated areas on the heatsink. Fortunately, the above LED types are sold in any quantity. If you order for example 200 pieces,they will be in a single cut tape from the same bin. Also, if you provide your vendor or supplier with your PO they might ensure that your repeat orders of LEDs are sent with the same [LED bin number](https://support.luxeonstar.com/hc/en-us/articles/360022625594-What-does-LED-binning-mean-) each time you order.
 
@@ -335,16 +356,15 @@ Beneath each half-chamber we can mount eight aluminum 10-mm square bases, four f
 
 
 
-**LED soldering and assembly:**
+#### LED soldering and assembly
 
-We mounted our LEDs on Saber brand 10 mm Square Metal CorePrinted Circuit Board construction (MCPCB) Aluminum blank bases ([LXB-RS10A](https://www.luxeonstar.com/saber-10mm-square-blank-mcpcb-base-for-rebel-leds), Luxeonstar). Each base is designed to accommodate a single Luxeon Rebel LED.
+We mounted our LEDs on Saber brand 10 mm Square Metal CorePrinted Circuit Board construction (MCPCB) Aluminum blank bases (Luxeonstar, [LXB-RS10A](https://www.luxeonstar.com/saber-10mm-square-blank-mcpcb-base-for-rebel-leds)). Each base is designed to accommodate a single Luxeon Rebel LED.
 
 We decided to order the power LEDs from Digikey and their MCPCB bases (Luexeonstar) to be assembled with standard hand soldering method using an appropriate lead-free solder paste with a hot air soldering iron or top-soldering hotplate and accordingto the [assembly Procedure forLUXEON® Rebel LEDs.](https://lumstatic.com/En/0i/WQb7sgG5kseBR4dwjA.pdf).
 
 Homemade soldering ensures that all of your LEDs will have the same specific flux, color, and forward voltage bins. In addition, you will not need to wait for four to five weeks to have additional stock.
 
 An extra reason to solder the LEDs ourselves is that same order of multiple LED assemblies of the same type can have different binning across LED modules which can cause a variability in the power, wavelength, and the light intensity across the illuminated area. Additionally, most manufacture cannot provide LED assemblies from same bin (read more about [LED-binning](https://support.luxeonstar.com/hc/en-us/articles/360022625594-What-does-LED-binning-mean-)) unless you order in reels in 1,000 piece increments.
-
 
 
 **LED assembly Procedure**
@@ -376,9 +396,7 @@ An extra reason to solder the LEDs ourselves is that same order of multiple LED 
 
 
 
-**LED Cooling and top mount of optogenetic LEDs panel**
-
-
+#### LED Cooling and top mount of optogenetic LEDs panel
 
 Running high power LEDs requires a cooling system to dissipate the heat produced inside the LEDs. In our setup cooling is already achieved by mounting the LED directly to a finned [aluminum heat sink](https://www.digikey.be/en/products/detail/wakefield-vette/125404/9957688) with a running air flow to extract the heat from the heatsink enclosure. The assembly of this is covered in more detail in the [heatsink installation](./Heatsink-Installation.md) section.
 
@@ -388,11 +406,10 @@ Running high power LEDs requires a cooling system to dissipate the heat produced
 
 
 
-**Adding the LEDs to the IDOC system**
+#### Adding the LEDs to the IDOC system
 
 After soldering the LEDs to MCPCB aluminum base. The assembly is mounted directly to the heatsink using [double-sided thermal tape](https://www.luxeonstar.com/pre-cut-thermal-tape-for-10mm-square-bases-10pcs) without the need for screws or fasteners.
 
- **For stuffing the LEDs on the top of the heatsink:**
 
 **1\.** You might want to clean the surface of the heatsink from any remaining residue or dust with some ethanol and air pressure (e.g., dust off  RS , [169-9912](https://benl.rs-online.com/web/p/air-dusters/1699912/) or Conrad, [827802](https://www.conrad.be/nl/search.html?search=827802)).
 
@@ -415,7 +432,7 @@ After soldering the LEDs to MCPCB aluminum base. The assembly is mounted directl
 
 
 
-**LED-interconnect and powering**
+#### LED-interconnect and powering
 
 Once every LEDs on the heatsink are mounted, you can inter wire the LEDs to form series circuit connections between strings of the same color.
 
@@ -429,12 +446,9 @@ Once every LEDs on the heatsink are mounted, you can inter wire the LEDs to form
 
 **5\.** Once you have attached all wires to all LED strings, insert the 40 powering cable from the holes of the aluminum angle profile and then solder the end of the cable with +ve and -ve of each LED string according to the following mapping and color of the wires.
 
-   ![Ribbon-cable-mapping.PNG](/assets/Images/Ribbon-cable-mapping.PNG)
+![Ribbon-cable-mapping.PNG](/assets/Images/Ribbon-cable-mapping.PNG)
 
-
-   ​
-
-#### **LED Power Connector**
+#### LED Power Connector
 
 The LED drivers and optogenetic LED panels are connected via the ribbon cables with 20-way IDC connectors, which are compatible with all LED assemblies in the system. See Section pinout of **LED Driver** , **Arduino control board**. You can go to the section (**Setup wiring & Optogenetic LEDs panel Connectors**) to know how to assemble flat ribbon cables with an IDC connector.
 
