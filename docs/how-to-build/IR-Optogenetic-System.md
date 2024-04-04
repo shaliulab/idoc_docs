@@ -5,7 +5,7 @@
 2. [Power supply](#power-supply)
 3. [Light sources](#light-sources-ir--optogenetic-leds-panel-stuffing-and-arrangements) 
 
-## **Introduction**
+## Overview
 
 The Optogenetics-LED module is specially designed to provide high power light to control neural activity, enabling study of *Drosophila* associated behaviors related to neuron networks. Optogenetic experiments carried out with freely moving fly inside a custom-made chamber.
 

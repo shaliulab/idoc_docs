@@ -1,5 +1,7 @@
 # **Electric Shocks Delivery Circuit**
 
+## Overview
+
 Electric shocks are commonly used in *Drosophila* research to deliver a controlled electrical shock to the flies during aversive learning and memory experiments. The circuits typically consist of a power supply, and a set of electrodes that can be placed in contact with the flies. The intensity and duration of the electric shock can be controlled by adjusting the voltage and pulse duration of the circuit. However, the specific design and implementation of electric shock delivery circuits can vary widely depending on the specific experimental setup and research question.
 
 The electric shock system consists of a series of components that are designed to regulate the delivery of electric shocks, including a programmable power source and custom glass slides coated with Indium Tin Oxide (ITO) to allow for current delivery through the glass. The circuit is also designed to be controlled by a computer, which can allow for precise control over the timing and intensity of the electric shocks delivered to individual flies, which can be important for controlling experimental variables and ensuring reproducibility of results.

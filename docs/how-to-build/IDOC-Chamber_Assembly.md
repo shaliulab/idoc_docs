@@ -1,5 +1,9 @@
 # Assembly of chambers in Learning Memory Setup
 
+## Table of contents
+
+## Overview
+
 The IDOC chambers are the key to delivering stimuli to isolated flies while also being able to visually monitor them. Their core design revolves around having controlled points of air in-/out-flow and transparent windows to allow for tracking. Other stimuli such as electric shocks, heat and light (for optogenetic stimulation) can be incorporated as well, via modifications to the chambers or the rest of the machine.
 
 For our IDOC system, we have 2 main chamber variants:

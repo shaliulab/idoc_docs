@@ -10,7 +10,7 @@
 6. [Fixing the light box](#6-fixing-the-light-box)
 7. [Cooling the heatsink](#7-cooling-the-heatsink)
   
-
+## Overview
 
 Running high power LEDs requires a cooling system to dissipate the heat produced inside the LEDs. The system consists of a custom-built heatsink that is installed to mount the IR-LEDs and high power LEDs board to prevent overheating of the LEDs used for optogenetic stimulation during behavioral experiments on *Drosophila*.  In our setup, cooling is achieved by mounting the LED directly to a finned [aluminum heat sink](https://www.digikey.be/en/products/detail/wakefield-vette/125404/9957688) with a running air flow to extract the heat from the heatsink enclosure. Building the heatsink involves selecting and installing a compatible heatsink, applying thermal paste, and ensuring proper contact between the heatsink and high power LEDs .
 

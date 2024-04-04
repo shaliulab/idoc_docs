@@ -1,9 +1,7 @@
 # Air/Odors Delivery System
 
-The IDOC Air/Odors Delivery System is in charge of delivering controlled air and odor stimuli to *Drosophila* during behavioral experiments. The system consists of a custom-built manifold, solenoid valves, and an Arduino microcontroller.
 
 ## Table of Contents
-
 
 1. [Overview](#overview)
 2. [Map](#map)
@@ -17,6 +15,8 @@ The IDOC Air/Odors Delivery System is in charge of delivering controlled air and
 10. [3D printed parts](#3d-printed-parts)
 
 ## Overview
+
+The IDOC Air/Odors Delivery System is in charge of delivering controlled air and odor stimuli to *Drosophila* during behavioral experiments. The system consists of a custom-built manifold, solenoid valves, and an Arduino microcontroller.
 
 1. **Solenoid** valves, which regulate the flow of air and odor stimuli through the manifold.
 2. **The manifold**, which consists of a series of ports for delivering air and odor stimuli to the IDOC chamber.

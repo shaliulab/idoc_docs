@@ -1,5 +1,7 @@
 # **Setup wiring & Optogenetic LEDs panel Connectors**
 
+## Overview
+
 The Arduino control unit, the LED drivers, optogenetic LED panels, solenoid valves and the IDOC setup  are connected via the ribbon cables with20-way IDC connector, which is compatible with all LED assemblies in the system- see Section pinout of **LED Driver** , **Arduino control board** ).  In this following section two 20-way IDC female connectors and  flat ribbon cables are used to assemble a cable with an IDC connector.
 
 

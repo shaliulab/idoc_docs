@@ -2,6 +2,7 @@
 
 ![IDOC isometric](/assets/Images/IDOC_isometric.png)
 
+## Overview
 
 This section will focus on the assembly of the main testing area contained in the enclosure. Note that while most of the assembly revolves around joining together 3D printed parts, there are certain components/sections of the system that warrant their own section where their development is documented with more detail. Here we're mainly trying to show how all these parts come together.
 
