@@ -16,11 +16,11 @@ The electric shock system in the IDOC can be grouped into 3 key sections.
 
 **Electrical connections for the chamber tray**
 
-To deliver the current to the pins of the IDOC chambers, we embed connector sockets into the tray that holds the chambers. For each chamber, there is a set of 4 contact sockets, totalling to 80 sockets for the entire IDOC setup. The connectors are made by combining the "clamp-side" of a connector socket (Digi-Key, [962876-2](https://www.digikey.be/en/products/detail/te-connectivity-amp-connectors/962876-2/2332160)) with a basic pin header (RS Components, [681-2994](https://benl.rs-online.com/web/p/pcb-headers/6812994/)) soldered into its bottom half.
+To deliver the current to the pins of the IDOC chambers, we embed connector sockets into the tray that holds the chambers. For each chamber, there is a set of 4 contact sockets, totalling to 80 sockets for the entire IDOC setup. The connectors are made by combining the "clamp-side" of a connector socket (Digi-Key, [962876-2](https://www.digikey.be/en/products/detail/te-connectivity-amp-connectors/962876-2/2332160)) with a basic pin header (RS Components, [681-2994](https://benl.rs-online.com/web/p/pcb-headers/6812994/)) soldered into its bottom half. These can easily be inserted into their designated slots in the chamber tray. However, to ensure that they stay in place, you might need to apply some glue, or heat the clamp with a soldering iron as you are pressing them in (so as to have it melt into the surrounding plastic). If you decide to use the melting method, then remember to take extra precautions regarding the fumes from the melting plastic!
 
 ![ESock-socket.PNG](/assets/Images/ESock-socket.PNG)
 
-Either side of the chamber has 2 sockets, one negative and one positive. The wiring design can be seen in the figure below.
+Both sides of an electroshock chamber have 2 terminals, one negative and one positive. To match this, the chamber tray also needs to have 2 clamps on either side of every chamber slot. To ensure that each clamp can deliver the desired voltage and polarity, we need to connect each pin in an interwoven pattern. The design can be seen in the figure below. All pins of the same polarity are connected in series with each other.
 
 ![ESock-socket-connection.PNG](/assets/Images/ESock-socket-connection.PNG)
 
