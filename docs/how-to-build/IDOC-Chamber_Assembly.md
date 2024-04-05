@@ -30,11 +30,11 @@ The following sections describe how to build and test either of the chamber type
 
 ### 1. Cleaning and Adjusting printed parts
 
-* 1.1 - Make sure to remove any remaining material from the **support** or **adhesion** of your 3D printed parts. Use warm water to dissolve PVA Material.
+* Make sure to remove any remaining material from the **support** or **adhesion** of your 3D printed parts. Use warm water to dissolve PVA Material.
 
-* 1.2 - Remove any excess material in the 8 screw holes using a **[2 mm drill bit](https://www.amazon.de/-/en/FOCCTS-0-5-3-0-Rotating-Jewellery-Beeswax/dp/B07DXLFRQ8)**.
+* Remove any excess material in the 8 screw holes using a [2 mm drill bit](https://www.amazon.de/-/en/FOCCTS-0-5-3-0-Rotating-Jewellery-Beeswax/dp/B07DXLFRQ8).
 
-* 1.3 - Ensure that the needle holes are clean by removing any excess material in them with a **[0.8 mm drill bit](https://www.amazon.de/-/en/FOCCTS-0-5-3-0-Rotating-Jewellery-Beeswax/dp/B07DXLFRQ8)**. Check all 3 needle holes (top, left and right).
+* Ensure that the needle holes are clean by removing any excess material in them with a [0.8 mm drill bit](https://www.amazon.de/-/en/FOCCTS-0-5-3-0-Rotating-Jewellery-Beeswax/dp/B07DXLFRQ8). Check all 3 needle holes (top, left and right).
 
 
 ### 2. Screws and Needles Insertion
@@ -64,7 +64,7 @@ note: the middle rubber that hold the inner chamber is custom made to a specific
 
 * Place one inner chamber in the center of the rubber  
 
-* Prepare the inner chamber **0.8 mm** holes. Use 0.8 mm drill bit and a very sharp 0.8 mm needle to adjust the three holes. Check the quality of **fish-shape**.
+* Prepare the inner chamber 0.8 mm holes. Use 0.8 mm drill bit and a very sharp 0.8 mm needle to adjust the three holes. Check the quality of **fish-shape**.
 
 * Insert the green needles from step 2, until their tip comes out inside the triangular cavities in the inner chamber. Make sure the needles are not blocked or closed. Pressing air through with a syringe can help.
 
@@ -82,11 +82,11 @@ note: the middle rubber that hold the inner chamber is custom made to a specific
 
 ### 6. Cleaning, top Glass insertion and Closing
 
-* Add a second **glass-slide** on the top of the inner chamber; Keep them horizontal on the bench. The slide must stand out and fit into its place 
+* Add a second glass-slide on the top of the inner chamber; Keep them horizontal on the bench. The slide must stand out and fit into its place 
 
 * Add the top rubber above the glass-slide 
 
-* Add the **window** to the chamber, then attach 8x nuts (RS, [248-4551](https://benl.rs-online.com/web/p/hex-nuts/2484551/)) to the screws. Balance and twist them using 4 mm Hexagon Nut Driver (RS, [323-2581](https://benl.rs-online.com/web/p/nut-drivers/3232581)). **Do not add much force** Only more squeezing, when they have leakage during testing the chamber.
+* Add the window to the chamber, then attach 8x nuts (RS, [248-4551](https://benl.rs-online.com/web/p/hex-nuts/2484551/)) to the screws. Balance and twist them using 4 mm Hexagon Nut Driver (RS, [323-2581](https://benl.rs-online.com/web/p/nut-drivers/3232581)). **Do not add much force** Only more squeezing, when they have leakage during testing the chamber.
 
 
 
