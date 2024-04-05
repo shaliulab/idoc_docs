@@ -432,17 +432,17 @@ After soldering the LEDs to MCPCB aluminum base. The assembly is mounted directl
 
 
 
-#### LED-interconnect and powering
+#### LED-interconnections and powering
 
-Once every LEDs on the heatsink are mounted, you can inter wire the LEDs to form series circuit connections between strings of the same color.
+Once all the LEDs are mounted to the heatsink, you can inter wire them to form series circuit connections between strings of the same color.
 
-**1\.** Cut about 250 pieces of about 2cm of wire cables (color red for red LED interconnection) while (color blue for blue LED interconnections).
+**1\.** Cut about 250 pieces of roughly 2cm long wires. Try to maintain colour coding where possible, so that red wires are used to interconnect red LEDs, and blue wires are used for blue LEDs.
 
 **2\.** With the use of a wire stripper, remove 0.5cm casing from each side.
 
-**3\.** Add a small part of soldering material to the surface the copper pads of each LED MCPCB
+**3\.** Add a small part of soldering material to the surface of the copper pads of each LED MCPCB
 
-**4\.** Wiring the LED-strips together by connecting the positive to the negative copper pads of the LEDs of the same color.
+**4\.** Wire the LED-strips together by connecting the positive to the negative copper pads of the LEDs of the same color.
 
 **5\.** Once you have attached all wires to all LED strings, insert the 40 powering cable from the holes of the aluminum angle profile and then solder the end of the cable with +ve and -ve of each LED string according to the following mapping and color of the wires.
 
@@ -450,5 +450,5 @@ Once every LEDs on the heatsink are mounted, you can inter wire the LEDs to form
 
 #### LED Power Connector
 
-The LED drivers and optogenetic LED panels are connected via the ribbon cables with 20-way IDC connectors, which are compatible with all LED assemblies in the system. See Section pinout of **LED Driver** , **Arduino control board**. You can go to the section (**Setup wiring & Optogenetic LEDs panel Connectors**) to know how to assemble flat ribbon cables with an IDC connector.
+The LED drivers and optogenetic LED panels are connected via the ribbon cables with 20-way IDC connectors, which are compatible with all LED assemblies in the system. See Section pinout of **LED Driver**, **Arduino control board**. You can go to the section (**Setup wiring & Optogenetic LEDs panel Connectors**) to know how to assemble flat ribbon cables with an IDC connector.
 
