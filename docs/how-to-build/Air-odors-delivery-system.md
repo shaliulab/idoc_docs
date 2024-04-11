@@ -129,7 +129,7 @@ With the use of a wire stripper, remove at least 1 cm casing to expose the cut w
 
 To ensure that the odors are precisely delivered at only the time of the applications, each input is first passed through a 3-port solenoid exhaust valve (Aliexpress/Miniyard, [32881849871 (12V)](https://www.aliexpress.com/item/32881849871.html)) that only opens when getting a 12VDC signal. This way, upon stopping the odor valves, the air flow delivered to the chambers/flies will stop and be diverted to the NO port of the exhaust valves. In turn, this is connected to a water receiver to avoid spreading in the room. We consistently found an undesired flow of air up to 7 seconds after stopping the odor (because there is bubbling in the water bottle for as much time). Had this stream not been released, the fly would continue receiving diluted odor stimuli at the end of each treatment. 
 
-To install this unit you will need the following items:
+**To install this unit you will need the following items:**
 
 - Female Luer Bulkhead Fitting (Aliexpress/MicroFluidics Store, [RH-C-M024](https://www.aliexpress.com/item/4000025751111.html)) Q:12x
 
@@ -144,7 +144,7 @@ To install this unit you will need the following items:
 - Resistor Kit, 10ohm to 1Mohm Resistors (Farnell, [MF0W4FFE006KIT](https://be.farnell.com/multicomp/mf0w4ffe006kit/resistor-kit-0-25w-1-e6/dp/9342362))
 
 
-You also will need
+**You also will need**
 
 - Soldering Station (RS Components, [122-7917](https://benl.rs-online.com/web/p/soldering-stations/1227917); for Hot Air Amazon.de, [8786D](https://www.amazon.de/-/en/Soldering-Desoldering-Temperature-Adjustable-Conversion/dp/B08C51QRH5/))
 
@@ -222,7 +222,7 @@ Each chamber has two outputs in the middle. Each output allows the air to flow o
 | IDC ribbon cable , one IDC connector in one end while the other end is opened. | 1 | |
 
 
-Other parts 
+**Other parts**
 
 
 | **Article   Description**                | **Qty**     | **Supplier**                     | **Item # & link**                        | **Supplier   Image**                     |

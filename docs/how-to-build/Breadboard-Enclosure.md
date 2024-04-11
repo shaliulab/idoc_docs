@@ -31,7 +31,7 @@ Building the IDOC enclosure involves several steps:
 
 The enclosure has three main sections: The breadboard, enclosure itself, and the camera enclosure. In this page we will explain how to build the first two, see the [camera enclosure](/how-to-build/Camera-Enclosure) section for the last one.
 
-The enclosure is made from [25 mm rails](https://www.thorlabs.de/newgrouppage9.cfm?objectgroup_id=194) and [black hardboard](https://www.thorlabs.de/newgrouppage9.cfm?objectgroup_id=190#2535) panels. The panels are placed between the rail channels. The enclosure is designed with the following inner dimensions (L x W x H) 500mm x 500mm x 700 mm.
+The enclosure is made from [25 mm rails](https://www.thorlabs.de/newgrouppage9.cfm?objectgroup_id=194) and [black hardboard](https://www.thorlabs.de/newgrouppage9.cfm?objectgroup_id=190#2535) panels. The panels are placed between the rail channels. The enclosure is designed with the following inner dimensions 500mm x 500mm x 700 mm (L x W x H).
 
 
 ## List of components
@@ -47,7 +47,7 @@ The parts needed are provided in a separate [table](/docs/List-of-Commercial-Par
 
 ### 1. Fabricate the board
 
-For this step, you will need:
+**For this step, you will need:**
 
 * Black hardboard (Thorlabs, [TB4](https://www.thorlabs.de/thorproduct.cfm?partnumber=TB4))
 * Black hardboard (Thorlabs, [TB5](https://www.thorlabs.de/thorproduct.cfm?partnumber=TB5))
@@ -66,7 +66,7 @@ The final size of the panels:
 
 ![Black-board-setup-enclosure.PNG](/assets/Images/Black-board-setup-enclosure.PNG)
 
-#### Procedure
+**Procedure**
 
 1. Use a tape to mark a line by pencil on the face of the board. The final size should be ~ 5 mm longer and wider than the rail length to fit in the walls and the roof.
 2. Cut all the way through the board following the pencil lines. The board is soft, so proceed carefully, an aluminum flat bar can be used to maintain a straight cut.
@@ -77,7 +77,7 @@ The final size of the panels:
 
 ### 2. Join the rails and build the walls
 
-For this step, you will need:
+**For this step, you will need:**
 
 * Low-Profile Channel Screw (Q: 12x)
 * Construction Cube with Slotted Corners (Q: 4x)
@@ -88,7 +88,7 @@ For this step, you will need:
 
 ![Setup-enclosure.PNG](/assets/Images/Setup-enclosure.PNG)
 
-#### Procedure
+**Procedure**
 
 1. Attach a low-profile channel screw to the construction cube. The low-profile screw has a shortened cap height that prevents neighboring screws from interfering with each other.
 2. Insert 2 screws in perpendicular directions through the cube into the end of each rail and tighten both screws with the balldriver to connect the two rails.
@@ -103,7 +103,7 @@ The roof is special because you need to cut a window through which the camera ca
 
 ![Top-roof.PNG](/assets/Images/Top-roof.PNG)
 
-For this step, you will need:
+**For this step, you will need:**
 
 * Low-Profile Channel Screws (Q:10x)
 * Low-Profile T-Nut (Q: 14x)
@@ -119,7 +119,7 @@ Since the construction cube provided by Thorlabs ([RM1S - 1](https://www.thorlab
 
 
 
-#### Procedure
+**Procedure**
 
 1. Attach low-profile channel screw to the construction cube.
 2. Insert the screw into the threaded hole in the end of each rail and tighten both screws with the balldriver to connect the two rails.
@@ -150,7 +150,7 @@ For installation of the IR-Filter and white LED light source you will need the f
 * 60 cm white LED Strips (ledlightsworld, [F5050PW30-NW](https://ledlightsworld.com/products/dc-12v-dimmable-smd5050-300-flexible-led-strips-60-leds-per-meter-10mm-width-900lm-per-meter-1?variant=17867978080346)) (Q:4x cut 15 cm each)
 * Cutter
 
-#### Procedure (Build)
+**Procedure (Build)**
 
 1. Fasten the four LED strips (15 cm each) in place with their adhesive side tape.
 2. Solder and connect all LED strips in the square box, the powering wire should be long enough to be connected to a PSU outside the enclosure. Select the wire with red (+V) and black (-V) colors for easy maintenance.
@@ -158,7 +158,7 @@ For installation of the IR-Filter and white LED light source you will need the f
 4. This step can be delayed until the complete assembly of the enclosure to avoid scratching of the black IR sheet.
 5. In case you decide to attach the IR filter, cover its surface with masking tape or paper, so you don't scratch it while building the other parts of the enclosure.
 
-#### Procedure (Installation)
+**Procedure (Installation)**
 
 The position of the window in the roof is key to make sure all chambers are visible. Follow this step to cut the window and install the box with the IR filter.
 
@@ -181,7 +181,7 @@ From our *in vivo* patch clamp electrophysiology data, we see that only high int
 ![Blue-light-installation.PNG](/assets/Images/Blue-light-installation.PNG)
 
 
- For this step, you will need:
+**For this step, you will need:**
 
 * 100 cm Blue LED Strips (ledlightsworld, [F3528Blue60-NW](https://ledlightsworld.com/products/colorful-dc-12v-dimmable-smd3528-600-flexible-led-strips-120-leds-per-meter-8mm-width-600lm-per-meter?variant=17870690320474)) (Q:2x cut 50 cm each)
 * Soldering station ([Amazon](https://www.amazon.de/-/en/Soldering-Desoldering-Temperature-Adjustable-Conversion/dp/B08C51QRH5/ref=sr_1_17?keywords=alpha+metals+om338+pastelötmittel&qid=1639747374&sr=8-17)) (RS components, [122-7917](https://benl.rs-online.com/web/p/soldering-stations/1227917))
@@ -191,7 +191,7 @@ From our *in vivo* patch clamp electrophysiology data, we see that only high int
 * JST PH 2 pin cable male Header (Digi-Key, [1528-2617-ND](https://www.digikey.be/product-detail/en/adafruit-industries-llc/3814/1528-2617-ND/9380221))
 
 
-#### Procedure (build)
+**Procedure (build)**
 
 1. Clamp the end of the LED strip using a soldering arm stand.
 2. Since LED light coppers pads have only two terminals, we choose to connect with a 2-bin JST cable with female plug which has two wires one with red color, while the other is black color.
@@ -202,7 +202,7 @@ From our *in vivo* patch clamp electrophysiology data, we see that only high int
 7. Use hot air gun to place a shrink tube over the exposed soldered part at the end of each LED strips
 8. With scissor cut two of 50 cm LED strips.
 
-#### Procedure (installation)
+**Procedure (installation)**
 
 1. Once everything in the enclosure is set, you can peel off the tape backing expose the adhesive side
 2. Place the blue LED strip of tape at the black aluminum rail on the roof.
@@ -216,7 +216,7 @@ Proper ventilation inside the enclosure will preserve its ambient temperature an
 
 ![Suction_vent.PNG](/assets/Images/Suction_vent.PNG)
 
-To install the exhaust vents cap, you will need the following:
+**You will need the following:**
 
 * Threaded_cap_top_external_vacuum_succion_size_GL45_part_1_of_2 [3D Designed](/assets/src/3D_printed_parts/Enclosure&Powering/Exhaust_vents/Threaded_cap_top_external_vacuum_succion_size_GL45_part_1_of_2.stl) (Q: 2x)
 
@@ -228,7 +228,7 @@ To install the exhaust vents cap, you will need the following:
 * Cutter
 * Tape measure or ruler
 
-#### Procedure
+**Procedure**
 
 1. Connect the fitting Straight adaptor to the middle hole of the vent cap, tighten the adaptor using 13 mm spanner.
 2. Make two holes in the roof of the enclosure so the two exhaust caps can be inserted. A pencil or other sharp tool can be used to mark the holes. A cutter or a 44 mm hole saw drill can be useful to get smooth hole.
@@ -236,7 +236,7 @@ To install the exhaust vents cap, you will need the following:
 
 ### 7. Enclosure door
 
-The following parts are needed:
+**The following parts are needed:**
 
 * [Black hardboard](https://www.thorlabs.de/newgrouppage9.cfm?objectgroup_id=190#2535)  510mmx762mm (L x W) (Thorlabs, [TB5](https://www.thorlabs.de/thorproduct.cfm?partnumber=TB5)) (Q: 2x)
 * Aluminum Sandwich Panel Black 510x762 mm (Plexikopen, [Black RAL 9005 3 mm](https://www.plexikopen.be/aluminum-sandwichpaneel-kleur))
@@ -247,7 +247,7 @@ To close the front side of the enclosure during an experiment, we combined one o
 
 
 
-#### Procedure
+**Procedure**
 
 1. Use Adhesive double-sided tape to combine one of [TB5](https://www.thorlabs.de/thorproduct.cfm?partnumber=TB5) black hardboard together with a black aluminum [sandwich panel](https://www.plexikopen.be/aluminum-sandwichpaneel-kleur).
 2. To close the enclosure, slide the door board from the top into the top parallel channels of the cube-rail-constructions.
@@ -260,7 +260,7 @@ To fully automate the control of the setup, lighting, odor/air delivery tubing a
 ![Holes_on_back_side_enclosure.PNG](/assets/Images/Holes_on_back_side_enclosure.PNG)
 ![Holes-on-back-side-enclosure-2.PNG](/assets/Images/Enclosure-back-side.PNG)
 
-The followings items are needed:
+**The followings items are needed:**
 
 * Open_screw_thread_neck_size_GL45_tubing_insertion_part_1of_2 [3D-Design](/assets/src/3D_printed_parts/Enclosure&Powering/Holes_backside_enclosure/Tubing_hole/Open_screw_thread_neck_size_GL45_tubing_insertion_part_1of_2.stl)
 * Open_topped_screw_cap_size_GL45_tubing_insertion_part_2_of_2 3D-Design
@@ -286,7 +286,7 @@ Tubes for odor delivery and suction access the setup through two holes in the bo
 ![Tubing-holes.PNG](/assets/Images/Tubing-holes.PNG)
 ![tubing-insertion-assembly.PNG](/assets/Images/tubing-insertion-assembly.PNG)
 
-#### Procedure
+**Procedure**
 
 1. Use a pencil and a round ring to precisely mark two holes in each side of the bottom of the back wall so the tubing can be inserted inside the enclosure.
 2. Cut all the way through the board following the pencil lines. The blackboard is soft, so proceed carefully. A 44 mm hole saw drill can be useful. Be careful not to injure your fingers.
@@ -300,7 +300,7 @@ We also need to connect the LED drivers for optogenetics manipulation; and the A
 ![Bottom-powering-window.PNG](/assets/Images/Bottom-powering-window.PNG)
 ![Ouside_wire_box_cover_bottom.PNG](/assets/Images/Ouside_fixation_frame_bottom.PNG)
 
-#### Procedure
+**Procedure**
 
 1. Use a pencil and 3D-printed square to precisely mark two windows in each side of the bottom of the back wall so the IDC connectors of the setup and optogenetic panel can be powered.
 2. The two windows are approximately 5 cm from the bottom of the enclosure. Space these holes about 6 cm apart.
@@ -319,7 +319,7 @@ A solid black aluminum baseplate with threaded mounting holes provides a conveni
 
 ### Baseplate assembly procedure
 
-Construct the baseplate in the following manner:
+**Construct the baseplate in the following manner:**
 
 1. Insert a [black hardboard](https://www.thorlabs.de/newgrouppage9.cfm?objectgroup_id=190#2535) panel below the aluminum breadboard at the bottom side,
 

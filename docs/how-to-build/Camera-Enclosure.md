@@ -94,7 +94,7 @@ The following parts are needed to create a base for the above camera mount const
 ![Camera-mounting-base_2.PNG](/assets/Images/Camera-mounting-base_2.PNG)
 
 
-The following parts are needed to construct the camera mount:
+**The following parts are needed to construct the camera mount:**
 
   * Ø12.7 mm Optical Post, SS, M4 Setscrew, M6 Tap, L = 300 mm (Thorlabs, TR300/M) (Q: 2x)
 
@@ -114,7 +114,7 @@ The following parts are needed to construct the camera mount:
 
 
 
-### Procedure
+**Procedure**
 
 1.    Remove the M4 setscrew at the end of 100-mm posts using a 2-mm hex key.
 
@@ -136,7 +136,7 @@ The following parts are needed to construct the camera mount:
 ![Camera-mounting.PNG](/assets/Images/Camera-mounting.PNG)
 
 
-The following parts are needed to create a base for the above camera mount construction:
+**The following parts are needed to create a base for the above camera mount construction:**
 
  * Ø12.7 mm Optical Post, SS, M4 Setscrew, M6 Tap, L = 100 mm (Thorlabs, TR100/M). (Q: 1x)
 
@@ -152,7 +152,7 @@ The following parts are needed to create a base for the above camera mount const
 
 
 
-### Procedure
+**Procedure**
 
 1.    Use a 2-mm hex key to secure three screws supplied with the camera mount to attach the camera to the mounting plate
 
@@ -179,7 +179,7 @@ The camera enclosure placed on the top of the setup enclosure to provide minimum
 
 ### Customize the [black hardboard](https://www.thorlabs.de/newgrouppage9.cfm?objectgroup_id=190#2535)
 
-The following supplies are needed:
+**The following supplies are needed:**
 
  * [Black hardboard](https://www.thorlabs.de/newgrouppage9.cfm?objectgroup_id=190#2535) (Thorlabs, TB4)
 
@@ -193,17 +193,17 @@ The following supplies are needed:
 
 Be sure that the correct size of the black board has been ordered or in house customized to fit the dimensions of the camera enclosure. Only TB4 blackboard is  used. The camera enclosure is not fully closed, the left and right walls are free.
 
- Here is the final size:
+Here is the final size:
 
-·    Vertical panels that form the front and back walls: 510-mm x 255-mm (L x W)
+· Vertical panels that form the front and back walls: 510-mm x 255-mm (L x W)
 
-·    The top panel that forms the roof of the enclosure: 510-mm to 255-mm (L x W)
+· The top panel that forms the roof of the enclosure: 510-mm to 255-mm (L x W)
 
 ![Black-board-camera-enclosure.PNG](/assets/Images/Black-board-camera-enclosure.PNG)
 
 
 
-### Procedure
+**Procedure**
 
 1.   Using a tape measure mark a line by pencil on the face of black board to the correct size. Be sure that the final size is about 5 mm longer and 5 mm wider than the rail length to fit in the walls and the roof.
 
@@ -215,27 +215,27 @@ Be sure that the correct size of the black board has been ordered or in house cu
 
 ##  Join the rails & build the walls and roof
 
-For this step, you will need:
+**For this step, you will need:**
 
- * Low-Profile Channel Screw (Q: 16x)
+* Low-Profile Channel Screw (Q: 16x)
 
- * Construction Cube with Slotted Corners (Q: 4x)
+* Construction Cube with Slotted Corners (Q: 4x)
 
- * 25-mm square construction rail 250-mm length (Q: 6x)
+* 25-mm square construction rail 250-mm length (Q: 6x)
 
- * 25-mm square construction rail 500-mm length (Q: 2x)
+* 25-mm square construction rail 500-mm length (Q: 2x)
 
- * Customized (510-mm x 255-mm) black hardboard (Q: 3x)
+* Customized (510-mm x 255-mm) black hardboard (Q: 3x)
 
- * Mounting base T-brackets; to connect camera enclosure to setup enclosure, [3D designed]( /src/3D_printed_parts/Mounting_base_T-brackets-vertical-rails-connecter.stl) (Q: 4x)
+* Mounting base T-brackets; to connect camera enclosure to setup enclosure, [3D designed]( /src/3D_printed_parts/Mounting_base_T-brackets-vertical-rails-connecter.stl) (Q: 4x)
 
- * 4-mm balldriver or hex key
+* 4-mm balldriver or hex key
 
 ![Camera-enclosure.PNG](/assets/Images/Camera-enclosure.PNG)
 
 
 
-### Procedure
+**Procedure**
 
 1.   Attach low-profile channel screw to a construction cube. Then, push the screw into the threaded hole in the end of each 500-mm rail and tighten both screws down with the balldriver to connect the two rails.
 
@@ -262,7 +262,7 @@ For this step, you will need:
  ![Camera-mounting-base.PNG](/assets/Images/Camera-mounting-base.PNG)
 
 
-### Procedure
+**Procedure**
 
 1.   After installation, mounting and adjust the camera. Move the camera enclosure to the top of the setup enclosure to protect the camera.
 

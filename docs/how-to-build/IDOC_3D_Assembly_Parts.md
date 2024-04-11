@@ -126,7 +126,7 @@ The holders are meant to have some freedom of movement to accomodate any motion 
 
 Until now, the entire basement box has been exposed on the bottom side. This area needs to be covered to protect the tubing/wiring on the inside while also providing a more stable foundation for the system.
 
-We used an acrylic plastic glass sheet (RS Components, [824-676](https://benl.rs-online.com/web/p/plastic-sheets/0824660)) to act as a cover for the system. To prepare this sheet to be mounted on the setup base, you'll first need to cut it to the setup size. For all the cutting tasks, we used a table Jigsaw (Conrad, [818878](https://www.conrad.be/nl/p/dremel-ms20-1-5-tafeldecoupeerzaag-70-w-zaagblad-lengte-100-mm-818878.html?searchType=SearchRedirect)); saw blade set (Conrad, [819573- 8J](https://www.conrad.be/nl/p/universele-houtzaag-ms51-dremel-2615ms51ja-n-a-819573.html)) to cut. 
+We used an acrylic plastic glass sheet (RS Components, [824-676](https://benl.rs-online.com/web/p/plastic-sheets/0824660)) to act as a cover for the system. To prepare this sheet to be mounted on the setup base, you'll first need to cut it to the setup size. For all the cutting tasks, we used a table-mounted jigsaw (Conrad, [818878](https://www.conrad.be/nl/p/dremel-ms20-1-5-tafeldecoupeerzaag-70-w-zaagblad-lengte-100-mm-818878.html?searchType=SearchRedirect); Conrad, [819573- 8J](https://www.conrad.be/nl/p/universele-houtzaag-ms51-dremel-2615ms51ja-n-a-819573.html)). 
 After cutting, the sheet was placed in its intended spot to allow us to mark the fixation holes. The holes were created by drilling the marked area. Note that they should be sized for M3 screws. Then simply fix the acrylic sheet to the box using 9 M3x12mm screws (Amazon, [B0963DYT9X](https://www.amazon.nl/-/en/dp/B0963DYT9X/)).
 
 
@@ -136,7 +136,7 @@ After cutting, the sheet was placed in its intended spot to allow us to mark the
 
 
 
-To isolate the setup from vibration, we added rubber feet (Anti Vibration Feet 22.4mm Natural Rubber (RS Components, [179-4808](https://benl.rs-online.com/web/p/anti-slip-pads/1794808/))) to the bottom of the setup.
+To isolate the setup from vibration, we added rubber feet (RS Components, [179-4808](https://benl.rs-online.com/web/p/anti-slip-pads/1794808/)) to the bottom of the setup.
 
 1. Remove the backing sheet from the rubber feet.
 2. Position the feet as desired, then press and hold for a few seconds until the adhesive has bonded.

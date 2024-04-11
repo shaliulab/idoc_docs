@@ -95,7 +95,7 @@ We designed a 3D-printable enclosure ([Onshape](https://cad.onshape.com/document
 
 ### Assembling the LED-board enclosure
 
-You will need the following components:
+**You will need the following components:**
 
 - 3D-printed boxes (2 in total, 1 per L/R side)
 - LED Driver PCB- [Driver-.01](/assets/src/Design_Files_LED_Driver_.01)
@@ -117,7 +117,7 @@ You will need the following components:
 
 
 
-You also need the following tools:
+**You also need the following tools:**
 
 - Screw Driver Bit Set (RS Components, [668-5723](https://benl.rs-online.com/web/p/screwdriver-bit-sets/6685727); amazon.de, [B01M7PPJI7](https://www.amazon.co.uk/Precision-Screwdriver-Magnetic-Macbook-Electronics/dp/B01M7PPJI7))
 
@@ -135,7 +135,7 @@ You also need the following tools:
 
 ![LED-driver-board-V.01-components-enclosure.PNG](/assets/Images/LED-driver-board-V.01-components-enclosure.PNG)
 
-#### Procedure
+**Procedure**
 
 **1\.** Connect the banana socket (RS, [888-4588](https://benl.rs-online.com/web/p/banana-connectors/8884588)) at the two holes named Vin in the front panel of the enclosure, solder two 10cm hook wires to the end of the socket, insulate both with a heat shrink tubing. the other opened end will be connected to the LED drivers board
 
@@ -184,7 +184,7 @@ You also need the following tools:
 ![LED-driver-board-V.01-2-enclosures-wiring.PNG](/assets/Images/LED-driver-board-V.01-2-enclosures-wiring.PNG)
 
 
-Initial operation & test of LED Driver
+**Initial operation & test of LED Driver**
 
 **14\.** Connect the driver to the power supply. Also the power supply can be connected directly via terminal screws at the PCB. **Attention!** Connect the LED driver to an already powered external power supply. Be sure that the input voltage corresponds to the input voltage range of the power LEDs.
 
@@ -212,7 +212,7 @@ Each panel is connected via 20-way IDC cable to the powering platform of the enc
 
 ### Assembling the custom-made connection hub
 
-You will need:
+**You will need:**
 
 - PCB Prototype Board, Snappable Strip Board (Amazon.nl, [B081R45KN8](https://www.amazon.nl/-/en/dp/B081R45KN8)).
 
@@ -224,7 +224,7 @@ You will need:
 
 - 3D-designed enclosure with cover.
 
-You'll also need the following tools:
+**You'll also need the following tools:**
 
 - Soldering Station (RS Components, [122-7917](https://benl.rs-online.com/web/p/soldering-stations/1227917); for Hot Air Amazon.de, [8786D](https://www.amazon.de/-/en/Soldering-Desoldering-Temperature-Adjustable-Conversion/dp/B08C51QRH5/))
 
@@ -237,7 +237,7 @@ You'll also need the following tools:
 
 ![Series_connection_LED_parts.PNG](/assets/Images/Series_connection_LED_parts.PNG)
 
-#### Procedure:
+**Procedure:**
 
 **1\.** Using jumper wire to connect the +ve and -ve side of the 20-way PCB headers from each side
 
@@ -297,7 +297,7 @@ We designed and 3D printed plastic stencils to be fixed on the top surface of th
 
 ### Install the IR backlighting
 
-For this step, you will need:
+**For this step, you will need:**
 
 - 3D-designed part (Q:1x)
 
@@ -309,7 +309,7 @@ For this step, you will need:
 
 - 220-cm IR LEDStrips (XX, ledlightsworld) (Q:22x cut 10-cm each)
 
-#### Procedure
+**Procedure**
 
 **1\.** Mount the plastic stencil at the top surface of the heatsink. Fix with at least two M1.6x6mm screw from the midline of the heatsink.
 
