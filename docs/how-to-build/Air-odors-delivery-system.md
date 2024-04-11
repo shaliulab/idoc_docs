@@ -172,7 +172,7 @@ You also will need
   * **Source.Voltage**: 12 VDC
   * **Forward Voltage**: white: 3.2-3.4 V; green: 3.0-3.2 V; yellow: 2.0-2.2 V; blue: 3.2-3.4 V; red: 2-2.2 V
   * **Forward Current**: 20 mA
-  * **Resistor**: $\frac{Source Voltage - Forward Voltage}{Forward Current}$
+  * **Resistor**: $`\frac{Source Voltage - Forward Voltage}{Forward Current}`$
 
   e.g. red color LED  = (12-2)/0.020 = 500 Ohm
 
@@ -184,7 +184,7 @@ You also will need
 
 ## Installation of the **Vacuum Suction system**
 
-Each chamber has two outputs in the middle. Each output allows the air to flow out of the chamber. To provide clear decision zones we connected each outlet port to an active vacuum. It is important that the out flow equals the inflow, which can be challenging to achieve. To make sure the system is balanced, we connect each outlet individually via a luer fitting male-female connection. Then all tubes are bundled together to be embedded into a vacuum receiver for each side. A 3D-designed and printed GL45 threaded cap with 20 holes were used to gather all of the tubes of one side. Glue and/or silicon paste was used to completely fix the tubing to the holes of the each cap. Each cap has an outlet port that connects to a threaded tube adaptor (RS Components, [121-6009](https://benl.rs-online.com/web/p/pneumatic-fittings/1216009/)), which is connected to the manifold of the vacuum system.
+Each chamber has two outputs in the middle. Each output allows the air to flow out of the chamber. To provide clear decision zones we connected each outlet port to an active vacuum. It is important that the out flow equals the inflow, which can be challenging to achieve. To make sure the system is balanced, we connect each outlet individually via a luer fitting male-female connection. Then all tubes are bundled together to be embedded into a vacuum receiver for each side. A 3D-designed and printed GL45 threaded cap with 20 holes were used to gather all of the tubes of one side. Glue and/or silicon paste was used to completely fix the tubing to the holes of the each cap. Each cap has an outlet port that connects to a Threaded-to-Tube adaptor (RS Components, [121-6009](https://benl.rs-online.com/web/p/pneumatic-fittings/1216009/)), which is connected to the manifold of the vacuum system.
 
 
 ![Vacuum-suction-tubing.PNG](/assets/Images/Vacuum-suction-tubing.PNG)
