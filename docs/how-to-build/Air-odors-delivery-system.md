@@ -169,12 +169,12 @@ You also will need
 
 - Connect a LED of your preferred color (amazon.de, [110040_SML](https://www.amazon.de/-/en/APTWONZ-Diffuse-Emitting-Electronic-Components/dp/B06X3VT6TD)) in parallel with each of the valve pins to act as marker when they're ON. While you can use a 1K Ohm resistor for all the LEDs, its encouraged to use more correct resistors (Farnell, [MF0W4FFE006KIT](https://be.farnell.com/multicomp/mf0w4ffe006kit/resistor-kit-0-25w-1-e6/dp/9342362)). Use the example below to see how you can choose the optimal resistor.
 
-  * **Source.Voltage**: 12 VDC
-  * **Forward Voltage**: white: 3.2-3.4 V; green: 3.0-3.2 V; yellow: 2.0-2.2 V; blue: 3.2-3.4 V; red: 2-2.2 V
-  * **Forward Current**: 20 mA
-  * **Resistor**: (Source Voltage - Forward Voltage)/(Forward Current)
+  - **Source Voltage**: 12 VDC
+  - **Forward Voltage**: white: 3.2-3.4 V; green: 3.0-3.2 V; yellow: 2.0-2.2 V; blue: 3.2-3.4 V; red: 2-2.2 V
+  - **Forward Current**: 20 mA
+  - **Resistor**: (Source Voltage - Forward Voltage)/(Forward Current)
 
-  * **Example**: Red color LED  = (12-2)/0.020 = 500 Ohm
+  - **Example**: Red color LED  = (12-2)/0.020 = 500 Ohm
 
   [Go to this website to calculate the resistor according the above values for each color](https://www.digikey.be/en/resources/conversion-calculators/conversion-calculator-led-series-resistor)
 
