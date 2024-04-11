@@ -172,7 +172,8 @@ You also will need
   * **Source.Voltage**: 12 VDC
   * **Forward Voltage**: white: 3.2-3.4 V; green: 3.0-3.2 V; yellow: 2.0-2.2 V; blue: 3.2-3.4 V; red: 2-2.2 V
   * **Forward Current**: 20 mA
-  * **Resistor**: $`\frac{Source Voltage - Forward Voltage}{Forward Current}`$
+  * **Resistor**: 
+  $$\frac{Source Voltage - Forward Voltage}{Forward Current}$$
 
   e.g. red color LED  = (12-2)/0.020 = 500 Ohm
 
