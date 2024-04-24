@@ -3,7 +3,7 @@
 ## Table of contents
 1. [LED drivers](#led-drivers)
 2. [Power supply](#power-supply)
-3. [Light sources](#light-sources-ir--optogenetic-leds-panel-stuffing-and-arrangements) 
+3. [Light sources](#light-sources-ir--optogenetic-led-installations) 
 
 ## Overview
 
