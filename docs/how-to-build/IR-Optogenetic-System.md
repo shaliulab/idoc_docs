@@ -303,11 +303,11 @@ We designed and 3D printed plastic stencils to be fixed on the top surface of th
 
 - 3D-designed part (Q:1x)
 
-- Soldering station ([Amazon](https://www.amazon.de/-/en/Soldering-Desoldering-Temperature-Adjustable-Conversion/dp/B08C51QRH5/ref=sr_1_17?keywords=alpha+metals+om338+pastel%C3%B6tmittel&qid=1639747374&sr=8-17) or RS components, [**122-7917**](https://benl.rs-online.com/web/p/soldering-stations/1227917))
+- Soldering station ([Amazon](https://www.amazon.de/-/en/Soldering-Desoldering-Temperature-Adjustable-Conversion/dp/B08C51QRH5/ref=sr_1_17?keywords=alpha+metals+om338+pastel%C3%B6tmittel&qid=1639747374&sr=8-17) or RS components, [122-7917](https://benl.rs-online.com/web/p/soldering-stations/1227917))
 
-- Male JSC cable (XX, Digikey)
+- Male JSC cable (Digikey, [1528-2617-ND](https://www.digikey.be/en/products/detail/adafruit-industries-llc/3814/9380221))
 
-- 220-cm IR LEDStrips (XX, ledlightsworld) (Q:22x cut 10-cm each)
+- 220-cm IR LED Strips (Ledlightsworld, [SMD5050-300-IR](https://ledlightsworld.com/products/dc12v-smd5050-300-ir-infrared-850nm-940nm-tri-chip-flexible-led-strips-60leds-14-4w-per-meter)) (Q:22x cut 10-cm each)
 
 **Procedure**
 
@@ -321,7 +321,7 @@ We designed and 3D printed plastic stencils to be fixed on the top surface of th
 
 **5\.** Place the IR-LED strip of tape at the top mount of the aluminum heatsink.
 
-**6\.** Make sure to press firmly on the IR-LED stripes to prevent it from peeling it off.
+**6\.** Make sure to press firmly on the IR-LED strips to prevent it from peeling it off.
 
 **7\.** Heat your soldering iron station to 350-400 degrees Celsius.
 
