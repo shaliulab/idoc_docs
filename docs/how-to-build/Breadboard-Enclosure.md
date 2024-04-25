@@ -109,13 +109,13 @@ The roof is special because you need to cut a window through which the camera ca
 * Low-Profile T-Nut (Q: 14x)
 * 25 mm square construction rail 500mm length (Q: 4x)
 * Construction cube with slotted corners (Q: 2x)
-* Construction-cube-with-slotted-channel-door-connection, [3D designed)](/src/3D_printed_parts/Construction_cube_with_slotted_channel_door_connection_universal.stl) (Q: 2x)
+* Construction-cube-with-slotted-channel-door-connection, [3D designed](/src/3D_printed_parts/Construction_cube_with_slotted_channel_door_connection_universal.stl) (Q: 2x)
 * Elbow-L-Connection to connect two rails at a 90° Elbow, [3D designed](/src/3D_printed_parts/Elbow_L-shape_door_connection.stl) (Q: 2x)
 * Customized (510 mm x 450 mm) black hard board (Q: 1x).
 * 4 mm balldriver or hex key
 
 
-Since the construction cube provided by Thorlabs ([RM1S - 1](https://www.thorlabs.de/thorproduct.cfm?partnumber=RM1S#ad-image-0)) only has slotted corners, we modified the later and 3D printed this ([3D design]( /src/3D_printed_parts/Construction_cube_with_slotted_channel_door_connection_universal.stl)) This cube is connected at each top of the front rails and so creates a parallel channel with front rails (see step: Build the enclosure roof). The modified cube creates a slider that allows us to insert the door.
+Since the construction cube provided by Thorlabs ([RM1S - 1](https://www.thorlabs.de/thorproduct.cfm?partnumber=RM1S#ad-image-0)) only has slotted corners, we modified the later and 3D printed this ([3D design](/src/3D_printed_parts/Construction_cube_with_slotted_channel_door_connection_universal.stl)) This cube is connected at each top of the front rails and so creates a parallel channel with front rails (see step: Build the enclosure roof). The modified cube creates a slider that allows us to insert the door.
 
 
 
@@ -263,17 +263,17 @@ To fully automate the control of the setup, lighting, odor/air delivery tubing a
 **The followings items are needed:**
 
 * Open_screw_thread_neck_size_GL45_tubing_insertion_part_1of_2 [3D-Design](/assets/src/3D_printed_parts/Enclosure&Powering/Holes_backside_enclosure/Tubing_hole/Open_screw_thread_neck_size_GL45_tubing_insertion_part_1of_2.stl)
-* Open_topped_screw_cap_size_GL45_tubing_insertion_part_2_of_2 3D-Design
-* IDC_connector_RED_BLUE_LEDs+IIndicators_LEFT_powering_panel_part_1_of_3
-* Ouside_fixation_box_bottom_powering_panel_part_2_of_3
-* Outside_box_cover_bottom_powering_panel_part_3_of_3
-* IDC_connector_RED_BLUE_LEDs+setup_RIGHT_powering_panel_part_1_of_3
-* Ouside_fixation_box_bottom_powering_panel_part_2_of_3
-* Outside_box_cover_bottom_powering_panel_part_3_of_3
-* IDC_CONNECTOR_GREEN_LEDs_top_powering_panel_part_1_of_3
-* Ouside_fixation_box_top_powering_panel_part_2_of_3
-* Outside_box_cover_top_powering_panel__part_1_of_3
-* Black (RS Component, [787-2338](https://benl.rs-online.com/web/p/banana-connectors/7872338) ; [738-474](https://benl.rs-online.com/web/p/banana-connectors/0738474/))
+* Open_topped_screw_cap_size_GL45_tubing_insertion_part_2_of_2 [3D-Design](docs\assets\src\3D_printed_parts\Enclosure&Powering\Holes_backside_enclosure\Tubing_hole\Open_topped_screw_cap_size_GL45_tubing_insertion_part_2_of_2.stl)
+* IDC_connector_RED_BLUE_LEDs+IIndicators_LEFT_powering_panel_part_1_of_3 [3D-Design](docs\assets\src\3D_printed_parts\Enclosure&Powering\Holes_backside_enclosure\Powering_panels\Bottom_left_panel\IDC_RED_BLUE_LEDs_IIndicators_LEFT_powering_panel_part_1_of_3.stl)
+* Ouside_fixation_box_bottom_powering_panel_part_2_of_3 [3D-Design](docs\assets\src\3D_printed_parts\Enclosure&Powering\Holes_backside_enclosure\Powering_panels\Bottom_left_panel\Ouside_fixation_box_bottom_powering_panel_part_2_of_3.stl)
+* Outside_box_cover_bottom_powering_panel_part_3_of_3 [3D-Design](docs\assets\src\3D_printed_parts\Enclosure&Powering\Holes_backside_enclosure\Powering_panels\Bottom_left_panel\Outside_box_cover_bottom_powering_panel_part_3_of_3.stl)
+* IDC_connector_RED_BLUE_LEDs+setup_RIGHT_powering_panel_part_1_of_3 [3D-Design](\assets\src\3D_printed_parts\Enclosure&Powering\Holes_backside_enclosure\Powering_panels\Bottom_right_panel\IDC_connector_RED_BLUE_LEDs+setup_RIGHT_powering_panel_part_1_of_3.stl)
+* Ouside_fixation_box_bottom_powering_panel_part_2_of_3 [3D-Design](docs\assets\src\3D_printed_parts\Enclosure&Powering\Holes_backside_enclosure\Powering_panels\Bottom_right_panel\Ouside_fixation_box_bottom_powering_panel_part_2_of_3.stl)
+* Outside_box_cover_bottom_powering_panel_part_3_of_3 [3D-Design](docs\assets\src\3D_printed_parts\Enclosure&Powering\Holes_backside_enclosure\Powering_panels\Bottom_right_panel\Outside_box_cover_bottom_powering_panel_part_3_of_3.stl)
+* IDC_CONNECTOR_GREEN_LEDs_top_powering_panel_part_1_of_3 [3D-Design](docs\assets\src\3D_printed_parts\Enclosure&Powering\Holes_backside_enclosure\Powering_panels\Top_right_and_left_panel\IDC_CONNECTOR_GREEN_LEDs_top_powering_panel_part_1_of_3.stl)
+* Ouside_fixation_box_top_powering_panel_part_2_of_3 [3D-Design](docs\assets\src\3D_printed_parts\Enclosure&Powering\Holes_backside_enclosure\Powering_panels\Top_right_and_left_panel\Ouside_fixation_box_top_powering_panel_part_2_of_3.stl)
+* Outside_box_cover_top_powering_panel__part_1_of_3 [3D-Design](docs\assets\src\3D_printed_parts\Enclosure&Powering\Holes_backside_enclosure\Powering_panels\Top_right_and_left_panel\Outside_box_cover_top_powering_panel__part_1_of_3.stl)
+* Black female banana connector (RS Component, [787-2338](https://benl.rs-online.com/web/p/banana-connectors/7872338) ; [738-474](https://benl.rs-online.com/web/p/banana-connectors/0738474/))
 * Red 4mm Socket (RS Components; [738-480](https://benl.rs-online.com/web/p/banana-connectors/0738480/) ; [787-2332](https://benl.rs-online.com/web/p/banana-connectors/7872332/))
 * Pencil
 * Cutter
