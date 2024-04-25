@@ -337,7 +337,7 @@ A solid black aluminum baseplate with threaded mounting holes provides a conveni
 
 ### Enclosure mount procedure
 
-The enclosure is attached directly to the baseplate using the XE25CL2 Clamp to mount a 25 mm rail horizontally to a M6 tapped surface by using a side-located rail channel.
+The enclosure is attached directly to the baseplate using the [XE25CL2 Clamp](https://www.thorlabs.com/thorproduct.cfm?partnumber=XE25CL2) to mount a 25 mm rail horizontally to a M6 tapped surface by using a side-located rail channel.
 
 ![Baseplate-enclosure-mount.PNG](/assets/Images/Baseplate-enclosure-mount.PNG)
 ![IDOC-baseplate-brackets-connection.PNG](/assets/Images/IDOC-baseplate-brackets-connection.PNG)
@@ -345,6 +345,6 @@ The enclosure is attached directly to the baseplate using the XE25CL2 Clamp to m
 
 1. Put the assembled enclosure on top of the assembled baseplate
 2. Align and center the enclosure on the baseplate by mount bottom rails horizontally on breadboard
-3. Slot the XE25CL2 clamp into the horizontal rail channel to secure it parallel to the bbaseplate surface,
+3. Slot the [XE25CL2 clamp](https://www.thorlabs.com/thorproduct.cfm?partnumber=XE25CL2) into the horizontal rail channel to secure it parallel to the bbaseplate surface,
 4. Inset M6 screw in the clamp's long clearance slot
 5. Move the clamps to the corners of the enclosure and tighten down with the [balldriver or hex key](https://www.thorlabs.de/newgrouppage9.cfm?objectgroup_id=1407).
