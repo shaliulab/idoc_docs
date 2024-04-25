@@ -14,7 +14,7 @@
     5. [Blue light LED strip](#5-blue-light-led-strip)
     6. [Roof exhaust vent](#6-roof-exhaust-vent)
     7. [Enclosure door](#7-enclosure-door)
-    8. [Tubing and power holes](#8-holes-and-power-holes)
+    8. [Tubing and power holes](#8-tubing-and-power-holes)
 4. [Baseplate](#baseplate)
   
 ##  Overview
