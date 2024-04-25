@@ -96,17 +96,17 @@ The following parts are needed to create a base for the above camera mount const
 
 **The following parts are needed to construct the camera mount:**
 
-  * Ø12.7 mm Optical Post, SS, M4 Setscrew, M6 Tap, L = 300 mm (Thorlabs, TR300/M) (Q: 2x)
+  * Ø12.7 mm Optical Post, SS, M4 Setscrew, M6 Tap, L = 300 mm (Thorlabs, [TR300/M](https://www.thorlabs.com/thorproduct.cfm?partnumber=TR300/M)) (Q: 2x)
 
- * Ø12.7 mm Optical Post, SS, M4 Setscrew, M6 Tap, L = 250 mm (Thorlabs, TR250/M) (Q: 2x)
+ * Ø12.7 mm Optical Post, SS, M4 Setscrew, M6 Tap, L = 250 mm (Thorlabs, [TR250/M](https://www.thorlabs.com/thorproduct.cfm?partnumber=TR250/M)) (Q: 2x)
 
- * Ø12.7 mm Optical Post, SS, M4 Setscrew, M6 Tap, L = 100 mm (Thorlabs, TR100/M-P5). (Q: 3x)
+ * Ø12.7 mm Optical Post, SS, M4 Setscrew, M6 Tap, L = 100 mm (Thorlabs, [TR100/M-P5](https://www.thorlabs.com/thorproduct.cfm?partnumber=TR100/M-P5)). (Q: 3x)
 
- * Parallel Clamp for Ø1/2" Posts, M4 Counterbore and 5 mm Hex (Thorlabs, RA360/M) (Q: 2x)
+ * Parallel Clamp for Ø1/2" Posts, M4 Counterbore and 5 mm Hex (Thorlabs, [RA360/M](https://www.thorlabs.com/thorproduct.cfm?partnumber=RA360/M)) (Q: 2x)
 
- * Right-Angle Clamp for Ø1/2" Posts, 5 mm Hex (Thorlabs, RA90/M-P5) (Q: 2x)
+ * Right-Angle Clamp for Ø1/2" Posts, 5 mm Hex (Thorlabs, [RA90/M-P5](https://www.thorlabs.com/thorproduct.cfm?partnumber=RA90/M-P5)) (Q: 2x)
 
- * M4 x 0.7 stainless steel cap screw, 10 mm Long (Thorlabs, SH4MS10) (Q: 2x)
+ * M4 x 0.7 stainless steel cap screw, 10 mm Long (Thorlabs, [SH4MS10](https://www.thorlabs.de/thorproduct.cfm?partnumber=sh4ms10)) (Q: 2x)
 
  * 2-mm balldriver or hex key.
 
@@ -138,11 +138,11 @@ The following parts are needed to create a base for the above camera mount const
 
 **The following parts are needed to create a base for the above camera mount construction:**
 
- * Ø12.7 mm Optical Post, SS, M4 Setscrew, M6 Tap, L = 100 mm (Thorlabs, TR100/M). (Q: 1x)
+ * Ø12.7 mm Optical Post, SS, M4 Setscrew, M6 Tap, L = 100 mm (Thorlabs, [TR100/M](https://www.thorlabs.com/thorproduct.cfm?partnumber=TR100/M)). (Q: 1x)
 
- * M6 x 1.0 Stainless Steel Setscrew, 10 mm Long (Thorlabs, SS6MS10). (Q: 1x)
+ * M6 x 1.0 Stainless Steel Setscrew, 10 mm Long (Thorlabs, [SS6MS10](https://www.thorlabs.com/thorproduct.cfm?partnumber=SS6MS10)). (Q: 1x)
 
- * Tripod Mount ace2 - Camera Mount Adapter (Basler, 2200000314) (Q: 1x)
+ * Tripod Mount ace2 - Camera Mount Adapter (Mouser, [2200000314](https://www.mouser.be/ProductDetail/Basler/2200000314?qs=vmHwEFxEFR99K%252BV3Q%252B8cxw%3D%3D)) (Q: 1x)
 
  * M3 Stainless Steel screw, 10 mm Long (supplied with camera mount adaptor). (Q: 3x)
 
@@ -181,7 +181,7 @@ The camera enclosure placed on the top of the setup enclosure to provide minimum
 
 **The following supplies are needed:**
 
- * [Black hardboard](https://www.thorlabs.de/newgrouppage9.cfm?objectgroup_id=190#2535) (Thorlabs, TB4)
+ * Black hardboard (Thorlabs, [TB4](https://www.thorlabs.de/newgrouppage9.cfm?objectgroup_id=190#2535))
 
  * Pencil
 
@@ -227,7 +227,7 @@ Here is the final size:
 
 * Customized (510-mm x 255-mm) black hardboard (Q: 3x)
 
-* Mounting base T-brackets; to connect camera enclosure to setup enclosure, [3D designed]( /src/3D_printed_parts/Mounting_base_T-brackets-vertical-rails-connecter.stl) (Q: 4x)
+* Mounting base T-brackets; to connect camera enclosure to setup enclosure, [3D designed](/src/3D_printed_parts/Mounting_base_T-brackets-vertical-rails-connecter.stl) (Q: 4x)
 
 * 4-mm balldriver or hex key
 
