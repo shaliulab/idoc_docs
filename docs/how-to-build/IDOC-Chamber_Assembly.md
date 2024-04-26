@@ -115,15 +115,15 @@ Both the pins and the connecting metal strip are made in-house from standard ele
 The ITO chambers are assembled from a combination of 3D printed parts and storebought parts (which have been further modified in some cases). The overall list of parts looks as follows:
 
 * 3D printed parts:
-    * Main chamber body (link)
-    * Top window (link)
-    * Inner chamber frame (link)
-    * L-shaped air plug (link)
+    * Main chamber body - [3D part](\src\3D_printed_parts\Recording_chambers\Chamber_ITO-Chamber.stl)
+    * Top window - [3D part](docs\assets\src\3D_printed_parts\Recording_chambers\Chamber_ITO-Window.stl)
+    * Inner chamber frame - [3D part](docs\assets\src\3D_printed_parts\Recording_chambers\Chamber-inner_chamber.stl)
+    * L-shaped air plug - [3D part](docs\assets\src\3D_printed_parts\Recording_chambers\Chamber_ITO-L_plug.stl)
     * Rubber cutting templates:
-        * Cutting base (link)
-        * Bottom rubber template (link)
-        * Middle rubber template (link)
-        * Top rubber template (link)
+        * Cutting base [3D part](docs\assets\src\3D_printed_parts\Recording_chambers\Rubber_cut-Base_template_piece.stl)
+        * Bottom rubber template [3D part](docs\assets\src\3D_printed_parts\Recording_chambers\Rubber_cut-Bot-rubber-template.stl)
+        * Middle rubber template [3D part](docs\assets\src\3D_printed_parts\Recording_chambers\Rubber_cut-Mid_rubber_template.stl)
+        * Top rubber template [3D part](docs\assets\src\3D_printed_parts\Recording_chambers\Rubber_cut-Top_rubber_template.stl)
 * Storebought:
     * 2x ITO glass slides
     * 3x needles with 0.8mm diameter
