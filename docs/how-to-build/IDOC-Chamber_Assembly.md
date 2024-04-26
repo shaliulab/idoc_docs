@@ -24,6 +24,12 @@ The following sections describe how to build and test either of the chamber type
 
 ## Fabricating the normal IDOC chambers
 
+**3D printed parts**
+
+* Main chamber body - [3D part](docs\assets\src\3D_printed_parts\Recording_chambers\Chamber_Non-ITO-Chamber.stl)
+* Chamber top window - [3D part](docs\assets\src\3D_printed_parts\Recording_chambers\Chamber_Non-ITO-Window.stl)
+* Inner chamber frame - [3D part](docs\assets\src\3D_printed_parts\Recording_chambers\Chamber-inner_chamber.stl)
+* L-shaped plug - [3D part](docs\assets\src\3D_printed_parts\Recording_chambers\Chamber_Non_ITO-L_plug.stl)
 
 [List of files to print](/assets/src/3D_printed_parts/Recording_chambers/)
 
