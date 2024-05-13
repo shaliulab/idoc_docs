@@ -122,7 +122,7 @@ The IR optogenetic panels are then covered by a 3D-printed box (light box). The 
 
 **Procedure**
 
-1. Once you assembled the 3D-printed light box (See: **Light Box Assembly**) and heatsink mounting brackets, insert the 3D-printed U-shaped mounting brackets from the bottom side of the heatsink
+1. Once you assembled the 3D-printed light box (pages 12-13 of [file](/IDOC_3D_Assembly_Parts.pdf)) and heatsink mounting brackets, insert the 3D-printed U-shaped mounting brackets from the bottom side of the heatsink
 2. Place the light box over the two top holes and allow it to slide down.
 3. Fix the light box onto the mounting brackets using the M2 x 8mm screws. Note that to move the box to the end of  each side of the heatsink
 4. The above step is necessary to fix the light box chamber correctly on the heatsink to allow marking and drilling the middle rail of the light box on the precise position. So, it is necessary to tighten all four screws securely against the mounting brackets of the light box and heatsink.
