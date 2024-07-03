@@ -122,7 +122,13 @@ With the use of a wire stripper, remove at least 1 cm casing to expose the cut w
 
 **Here is the pinout mapping of the cable connections:**
 
-![Ribbon-cable-mapping.PNG](/assets/Images/Ribbon-cable-mapping.PNG)
+
+|               **+**               |               **+**               |      **+**       |         **+**          |         **+**         |         **+**          |             **+**             |       **+**       |               **+**                |               **+**                |
+| :-------------------------------: | :-------------------------------: | :--------------: | :--------------------: | :-------------------: | :--------------------: | :---------------------------: | :---------------: | :--------------------------------: | :--------------------------------: |
+| **Odor B  Left IR-LED indicator** | **Odor A  Left IR-LED indicator** | **EShock  Left** | **IR  LED back light** | **Vibration  Motors** | **Tracking 3 objects** | **Low Voltage  ES Indicator** | **EShock  Right** | **Odor A  Right IR-LED indicator** | **Odor B  Right IR-LED indicator** |
+|               **-**               |               **-**               |      **-**       |         **-**          |         **-**         |         **-**          |             **-**             |       **-**       |               **-**                |               **-**                |
+
+
 
 
 ## Installation of the **Exhaust release Valves**
