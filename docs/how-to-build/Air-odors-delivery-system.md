@@ -42,8 +42,19 @@ NOTE: This map shows the connections needed to run a 1-odor conditioning experme
     2. The hot moist air is then passed through a larger 5L bottle filled with 4L of water (VWR, [215-0057](https://be.vwr.com/store/product/en/544458/laboratory-bottles-round) ) at room temperature to regulate the moisture air temperature.
 
 
-5. The moist air is passed through a 4-outlet manifold (RS, [431-7194](https://benl.rs-online.com/web/p/pneumatic-manifold-fittings/4317194)). The list below is how each port is connected along the path of airflow through the manifold:
+5. The moist air is passed through a 4-outlet manifold (RS, [431-7194](https://benl.rs-online.com/web/p/pneumatic-manifold-fittings/4317194)). The list below is how each of the 4 ports is connected along the path of airflow through the manifold. Note that each outflow port has a screw valve on it to control the amounts of exhaust and usable air. This is particularly useful to have on the air left/right ports, as this allows you to easily fix imbalances the flies might feel due to slightly varied airflow rates from either sides of the chambers.
 
+    1. First exhaust - Used to extract any condensed water that has accumulated in the tubing by this point. This tube is directed into a waste bucket.
+
+    2. Second exhaust - Used to fine tune the amount of usable air with the previusly mentioned screw valves. This outflow tube can be left as an open free-hanging exhaust since at this point no odors have been added to the flow.
+
+    3. Air left - Airflow that will be supplied from the left sides of all the chambers.
+
+    4. Air right - Airflow that will be supplied from the right sides of all the chambers.
+
+    5. Final outflow - Any leftover flow, directed to an outflow regulator valve, which in turn will exhaust it into the surroundings.
+    
+<!-- Old version of the outflow description
     1. Connected to an inflow regulator, **threaded flow regulator** (RS, [197-5337](https://benl.rs-online.com/web/p/pneumatic-function-fittings/1975337)) used to provide only the required volume of air.
 
     2. Connected to a glass bottle used to collect water which may condensate throughout the tubing.
@@ -51,7 +62,7 @@ NOTE: This map shows the connections needed to run a 1-odor conditioning experme
     3. Left open to release any extra pressure and stabilize the output of the inflow regulators.
 
     4. Plugged (RS, [367-6098](https://benl.rs-online.com/web/p/pneumatic-fitting-accessories/3676098)).
-
+-->
 
 6. The threaded flow regulator output is split into two streams to provide the ability to deliver **different stimuli in the left and right side** of the chambers. Every component from here onwards is thus duplicated, once for each side. Each stream (left and right) is passed through a flowmeter (0.4 L/min → 5 L/min, RS, [198-2919](https://benl.rs-online.com/web/p/flow-sensors/1982919/)). The flowmeters could be used to adjust the flow, but they are left fully open because the flow is meant to becontrolled by the threaded flow regulator mentioned earlier. They are however useful to measure the actual flow going through each stream independently, because this information can help diagnose problems affecting one of the streams but not the other. 
 
