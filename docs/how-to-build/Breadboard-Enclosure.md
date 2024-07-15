@@ -218,9 +218,7 @@ Proper ventilation inside the enclosure will preserve its ambient temperature an
 
 **You will need the following:**
 
-* Threaded_cap_top_external_vacuum_succion_size_GL45_part_1_of_2 [3D Designed](/assets/src/3D_printed_parts/Enclosure&Powering/Exhaust_vents/Threaded_cap_top_external_vacuum_succion_size_GL45_part_1_of_2.stl) (Q: 2x)
-
-* Threaded_cap_top_external_vacuum_succion_size_GL45_part_2_of_2 [3D Designed](/assets/src/3D_printed_parts/Enclosure&Powering/Exhaust_vents/Threaded_cap_top_external_vacuum_succion_size_GL45_part_2_of_2.stl) (Q: 2x)
+* Cap_GL45_vacuum_succion [3D Designed](/assets/src/3D_printed_parts/Enclosure&Powering/Exhaust_vents/Threaded_cap_top_external_vacuum_succion_size_GL45_part_1_of_2.stl) (Q: 2x)
 
 * Push in 6 mm fitting Straight adaptor G 1/8 Male (RS Components, [121-6009](https://benl.rs-online.com/web/p/pneumatic-fittings/1216009)) (Q:2x)
 * 13 mm Fork ring wrench or spanner (amazon.de, [M19652](https://www.amazon.de/-/en/Brothers-Mannesmann-M19652-wrench-pieces/dp/B000ET7G0E?th=1) ; [B001ILAFRI](https://www.amazon.de/-/en/171198-Combination-Spanner-Set-SW/dp/B001ILAFRI/))
