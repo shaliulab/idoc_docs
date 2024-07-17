@@ -74,9 +74,7 @@ NOTE: This map shows the connections needed to run a 1-odor conditioning experme
         * One-way check valves were used between connections to prevent mineral oil backflow (WPI, [14039-10](https://www.wpiinc.com/14039-10-check-valve-female-luer-lock-inlet-male-luer-lock-outlet) , Fisher, [11909638](https://www.fishersci.be/shop/products/san-one-way-luer-fitting/11909638)).   ​
 
 
-8. The humidified air/odor is now delivered to the recording chambers via 2 20-port 3D printed manifold. Each manifold provides the stimuli to all 20 chambers, but only on one side.
-
-    TODO chemical resistant silicon tubing or Tygon tubing  then collected from the tubing-wiring box and a male luer is connected to the other end which is connected to recording chambers female Luer.
+8. The humidified air/odor is now delivered to the recording chambers via 2 20-port 3D printed manifold. Each manifold provides the stimuli to all 20 chambers, but only on one side (1 manifold for all the left-side inflows, another for all the right-side inflows). This tubing should either be made from chemically resistant silicon or Tygon to ensure it is not affected by the oil/odor residue and can withstand cleaning with SDS. Each of the 20 tubes coming out of the manifold should terminate with a male luer (LINK HERE) to ensure that it can connect to the female connector on the recording chambers.
 
 9. After the odor valves are closed, there can be an undesired residual flow of diluted odor arriving to the animals.  To ensure that this never happens, and the stimuli are delivered with high time precision, each input is first passed through a **3-port solenoid exhaust valve** (Aliexpress/Miniyard, [32881849871 (12V)](https://www.aliexpress.com/item/32881849871.html)) that only opens when getting a 12V DC signal. This way, when stopping the odor valves, the residual odor is diverted to the NO port of the exhaust valve, which  collects to a waste bottle. We found that a residual current was present (via visible bubbling) in the waste bottle for about 7 seconds after stopping the **3-port solenoid valve**.
 
