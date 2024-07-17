@@ -34,7 +34,10 @@ This section will guide you through the first set-up steps required to make sure
 * Verify proper functionality of air/odor delivery system.
     * Check whether the water level in the air washing and warming section is sufficient. The air washing bottle should have roughly 600ml of water, and the water bath should have enough to submerge most of the washing bottle in.
 
-    * IMPORTANT! Inside the enclosure, check that the 3-way stopcock is positioned to allow for air/odor delivery and that the passive airflow is blocked.
+    * IMPORTANT! Inside the enclosure, check that the 3-way stopcock is positioned to allow for air/odor delivery and that the passive airflow is blocked. The figure below shows how the stopcock should be positioned (red paths denote air/odor flow, blue denotes passive airflow).
+
+    ![odor_flow_annotated.png](/assets/Images/odor_flow_annotated.png)
+
     * Connect your mineral oil and odor bottles to their respective in-/out-flow tubes. Make sure the air inflow into the bottles is directed into the oil (air needs to bubble through the oil). If done wrong, you can end up pumping oils into the airflow system of the IDOC!
     * Activate both the main air supply and the vacuum pumps from the relay control panel, and check the following:
         * Air inflow rates for both left and right side should be matching and similar to the outflow rate. Make any necessary adjustments at the inflow manifold.
@@ -113,7 +116,9 @@ follow with "Warm up" by pressing `3` and wait for a live feed of the enclosure 
 ![](/assets/Images/idoc-live-feed.jpg)
 
 
-Make sure you give enough time for all the flies to be picked up by the tracking software. If the flies are not moving and not getting detected by the tracking software, then activate the vibrator for short bursts until they move again.
+Make sure you give enough time for all the flies to be picked up by the tracking software. If the flies are not moving and not getting detected by the tracking software, then activate the vibrator for short bursts until they move again. You should also verify that the 3 reference dots for tracking are clearly visible in the video feed. Refer to the figure below to see where they should be visible
+
+![tracking_dots_annotated.png](/assets/Images/tracking_dots_annotated.png.jpg)
 
 * Select "Start" to start the paradigm by pressing `5`.
 
