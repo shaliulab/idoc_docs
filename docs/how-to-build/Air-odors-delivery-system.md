@@ -42,7 +42,7 @@ NOTE: This map shows the connections needed to run a 1-odor conditioning experme
     2. The hot moist air is then passed through a larger 5L bottle filled with 4L of water (VWR, [215-0057](https://be.vwr.com/store/product/en/544458/laboratory-bottles-round) ) at room temperature to regulate the moisture air temperature.
 
 
-5. The moist air is passed through a 4-outlet manifold (RS, [431-7194](https://benl.rs-online.com/web/p/pneumatic-manifold-fittings/4317194)). The list below is how each of the 4 ports is connected along the path of airflow through the manifold. Note that each outflow port has a screw valve on it to control the amounts of exhaust and usable air. This is particularly useful to have on the air left/right ports, as this allows you to easily fix imbalances the flies might feel due to slightly varied airflow rates from either sides of the chambers.
+5. The moist air is passed through a 4-outlet manifold (RS, [431-7194](https://benl.rs-online.com/web/p/pneumatic-manifold-fittings/4317194)). The list below describes how each of the 4 ports is connected along the path of airflow through the manifold. Note that each outflow port has a screw valve (RS, [197-5337](https://benl.rs-online.com/web/p/pneumatic-function-fittings/1975337)) on it to control the amounts of exhaust and usable air. This is particularly useful to have on the air left/right ports, as this allows you to easily fix imbalances the flies might feel due to slightly varied airflow rates from either sides of the chambers.
 
     1. First exhaust - Used to extract any condensed water that has accumulated in the tubing by this point. This tube is directed into a waste bucket.
 
