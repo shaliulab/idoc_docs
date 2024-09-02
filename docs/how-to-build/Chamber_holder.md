@@ -142,7 +142,61 @@ The light dividers are cut from their original storebough form into the required
 - Template lower layer
 - Template upper layer
 
-Note that to secure the 2 halves of the template together you will need X mm screws and ideally a scalpel to ensure a clean cut. 
+Note that to secure the 2 halves of the template together you will need X mm screws. Ideally also use a scalpel to ensure a clean cut of the filter material.
+
+(IMAGES 20220323_190243 AND 20220323_190635 AND 20220418_144316)
+
+Once filter pieces are cut, place them into their respective slots from the borrom of the chamber tray, inserting them flat side up. Push them until the "steps" in their structure meet resistance. Note that there is supposed to be some leftover filter jutting out from the gap. This extra material is supposed to be folded and tucked into the gap to create friction that holds it in place.
+
+(IMAGES 20220418_145711 AND 20220419_111909)
+
+### 8. Assembling and inserting the light diffusers
+
+For this stage you will need to 3D print the diffuser holder (Diffuser_holder). You will need a total of 20 of these as each chamber slot needs one. The diffuser material itself (Plexikopen, Polycarbonaat Opaal - product no longer valid) will also need to cut into 2 _mm by _mm pieces. These are to be inserted into the holder from either side. Note that they should be able to slide along the holder's grooves. At this stage you should leave a small gap between them.
+
+Once prepared, insert each holder with the diffuser into their respective slots, ensuring that the IR filter material can reach through it. Then follow up by closing the gap you previously left between the 2 diffuser blocks to lock the filter in place.
+
+(IMAGE 20220419_175312 AND 20220419_175343)
+
+### 9. Inserting the air outflow ports
+
+The metallic outflow ports have slots already prepared for them in the chamber tray, however to ensure optimal attachment, they should be inserted and then pushed a little further with the help of a solder iron. This would allow the metal to heat up and melt the surroundings into an ideal fitting.
+
+(IMAGE 20220419_175358)
+
+Once they have been inserted, you should be able to simply pull the vacuum tubing over the male end of the port. However, this should be done later when the entire chamber tray is finalized and being locked in place.
+
+### 10. Assemble and add the display system
+
+NOTE - this part is not actually part of the tray itself, but for now, no other section describes how to build and connect it. Put it here for now and move elsewhere when a better point is found.
+
+For this you will need the following 3D printed parts:
+
+- General holder - LEFT
+- General holder - RIGHT
+- Large filler
+- Small filler
+- Cover - LEFT
+- Cover - RIGHT
+
+TO DO
+
+### 11. Joining the tray to the IDOC body
+
+(this section assumes that the display system is already added and the long screws jutting out from there are already in place)
+
+(Do we need to print a frame piece for the "bottom end" of the tray - see image 20220506_112358)
+
+Start by covering the screws that come from the display system with springs. These are necessary to facilitate some freedom of movement during tray vibrations.
+
+(IMAGES 20220506_112338 AND 20220506_112358)
+
+Similarly, place screws on the "bottom" end of the IDOC frame and cover them with springs before fully driving them into the tray.
+
+### Final product
+
+(IMAGE 20220516_185807)
+
 
 ## Joining the tray with the system
 
