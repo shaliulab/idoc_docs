@@ -112,10 +112,10 @@ Like many other parts, the light box has to be printed in multiple smaller parts
 ### Chambers holder
 
 
-This is another part that is has been heavily customized and requires its own section regarding its assembly (see link). 
+This is another part that is has been heavily customized and requires its own section regarding its assembly (refer to the dedicated [chamber holder](Chamber_holder.md) section). 
 The finalized chamber holder is designed to be placed on top of the lightbox, with the IR filters fitting into the midline.
 
-The holders are meant to have some freedom of movement to accomodate any motion from the vibration pads. To allow for this, they are designed to be held in place by loosely fitting screws that are covered by a spring. (pic or some illustration needed)
+The holders are meant to have some freedom of movement to accomodate any motion from the vibration pads. To allow for this, they are designed to be held in place by loosely fitting screws that are covered by a spring.
 
 ![Chambers_holder.PNG](/assets/Images/Chambers_holder.PNG)
 
