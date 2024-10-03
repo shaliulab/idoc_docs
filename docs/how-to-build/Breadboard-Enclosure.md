@@ -117,8 +117,6 @@ The roof is special because you need to cut a window through which the camera ca
 
 Since the construction cube provided by Thorlabs ([RM1S - 1](https://www.thorlabs.de/thorproduct.cfm?partnumber=RM1S#ad-image-0)) only has slotted corners, we modified the later and 3D printed this ([3D design](/src/3D_printed_parts/Construction_cube_with_slotted_channel_door_connection_universal.stl)) This cube is connected at each top of the front rails and so creates a parallel channel with front rails (see step: Build the enclosure roof). The modified cube creates a slider that allows us to insert the door.
 
-
-
 **Procedure**
 
 1. Attach low-profile channel screw to the construction cube.
@@ -134,7 +132,7 @@ Since the construction cube provided by Thorlabs ([RM1S - 1](https://www.thorlab
 
 ### 4. Visualization window:
 
-A window (112 mm x 112 mm) is made in the center of the roof to allow the visualization of chambers. This window hosts a 3D-printed box which holds a [polyester infra-red (IR) sheet](https://www.leefilters.com/index.php/camera-directory/camera-dir-list/category/infrared) (100 mm x 100 mm) which has two uses. 1) to prevent unwanted visible light to transmit inside the enclosure and 2) only IR light can be visualized by the camera. Also, the inside face of 3D-printed box can hold a light source (e.g. white LED strip) that might be needed to illuminate the setup while cleaning or during maintenance work.
+A window (112 mm x 112 mm) is made in the center of the roof to allow the visualization of chambers via a camera top-view. This window hosts a 3D-printed box which holds a [polyester infra-red (IR) sheet](https://www.leefilters.com/index.php/camera-directory/camera-dir-list/category/infrared) (100 mm x 100 mm) which has two uses. 1) to prevent unwanted visible light to transmit inside the enclosure and 2) only IR light can be visualized by the camera. Also, the inside face of 3D-printed box can hold a light source (e.g. white LED strip) that might be needed to illuminate the setup while cleaning or during maintenance work.
 
 ![IR-window-top-roof.PNG](/assets/Images/IR-window-top-roof.PNG)
 ![IR-window-top-roof-mount.PNG](/assets/Images/IR-window-top-roof-mount.PNG)
