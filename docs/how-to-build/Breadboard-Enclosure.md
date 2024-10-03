@@ -1,6 +1,6 @@
 # Main Enclosure
 
-![Enclosure.png](/assets/Images/enclosure_annotated_trimemd.png)
+![Enclosure.png](/assets/Images/enclosure_annotated_trimmed.png)
 
 ## Table of Contents
 
