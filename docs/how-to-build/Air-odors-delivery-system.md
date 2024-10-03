@@ -42,8 +42,19 @@ NOTE: This map shows the connections needed to run a 1-odor conditioning experme
     2. The hot moist air is then passed through a larger 5L bottle filled with 4L of water (VWR, [215-0057](https://be.vwr.com/store/product/en/544458/laboratory-bottles-round) ) at room temperature to regulate the moisture air temperature.
 
 
-5. The moist air is passed through a 4-outlet manifold (RS, [431-7194](https://benl.rs-online.com/web/p/pneumatic-manifold-fittings/4317194)). The list below is how each port is connected along the path of airflow through the manifold:
+5. The moist air is passed through a 4-outlet manifold (RS, [431-7194](https://benl.rs-online.com/web/p/pneumatic-manifold-fittings/4317194)). The list below describes how each of the 4 ports is connected along the path of airflow through the manifold. Note that each outflow port has a screw valve (RS, [197-5337](https://benl.rs-online.com/web/p/pneumatic-function-fittings/1975337)) on it to control the amounts of exhaust and usable air. This is particularly useful to have on the air left/right ports, as this allows you to easily fix imbalances the flies might feel due to slightly varied airflow rates from either sides of the chambers.
 
+    1. First exhaust - Used to extract any condensed water that has accumulated in the tubing by this point. This tube is directed into a waste bucket.
+
+    2. Second exhaust - Used to fine tune the amount of usable air with the previusly mentioned screw valves. This outflow tube can be left as an open free-hanging exhaust since at this point no odors have been added to the flow.
+
+    3. Air left - Airflow that will be supplied from the left sides of all the chambers.
+
+    4. Air right - Airflow that will be supplied from the right sides of all the chambers.
+
+    5. Final outflow - Any leftover flow, directed to an outflow regulator valve, which in turn will exhaust it into the surroundings.
+    
+<!-- Old version of the outflow description
     1. Connected to an inflow regulator, **threaded flow regulator** (RS, [197-5337](https://benl.rs-online.com/web/p/pneumatic-function-fittings/1975337)) used to provide only the required volume of air.
 
     2. Connected to a glass bottle used to collect water which may condensate throughout the tubing.
@@ -51,7 +62,7 @@ NOTE: This map shows the connections needed to run a 1-odor conditioning experme
     3. Left open to release any extra pressure and stabilize the output of the inflow regulators.
 
     4. Plugged (RS, [367-6098](https://benl.rs-online.com/web/p/pneumatic-fitting-accessories/3676098)).
-
+-->
 
 6. The threaded flow regulator output is split into two streams to provide the ability to deliver **different stimuli in the left and right side** of the chambers. Every component from here onwards is thus duplicated, once for each side. Each stream (left and right) is passed through a flowmeter (0.4 L/min → 5 L/min, RS, [198-2919](https://benl.rs-online.com/web/p/flow-sensors/1982919/)). The flowmeters could be used to adjust the flow, but they are left fully open because the flow is meant to becontrolled by the threaded flow regulator mentioned earlier. They are however useful to measure the actual flow going through each stream independently, because this information can help diagnose problems affecting one of the streams but not the other. 
 
@@ -63,9 +74,7 @@ NOTE: This map shows the connections needed to run a 1-odor conditioning experme
         * One-way check valves were used between connections to prevent mineral oil backflow (WPI, [14039-10](https://www.wpiinc.com/14039-10-check-valve-female-luer-lock-inlet-male-luer-lock-outlet) , Fisher, [11909638](https://www.fishersci.be/shop/products/san-one-way-luer-fitting/11909638)).   ​
 
 
-8. The humidified air/odor is now delivered to the recording chambers via 2 20-port 3D printed manifold. Each manifold provides the stimuli to all 20 chambers, but only on one side.
-
-    TODO chemical resistant silicon tubing or Tygon tubing  then collected from the tubing-wiring box and a male luer is connected to the other end which is connected to recording chambers female Luer.
+8. The humidified air/odor is now delivered to the recording chambers via 2 20-port 3D printed manifold. Each manifold provides the stimuli to all 20 chambers, but only on one side (1 manifold for all the left-side inflows, another for all the right-side inflows). This tubing should either be made from chemically resistant silicon or Tygon to ensure it is not affected by the oil/odor residue and can withstand cleaning with SDS. Each of the 20 tubes coming out of the manifold should terminate with a male luer (LINK HERE) to ensure that it can connect to the female connector on the recording chambers.
 
 9. After the odor valves are closed, there can be an undesired residual flow of diluted odor arriving to the animals.  To ensure that this never happens, and the stimuli are delivered with high time precision, each input is first passed through a **3-port solenoid exhaust valve** (Aliexpress/Miniyard, [32881849871 (12V)](https://www.aliexpress.com/item/32881849871.html)) that only opens when getting a 12V DC signal. This way, when stopping the odor valves, the residual odor is diverted to the NO port of the exhaust valve, which  collects to a waste bottle. We found that a residual current was present (via visible bubbling) in the waste bottle for about 7 seconds after stopping the **3-port solenoid valve**.
 
@@ -122,7 +131,13 @@ With the use of a wire stripper, remove at least 1 cm casing to expose the cut w
 
 **Here is the pinout mapping of the cable connections:**
 
-![Ribbon-cable-mapping.PNG](/assets/Images/Ribbon-cable-mapping.PNG)
+
+|               **+**               |               **+**               |      **+**       |         **+**          |         **+**         |         **+**          |             **+**             |       **+**       |               **+**                |               **+**                |
+| :-------------------------------: | :-------------------------------: | :--------------: | :--------------------: | :-------------------: | :--------------------: | :---------------------------: | :---------------: | :--------------------------------: | :--------------------------------: |
+| **Odor B  Left IR-LED indicator** | **Odor A  Left IR-LED indicator** | **EShock  Left** | **IR  LED back light** | **Vibration  Motors** | **Tracking 3 objects** | **Low Voltage  ES Indicator** | **EShock  Right** | **Odor A  Right IR-LED indicator** | **Odor B  Right IR-LED indicator** |
+|               **-**               |               **-**               |      **-**       |         **-**          |         **-**         |         **-**          |             **-**             |       **-**       |               **-**                |               **-**                |
+
+
 
 
 ## Installation of the **Exhaust release Valves**

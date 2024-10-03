@@ -34,4 +34,4 @@ Finally, the entire electroshock system is controlled by the Arduino relay switc
 
 **Power Supply Specifications**
 
-TODO
+The electrical shock PSU is the most demanding out of the 3 the system needs, as it needs to reliably output 75 V at repeated but short intervals. The one we had chosen for this is the [Consort E143](https://www.labmakelaar.com/product/consort-e143-power-supply-2/).
