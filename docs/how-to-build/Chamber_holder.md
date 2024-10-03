@@ -13,6 +13,7 @@
 
 ## Overview
 The chamber tray is a key component required to hold the chambers in place while also housing the following key parts required for full functionality of the IDOC system:
+
 - Out-flow ports for the air/odor
 - The cables and electrodes required to transmit current to the chambers
 - Vibrators
@@ -22,6 +23,7 @@ The chamber tray is a key component required to hold the chambers in place while
 Like most of the IDOC system, the bulk of the chamber is composed of 3D printed parts, with some key parts such as nozzles, electrodes and vibrators being sourced commercially. The lists below should provide you with all the components necessary to build a functional chamber holder.
 
 ### Commercial parts
+
 - Electrodes
 - Outflow nozzles
 - Outflow tubing
@@ -31,7 +33,6 @@ Like most of the IDOC system, the bulk of the chamber is composed of 3D printed 
 
 ### 3D printed parts
 
-Part list
 - Chamber_holder front (uprade_IDOC1_to_IDOC2/081-082_Chamber_holder_FRONT_2X_1_of_2)
 - Chamber_holder_back (uprade_IDOC1_to_IDOC2/079-080_Chamber_holder_BACK_2X_1_of_2)
 - EShock_cover_front (uprade_IDOC1_to_IDOC2/EShock_cover_Chamber_holder_boarder_slider_FRONT)
@@ -55,6 +56,7 @@ Suggested materials
 ### 1. Joining the two halves of the chamber tray
 
 The 3D printer parts needed here are:
+
 - Chamber holder front (2x)
 - Chamber holder back (2x)
 
@@ -73,6 +75,7 @@ Once the holes have been cleared, run your positive and negative wires through b
 ### 3. Assembling and inserting the electroshock electrodes
 
 The electrodes are custom made from 2 commercially available components:
+
 - Clamp type connector socket (Digi-Key, 962876-2)
 - Straight pin header (RS Components, 681-2994) or (RS Components, 251-8137)
 
@@ -113,6 +116,7 @@ When connecting the vibrators to power cables, they should all be connected in s
 ### 6. Attaching the light dividers and wire covers
 
 3D printed parts needed here:
+
 - IR_filter_holder_splitter_BACK (2x)
 - IR_filter_holder_splitter_FRONT (2x)
 - White_light_box_BACK (2x)
