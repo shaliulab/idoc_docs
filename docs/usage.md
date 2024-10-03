@@ -130,9 +130,9 @@ Make sure that the timer in the video feed actually starts, since sometimes the 
 
 ![](/assets/Images/idoc_cli-started.jpg)
 
-* To be sure the stimuli are being provided as necessary, you should keep monitoring the video feed throughout the paradigm's execution. Whenever a stimulus (odor or electroshock) is being applied, a corresponding light should switch on in the enclosure and show up on the video feed.
+* To be sure the stimuli are being provided as necessary, you should keep monitoring the video feed throughout the paradigm's execution. Whenever a stimulus (odor or electroshock) is being applied, a corresponding light should switch on in the enclosure and show up on the video feed (which is also useful when you later playback the recording so that you can temporally match the behavior recorded in the video with the stimuli delivered).
 * Once the paradigm has finished running, you should see the timer stop and hear the airflow end. Remove your chambers from the enclosure and follow up with any steps your experimental design has intended for the flies.
-    * Remove the flies from their chambers ASAP, since they are constantly making the chambers dirtier, leading to you needing more frequent cleaning sessions.
+* Remove the flies from their chambers ASAP, since they are constantly making the chambers dirtier, leading to you needing more frequent cleaning sessions.
 
 <!-- Embed YouTube Video -->
 <iframe width="560" height="315" src="https://www.youtube.com/embed/FIiZQTC73KY?si=Kp8FnGSLXkYTT4S-&start=609" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
