@@ -227,7 +227,7 @@ Here is the final size:
 
 * Customized (510-mm x 255-mm) black hardboard (Q: 3x)
 
-* Mounting base T-brackets; to connect camera enclosure to setup enclosure, [3D designed](/src/3D_printed_parts/Mounting_base_T-brackets-vertical-rails-connecter.stl) (Q: 4x)
+* Mounting base T-brackets; to connect camera enclosure to setup enclosure, [3D designed](https://github.com/shaliulab/idoc_docs/blob/master/docs/assets/src/3D_printed_parts/Enclosure%26Powering/25-mm_mounting_constructions/Mounting_base_T-brackets-vertical-rails-connecter.stl) (Q: 4x)
 
 * 4-mm balldriver or hex key
 
@@ -253,7 +253,7 @@ Here is the final size:
 
 8.   Slide the black hardboard (255-mm x 510-mm) into the channels of the front and back rails.
 
-9.   Attach the 3D- elbow T-bracket at each end of the vertical rails, by the way the counterbored holes of the connectors are outside of the enclosure then fasten the vertical 25 mm rails to brackets using a T-Nut and low-profile channel screw.
+9.   Attach the 3D-printed elbow T-bracket at each end of the vertical rails, by the way the counterbored holes of the connectors are outside of the enclosure then fasten the vertical 25 mm rails to brackets using a T-Nut and low-profile channel screw.
 
 
 

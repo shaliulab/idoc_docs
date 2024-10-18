@@ -81,7 +81,7 @@ The heatsink is mounted on top of the bottom box of the setup (see [Wiring secti
 **For this step you will need:**
 
 * Fabricated heatsink
-* Four 3D-printed heatsink mounting brackets (heatsink connectors).
+* Four 3D-printed heatsink mounting brackets [3D file](https://github.com/shaliulab/idoc_docs/blob/master/docs/assets/src/3D_printed_parts/IDOC_setup/016-3D_Heatsink_connectors_01_of_04.stl).
 * M2 self-tapping screws (Amazon, [B07RYLM9N2](https://www.amazon.nl/-/en/dp/B07RYLM9N2)).
 * Screwdriver Set (RS Components, [668-5723](https://benl.rs-online.com/web/p/screwdriver-bit-sets/6685727); Amazon, [B01M7PPJI7](https://www.amazon.co.uk/Precision-Screwdriver-Magnetic-Macbook-Electronics/dp/B01M7PPJI7)).
 
@@ -112,7 +112,11 @@ The IR optogenetic panels are then covered by a 3D-printed box (light box). The 
 
 - Heatsink
 
-- Four 3D-printed light box mounting brackets (link to files TODO)
+- Four 3D-printed light box parts ([Front-left](https://github.com/shaliulab/idoc_docs/blob/master/docs/assets/src/3D_printed_parts/IDOC_setup/031_3D_Light_box_LEFT_FRON_02.stl), [Front-right](https://github.com/shaliulab/idoc_docs/blob/master/docs/assets/src/3D_printed_parts/IDOC_setup/033_Light_box_RIGHT_FRONT_04.stl), [Back-left](https://github.com/shaliulab/idoc_docs/blob/master/docs/assets/src/3D_printed_parts/IDOC_setup/030_3D_Light_box_LEFT_BACK_01.stl), [Back-right](https://github.com/shaliulab/idoc_docs/blob/master/docs/assets/src/3D_printed_parts/IDOC_setup/032_3D_Light_box_RIGHT_BACK_03.stl))
+
+- Four 3D-printed light box connector bridges [3D file](https://github.com/shaliulab/idoc_docs/blob/master/docs/assets/src/3D_printed_parts/IDOC_setup/034_3D_light_box_connector_bridge_4X_01_of_04.stl)
+
+- 4x 3D printed U-shaped light box mounting brackets [3D file](https://github.com/shaliulab/idoc_docs/blob/master/docs/assets/src/3D_printed_parts/IDOC_setup/026-029_3D_light_box_heatsink_connector_4x_01_of_04.stl)
 
 - M2 self-tapping screws with countersunk head (Amazon, [B07RYLM9N2](https://www.amazon.nl/-/en/dp/B07RYLM9N2))
 
@@ -132,11 +136,15 @@ The IR optogenetic panels are then covered by a 3D-printed box (light box). The 
 
 ## 7. Cooling the heatsink
 
-Connect the heatsink to a running airflow, if necessary, to regulate the temperature inside the IDOC system during experiments. To do this follow the steps:
+Connect the heatsink to a running airflow, if necessary, to regulate the temperature inside the IDOC system during experiments. For this you will need the following 3D printed parts:
 
-1. Print the 3D-parts designed to be placed in contact to the finned shape of the heatsink.
-2. Connect the fitting adaptor for each 3D-part and connect both of them together.
-3.  Install the assembled 3D parts to the IDOC box, ensuring that it is securely fastened and in good contact  with the heat sink surface.
+* 2x Air-vent heatsinks [3D file](https://github.com/shaliulab/idoc_docs/blob/master/docs/assets/src/3D_printed_parts/IDOC_setup/082-Air_Vent_Heatsink.stl)
+
+To set this up, do this follow the steps:
+
+1. Print 2 3D printed air-vent heatsinks designed to be placed in contact to the finned shape of the heatsink.
+2. Connect the fitting adaptor for each air-vent heatsinkand connect both of them together.
+3.  Install the assembled 3D parts to the IDOC box, ensuring that it is securely fastened and in good contact with the heat sink surface.
 4. Connect the parts to a temperature controlled  air system to provide fresh and cool air to regulate the     temperature inside the IDOC chamber during experiments.
 
 ![Heatsink-cooling.PNG](/assets/Images/Heatsink-cooling.PNG)

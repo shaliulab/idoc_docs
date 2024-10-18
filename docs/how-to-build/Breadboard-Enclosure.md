@@ -109,13 +109,13 @@ The roof is special because you need to cut a window through which the camera ca
 * Low-Profile T-Nut (Q: 14x)
 * 25 mm square construction rail 500mm length (Q: 4x)
 * Construction cube with slotted corners (Q: 2x)
-* Construction-cube-with-slotted-channel-door-connection, [3D designed](/src/3D_printed_parts/Construction_cube_with_slotted_channel_door_connection_universal.stl) (Q: 2x)
-* Elbow-L-Connection to connect two rails at a 90° Elbow, [3D designed](/src/3D_printed_parts/Elbow_L-shape_door_connection.stl) (Q: 2x)
+* Construction-cube-with-slotted-channel-door-connection, [3D designed](https://github.com/shaliulab/idoc_docs/blob/master/docs/assets/src/3D_printed_parts/Enclosure%26Powering/25-mm_mounting_constructions/Construction_cube_with_slotted_channel_door_connection_universal.stl) (Q: 2x)
+* Elbow-L-Connection to connect two rails at a 90° Elbow, [3D designed](https://github.com/shaliulab/idoc_docs/blob/master/docs/assets/src/3D_printed_parts/Enclosure%26Powering/25-mm_mounting_constructions/Elbow_L-shape_door_connection.stl) (Q: 2x)
 * Customized (510 mm x 450 mm) black hard board (Q: 1x).
 * 4 mm balldriver or hex key
 
 
-Since the construction cube provided by Thorlabs ([RM1S - 1](https://www.thorlabs.de/thorproduct.cfm?partnumber=RM1S#ad-image-0)) only has slotted corners, we modified the later and 3D printed this ([3D design](/src/3D_printed_parts/Construction_cube_with_slotted_channel_door_connection_universal.stl)) This cube is connected at each top of the front rails and so creates a parallel channel with front rails (see step: Build the enclosure roof). The modified cube creates a slider that allows us to insert the door.
+Since the construction cube provided by Thorlabs ([RM1S - 1](https://www.thorlabs.de/thorproduct.cfm?partnumber=RM1S#ad-image-0)) only has slotted corners, we modified the later and printed this [3D design](https://github.com/shaliulab/idoc_docs/blob/master/docs/assets/src/3D_printed_parts/Enclosure%26Powering/25-mm_mounting_constructions/Construction_cube_with_slotted_channel_door_connection_universal.stl) This cube is connected at each top of the front rails and so creates a parallel channel with front rails (see step: Build the enclosure roof). The modified cube creates a slider that allows us to insert the door.
 
 **Procedure**
 
@@ -139,14 +139,14 @@ A window (112 mm x 112 mm) is made in the center of the roof to allow the visual
 
 For installation of the IR-Filter and white LED light source you will need the following:
 
-* IR_sheet_holder_roof_fixation_LED_light_stripe_inside_part_1_of_2 [3D-designed](/assets/src/3D_printed_parts/Enclosure&Powering/Roof_IR_Sheet_holder/IR_sheet_holder_roof_fixation_LED_light_stripe_inside_part_1_of_2.stl) (Q:1x)
-* IR_sheet_holder_roof_fixation_LEE_filter_ouside_part_2_of_2 [3D-designed](/assets/src/3D_printed_parts/Enclosure&Powering/Roof_IR_Sheet_holder/IR_sheet_holder_roof_fixation_LED_light_stripe_inside_part_2_of_2.stl)  (Q:1x)
-* Cut_guide_template [3D-designed]() (Q:1x)
+* IR_sheet_holder_roof_fixation_LED_light_stripe_inside_part_1_of_2 [3D-designed](https://github.com/shaliulab/idoc_docs/blob/master/docs/assets/src/3D_printed_parts/Enclosure%26Powering/Roof_IR_Sheet_holder/IR_sheet_holder_roof_fixation_LED_light_stripe_inside_part_1_of_2.stl) (Q:1x)
+* IR_sheet_holder_roof_fixation_LEE_filter_ouside_part_2_of_2 [3D-designed](https://github.com/shaliulab/idoc_docs/blob/master/docs/assets/src/3D_printed_parts/Enclosure%26Powering/Roof_IR_Sheet_holder/IR_sheet_holder_roof_fixation_LEE_filter_ouside_part_2_of_2.stl)  (Q:1x)
+* Cut_guide_template 3D-designed (Q:1x) - file missing
 * LEE Polyester 87 Infrared 100mm filter ([LEEB10087C ](https://www.robertwhite.co.uk/lee-filters-100mm-system-polyester-87c-infrared-filter.html)) (Q:1x)
 * Soldering station ([Amazon](https://www.amazon.de/-/en/Soldering-Desoldering-Temperature-Adjustable-Conversion/dp/B08C51QRH5/ref=sr_1_17?keywords=alpha+metals+om338+pastelötmittel&qid=1639747374&sr=8-17)) (RS components, [122-7917](https://benl.rs-online.com/web/p/soldering-stations/1227917))
 * 22 AWG wire (RS components: red wire [168-1571](https://benl.rs-online.com/web/p/harsh-environment-wire/1681571) & black wire [168-1559](https://benl.rs-online.com/web/p/harsh-environment-wire/1681559))
 * 60 cm white LED Strips (ledlightsworld, [F5050PW30-NW](https://ledlightsworld.com/products/dc-12v-dimmable-smd5050-300-flexible-led-strips-60-leds-per-meter-10mm-width-900lm-per-meter-1?variant=17867978080346)) (Q:4x cut 15 cm each)
-* Cutter
+* Cutter/scalpel
 
 **Procedure (Build)**
 
@@ -216,8 +216,8 @@ Proper ventilation inside the enclosure will preserve its ambient temperature an
 
 **You will need the following:**
 
-* Cap_GL45_vacuum_succion [3D Designed](/assets/src/3D_printed_parts/Enclosure&Powering/Exhaust_vents/Threaded_cap_top_external_vacuum_succion_size_GL45_part_1_of_2.stl) (Q: 2x)
-
+* Cap_GL45_vacuum_succion - internal [3D Designed](https://github.com/shaliulab/idoc_docs/blob/master/docs/assets/src/3D_printed_parts/Enclosure%26Powering/Exhaust_vents/Threaded_neck_internal_vacuum_succion_size_GL45_part_2_of_2.stl) (Q: 2x)
+* Cap_GL45_vacuum_succion - external [3D Designed](https://github.com/shaliulab/idoc_docs/blob/master/docs/assets/src/3D_printed_parts/Enclosure%26Powering/Exhaust_vents/Threaded_cap_top_external_vacuum_succion_size_GL45_part_1_of_2.stl) (Q: 2x)
 * Push in 6 mm fitting Straight adaptor G 1/8 Male (RS Components, [121-6009](https://benl.rs-online.com/web/p/pneumatic-fittings/1216009)) (Q:2x)
 * 13 mm Fork ring wrench or spanner (amazon.de, [M19652](https://www.amazon.de/-/en/Brothers-Mannesmann-M19652-wrench-pieces/dp/B000ET7G0E?th=1) ; [B001ILAFRI](https://www.amazon.de/-/en/171198-Combination-Spanner-Set-SW/dp/B001ILAFRI/))
 * Pencil
@@ -258,17 +258,21 @@ To fully automate the control of the setup, lighting, odor/air delivery tubing a
 
 **The followings items are needed:**
 
-* Open_screw_thread_neck_size_GL45_tubing_insertion_part_1of_2 [3D-Design](/assets/src/3D_printed_parts/Enclosure&Powering/Holes_backside_enclosure/Tubing_hole/Open_screw_thread_neck_size_GL45_tubing_insertion_part_1of_2.stl)
-* Open_topped_screw_cap_size_GL45_tubing_insertion_part_2_of_2 [3D-Design](docs\assets\src\3D_printed_parts\Enclosure&Powering\Holes_backside_enclosure\Tubing_hole\Open_topped_screw_cap_size_GL45_tubing_insertion_part_2_of_2.stl)
-* IDC_connector_RED_BLUE_LEDs+IIndicators_LEFT_powering_panel_part_1_of_3 [3D-Design](docs\assets\src\3D_printed_parts\Enclosure&Powering\Holes_backside_enclosure\Powering_panels\Bottom_left_panel\IDC_RED_BLUE_LEDs_IIndicators_LEFT_powering_panel_part_1_of_3.stl)
-* Ouside_fixation_box_bottom_powering_panel_part_2_of_3 [3D-Design](docs\assets\src\3D_printed_parts\Enclosure&Powering\Holes_backside_enclosure\Powering_panels\Bottom_left_panel\Ouside_fixation_box_bottom_powering_panel_part_2_of_3.stl)
-* Outside_box_cover_bottom_powering_panel_part_3_of_3 [3D-Design](docs\assets\src\3D_printed_parts\Enclosure&Powering\Holes_backside_enclosure\Powering_panels\Bottom_left_panel\Outside_box_cover_bottom_powering_panel_part_3_of_3.stl)
-* IDC_connector_RED_BLUE_LEDs+setup_RIGHT_powering_panel_part_1_of_3 [3D-Design](\assets\src\3D_printed_parts\Enclosure&Powering\Holes_backside_enclosure\Powering_panels\Bottom_right_panel\IDC_connector_RED_BLUE_LEDs+setup_RIGHT_powering_panel_part_1_of_3.stl)
-* Ouside_fixation_box_bottom_powering_panel_part_2_of_3 [3D-Design](docs\assets\src\3D_printed_parts\Enclosure&Powering\Holes_backside_enclosure\Powering_panels\Bottom_right_panel\Ouside_fixation_box_bottom_powering_panel_part_2_of_3.stl)
-* Outside_box_cover_bottom_powering_panel_part_3_of_3 [3D-Design](docs\assets\src\3D_printed_parts\Enclosure&Powering\Holes_backside_enclosure\Powering_panels\Bottom_right_panel\Outside_box_cover_bottom_powering_panel_part_3_of_3.stl)
-* IDC_CONNECTOR_GREEN_LEDs_top_powering_panel_part_1_of_3 [3D-Design](docs\assets\src\3D_printed_parts\Enclosure&Powering\Holes_backside_enclosure\Powering_panels\Top_right_and_left_panel\IDC_CONNECTOR_GREEN_LEDs_top_powering_panel_part_1_of_3.stl)
-* Ouside_fixation_box_top_powering_panel_part_2_of_3 [3D-Design](docs\assets\src\3D_printed_parts\Enclosure&Powering\Holes_backside_enclosure\Powering_panels\Top_right_and_left_panel\Ouside_fixation_box_top_powering_panel_part_2_of_3.stl)
-* Outside_box_cover_top_powering_panel__part_1_of_3 [3D-Design](docs\assets\src\3D_printed_parts\Enclosure&Powering\Holes_backside_enclosure\Powering_panels\Top_right_and_left_panel\Outside_box_cover_top_powering_panel__part_1_of_3.stl)
+* Open_screw_thread_neck_size_GL45_tubing_insertion_part_1of_2 [3D-Design](https://github.com/shaliulab/idoc_docs/blob/master/docs/assets/src/3D_printed_parts/Enclosure%26Powering/Holes_backside_enclosure/Tubing_hole/Open_screw_thread_neck_size_GL45_tubing_insertion_part_1of_2.stl)
+* Open_topped_screw_cap_size_GL45_tubing_insertion_part_2_of_2 [3D-Design](https://github.com/shaliulab/idoc_docs/blob/master/docs/assets/src/3D_printed_parts/Enclosure%26Powering/Holes_backside_enclosure/Tubing_hole/Open_topped_screw_cap_size_GL45_tubing_insertion_part_2_of_2.stl)
+
+* IDC_connector_RED_BLUE_LEDs+Indicators_LEFT_powering_panel_part_1_of_3 [3D-Design](https://github.com/shaliulab/idoc_docs/blob/master/docs/assets/src/3D_printed_parts/Enclosure%26Powering/Holes_backside_enclosure/Powering_panels/Bottom_left_panel/IDC_RED_BLUE_LEDs_IIndicators_LEFT_powering_panel_part_1_of_3.stl)
+* Ouside_fixation_box_bottom_powering_panel_part_2_of_3 [3D-Design](https://github.com/shaliulab/idoc_docs/blob/master/docs/assets/src/3D_printed_parts/Enclosure%26Powering/Holes_backside_enclosure/Powering_panels/Bottom_left_panel/Ouside_fixation_box_bottom_powering_panel_part_2_of_3.stl)
+* Outside_box_cover_bottom_powering_panel_part_3_of_3 [3D-Design](https://github.com/shaliulab/idoc_docs/blob/master/docs/assets/src/3D_printed_parts/Enclosure%26Powering/Holes_backside_enclosure/Powering_panels/Bottom_left_panel/Outside_box_cover_bottom_powering_panel_part_3_of_3.stl)
+
+* IDC_connector_RED_BLUE_LEDs+setup_RIGHT_powering_panel_part_1_of_3 [3D-Design](https://github.com/shaliulab/idoc_docs/blob/master/docs/assets/src/3D_printed_parts/Enclosure%26Powering/Holes_backside_enclosure/Powering_panels/Bottom_right_panel/IDC_connector_RED_BLUE_LEDs%2Bsetup_RIGHT_powering_panel_part_1_of_3.stl)
+* Ouside_fixation_box_bottom_powering_panel_part_2_of_3 [3D-Design](https://github.com/shaliulab/idoc_docs/blob/master/docs/assets/src/3D_printed_parts/Enclosure%26Powering/Holes_backside_enclosure/Powering_panels/Bottom_right_panel/Ouside_fixation_box_bottom_powering_panel_part_2_of_3.stl)
+* Outside_box_cover_bottom_powering_panel_part_3_of_3 [3D-Design](https://github.com/shaliulab/idoc_docs/blob/master/docs/assets/src/3D_printed_parts/Enclosure%26Powering/Holes_backside_enclosure/Powering_panels/Bottom_right_panel/Outside_box_cover_bottom_powering_panel_part_3_of_3.stl)
+
+* IDC_CONNECTOR_GREEN_LEDs_top_powering_panel_part_1_of_3 [3D-Design](https://github.com/shaliulab/idoc_docs/blob/master/docs/assets/src/3D_printed_parts/Enclosure%26Powering/Holes_backside_enclosure/Powering_panels/Top_right_and_left_panel/IDC_CONNECTOR_GREEN_LEDs_top_powering_panel_part_1_of_3.stl)
+* Ouside_fixation_box_top_powering_panel_part_2_of_3 [3D-Design](https://github.com/shaliulab/idoc_docs/blob/master/docs/assets/src/3D_printed_parts/Enclosure%26Powering/Holes_backside_enclosure/Powering_panels/Top_right_and_left_panel/Ouside_fixation_box_top_powering_panel_part_2_of_3.stl)
+* Outside_box_cover_top_powering_panel__part_1_of_3 [3D-Design](https://github.com/shaliulab/idoc_docs/blob/master/docs/assets/src/3D_printed_parts/Enclosure%26Powering/Holes_backside_enclosure/Powering_panels/Top_right_and_left_panel/Outside_box_cover_top_powering_panel__part_1_of_3.stl)
+
 * Black female banana connector (RS Component, [787-2338](https://benl.rs-online.com/web/p/banana-connectors/7872338) ; [738-474](https://benl.rs-online.com/web/p/banana-connectors/0738474/))
 * Red 4mm Socket (RS Components; [738-480](https://benl.rs-online.com/web/p/banana-connectors/0738480/) ; [787-2332](https://benl.rs-online.com/web/p/banana-connectors/7872332/))
 * Pencil

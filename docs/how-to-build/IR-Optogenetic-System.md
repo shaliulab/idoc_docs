@@ -65,7 +65,7 @@ There are 10 output ports. Each port has 2 pins: V+ and GND (-ve). The LED drive
 
 ### LED-Driver enclosure & mounting
 
-We designed a 3D-printable enclosure ([Onshape](https://cad.onshape.com/documents/7311a44d87579c0899650b4a/w/81c191560d810e89a94453ba/e/f0a8bf10642312bda53f0c61?renderMode=0&uiState=6244479bfbeafd34ddca1a1c)) to hold and protect the board of the LED driver. At least two independent boards are required to drive both right and left LED panels at either half of the setup. By extension, two enclosures are also needed to mount both boards.
+We designed a 3D-printable enclosure ([Onshape](https://cad.onshape.com/documents/e2a3015a5be66d64a272dfeb/w/6a8e9cd394533e2a757eea92/e/c6d580c0b45ee44fe75fdcbc)) to hold and protect the board of the LED driver. At least two independent boards are required to drive both right and left LED panels at either half of the setup. By extension, two enclosures are also needed to mount both boards.
 
 **The front panel of Optogenetics-LED driver enclosure features:**
 
@@ -97,8 +97,9 @@ We designed a 3D-printable enclosure ([Onshape](https://cad.onshape.com/document
 
 **You will need the following components:**
 
-- 3D-printed boxes (2 in total, 1 per L/R side)
-- LED Driver PCB- [Driver-.01](/assets/src/Design_Files_LED_Driver_.01)
+- 3D-printed boxes (2 in total, 1 per [Left](https://github.com/shaliulab/idoc_docs/blob/master/docs/assets/src/3D_printed_parts/LED-Drivers_enclosure/Box_left.stl)/[Right](https://github.com/shaliulab/idoc_docs/blob/master/docs/assets/src/3D_printed_parts/LED-Drivers_enclosure/Box%20Right.stl) side)
+
+- LED Driver PCB [Driver-.01](/assets/src/Design_Files_LED_Driver_.01)
 
 - Black, Red Female Banana Socket - Solder Termination (RS Componentss, [888-4588](https://benl.rs-online.com/web/p/banana-connectors/8884588)) (Q:1 for each box)
 
@@ -222,7 +223,7 @@ Each panel is connected via 20-way IDC cable to the powering platform of the enc
 
 - Straight PCB Header, 2.54mm Pitch, 20 Way, 2 Row, Through Hole (RS Components, [832-3499](https://benl.rs-online.com/web/p/pcb-headers/8323499/)).
 
-- 3D-designed enclosure with cover.
+- 3D-designed [enclosure](https://github.com/shaliulab/idoc_docs/blob/master/docs/assets/src/3D_printed_parts/Enclosure%26Powering/Two_side_connection_IDC_cables/two_side_connection%20-%20Box.stl) and [cover](https://github.com/shaliulab/idoc_docs/blob/master/docs/assets/src/3D_printed_parts/Enclosure%26Powering/Two_side_connection_IDC_cables/two_side_connection%20-%20cover.stl)
 
 **You'll also need the following tools:**
 
@@ -299,9 +300,7 @@ We designed and 3D printed plastic stencils to be fixed on the top surface of th
 
 **For this step, you will need:**
 
-- 3D-designed part (Q:1x)
-
-- 3D-designed part (Q:1x)
+- 2x 3D-designed LED placement stencil [3D part](https://github.com/shaliulab/idoc_docs/blob/master/docs/assets/src/3D_printed_parts/IDOC_setup/089-Stencil_LEDs.stl)
 
 - Soldering station ([Amazon](https://www.amazon.de/-/en/Soldering-Desoldering-Temperature-Adjustable-Conversion/dp/B08C51QRH5/ref=sr_1_17?keywords=alpha+metals+om338+pastel%C3%B6tmittel&qid=1639747374&sr=8-17) or RS components, [122-7917](https://benl.rs-online.com/web/p/soldering-stations/1227917))
 

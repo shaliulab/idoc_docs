@@ -74,7 +74,7 @@ NOTE: This map shows the connections needed to run a 1-odor conditioning experme
         * One-way check valves were used between connections to prevent mineral oil backflow (WPI, [14039-10](https://www.wpiinc.com/14039-10-check-valve-female-luer-lock-inlet-male-luer-lock-outlet) , Fisher, [11909638](https://www.fishersci.be/shop/products/san-one-way-luer-fitting/11909638)).   ​
 
 
-8. The humidified air/odor is now delivered to the recording chambers via 2 20-port 3D printed manifold. Each manifold provides the stimuli to all 20 chambers, but only on one side (1 manifold for all the left-side inflows, another for all the right-side inflows). This tubing should either be made from chemically resistant silicon or Tygon to ensure it is not affected by the oil/odor residue and can withstand cleaning with SDS. Each of the 20 tubes coming out of the manifold should terminate with a male luer (LINK HERE) to ensure that it can connect to the female connector on the recording chambers.
+8. The humidified air/odor is now delivered to the recording chambers via 2 [20-port 3D printed manifolds](https://github.com/shaliulab/idoc_docs/blob/master/docs/assets/src/3D_printed_parts/Air_inflow_outflow_olfaction_system/manifold%2021x%20wide%20side%20hole%20-%20Manifold.stl). Each manifold provides the stimuli to all 20 chambers, but only on one side (1 manifold for all the left-side inflows, another for all the right-side inflows). This tubing should either be made from chemically resistant silicon or Tygon to ensure it is not affected by the oil/odor residue and can withstand cleaning with SDS. Each of the 20 tubes coming out of the manifold should terminate with a male luer (LINK HERE) to ensure that it can connect to the female connector on the recording chambers.
 
 9. After the odor valves are closed, there can be an undesired residual flow of diluted odor arriving to the animals.  To ensure that this never happens, and the stimuli are delivered with high time precision, each input is first passed through a **3-port solenoid exhaust valve** (Aliexpress/Miniyard, [32881849871 (12V)](https://www.aliexpress.com/item/32881849871.html)) that only opens when getting a 12V DC signal. This way, when stopping the odor valves, the residual odor is diverted to the NO port of the exhaust valve, which  collects to a waste bottle. We found that a residual current was present (via visible bubbling) in the waste bottle for about 7 seconds after stopping the **3-port solenoid valve**.
 
@@ -94,7 +94,7 @@ If you need only air flow to your chambers, for example when performing optogene
 
 ## Installation of flow meters
 
-The installation of either in- or outflow meters has the same procedure. Use a fork ring wrench or spanner #13 (amazon.de, [M19652](https://www.amazon.de/-/en/Brothers-Mannesmann-M19652-wrench-pieces/dp/B000ET7G0E?th=1); [B001ILAFRI](https://www.amazon.de/-/en/171198-Combination-Spanner-Set-SW/dp/B001ILAFRI/)) to connect the straight threaded adaptor (RS Components, [121-6009](https://benl.rs-online.com/web/p/pneumatic-fittings/1216009/)) to the flow meter (0.05 L/min → 0.5 L/min, RS Components, [198-2896](https://benl.rs-online.com/web/p/flow-sensors/198-2896)). Then use screws provided with the flowmeters to fix them to the 3D printed holders. Connect a 10-cm optical post to each holder to be fixed at the mounting base of the breadboard.
+The installation of either in- or outflow meters has the same procedure. Use a fork ring wrench or spanner #13 (amazon.de, [M19652](https://www.amazon.de/-/en/Brothers-Mannesmann-M19652-wrench-pieces/dp/B000ET7G0E?th=1); [B001ILAFRI](https://www.amazon.de/-/en/171198-Combination-Spanner-Set-SW/dp/B001ILAFRI/)) to connect the straight threaded adaptor (RS Components, [121-6009](https://benl.rs-online.com/web/p/pneumatic-fittings/1216009/)) to the flow meter (0.05 L/min → 0.5 L/min, RS Components, [198-2896](https://benl.rs-online.com/web/p/flow-sensors/198-2896)). Then use screws provided with the flowmeters to fix them to the [3D printed holders](https://github.com/shaliulab/idoc_docs/blob/master/docs/assets/src/3D_printed_parts/Air_inflow_outflow_olfaction_system/Flowmeter_holder_double%20_Power%20-%20flowmeter%20hoder.stl). Connect a 10-cm optical post to each holder to be fixed at the mounting base of the breadboard.
 
 
 ![Flow-regulators.PNG](/assets/Images/Flow-regulators.PNG)
@@ -104,14 +104,14 @@ The installation of either in- or outflow meters has the same procedure. Use a f
 
 ## Installation of the 2-port Main Valve
 
-Use fork ring wrench or spanner #12 (amazon.de, [M19652](https://www.amazon.de/-/en/Brothers-Mannesmann-M19652-wrench-pieces/dp/B000ET7G0E?th=1) ; [B001ILAFRI](https://www.amazon.de/-/en/171198-Combination-Spanner-Set-SW/dp/B001ILAFRI/))  to connect the Straight Threaded-to-Tube Adapter (RS Components, [771-5100](https://benl.rs-online.com/web/p/pneumatic-fittings/7715100/)) to both ports of the 2-port Main Valve (RS Components, [840-7020](https://benl.rs-online.com/web/p/solenoid-valves/8407020/)). Then use 2 M3x10mm screws to fix the 2-port Main Valve to the 3D printed holders. 
+Use fork ring wrench or spanner #12 (amazon.de, [M19652](https://www.amazon.de/-/en/Brothers-Mannesmann-M19652-wrench-pieces/dp/B000ET7G0E?th=1) ; [B001ILAFRI](https://www.amazon.de/-/en/171198-Combination-Spanner-Set-SW/dp/B001ILAFRI/))  to connect the Straight Threaded-to-Tube Adapter (RS Components, [771-5100](https://benl.rs-online.com/web/p/pneumatic-fittings/7715100/)) to both ports of the 2-port Main Valve (RS Components, [840-7020](https://benl.rs-online.com/web/p/solenoid-valves/8407020/)). Then use 2 M3x10mm screws to fix the 2-port Main Valve to the 3D printed holders (composed of 2 parts, a [holder base](https://github.com/shaliulab/idoc_docs/blob/master/docs/assets/src/3D_printed_parts/Air_inflow_outflow_olfaction_system/main%20valve%20holder%20-%20Main_valve_holder.stl) and [top locker](https://github.com/shaliulab/idoc_docs/blob/master/docs/assets/src/3D_printed_parts/Air_inflow_outflow_olfaction_system/main%20valve%20holder%20-%20Valve_Locker.stl)). 
 
 ![Main-valve.PNG](/assets/Images/Main-valve.PNG)
 
 
 ## Installation of 3-port solenoid valves
 
-Use fork ring wrench or spanner #12 (amazon.de, [M19652](https://www.amazon.de/-/en/Brothers-Mannesmann-M19652-wrench-pieces/dp/B000ET7G0E?th=1) ; [B001ILAFRI](https://www.amazon.de/-/en/171198-Combination-Spanner-Set-SW/dp/B001ILAFRI/)) to connect the threaded elbow tube adaptor (RS Components, [121-6024](https://benl.rs-online.com/web/p/pneumatic-fittings/1216024)) to the top outlet of the 3-port solenoid valve (RS Components, [838-8660](https://benl.rs-online.com/web/p/solenoid-valves/8388660)). Then connect the straight threaded adaptor (RS Components, [121-6039 ](https://benl.rs-online.com/web/p/pneumatic-fittings/1216039/)) to the other ports of the 3-port solenoid valve. Then use 2 M3x10mm screws to fix the base of each valve to the 3D printed holder. Attach a 10-cm optic post to each holder to be fixed at the mounting base of the breadboard. In total, four 3-port solenoid valves are needed to control a two odor system.
+Use fork ring wrench or spanner #12 (amazon.de, [M19652](https://www.amazon.de/-/en/Brothers-Mannesmann-M19652-wrench-pieces/dp/B000ET7G0E?th=1) ; [B001ILAFRI](https://www.amazon.de/-/en/171198-Combination-Spanner-Set-SW/dp/B001ILAFRI/)) to connect the threaded elbow tube adaptor (RS Components, [121-6024](https://benl.rs-online.com/web/p/pneumatic-fittings/1216024)) to the top outlet of the 3-port solenoid valve (RS Components, [838-8660](https://benl.rs-online.com/web/p/solenoid-valves/8388660)). Then connect the straight threaded adaptor (RS Components, [121-6039 ](https://benl.rs-online.com/web/p/pneumatic-fittings/1216039/)) to the other ports of the 3-port solenoid valve. Then use 2 M3x10mm screws to fix the base of each valve to the [3D printed holder](https://github.com/shaliulab/idoc_docs/blob/master/docs/assets/src/3D_printed_parts/Air_inflow_outflow_olfaction_system/Solenoid%20valve%20holder%20-%20valve_holder.stl). Attach a 10-cm optic post to each holder to be fixed at the mounting base of the breadboard. In total, four 3-port solenoid valves are needed to control a two odor system.
 
 
 ![Solenoid-valves.PNG](/assets/Images/Solenoid-valves.PNG)
@@ -122,7 +122,7 @@ Use fork ring wrench or spanner #12 (amazon.de, [M19652](https://www.amazon.de/-
 
 To power the valves through the connection with the Arduino controlled relay switch unit, connect a 20-way ribbon cable with an IDC connector to the control board, while the other end is open and connected to the power station. The power station contains a screw terminal block (12 Circuit - Terminal Strip Connector Screws (Digi-Key, [277-15432-ND](https://www.digikey.be/en/products/detail/phoenix-contact/3240171/3603832))), that enable easy and robust connection between the valves and the Arduino. This is the white plastic piece on the mounting board.
 
-Fix the terminal strip connector with M3 10mm screws to the 3D printed powering station holder. Then with M6 screws fix the holder to the breadboard.  
+Fix the terminal strip connector with M3 10mm screws to the 3D printed powering station holder (3D file missing). Then with M6 screws fix the holder to the breadboard.  
 
 With the use of a wire stripper, remove at least 1 cm casing to expose the cut wires and then flip the breadboard to the back and insert the wires through the back holes, to be connected to the screw terminal from the top of the breadboard. 
 
@@ -148,7 +148,7 @@ To ensure that the odors are precisely delivered at only the time of the applica
 
 - Female Luer Bulkhead Fitting (Aliexpress/MicroFluidics Store, [RH-C-M024](https://www.aliexpress.com/item/4000025751111.html)) Q:12x
 
-- 3D-print exhaust valves holder  Q:1x
+- 3D-printed [exhaust valves holder](https://github.com/shaliulab/idoc_docs/blob/master/docs/assets/src/3D_printed_parts/Air_inflow_outflow_olfaction_system/exhaust%20valves%20holder%20II%20-%20exhaust%20valves%20holder.stl)  Q:1x
 
 - DC 12V Solenoid Air Gas valve Release exhaust Valve Switch 2-position 3-way (Aliexpress/Miniyard, [32881849871 (12V)](https://www.aliexpress.com/item/32881849871.html)) Q: 6x
 
@@ -199,7 +199,7 @@ To ensure that the odors are precisely delivered at only the time of the applica
 
 ## Installation of the **Vacuum Suction system**
 
-Each chamber has two outputs in the middle. Each output allows the air to flow out of the chamber. To provide clear decision zones we connected each outlet port to an active vacuum. It is important that the out flow equals the inflow, which can be challenging to achieve. To make sure the system is balanced, we connect each outlet individually via a luer fitting male-female connection. Then all tubes are bundled together to be embedded into a vacuum receiver for each side. A 3D-designed and printed GL45 threaded cap with 20 holes were used to gather all of the tubes of one side. Glue and/or silicon paste was used to completely fix the tubing to the holes of the each cap. Each cap has an outlet port that connects to a Threaded-to-Tube adaptor (RS Components, [121-6009](https://benl.rs-online.com/web/p/pneumatic-fittings/1216009/)), which is connected to the manifold of the vacuum system.
+Each chamber has two outputs in the middle. Each output allows the air to flow out of the chamber. To provide clear decision zones we connected each outlet port to an active vacuum. It is important that the out flow equals the inflow, which can be challenging to achieve. To make sure the system is balanced, we connect each outlet individually via a luer fitting male-female connection. Then all tubes are bundled together to be embedded into a vacuum receiver for each side. A 3D-designed and printed [GL45 threaded cap with 20 holes](https://github.com/shaliulab/idoc_docs/blob/master/docs/assets/src/3D_printed_parts/Air_inflow_outflow_olfaction_system/Bottle%20Threaded%20Cap%20GL-45%20-%20Cap_GL45_succion_system.stl) were used to gather all of the tubes of one side. Glue and/or silicon paste was used to completely fix the tubing to the holes of the each cap. Each cap has an outlet port that connects to a Threaded-to-Tube adaptor (RS Components, [121-6009](https://benl.rs-online.com/web/p/pneumatic-fittings/1216009/)), which is connected to the manifold of the vacuum system.
 
 
 ![Vacuum-suction-tubing.PNG](/assets/Images/Vacuum-suction-tubing.PNG)
@@ -248,9 +248,9 @@ Each chamber has two outputs in the middle. Each output allows the air to flow o
 
 ## 3D-printed parts
 
-  - **2 port Main Valve** holder Q:1x
-  - Manifold holder Q:1x
-  - Exhaust valves holder Q:1x
-  - **3-port solenoid valve** holder Q:4x
-  - Flowmeter holder double Q:1x 
-  - Powering station holder  Q:1x
+  - **2 port Main Valve** holder [base](https://github.com/shaliulab/idoc_docs/blob/master/docs/assets/src/3D_printed_parts/Air_inflow_outflow_olfaction_system/main%20valve%20holder%20-%20Main_valve_holder.stl) and [top](https://github.com/shaliulab/idoc_docs/blob/master/docs/assets/src/3D_printed_parts/Air_inflow_outflow_olfaction_system/main%20valve%20holder%20-%20Valve_Locker.stl) Q:1x
+  - Manifold holder Q:1x - we have the files but their usage is not described in the doc
+  - [Exhaust valves holder](https://github.com/shaliulab/idoc_docs/blob/master/docs/assets/src/3D_printed_parts/Air_inflow_outflow_olfaction_system/exhaust%20valves%20holder%20II%20-%20exhaust%20valves%20holder.stl) Q:1x
+  - [**3-port solenoid valve** holder](https://github.com/shaliulab/idoc_docs/blob/master/docs/assets/src/3D_printed_parts/Air_inflow_outflow_olfaction_system/Solenoid%20valve%20holder%20-%20valve_holder.stl) Q:4x
+  - [Flowmeter holder double](https://github.com/shaliulab/idoc_docs/blob/master/docs/assets/src/3D_printed_parts/Air_inflow_outflow_olfaction_system/Flowmeter_holder_double%20_Power%20-%20flowmeter%20hoder.stl) Q:1x 
+  - Powering station holder  Q:1x - file missing for now

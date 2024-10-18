@@ -41,8 +41,8 @@ Like most of the IDOC system, the bulk of the chamber is composed of 3D printed 
 - White_light_box_back (uprade_IDOC1_to_IDOC2/White_light_box_BACK)
 - IR_filter_holder_splitter_front (uprade_IDOC1_to_IDOC2/IR_filter_holder_splitter_FRONT)
 - IR_filter_holder_splitter_back (uprade_IDOC1_to_IDOC2/IR_filter_holder_splitter_BACK)
-- IR filter cutting template base (IR_sheet_cutter_1)
-- IR filter cutting template top (IR_sheet_cutter_1)
+- IR filter cutting template base [3D file](https://github.com/shaliulab/idoc_docs/blob/master/docs/assets/src/3D_printed_parts/IR_sheet_cutter/IR%20sheet%20cutter%20-%20Part%201.stl)
+- IR filter cutting template top [3D file](https://github.com/shaliulab/idoc_docs/blob/master/docs/assets/src/3D_printed_parts/IR_sheet_cutter/IR%20sheet%20cutter%20-%20Part%202.stl)
 - Diffuser frame (IDOC_2_setup/Diffuser Holder_1)
 
 Suggested materials
@@ -57,8 +57,8 @@ Suggested materials
 
 The 3D printer parts needed here are:
 
-- Chamber holder front (2x)
-- Chamber holder back (2x)
+- Chamber holder front (2x) [3D part](https://github.com/shaliulab/idoc_docs/blob/master/docs/assets/src/3D_printed_parts/IDOC_setup/081-082_Chamber_holder_FRONT_2X_1_of_2.stl)
+- Chamber holder back (2x) [3D part](https://github.com/shaliulab/idoc_docs/blob/master/docs/assets/src/3D_printed_parts/IDOC_setup/079-080_Chamber_holder_BACK_2X_1_of_2.stl)
 
 Join these with 2 screws using the designated holes. Additionally, to ensure a stable connection, we also recommend using superglue to join the flat parts together. Repeat this joining process for a total of 2 trays.
 
@@ -117,12 +117,12 @@ When connecting the vibrators to power cables, they should all be connected in s
 
 3D printed parts needed here:
 
-- IR_filter_holder_splitter_BACK (2x)
-- IR_filter_holder_splitter_FRONT (2x)
-- White_light_box_BACK (2x)
-- White_light_box_FRONT (2x)
-- EShock_cover_Chamber_holder_boarder_slider_BACK (2x)
-- EShock_cover_Chamber_holder_boarder_slider_FRONT (2x)
+- IR_filter_holder_splitter_BACK (2x) [3D part](https://github.com/shaliulab/idoc_docs/blob/master/docs/assets/src/3D_printed_parts/IDOC_setup/084-IR_filter_holder_splitter_BACK.stl)
+- IR_filter_holder_splitter_FRONT (2x) [3D part](https://github.com/shaliulab/idoc_docs/blob/master/docs/assets/src/3D_printed_parts/IDOC_setup/083-IR_filter_holder_splitter_FRONT.stl)
+- White_light_box_BACK (2x) [3D part](https://github.com/shaliulab/idoc_docs/blob/master/docs/assets/src/3D_printed_parts/IDOC_setup/085-White_light_box_BACK.stl)
+- White_light_box_FRONT (2x) [3D part](https://github.com/shaliulab/idoc_docs/blob/master/docs/assets/src/3D_printed_parts/IDOC_setup/086-White_light_box_FRONT.stl)
+- EShock_cover_Chamber_holder_boarder_slider_BACK (2x) [3D part](https://github.com/shaliulab/idoc_docs/blob/master/docs/assets/src/3D_printed_parts/IDOC_setup/090-EShock_cover_Chamber_holder_boarder_slider_BACK.stl)
+- EShock_cover_Chamber_holder_boarder_slider_FRONT (2x) [3D part](https://github.com/shaliulab/idoc_docs/blob/master/docs/assets/src/3D_printed_parts/IDOC_setup/091-EShock_cover_Chamber_holder_boarder_slider_FRONT.stl)
 
 Before starting any assembly steps, verify the quality of your prints. Usual spots that might require further processing/cleaning are the slits in the base of the IR filter holder and the screw holes in all the parts.
 
@@ -141,10 +141,10 @@ Follow this up by attaching the wire covers to the tray. Pay special attention t
 
 ### 7. Cutting and inserting the IR light dividers
 
-The light dividers are cut from their original storebough form into the required shape with the help of a 3D printed cutting template (links below). 
+The light dividers are cut from their original storebough form into the required shape with the help of a 3D printed cutting template. 
 
-- Template lower layer
-- Template upper layer
+- Template lower layer [3D file](https://github.com/shaliulab/idoc_docs/blob/master/docs/assets/src/3D_printed_parts/IR_sheet_cutter/IR%20sheet%20cutter%20-%20Part%201.stl)
+- Template upper layer [3D file](https://github.com/shaliulab/idoc_docs/blob/master/docs/assets/src/3D_printed_parts/IR_sheet_cutter/IR%20sheet%20cutter%20-%20Part%202.stl)
 
 Note that to secure the 2 halves of the template together you will need X mm screws. Ideally also use a scalpel to ensure a clean cut of the filter material.
 
@@ -176,14 +176,12 @@ NOTE - this part is not actually part of the tray itself, but for now, no other 
 
 For this you will need the following 3D printed parts:
 
-- General holder - LEFT
-- General holder - RIGHT
-- Large filler
-- Small filler
-- Cover - LEFT
-- Cover - RIGHT
-
-TO DO
+- LED holder - EShock indicator [3D part](https://github.com/shaliulab/idoc_docs/blob/master/docs/assets/src/3D_printed_parts/IDOC_setup/044_3D_EShock_LED_indicator.stl)
+- LED holder - Odor indicator [3D part](https://github.com/shaliulab/idoc_docs/blob/master/docs/assets/src/3D_printed_parts/IDOC_setup/042_3D_Odors_indicator.stl)
+- EShock indicator cover [3D part](https://github.com/shaliulab/idoc_docs/blob/master/docs/assets/src/3D_printed_parts/IDOC_setup/045_3D_EShock_LED_indicator_cover.stl)
+- Odor indicator cover [3D part](https://github.com/shaliulab/idoc_docs/blob/master/docs/assets/src/3D_printed_parts/IDOC_setup/043_3D_Odors_indicator_cover.stl)
+- Large LED spacer [3D part](https://github.com/shaliulab/idoc_docs/blob/master/docs/assets/src/3D_printed_parts/IDOC_setup/046-051_5mm_LED_indcator_holder_6X_1_of_6.stl)
+- Small LED spacer [3D part](https://github.com/shaliulab/idoc_docs/blob/master/docs/assets/src/3D_printed_parts/IDOC_setup/052-057_3D_Holder_of_3-mm_LED_6X_1_of_6.stl)
 
 ### 11. Joining the tray to the IDOC body
 

@@ -2,7 +2,7 @@
 
 ## Overview
 
-The Arduino control unit, the LED drivers, optogenetic LED panels, solenoid valves and the IDOC setup  are connected via the ribbon cables with20-way IDC connector, which is compatible with all LED assemblies in the system- see Section pinout of **LED Driver** , **Arduino control board** ).  In this following section two 20-way IDC female connectors and  flat ribbon cables are used to assemble a cable with an IDC connector.
+The Arduino control unit, the LED drivers, optogenetic LED panels, solenoid valves and the IDOC setup  are connected via the ribbon cables with20-way IDC connector, which is compatible with all LED assemblies in the system- see Section pinout of **LED Driver** , **Arduino control board**.  In this following section two 20-way IDC female connectors and  flat ribbon cables are used to assemble a cable with an IDC connector.
 
 
 
@@ -23,7 +23,7 @@ The Arduino control unit, the LED drivers, optogenetic LED panels, solenoid valv
 
 
 
-**Assembling 20 -way IDC Ribbon Cable**
+**Assembling 20-way IDC Ribbon Cable**
 
 For this step, you will need:
 
@@ -79,7 +79,7 @@ Straight PCB Header, 2.54mm Pitch, 6 Way, 2 Row, Through Hole (RS Components, [8
 
 Straight Pin Header, 2.54mm Pitch, 6 Way, 2 Row (RS Components, [251-8137](https://benl.rs-online.com/web/p/pcb-headers/2518137))
 
-**you also need:**
+**You also need:**
 
 - Soldering Station (RS Components, [122-7917](https://benl.rs-online.com/web/p/soldering-stations/1227917); for Hot Air Amazon.de, [8786D](https://www.amazon.de/-/en/Soldering-Desoldering-Temperature-Adjustable-Conversion/dp/B08C51QRH5/))
 - Lead Free Solder (RS Componentss, [756-8884](https://benl.rs-online.com/web/p/solder/7568884) ; [625-8233](https://benl.rs-online.com/web/p/solder/6258233))
