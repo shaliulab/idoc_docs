@@ -15,7 +15,7 @@ Here we explain all the key components necessary to build an optogenetics setup 
 
 The following sketch shows the optogenetics system components:
 
-  ![Optogenetic-system-components.PNG](/assets/Images/Optogenetic-system-components.PNG)
+  ![Optogenetic-system-components.PNG](../assets/Images/Optogenetic-system-components.PNG)
 
 
 
@@ -26,13 +26,13 @@ The following sketch shows the optogenetics system components:
 
 Custom-made LED drivers were used for controlling high power LEDs mounted below each recording chambers. The board of LED-drivers is relatively small (9 x 11 cm), and contains 10 drivers for the individual adjustment of LED intensities to ensure they are the same across all recording chambers. The current delivered to turn LEDs ON can be limited by means of a single turn-control potentiometer knob at the top of each driver to set the maximum current needed for each channel to ensure that all LED strings get the same forward current. A global pulse width modulation (PWM) signal is used to control the current and the brightness of the LEDs via the software communication. We also added a I²C (the IC is a [PCA9685](https://www.nxp.com/docs/en/data-sheet/PCA9685.pdf) to PWM driver). This chip is the same as the one used in the Adafruit PCA9685 16-Channel Servo Driver ([Adafruit PCA9685 library](https://learn.adafruit.com/16-channel-pwm-servo-driver/using-the-adafruit-library)). This chip could allow us to calibrate the LEDs in software if someone later wants this as an option (to expand the functionality of this board up to 16-Channel LED controller). This chip has a general PWM and an individual PWM for each output. So using the individual PWM you can equalize the light output, and with the general PWM you can control the overall light output.
 
-![LED-driver-board-V.01.PNG](/assets/Images/LED-driver-board-V.01.PNG)
+![LED-driver-board-V.01.PNG](../assets/Images/LED-driver-board-V.01.PNG)
 
 The board footprint is 9 x 11 cm and contains 10 drivers or via PCA9685 16-Channels. LED power can be adjusted using the potentiometer on the front panel. Each channel can be regulated independently but they all have the same PWM signal & frequency to run.
 
 **Specifications**
 
-| Board                                  | **[LED_Driver_.01](/assets/src/Design_Files_LED_Driver_.01)** |
+| Board                                  | **[LED_Driver_.01](../assets/src/Design_Files_LED_Driver_.01)** |
 | -------------------------------------- | ---------------------------------------- |
 | **Digital modulation inputs**          | TTL, Arduino Mega                        |
 | **Connector for TTL and Analog input** | Terminal block                           |
@@ -51,16 +51,16 @@ The board footprint is 9 x 11 cm and contains 10 drivers or via PCA9685 16-Chann
 
 At least 2 boards are needed to run the left and right side optogenetic panels independently. 5 boards would be perfectly  required to drive the complete setup in case you use Red, Green and Blue light. Having 5 identical boards with 10 channels each are cheaper and easier to produce than large board with all the drivers.
 
-![LED-driver-2-boards.PNG](/assets/Images/LED-driver-2-boards.PNG)
+![LED-driver-2-boards.PNG](../assets/Images/LED-driver-2-boards.PNG)
 
 ### Output ports and pinouts
 
 There are 10 output ports. Each port has 2 pins: V+ and GND (-ve). The LED drivers and optogenetic LED panels are connected via the ribbon cables with 20-way IDC connector, which is compatible with all LED assemblies in the system - see Section [LED Connectors & IDC Cables](/how-to-build/Setup-Wiring-and-Powering-Cables). The figure below shows the pin-out of the male connector at the bottom of the driver board.
 
-![LED-driver-piout-1.PNG](/assets/Images/LED-driver-piout-1.PNG)
+![LED-driver-piout-1.PNG](../assets/Images/LED-driver-piout-1.PNG)
 
 
-![LED-driver-piout-2.PNG](/assets/Images/LED-driver-piout-2.PNG)
+![LED-driver-piout-2.PNG](../assets/Images/LED-driver-piout-2.PNG)
 
 ### LED-Driver enclosure & mounting
 
@@ -77,14 +77,14 @@ We designed a 3D-printable enclosure to hold and protect the board of the LED dr
 - Connector socket for PWM signal for control of LED power from Arduino & computer
 - Toggle switch PWM Input/External to enable LED (ON/OFF) by external 0-5 VDC signal
 
-![LED-driver-board-V.01-front-panel.PNG](/assets/Images/LED-driver-board-V.01-front-panel.PNG)
+![LED-driver-board-V.01-front-panel.PNG](../assets/Images/LED-driver-board-V.01-front-panel.PNG)
 
 **The back panel of Optogenetics-LED unit features:**
 
 - Connector socket for external input (0-5V) for control of LED power ON/OFF manually.
 - Connector socket for Indicator IR LED during recording.
 
-![LED-driver-board-V.01-back-panel.PNG](/assets/Images/LED-driver-board-V.01-back-panel.PNG)
+![LED-driver-board-V.01-back-panel.PNG](../assets/Images/LED-driver-board-V.01-back-panel.PNG)
 
 **The Optogenetics-LED driver board itself features:**
 
@@ -94,7 +94,7 @@ We designed a 3D-printable enclosure to hold and protect the board of the LED dr
 - IR LED straight pin header, 2.54mm pitch, 20 way, 1 row, Marker signal.
 
 
-![LED-driver-board-V.01-top-panel.PNG](/assets/Images/LED-driver-board-V.01-top-panel.PNG)
+![LED-driver-board-V.01-top-panel.PNG](../assets/Images/LED-driver-board-V.01-top-panel.PNG)
 
 
 ### Assembling the LED-board enclosure
@@ -103,7 +103,7 @@ We designed a 3D-printable enclosure to hold and protect the board of the LED dr
 
 - 3D-printed boxes (2 in total, 1 per [Left](https://github.com/shaliulab/idoc_docs/blob/master/docs/assets/src/3D_printed_parts/LED-Drivers_enclosure/Box_left.stl)/[Right](https://github.com/shaliulab/idoc_docs/blob/master/docs/assets/src/3D_printed_parts/LED-Drivers_enclosure/Box%20Right.stl) side)
 
-- LED Driver PCB [Driver-.01](/assets/src/Design_Files_LED_Driver_.01)
+- LED Driver PCB [Driver-.01](../assets/src/Design_Files_LED_Driver_.01)
 
 - Black, Red Female Banana Socket - Solder Termination (RS Componentss, [888-4588](https://benl.rs-online.com/web/p/banana-connectors/8884588)) (Q:1 for each box)
 
@@ -138,13 +138,13 @@ We designed a 3D-printable enclosure to hold and protect the board of the LED dr
 
 - Wire Stripper (RS Components, [613-044](https://benl.rs-online.com/web/p/wire-strippers/0613044/))
 
-![LED-driver-board-V.01-components-enclosure.PNG](/assets/Images/LED-driver-board-V.01-components-enclosure.PNG)
+![LED-driver-board-V.01-components-enclosure.PNG](../assets/Images/LED-driver-board-V.01-components-enclosure.PNG)
 
 **Procedure**
 
 **1\.** Connect the banana socket (RS, [888-4588](https://benl.rs-online.com/web/p/banana-connectors/8884588)) at the two holes named Vin in the front panel of the enclosure, solder two 10cm hook wires to the end of the socket, insulate both with a heat shrink tubing. The other opened end will be connected to the LED drivers board
 
-![LED-driver-board-V.01-2-banana-socket.PNG](/assets/Images/LED-driver-board-V.01-2-banana-socket.PNG)
+![LED-driver-board-V.01-2-banana-socket.PNG](../assets/Images/LED-driver-board-V.01-2-banana-socket.PNG)
 
 **2\.** Add one toggle switch DPDT at the right hole to switch between signals coming from Arduino PWM signal or an external source
 
@@ -154,15 +154,15 @@ We designed a 3D-printable enclosure to hold and protect the board of the LED dr
 
 **5\.** Solder the end of the cable with male header to the pins of the left side of the switch, then solder the middle pins of the toggle switch to the pre-cut wires. The black and red wires should point in the same direction. This open end wires will be connected to the PWM connector screw terminal at the PCB.
 
-![LED-driver-board-V.01-PWM.PNG](/assets/Images/LED-driver-board-V.01-PWM.PNG)
+![LED-driver-board-V.01-PWM.PNG](../assets/Images/LED-driver-board-V.01-PWM.PNG)
 
 **6\.** Add a second JST PH 2 pin cable male header from the back panel into the left socket  named (external 0-5VDC), add heat shrink tubing, then solder these wire endings to the right bins of the toggle switch.
 
 **7\.** Add one last wire into the IR-LED socket, the other open end should connect to the crimp socket connected to the straight pins in the PCB named IR.
 <!--
-![LED-driver-board-V.01-5V-input.PNG](/assets/Images/LED-driver-board-V.01-5V-input.PNG)
+![LED-driver-board-V.01-5V-input.PNG](../assets/Images/LED-driver-board-V.01-5V-input.PNG)
 
-![LED-driver-board-V.01-IR-marker-connection.PNG](/assets/Images/LED-driver-board-V.01-IR-marker-connection.PNG)
+![LED-driver-board-V.01-IR-marker-connection.PNG](../assets/Images/LED-driver-board-V.01-IR-marker-connection.PNG)
  -->
 
 **8\.** Place the LED driver board into the the center of the enclosure. Connect the power hook up wires to the left terminal blocks, where the red socket must be connected to the positive while the black socket must be connected to the GND.
@@ -172,7 +172,7 @@ We designed a 3D-printable enclosure to hold and protect the board of the LED dr
 **10\.** Mount the board to the center of the enclosure with four M3 screws at each corner.
 <!--
 
-![LED-driver-board-V.01-cable-connection-mounting.PNG](/assets/Images/LED-driver-board-V.01-cable-connection-mounting.PNG)
+![LED-driver-board-V.01-cable-connection-mounting.PNG](../assets/Images/LED-driver-board-V.01-cable-connection-mounting.PNG)
 -->
 
 **11\.** Repeat the above steps to install other boards
@@ -181,19 +181,19 @@ We designed a 3D-printable enclosure to hold and protect the board of the LED dr
 **Tip!** The inputs and outputs of the front and back panels are marked and engraved during 3D-printing. For making it easily readable even with dim light just fill the engraved text with a white paste e g. Silicon Rubber (RS, [494-118](https://benl.rs-online.com/web/p/silicone-sealants/0494118/) ; Farnell, [2289630](https://be.farnell.com/dowsil-formerly-dow-corning/732-white-90ml/rtv-silicone-732-white-90ml/dp/2289630))
 <!--
 
-![LED-driver-enclosure-engraves.PNG](/assets/Images/LED-driver-enclosure-engraves.PNG)
+![LED-driver-enclosure-engraves.PNG](../assets/Images/LED-driver-enclosure-engraves.PNG)
 -->
 **12\.**  To connect two assembled box-board just slide both enclosures together and then screw them with 2 M3x10mm screws from the front and the back panel of the enclosure.
 
 <!--
 
-![LED-driver-board-V.01-2-enclosures-assembly.PNG](/assets/Images/LED-driver-board-V.01-2-enclosures-assembly.PNG)
+![LED-driver-board-V.01-2-enclosures-assembly.PNG](../assets/Images/LED-driver-board-V.01-2-enclosures-assembly.PNG)
 -->
 
 **13\.** If you are going to use the same power supply you can connect both board  via bridge hook up wires through right screw terminal of each board.
 <!--
 
-![LED-driver-board-V.01-2-enclosures-wiring.PNG](/assets/Images/LED-driver-board-V.01-2-enclosures-wiring.PNG)
+![LED-driver-board-V.01-2-enclosures-wiring.PNG](../assets/Images/LED-driver-board-V.01-2-enclosures-wiring.PNG)
 
 -->
 
@@ -215,14 +215,14 @@ We designed a 3D-printable enclosure to hold and protect the board of the LED dr
 
 <!--
 
-![LED-driver-board-V.01-enclosure-installation.PNG](/assets/Images/LED-driver-board-V.01-enclosure-installation.PNG)
+![LED-driver-board-V.01-enclosure-installation.PNG](../assets/Images/LED-driver-board-V.01-enclosure-installation.PNG)
 -->
 
 **Important!** To avoid current imbalances when connecting several LEDs in parallel and therefore having a different light intensities between different chambers, we connect two right LEDs and two left LEDs panel from each side in series.
 
 Each panel is connected via 20-way IDC cable to the powering platform of the enclosure. From the outer backside of the enclosure, the cables of the same side panel are then connected to a custom-made board.
 
-![Series_connection_LED_sketch.PNG](/assets/Images/Series_connection_LED_sketch.PNG)
+![Series_connection_LED_sketch.PNG](../assets/Images/Series_connection_LED_sketch.PNG)
 
 ### Assembling the custom-made connection hub
 
@@ -249,7 +249,7 @@ Each panel is connected via 20-way IDC cable to the powering platform of the enc
 - Screw Driver Bit Set (RS Components, [668-5723](https://benl.rs-online.com/web/p/screwdriver-bit-sets/6685727); amazon.de, [B01M7PPJI7](https://www.amazon.co.uk/Precision-Screwdriver-Magnetic-Macbook-Electronics/dp/B01M7PPJI7))
 
 
-![Series_connection_LED_parts.PNG](/assets/Images/Series_connection_LED_parts.PNG)
+![Series_connection_LED_parts.PNG](../assets/Images/Series_connection_LED_parts.PNG)
 
 **Procedure:**
 
@@ -259,7 +259,7 @@ Each panel is connected via 20-way IDC cable to the powering platform of the enc
 
 **3\.** Connect and solder the 20-way PCB headers into the recessed place to establish the series connection (yellow rectangles in figure below)
 
-![Series_connection_LED_PCB.PNG](/assets/Images/Series_connection_LED_PCB.PNG)
+![Series_connection_LED_PCB.PNG](../assets/Images/Series_connection_LED_PCB.PNG)
 
 
 **4\.** After  soldering, to avoid shortcuts, place the board into the 3D-printed box and screw it with 4 3Mx6mm screws.
@@ -268,19 +268,19 @@ Each panel is connected via 20-way IDC cable to the powering platform of the enc
 
 **6\.** Now the box is ready
 
-![Series_connection_LED_PCB_Box.PNG](/assets/Images/Series_connection_LED_PCB_Box.PNG)
+![Series_connection_LED_PCB_Box.PNG](../assets/Images/Series_connection_LED_PCB_Box.PNG)
 
 
 **7\.** Due to its small size, multiple boxes can be to combined together. To do so, simply connect two boxes through the male and female mate-slides in the opposite directions.
 
 **Series-connection-LED-PCB-2Box**
 
-![Series-connection-LED-PCB-2Box.PNG](/assets/Images/Series-connection-LED-PCB-2Box.PNG)
+![Series-connection-LED-PCB-2Box.PNG](../assets/Images/Series-connection-LED-PCB-2Box.PNG)
 
 
 **8\.** Finally, insert a 4mm screw set to the wall of the one box and then connect an optical post in your desired length to be mounted in the back of the setup of the enclosure.
 
-![Series-connection-LED-PCB-2Box-post.PNG](/assets/Images/Series-connection-LED-PCB-2Box-post.PNG)
+![Series-connection-LED-PCB-2Box-post.PNG](../assets/Images/Series-connection-LED-PCB-2Box-post.PNG)
 
 ## Power supply
 
@@ -353,9 +353,9 @@ We designed and 3D printed plastic stencils to be fixed on the top surface of th
 
 |               Item                       |  Amount    |   Supplier       |                          Link                |                                          |
 | ---------------------------------------- | ---- | -------- | ---------------------------------------- | ---------------------------------------- |
-| LED LUXEON REBEL BLUE High-Power LED, 3-Pin SMD. | 200  | Digi-Key | [LXML-PB01-0040](https://www.digikey.be/nl/products/detail/lumileds/LXML-PB01-0040/3961252) | ![Image](/assets/src/Commercial_Parts/Suppliers-Stock-Images/Digi-Key-LXML-PB01-0040.jpg) |
-| LED LUXEON REBEL GREEN High-Power LED, 3-Pin SMD. | 100  | Digi-Key | [LXML-PM01-0100](https://www.digikey.be/nl/products/detail/lumileds/LXML-PM01-0100/3961259) | ![Image](/assets/src/Commercial_Parts/Suppliers-Stock-Images/Digi-Key-LXML-PM01-0100.jpg) |
-| LUXEON Rebel 627 nm Red High-Power LED, 3-Pin SMD package. | 200  | Digi-Key | [LXM2-PD01-0050](https://www.digikey.be/nl/products/detail/lumileds/LXM2-PD01-0050/3961247) | ![Image](/assets/src/Commercial_Parts/Suppliers-Stock-Images/Digi-Key-LXM2-PD01-0050.jpg) |
+| LED LUXEON REBEL BLUE High-Power LED, 3-Pin SMD. | 200  | Digi-Key | [LXML-PB01-0040](https://www.digikey.be/nl/products/detail/lumileds/LXML-PB01-0040/3961252) | ![Image](../assets/src/Commercial_Parts/Suppliers-Stock-Images/Digi-Key-LXML-PB01-0040.jpg) |
+| LED LUXEON REBEL GREEN High-Power LED, 3-Pin SMD. | 100  | Digi-Key | [LXML-PM01-0100](https://www.digikey.be/nl/products/detail/lumileds/LXML-PM01-0100/3961259) | ![Image](../assets/src/Commercial_Parts/Suppliers-Stock-Images/Digi-Key-LXML-PM01-0100.jpg) |
+| LUXEON Rebel 627 nm Red High-Power LED, 3-Pin SMD package. | 200  | Digi-Key | [LXM2-PD01-0050](https://www.digikey.be/nl/products/detail/lumileds/LXM2-PD01-0050/3961247) | ![Image](../assets/src/Commercial_Parts/Suppliers-Stock-Images/Digi-Key-LXM2-PD01-0050.jpg) |
 |                                          |      |          |                                          |                                          |
 
 ### Installing LEDs for optogenetics
@@ -412,7 +412,7 @@ An extra reason to solder the LEDs ourselves is that same order of multiple LED 
 
 Running high power LEDs requires a cooling system to dissipate the heat produced inside the LEDs. In our setup cooling is already achieved by mounting the LED directly to a finned [aluminum heat sink](https://www.digikey.be/en/products/detail/wakefield-vette/125404/9957688) with a running air flow to extract the heat from the heatsink enclosure. The assembly of this is covered in more detail in the [heatsink installation](./Heatsink-Installation.md) section.
 
-![Heatsink-cooling.PNG](/assets/Images/Heatsink-cooling.PNG)
+![Heatsink-cooling.PNG](../assets/Images/Heatsink-cooling.PNG)
 
 
 
@@ -463,7 +463,7 @@ Once all the LEDs are mounted to the heatsink, you can inter wire them to form s
 
 **5\.** Once you have attached all wires to all LED strings, insert the 40 powering cable from the holes of the aluminum angle profile and then solder the end of the cable with +ve and -ve of each LED string according to the following mapping and color of the wires.
 
-![Ribbon-cable-mapping.PNG](/assets/Images/Ribbon-cable-mapping.PNG)
+![Ribbon-cable-mapping.PNG](../assets/Images/Ribbon-cable-mapping.PNG)
 
 #### LED Power Connector
 

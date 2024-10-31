@@ -1,6 +1,6 @@
 # **IDOC Assembly**
 
-![IDOC isometric](/assets/Images/IDOC_isometric.png)
+![IDOC isometric](../assets/Images/IDOC_isometric.png)
 
 ## Overview
 
@@ -16,7 +16,7 @@ The relevant 3D designs will be linked to wherever relevant, and they should be 
 
 The entire catalogue of 3D printed parts is available for download from the [IDOC GitHub page](https://github.com/shaliulab/idoc_docs/tree/master/docs/assets/src/3D_printed_parts). Each file is accompanied by a Cura profile file containing the optimal parameters for printing. Regarding materials, you have some options, however the ones listed below are deemed optimal for these applications.
 
-[List of files](/assets/src/3D_printed_parts/IDOC_setup/3d_files.zip)
+[List of files](../assets/src/3D_printed_parts/IDOC_setup/3d_files.zip)
 
 For our prints, we used the Ultimaker 2+ and S3 series printers. The listed 3D items should be printed with very solid and tough materials to ensure they can handle the light, heat, air pressure, and odors. The suggested materials will achieve best surface quality with increased mechanical and thermal performance without risk of the materials turning too brittle over time.
 
@@ -53,7 +53,7 @@ For further information, refer to the material data sheets for technical data an
 
 ### Base box
 
-![Tubing-wires box.PNG](/assets/Images/Tubing-wires box.PNG)
+![Tubing-wires box.PNG](../assets/Images/Tubing-wires box.PNG)
 
 This box will act as an important base for the IDOC system contained in the enclosure. It houses all the tubing and wiring necessary for the stimulations, while also acting as a foundation for the heatsinks and lighting box. The base is designed to protect the sensitive interior with acrylic covers and vibration damping rubber feet.
 
@@ -66,7 +66,7 @@ To bring power to the setup, this box also holds a panel with all the necessary 
 
 For illustrations of the powering panel assembly and attachment, see pages 8-10 of this [file](/IDOC_3D_Assembly_Parts.pdf).
 
-![Powering-platform.PNG](/assets/Images/Powering-platform.PNG)
+![Powering-platform.PNG](../assets/Images/Powering-platform.PNG)
  
 
 **Mapping of the 20-way IDC header**
@@ -87,7 +87,7 @@ Info needed
 
 This part is placed at on the flat top part of the basement box. It is designed to hold the air/odor inflow tubes in place. There is one hole for each tube coming from the main manifold inside the basement box total 40 tubes. The assembly of these tube collectors and their attachment to the base box is illustrated in pages 5-7 of this [file](/IDOC_3D_Assembly_Parts.pdf).
 
-![Tubing_collectors.PNG](/assets/Images/Tubing_collectors.PNG)
+![Tubing_collectors.PNG](../assets/Images/Tubing_collectors.PNG)
 
 
 ### Heatsink installation
@@ -96,7 +96,7 @@ The heatsink is a heavily customized assembly of commercial parts, and as such i
 
 The heatsink relies on 3D printed mounting brackets that connect it to the flat side of the basement box. For a more detailed illustration of how it's attached, see page 11 of [file](/IDOC_3D_Assembly_Parts.pdf).
 
-![Basement_heatsink.PNG](/assets/Images/Basement_heatsink.PNG)
+![Basement_heatsink.PNG](../assets/Images/Basement_heatsink.PNG)
 
 ### Light box
 
@@ -104,7 +104,7 @@ This box is mounted on the top heatsink to cover the IR-LED backlighting and opt
 
 Like many other parts, the light box has to be printed in multiple smaller parts due to printer limitations. For detailed figures of how to join the parts together, see pages 12-13 of [file](/IDOC_3D_Assembly_Parts.pdf).
 
-![Light-box.PNG](/assets/Images/Light-box.PNG)
+![Light-box.PNG](../assets/Images/Light-box.PNG)
 
 ### Chambers holder
 
@@ -113,7 +113,7 @@ The finalized chamber holder is designed to be placed on top of the lightbox, wi
 
 The holders are meant to have some freedom of movement to accomodate any motion from the vibration pads. To allow for this, they are designed to be held in place by loosely fitting screws that are covered by a spring.
 
-![Chambers_holder.PNG](/assets/Images/Chambers_holder.PNG)
+![Chambers_holder.PNG](../assets/Images/Chambers_holder.PNG)
 
 
 ### Acrylic sheet base
@@ -125,7 +125,7 @@ After cutting, the sheet was placed in its intended spot to allow us to mark the
 
 
 
-![Basement-cover-plastic-sheet1.PNG](/assets/Images/Basement-cover-plastic-sheet1.PNG)
+![Basement-cover-plastic-sheet1.PNG](../assets/Images/Basement-cover-plastic-sheet1.PNG)
 
 
 
@@ -137,4 +137,4 @@ To isolate the setup from vibration, we added rubber feet (RS Components, [179-4
 3. The setup may now be sitting on its rubber feet.
 
 
-![Basement-cover-plastic-sheet-rubber.PNG](/assets/Images/Basement-cover-plastic-sheet-rubber.PNG)
+![Basement-cover-plastic-sheet-rubber.PNG](../assets/Images/Basement-cover-plastic-sheet-rubber.PNG)

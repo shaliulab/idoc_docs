@@ -1,6 +1,6 @@
 # Chamber holder tray
 
-![Chamber tray isometric](/assets/Images/Chamber_tray.png)
+![Chamber tray isometric](../assets/Images/Chamber_tray.png)
 
 ## Table of contents
 
@@ -65,7 +65,7 @@ The 3D printer parts needed here are:
 Join these with 2 screws using the designated holes. Additionally, to ensure a stable connection, we also recommend using superglue to join the flat parts together. Repeat this joining process for a total of 2 trays.
 
 
-![chamber-tray-superglue.jpg](/assets/Images/tray-join.png)
+![chamber-tray-superglue.jpg](../assets/Images/tray-join.png)
 
 <!-- (IMAGES TO BE USED 20220307_182449 AND 20220307_182535) -->
 
@@ -78,7 +78,7 @@ Once the holes have been cleared, run your positive and negative wires through b
 <!-- (IMAGES TO BE USED 20220316_103206 AND 20220316_135914 AND 20220321_164638) -->
 
 
-![tray-wires.jpg](/assets/Images/tray-wires.png)
+![tray-wires.jpg](../assets/Images/tray-wires.png)
 
 
 ### 3. Assembling and inserting the electroshock electrodes
@@ -92,30 +92,30 @@ In total, the system requires 80 electrodes. To assemble them, remove the tail s
 
 <!-- (IMAGES TO BE USED 20220316_143635, 20220316_145134, 20220316_150258, 20220316_150444, 20220316_150532, 20220316_160139) -->
 
-![foo.jpg](/assets/Images/insert-electrodes.png)
+![foo.jpg](../assets/Images/insert-electrodes.png)
 
 
 Follow up by placing all the electrodes into their designated sockets at the bottom of the chamber tray, making sure that the clamp section is fully through the body of the tray.
 
 <!-- (IMAGES TO BE USED 20220316_163506 AND 20220316_164825) -->
-![foo.jpg](/assets/Images/insert-electrodes-2.png)
+![foo.jpg](../assets/Images/insert-electrodes-2.png)
 
 ### 4. Connecting wires to the electrodes
 
 Start by bending the straight pin end of the electrodes (side near the wires) so that they create a 90-degree angle. Follow up by cutting a wire at a point next to the electrode, strip the casing and solder both ends onto the same electrode. Repeat this for all the positive and negative wires and electrode connections. Note that the pattern of positive/negative electrode should be mirrored between the left and right sides of the tray.
 
 <!-- (IMAGES TO BE USED 20220321_164746, 20220321_165155, 20220321_165740, 20220321_170300 AND 20220321_170638) -->
-![foo.jpg](/assets/Images/connecting-electrodes.png)
+![foo.jpg](../assets/Images/connecting-electrodes.png)
 
 The final product of this stage should look as shown in the figure below. Note that there should still be wiring left over at one end of the tray to allow you to connect it to the rest of the system.
 
 <!-- (IMAGE HERE 20220322_184941) -->
-![foo.jpg](/assets/Images/wiring_final.png)
+![foo.jpg](../assets/Images/wiring_final.png)
 
 Additionally, to provide the user with information regarding when the shocks are delivered, we connect female JST cable headers to the end of one of the trays. Note that you should have one of these headers for both the left and right side of a single tray, thus allowing you to monitor the sides where shocks are given independently. Refer to the images below for clarification:
 
 <!-- (IMAGES HERE 20220322_190359 AND 20220322_190601) -->
-![foo.jpg](/assets/Images/indicator_wire.png)
+![foo.jpg](../assets/Images/indicator_wire.png)
 
 ### 5. Adding the vibration motors
 
@@ -124,12 +124,12 @@ Here we will be inserting the vibrators (Digi-Key, 1528-1177-ND) responsible for
 Start by attaching the vibrators to their designated slots in the chamber tray (located on the underside with the wires). Make sure that the wires coming out of it are directed into the channels to minimize bending and that all of them are pointing towards the same side of the tray.
 
 <!-- (IMAGE 20220323_100056) -->
-![foo.jpg](/assets/Images/vibrator_insertion.png)
+![foo.jpg](../assets/Images/vibrator_insertion.png)
 
 When connecting the vibrators to power cables, they should all be connected in series. Refer to the wiring map and the figures below for an illustration. Additionally, ensure that the solder points on each vibrator are isolated with heatshrink wrapping to ensure no short-circuiting occurs between them. Finally, while setting up the wiring, set them up so that all the wires fit cleanly into the channels. This is crucial to ensure that the covers fit without any bulging.
 
 <!-- (IMAGES 20220323_105057 AND vibrator_wiring_placeholder) -->
-![foo.jpg](/assets/Images/vibrator_wiring.png)
+![foo.jpg](../assets/Images/vibrator_wiring.png)
 
 ### 6. Attaching the light dividers and wire covers
 
@@ -147,17 +147,17 @@ Before starting any assembly steps, verify the quality of your prints. Usual spo
 Start by joining the IR filter holders and the white light boxes by placing them over one another and aligning the holes. Note the orientation of the white light box with respect to the outer and inner end of the tray (see figure below for illustration). Finish up by joining the back and front halves of the light dividers assemblies.
 
 <!-- (IMAGE 20220323_121026) -->
-![foo.jpg](/assets/Images/light_divider_joining.png)
+![foo.jpg](../assets/Images/light_divider_joining.png)
 
 Continue by joining the light dividers and the chamber trays by screwing them in place with 6 mm screws. Note that you might need to prepare the holes with a handheld drillbit. Be careful to not screw them too far - they are not meant to go all the way through the chamber tray body!
 
 <!-- (IMAGE 20220323_122312 AND 20220323_122502) -->
-![foo.jpg](/assets/Images/divider_attachment.png)
+![foo.jpg](../assets/Images/divider_attachment.png)
 
 Follow this up by attaching the wire covers to the tray. Pay special attention to how smoothly it can cover the wires - if any of your electrodes were not sufficiently bent or pressed in, then the cover might not fit well. Forcing it on top in this scenario could end up breaking some of them, so make adjustments where needed. Once the wire covers are in place, screw them into place with the same screws as before. Note that there is also an extra screw hole at either far end of the tray - this should also be used to further lock the covers in place with X mm screws.
 
 <!-- (IMAGES 20220323_182646, 20220323_183013 AND 20220323_183234) -->
-![foo.jpg](/assets/Images/wire_covers.png)
+![foo.jpg](../assets/Images/wire_covers.png)
 
 
 ### 7. Cutting and inserting the IR light dividers
@@ -169,7 +169,7 @@ The light dividers are cut from their original storebough form into the required
 
 Note that to secure the 2 halves of the template together you will need X mm screws. Ideally also use a scalpel to ensure a clean cut of the filter material.
 
-![foo.jpg](/assets/Images/IR-light-dividers.png)
+![foo.jpg](../assets/Images/IR-light-dividers.png)
 
 
 <!--(IMAGES 20220323_190243 AND 20220323_190635 AND 20220418_144316) -->
@@ -177,7 +177,7 @@ Note that to secure the 2 halves of the template together you will need X mm scr
 Once filter pieces are cut, place them into their respective slots from the borrom of the chamber tray, inserting them flat side up. Push them until the "steps" in their structure meet resistance. Note that there is supposed to be some leftover filter jutting out from the gap. This extra material is supposed to be folded and tucked into the gap to create friction that holds it in place.
 
 <!--(IMAGES 20220418_145711 AND 20220419_111909)-->
-![foo.jpg](/assets/Images/inserting_light_dividers.png)
+![foo.jpg](../assets/Images/inserting_light_dividers.png)
 
 ### 8. Assembling and inserting the light diffusers
 
@@ -186,14 +186,14 @@ For this stage you will need to 3D print the diffuser holder (Diffuser_holder). 
 Once prepared, insert each holder with the diffuser into their respective slots, ensuring that the IR filter material can reach through it. Then follow up by closing the gap you previously left between the 2 diffuser blocks to lock the filter in place.
 
 <!--(IMAGE 20220419_175312 AND 20220419_175343) -->
-![foo.jpg](/assets/Images/light_diffusers.png)
+![foo.jpg](../assets/Images/light_diffusers.png)
 
 ### 9. Inserting the air outflow ports
 
 The metallic outflow ports have slots already prepared for them in the chamber tray, however to ensure optimal attachment, they should be inserted and then pushed a little further with the help of a solder iron. This would allow the metal to heat up and melt the surroundings into an ideal fitting.
 
 <!-- (IMAGE 20220419_175358)-->
-![foo.jpg](/assets/Images/outflows_inserted.png)
+![foo.jpg](../assets/Images/outflows_inserted.png)
 
 Once they have been inserted, you should be able to simply pull the vacuum tubing over the male end of the port. However, this should be done later when the entire chamber tray is finalized and being locked in place.
 
@@ -219,14 +219,14 @@ For this you will need the following 3D printed parts:
 Start by covering the screws that come from the display system with springs. These are necessary to facilitate some freedom of movement during tray vibrations.
 
 <!--(IMAGES 20220506_112338 AND 20220506_112358) -->
-![foo.jpg](/assets/Images/springs_screws.png)
+![foo.jpg](../assets/Images/springs_screws.png)
 
 Similarly, place screws on the "bottom" end of the IDOC frame and cover them with springs before fully driving them into the tray.
 
 ### Final product
 
 <!--(IMAGE 20220516_185807) -->
-![foo.jpg](/assets/Images/chamber_holder_final.png)
+![foo.jpg](../assets/Images/chamber_holder_final.png)
 
 
 ## Joining the tray with the system

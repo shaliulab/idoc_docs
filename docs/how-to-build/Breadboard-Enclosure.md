@@ -1,6 +1,6 @@
 # Main Enclosure
 
-![Enclosure.png](/assets/Images/enclosure_annotated_trimmed.png)
+![Enclosure.png](../assets/Images/enclosure_annotated_trimmed.png)
 
 ## Table of Contents
 
@@ -61,7 +61,7 @@ The final size of the panels:
 * Vertical panels that form the walls of the enclosure: 710 mm x 510 mm (L x W)
 * The top panel that forms the roof of the enclosure: 510 mm x 450 mm (L x W)
 
-![Black-board-setup-enclosure.PNG](/assets/Images/Black-board-setup-enclosure.PNG)
+![Black-board-setup-enclosure.PNG](../assets/Images/Black-board-setup-enclosure.PNG)
 
 **Procedure**
 
@@ -83,7 +83,7 @@ The final size of the panels:
 * Customized (710 mm x 510 mm) black hardboard (Q: 3x, see step 1)
 * 4 mm balldriver or hex key
 
-![Setup-enclosure.PNG](/assets/Images/Setup-enclosure.PNG)
+![Setup-enclosure.PNG](../assets/Images/Setup-enclosure.PNG)
 
 **Procedure**
 
@@ -98,7 +98,7 @@ The final size of the panels:
 
 The roof is special because you need to cut a window through which the camera can image the behavioral chambers. You can also optionally install ventilation valves that improve the evacuation of odor.
 
-![Top-roof.PNG](/assets/Images/Top-roof.PNG)
+![Top-roof.PNG](../assets/Images/Top-roof.PNG)
 
 **For this step, you will need:**
 
@@ -131,8 +131,8 @@ Since the construction cube provided by Thorlabs ([RM1S - 1](https://www.thorlab
 
 A window (112 mm x 112 mm) is made in the center of the roof to allow the visualization of chambers via a camera top-view. This window hosts a 3D-printed box which holds a [polyester infra-red (IR) sheet](https://www.leefilters.com/index.php/camera-directory/camera-dir-list/category/infrared) (100 mm x 100 mm) which has two uses. 1) to prevent unwanted visible light to transmit inside the enclosure and 2) only IR light can be visualized by the camera. Also, the inside face of 3D-printed box can hold a light source (e.g. white LED strip) that might be needed to illuminate the setup while cleaning or during maintenance work.
 
-![IR-window-top-roof.PNG](/assets/Images/IR-window-top-roof.PNG)
-![IR-window-top-roof-mount.PNG](/assets/Images/IR-window-top-roof-mount.PNG)
+![IR-window-top-roof.PNG](../assets/Images/IR-window-top-roof.PNG)
+![IR-window-top-roof-mount.PNG](../assets/Images/IR-window-top-roof-mount.PNG)
 
 For installation of the IR-Filter and white LED light source you will need the following:
 
@@ -173,7 +173,7 @@ You may carry experiments with animals expressing an optogenetic tool that might
 
 From our *in vivo* patch clamp electrophysiology data, we see that only high intensity blue light can cause problems.Therefore, we illuminate the setup enclosure with a very dim blue light (less than 1µW/mm2). Skip this step if you don't need light.
 
-![Blue-light-installation.PNG](/assets/Images/Blue-light-installation.PNG)
+![Blue-light-installation.PNG](../assets/Images/Blue-light-installation.PNG)
 
 
 **For this step, you will need:**
@@ -209,7 +209,7 @@ From our *in vivo* patch clamp electrophysiology data, we see that only high int
 
 Proper ventilation inside the enclosure will preserve its ambient temperature and remove excess odorants. To achieve it, we added two roof vents on the roof. A **Vacuum pump** is used to remove the exhaust air outside of the room, because the smell can severely affect the quality of the experiments.
 
-![Suction_vent.PNG](/assets/Images/Suction_vent.PNG)
+![Suction_vent.PNG](../assets/Images/Suction_vent.PNG)
 
 **You will need the following:**
 
@@ -250,8 +250,8 @@ To close the front side of the enclosure during an experiment, we combined one o
 
 To fully automate the control of the setup, lighting, odor/air delivery tubing and powering the optogenetic LEDs, some holes are needed to hold the powering platforms, cable connections and tubing.
 
-![Holes_on_back_side_enclosure.PNG](/assets/Images/Holes_on_back_side_enclosure.PNG)
-![Holes-on-back-side-enclosure-2.PNG](/assets/Images/Enclosure-back-side.PNG)
+![Holes_on_back_side_enclosure.PNG](../assets/Images/Holes_on_back_side_enclosure.PNG)
+![Holes-on-back-side-enclosure-2.PNG](../assets/Images/Enclosure-back-side.PNG)
 
 **The followings items are needed:**
 
@@ -280,8 +280,8 @@ To fully automate the control of the setup, lighting, odor/air delivery tubing a
 
 Tubes for odor delivery and suction access the setup through two holes in the bottom back of the enclosure. The holes are drilled carefully and a custom 3D-designed neck is fixed to protect the edges and prevent bendings.
 
-![Tubing-holes.PNG](/assets/Images/Tubing-holes.PNG)
-![tubing-insertion-assembly.PNG](/assets/Images/tubing-insertion-assembly.PNG)
+![Tubing-holes.PNG](../assets/Images/Tubing-holes.PNG)
+![tubing-insertion-assembly.PNG](../assets/Images/tubing-insertion-assembly.PNG)
 
 **Procedure**
 
@@ -294,8 +294,8 @@ Tubes for odor delivery and suction access the setup through two holes in the bo
 
 We also need to connect the LED drivers for optogenetics manipulation; and the Arduino controller to power the setup and deliver the electric shocks and IR illumination. We achieved this by designing a custom 3D-printed panel that bridges connections with male and female IDC wires.
 
-![Bottom-powering-window.PNG](/assets/Images/Bottom-powering-window.PNG)
-![Ouside_wire_box_cover_bottom.PNG](/assets/Images/Ouside_fixation_frame_bottom.PNG)
+![Bottom-powering-window.PNG](../assets/Images/Bottom-powering-window.PNG)
+![Ouside_wire_box_cover_bottom.PNG](../assets/Images/Ouside_fixation_frame_bottom.PNG)
 
 **Procedure**
 
@@ -310,8 +310,8 @@ We also need to connect the LED drivers for optogenetics manipulation; and the A
 
 A solid black aluminum baseplate with threaded mounting holes provides a convenient platform for mounting the setup enclosure and other components. The plate should be bigger than the setup base, i.e, larger in both length and width. To isolate the setup from the light and airflow coming from the threaded mounting holes in the baseplate, attach a [black hardboard](https://www.thorlabs.de/newgrouppage9.cfm?objectgroup_id=190#2535) panel to the bottom of the baseplate. You can mount it with four Sorbothane feet (Thorlabs, [AV5/M](https://www.thorlabs.com/thorproduct.cfm?partnumber=AV5/M)). These Sorbothane mounting feet also offer excellent isolation from vibration and possible acoustic noise. The parts needed are provided in the figure below:
 
-![Baseplate-rubber-feet.PNG](/assets/Images/Baseplate-rubber-feet.PNG)
-![Baseplate.PNG](/assets/Images/Baseplate.PNG)
+![Baseplate-rubber-feet.PNG](../assets/Images/Baseplate-rubber-feet.PNG)
+![Baseplate.PNG](../assets/Images/Baseplate.PNG)
 
 
 ### Baseplate assembly procedure
@@ -336,9 +336,9 @@ A solid black aluminum baseplate with threaded mounting holes provides a conveni
 
 The enclosure is attached directly to the baseplate using the [XE25CL2 Clamp](https://www.thorlabs.com/thorproduct.cfm?partnumber=XE25CL2) to mount a 25 mm rail horizontally to a M6 tapped surface by using a side-located rail channel.
 
-![Baseplate-enclosure-mount.PNG](/assets/Images/Baseplate-enclosure-mount.PNG)
-![IDOC-baseplate-brackets-connection.PNG](/assets/Images/IDOC-baseplate-brackets-connection.PNG)
-![IDOC-baseplate-brackets-connection-cut.PNG](/assets/Images/IDOC-baseplate-brackets-connection-cut.PNG)
+![Baseplate-enclosure-mount.PNG](../assets/Images/Baseplate-enclosure-mount.PNG)
+![IDOC-baseplate-brackets-connection.PNG](../assets/Images/IDOC-baseplate-brackets-connection.PNG)
+![IDOC-baseplate-brackets-connection-cut.PNG](../assets/Images/IDOC-baseplate-brackets-connection-cut.PNG)
 
 1. Put the assembled enclosure on top of the assembled baseplate
 2. Align and center the enclosure on the baseplate by mount bottom rails horizontally on breadboard
