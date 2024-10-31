@@ -52,7 +52,7 @@ A valid mapping is a .csv file with two columns called `hardware` and `pin_numbe
 * The pin number corresponds to the number written on the GPIO of the Arduino board you use.
 * The hardware column should contain a user-friendly name you give to this hardware. No spaces are allowed!
 
-[This](../assets/src/mega.csv) is the mapping we use in one of our idocs.
+[This](./assets/src/mega.csv) is the mapping we use in one of our idocs.
 
 
 ### Paradigm
@@ -87,7 +87,7 @@ This paradigm will turn on the IR light and activate a clean air flow through th
     TARGETS,0,.2,NaN,NaN,o,1    # targets for the detection of the arena
     ONBOARD_LED,0,5,500,500,o,1 # just the LED on the Arduino flashing at 1 Hz for 5 minutes.
 ```
-[Link](../assets/warm_up.csv)
+[Link](./assets/warm_up.csv)
 
 **Please note:**
 

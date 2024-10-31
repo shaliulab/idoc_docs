@@ -36,7 +36,7 @@ This section will guide you through the first set-up steps required to make sure
 
     * IMPORTANT! Inside the enclosure, check that the 3-way stopcock is positioned to allow for air/odor delivery and that the passive airflow is blocked. The figure below shows how the stopcock should be positioned (red paths denote air/odor flow, blue denotes passive airflow).
 
-    ![odor_flow_annotated.png](../assets/Images/odor_flow_annotated.png)
+    ![odor_flow_annotated.png](./assets/Images/odor_flow_annotated.png)
 
     * Connect your mineral oil and odor bottles to their respective in-/out-flow tubes. Make sure the air inflow into the bottles is directed into the oil (air needs to bubble through the oil). If done wrong, you can end up pumping oils into the airflow system of the IDOC!
     * Activate both the main air supply and the vacuum pumps from the relay control panel, and check the following:
@@ -71,7 +71,7 @@ The first part of this section will highlight the basics of running an experimen
 idoc_cli
 ```
 
-![](../assets/Images/idoc_cli.jpg)
+![](./assets/Images/idoc_cli.jpg)
 
 NOTE: In the image above we have split the terminal, so the right half shows the logs of idoc. You can read them too by running
 
@@ -99,21 +99,21 @@ You should see the following menu:
 
 * Select your desired experimental paradigm with "Load paradigm" by pressing `1`.
 
-![](../assets/Images/idoc_cli-menu-1.jpg)
+![](./assets/Images/idoc_cli-menu-1.jpg)
 
 
 Select your desired paradigm, in the video we selected number `7`, so we enter 7 in the interface.
 
 
-![](../assets/Images/idoc_cli-menu-7.jpg)
+![](./assets/Images/idoc_cli-menu-7.jpg)
 
 
 follow with "Warm up" by pressing `3` and wait for a live feed of the enclosure to open
  
-![](../assets/Images/idoc_cli-menu-3.jpg)
+![](./assets/Images/idoc_cli-menu-3.jpg)
 
 
-![](../assets/Images/idoc-live-feed.jpg)
+![](./assets/Images/idoc-live-feed.jpg)
 
 
 Make sure you give enough time for all the flies to be picked up by the tracking software. If the flies are not moving and not getting detected by the tracking software, then activate the vibrator for short bursts until they move again. You should also verify that the 3 reference dots for tracking are clearly visible in the video feed. Refer to the figure below to see where they should be visible
@@ -121,12 +121,12 @@ Make sure you give enough time for all the flies to be picked up by the tracking
 
 * Select "Start" to start the paradigm by pressing `5`.
 
-![](../assets/Images/idoc_cli-menu-5.jpg)
+![](./assets/Images/idoc_cli-menu-5.jpg)
 
 
 Make sure that the timer in the video feed actually starts, since sometimes the experiment can fail to start despite giving the command.  If this happens then select "Stop", followed by "Restart". Then simply repeat the paradigm selection process and start the experiment again.
 
-![](../assets/Images/idoc_cli-started.jpg)
+![](./assets/Images/idoc_cli-started.jpg)
 
 * To be sure the stimuli are being provided as necessary, you should keep monitoring the video feed throughout the paradigm's execution. Whenever a stimulus (odor or electroshock) is being applied, a corresponding light should switch on in the enclosure and show up on the video feed (which is also useful when you later playback the recording so that you can temporally match the behavior recorded in the video with the stimuli delivered).
 * Once the paradigm has finished running, you should see the timer stop and hear the airflow end. Remove your chambers from the enclosure and follow up with any steps your experimental design has intended for the flies.
