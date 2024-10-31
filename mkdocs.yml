@@ -5,16 +5,17 @@ nav:
     - Home: index.md
     - Usage: usage.md
     - How to build:
-        - Air delivery system: how-to-build/Air-odors-delivery-system.md
-        - Electric Shock Circuit: how-to-build/Electric_Shock_Circuit.md
+        - 3D parts: how-to-build/IDOC_3D_Assembly_Parts.md
         - Breadboard enclosure: how-to-build/Breadboard-Enclosure.md
         - Camera enclosure: how-to-build/Camera-Enclosure.md
         - Heatsink: how-to-build/Heatsink-Installation.md
-        - IDOC Chamber assembly: how-to-build/IDOC-Chamber_Assembly.md
-        - 3D parts: how-to-build/IDOC_3D_Assembly_Parts.md
         - IR Optogenetic System: how-to-build/IR-Optogenetic-System.md
-        - List of commercial parts: how-to-build/List-of-Commercial-Parts-Tools.md
+        - Electric Shock Circuit: how-to-build/Electric_Shock_Circuit.md
         - Wiring: how-to-build/Setup-Wiring-and-Powering-Cables.md
+        - Air delivery system: how-to-build/Air-odors-delivery-system.md
+        - IDOC Chamber assembly: how-to-build/IDOC-Chamber_Assembly.md
+        - Chamber holder: how-to-build/Chamber_holder.md
+        - List of commercial parts: how-to-build/List-of-Commercial-Parts-Tools.md
 
     - Installation:
         - Installation: installation.md

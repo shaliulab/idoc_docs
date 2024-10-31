@@ -10,4 +10,4 @@ We have developed the following designs:
 - Chamber_Heater_glass --> to provide an increase in the temperature while testing.
 - Chamber_saving_rack.
 
-![IDOC-Chamber.PNG](../assets/Images/IDOC-Chamber.PNG)
+![IDOC-Chamber.PNG](/assets/Images/IDOC-Chamber.PNG)
