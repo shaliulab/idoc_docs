@@ -2,20 +2,20 @@
 
 ## Overview
 
-The Arduino control unit, the LED drivers, optogenetic LED panels, solenoid valves and the IDOC setup  are connected via the ribbon cables with20-way IDC connector, which is compatible with all LED assemblies in the system- see Section pinout of **LED Driver** , **Arduino control board**.  In this following section two 20-way IDC female connectors and  flat ribbon cables are used to assemble a cable with an IDC connector.
+![electrical_diagram.png](../assets/Images/electrical_diagram.png)
+
+The Arduino control unit, the LED drivers, optogenetic LED panels, solenoid valves and the IDOC setup  are connected via the ribbon cables with20-way IDC connector, which is compatible with all LED assemblies in the system. In this following section two 20-way IDC female connectors and flat ribbon cables are used to assemble a cable with an IDC connector.
 
 **The following ribbon cables with IDC connecters are needed to wire the system devices:**
 
-| Description                              | Connection  devices                      | Length                                   | Qt:  | End  1                | End  2         | Image                                    |
+| Description                              | Connection                     | Length                                   | Qt:  | End  1                | End  2         | Image                                    |
 | ---------------------------------------- | ---------------------------------------- | ---------------------------------------- | ---- | --------------------- | -------------- | ---------------------------------------- |
-| 20-way  ribbon cable terminated either  end with IDC connector. | IDOC  setup to the front powering platform inside the enclosure. | 25 cm                                    | 1    | 20-way IDC  connector | 20-way IDC     | ![Double-IDC-connectors-cable.PNG](../assets/Images/Double-IDC-connectors-cable.PNG) |
-| 20-way  ribbon cable one end open while the other end is terminated with IDC connector | Enclosure  back powering platform outside of the enclosure to the Arduino control board. | 100-150  cm  Depend  on the distance between the enclosure and the Arduino control unit | 1    | IDC  connector        | IDC  connector | ![Double-IDC-connectors-cable.PNG](../assets/Images/Double-IDC-connectors-cable.PNG) |
-| 20-way  ribbon cable one end open while the other end is terminated with IDC connector | LED  panel and enclosure powering platform.  Each  pair of the open end is connected to a LED string. | 100cm                                    | 8    | IDC  connector        | Open  end      | ![open-ended-IDC-ribbon-cable.PNG](../assets/Images/open-ended-IDC-ribbon-cable.PNG) |
-| 20-way  ribbon cable terminated either  end with IDC connector. | Enclosure  wiring platform and connection of LED strings in series connection. | 50cm                                     | 10   | IDC  connector        | IDC  connector | ![Double-IDC-connectors-cable.PNG](../assets/Images/Double-IDC-connectors-cable.PNG) |
-| 20-way  ribbon cable terminated either  end with IDC connector. | These cables mate with the 20way PCB headers  of the LED driver | 100-150cm                                | 5    | IDC  connector        | IDC  connector | ![Double-IDC-connectors-cable.PNG](../assets/Images/Double-IDC-connectors-cable.PNG) |
-| 20-way  ribbon cable one end open while the other end is terminated with IDC connector | Connect  the Arduino control board to the screw terminal block of the solenoid valves. | 100-150  mm  Depend  on the distance between the solenoids and the control unit | 1    | IDC  connector        | Open  end      | ![open-ended-IDC-ribbon-cable.PNG](../assets/Images/open-ended-IDC-ribbon-cable.PNG) |
-| 6-way  ribbon cable terminated either  end with IDC connector. | Connect  the Arduino control board to contacts box of the exhaust solenoid valves. | 100-150  mm  Depend  on the distance between the solenoids and the control unit | 2    | IDC  connector        | IDC  connector |                                          |
-| 6-way  ribbon cable one end open while the other end is terminated with IDC connector | Connect  the IR-LED light indicators of the setup . | 25 cm                                    | 4    | IDC  connector        | Open  end      |                                          |
+| 20-way   | 3 → S1 </br>  8 → S2  </br>  13 → S3 </br>  18 → S4 </br>  23 → S5   | 25 cm                                    | 5    | 20-way IDC  connector | 20-way IDC connector                   | ![Double-IDC-connectors-cable.PNG](../assets/Images/Double-IDC-connectors-cable.PNG) |
+| 20-way   | S1 → E1 </br>  S1 → E2  </br>  S2 → E3 </br>  S2 → E4 </br>  S3 → E5 </br>  S3 → E6 </br>  S4 → E7 </br>  S4 → E8 </br>  S5 → E9 </br>  S5 → E10   | 25 cm                                    | 5    | 20-way IDC  connector | 20-way IDC connector     | ![Double-IDC-connectors-cable.PNG](../assets/Images/Double-IDC-connectors-cable.PNG) |
+| 20-way   | E1 → 4 </br>  E2 → 5  </br> E3 → 9 </br>  E4 → 10  </br> E5 → 14 </br>  E6 → 15  </br> E7 → 19 </br>  E8 → 20  </br> E9 → 24 </br>  E10 → 25  </br> | 25 cm       | 10    | 20-way IDC  connector | Open end     | ![Double-IDC-connectors-cable.PNG](../assets/Images/open-ended-IDC-ribbon-cable.PNG) |
+| 20-way   | 27 → E11 | 100-150  cm  | 1    | IDC  connector        |  Open end     | ![Double-IDC-connectors-cable.PNG](../assets/Images/open-ended-IDC-ribbon-cable.PNG) |
+| 20-way   | E11 → 28 | 100-150  cm  | 1    | IDC  connector        |  Open end     | ![Double-IDC-connectors-cable.PNG](../assets/Images/open-ended-IDC-ribbon-cable.PNG) |
+| 6-way    | M1&M2 → IL  </br> M3&M4&M5 → IR  </br> IL → RL&BL  </br> IR → RR&BR&G  </br> | 25 cm    | 4    | IDC  connector        |  Open  end    |  |
 
 
 **Assembling 20-way IDC Ribbon Cable**
@@ -30,8 +30,6 @@ For this step, you will need:
 - Vice (RS Components, [667-7189](https://benl.rs-online.com/web/p/products/6677189/))
 - Digital Multimeter (Digi-Key, [MN35-ND](https://www.digikey.be/product-detail/en/flir-extech/MN35/MN35-ND/7322804))
 - Wassep pump pliers (Amazon.de, [M10997](https://www.amazon.nl/KNIPEX-Krimptang-240-97-22/dp/B004LY28J2/))
-
-
 
 
 **Procedure:**

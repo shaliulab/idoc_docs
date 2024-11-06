@@ -251,7 +251,10 @@ To close the front side of the enclosure during an experiment, we combined one o
 To fully automate the control of the setup, lighting, odor/air delivery tubing and powering the optogenetic LEDs, some holes are needed to hold the powering platforms, cable connections and tubing.
 
 ![Holes_on_back_side_enclosure.PNG](../assets/Images/Holes_on_back_side_enclosure.PNG)
-![Holes-on-back-side-enclosure-2.PNG](../assets/Images/Enclosure-back-side.PNG)
+![breadboard-enclosure.png](../assets/Images/breadboard-enclosure.png)
+
+Note the annotations in this image refer to the connections shown [in the electrical diagram](../Setup-Wiring-and-Powering-Cables/#Overview)
+
 
 **The followings items are needed:**
 

@@ -93,8 +93,19 @@ We designed a 3D-printable enclosure to hold and protect the board of the LED dr
 - 10 turn knop potentiometer for manual setup of output power.
 - IR LED straight pin header, 2.54mm pitch, 20 way, 1 row, Marker signal.
 
+The connections indicated as 1 2 M1 and 3 refer to the schematic shown [in the electrical diagram](../Setup-Wiring-and-Powering-Cables/#Overview)
 
-![LED-driver-board-V.01-top-panel.PNG](../assets/Images/LED-driver-board-V.01-top-panel.PNG)
+![LED_driver.PNG](../assets/Images/LED_driver.png)
+
+Note 1 2 M1 and 3 refer to the Optogenetics-LED driver board that drives the RED color on the left side. But exactly the same driver can be used for either side or color.
+
+|   Connection         | Red left             |  Blue left           | Red right            |  Blue right
+| -------------------- | -------------------- | -------------------- | -------------------- | -------------------- | 
+| PSU                  | 1 | 6 | 11 | 16 | 
+| Signal               | 2 | 7 | 12 | 17 | 
+| Indicator            | M1 | M2 | M3 | M4 | 
+| Output               | 3 | 8 | 13 | 18 | 
+
 
 
 ### Assembling the LED-board enclosure
@@ -222,8 +233,6 @@ We designed a 3D-printable enclosure to hold and protect the board of the LED dr
 
 Each panel is connected via 20-way IDC cable to the powering platform of the enclosure. From the outer backside of the enclosure, the cables of the same side panel are then connected to a custom-made board.
 
-![Series_connection_LED_sketch.PNG](../assets/Images/Series_connection_LED_sketch.PNG)
-
 ### Assembling the custom-made connection hub
 
 **You will need:**
@@ -280,7 +289,10 @@ Each panel is connected via 20-way IDC cable to the powering platform of the enc
 
 **8\.** Finally, insert a 4mm screw set to the wall of the one box and then connect an optical post in your desired length to be mounted in the back of the setup of the enclosure.
 
-![Series-connection-LED-PCB-2Box-post.PNG](../assets/Images/Series-connection-LED-PCB-2Box-post.PNG)
+![divider.png](../assets/Images/divider.png)
+
+Note the S1 and S3 annotations refer to the red color as shown [in the electrical diagram](../Setup-Wiring-and-Powering-Cables/#Overview).
+You need to replicate this hub for any other color (for example blue, which would provide you with S2 and S4)
 
 ## Power supply
 

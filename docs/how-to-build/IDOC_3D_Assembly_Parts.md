@@ -77,6 +77,8 @@ For illustrations of the powering panel assembly and attachment, see pages 8-10 
 | **Odor B  Left IR-LED indicator** | **Odor A  Left IR-LED indicator** | **EShock  Left** | **IR  LED back light** | **Vibration  Motors** | **Tracking 3 objects** | **Low Voltage  ES Indicator** | **EShock  Right** | **Odor A  Right IR-LED indicator** | **Odor B  Right IR-LED indicator** |
 |               **-**               |               **-**               |      **-**       |         **-**          |         **-**         |         **-**          |             **-**             |       **-**       |               **-**                |               **-**                |
 
+</br>
+
 **Mapping of left 6-way header**
 
 |               **+**               |               **+**               |      **+**                    |
@@ -85,6 +87,7 @@ For illustrations of the powering panel assembly and attachment, see pages 8-10 
 |               **-**               |               **-**               |      **-**                    |
 
 
+</br>
 
 **Mapping of right 6-way header**
 
