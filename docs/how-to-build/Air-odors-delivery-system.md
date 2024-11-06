@@ -28,7 +28,7 @@ The IDOC Air/Odors Delivery System is in charge of delivering controlled air and
 
 NOTE: This map shows the connections needed to run a 1-odor conditioning experiment. If you wish to run 2-odor conditioning, you need to add one more valve on each side (to switch between either of the odors). The numbered list below describes how they air and odors are processed, while the assembly of key parts will be discussed in later sections.
 
-![Flow_system.PNG](../assets/Images/Flow_system.PNG)
+![Flow_system.PNG](../assets/Images/Flow_systemv2.PNG)
 
 1. Air is provided from a controlled constant pressure source.
 2. The air is passed through an activated carbon capsule (Fisher, [10526921](https://www.fishersci.be/shop/products/whatman-carbon-cap-disposable-activated-carbon-capsules/10526921)) to be filtered and dried.
@@ -51,8 +51,6 @@ NOTE: This map shows the connections needed to run a 1-odor conditioning experim
     3. Air left - Airflow that will be supplied from the left sides of all the chambers.
 
     4. Air right - Airflow that will be supplied from the right sides of all the chambers.
-
-    5. Final outflow - Any leftover flow, directed to an outflow regulator valve, which in turn will exhaust it into the surroundings.
 
 
 6. The threaded flow regulator output is split into two streams to provide the ability to deliver **different stimuli in the left and right side** of the chambers. Every component from here onwards is thus duplicated, once for each side. Each stream (left and right) is passed through a flowmeter (0.4 L/min → 5 L/min, RS, [198-2919](https://benl.rs-online.com/web/p/flow-sensors/1982919/)). The flowmeters could be used to adjust the flow, but they are left fully open because the flow is meant to be controlled by the threaded flow regulator mentioned earlier. They are however useful to measure the actual flow going through each stream independently, because this information can help diagnose problems affecting one of the streams but not the other. 
