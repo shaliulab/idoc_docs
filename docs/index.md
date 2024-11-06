@@ -4,7 +4,7 @@
 Paper describing the tool coming out soon to _bioarxiv_.
 
 <!-- Embed YouTube Video -->
-<iframe width="700" height="315" src="https://www.youtube.com/embed/oatrOTn3igg?si=PqejeFb9SjmcuttM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/oatrOTn3igg?si=PqejeFb9SjmcuttM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ![iDOC_chamber_sketch.png](./assets/Images/iDOC_chamber_sketch.png)
 
