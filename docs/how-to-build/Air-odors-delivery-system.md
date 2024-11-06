@@ -26,7 +26,9 @@ The IDOC Air/Odors Delivery System is in charge of delivering controlled air and
 
 ## Map
 
-NOTE: This map shows the connections needed to run a 1-odor conditioning experiment. If you wish to run 2-odor conditioning, you need to add one more valve on each side (to switch between either of the odors). The numbered list below describes how they air and odors are processed, while the assembly of key parts will be discussed in later sections.
+NOTE: This map shows the connections needed to run a 1-odor conditioning experiment. If you wish to run 2-odor conditioning, you need to add one more valve on each side (to switch between either of the odors). The best way to achieve this is by putting one more solenoid valve for each side, placed between the mineral oil and the existing solenoid valve. The tubing should be connected so that following the Normally Open (NO) outflow of each valve takes you to the mineral oil. Then either odor can be delivered if its corresponding valve is turned on, which makes the air flow through its Normally Close (NC) outflow. Such an arrangement would avoid any odor mixing.
+
+The numbered list below describes how they air and odors are processed, while the assembly of key parts will be discussed in later sections.
 
 ![Flow_system.PNG](../assets/Images/Flow_systemv2.PNG)
 
