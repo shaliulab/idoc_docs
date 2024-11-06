@@ -78,10 +78,22 @@ For illustrations of the powering panel assembly and attachment, see pages 8-10 
 |               **-**               |               **-**               |      **-**       |         **-**          |         **-**         |         **-**          |             **-**             |       **-**       |               **-**                |               **-**                |
 
 **Mapping of left 6-way header**
-Info needed
+
+|               **+**               |               **+**               |      **+**                    |
+| :-------------------------------: | :-------------------------------: | :---------------------------: |
+| **Left Red light indicator**      | **Left Blue light indicator**     | **Green light indicator**     |
+|               **-**               |               **-**               |      **-**                    |
+
+
 
 **Mapping of right 6-way header**
-Info needed
+
+|               **+**               |               **+**               |      **+**                    |
+| :-------------------------------: | :-------------------------------: | :---------------------------: |
+| **Right Red light indicator**     | **Right Blue light indicator**    | **Green light indicator**     |
+|               **-**               |               **-**               |      **-**                    |
+
+NOTE: Green light is not split into left and right, therefore there is no need to have two, just one is enough
 
 ### Tubing collector
 
