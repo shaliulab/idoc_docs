@@ -15,7 +15,7 @@ Here we explain all the key components necessary to build an optogenetics setup 
 
 The following sketch shows the optogenetics system components:
 
-  ![Optogenetic-system-components.PNG](../assets/Images/Optogenetic-system-components.PNG)
+  ![Optogenetic-system-components.png](../assets/Images/Optogenetic-system-components.png)
 
 
 
