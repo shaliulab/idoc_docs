@@ -66,8 +66,9 @@ To bring power to the setup, this box also holds a panel with all the necessary 
 
 For illustrations of the powering panel assembly and attachment, see pages 8-10 of this [file](/IDOC_3D_Assembly_Parts.pdf).
 
-![Powering-platform.PNG](../assets/Images/Powering-platform.PNG)
+![Powering-platformv2.PNG](../assets/Images/Powering-platformv2.png)
  
+Note the annotations in this image refer to the connections shown [in the electrical diagram](../Setup-Wiring-and-Powering-Cables/#Overview)
 
 **Mapping of the 20-way IDC header**
 
