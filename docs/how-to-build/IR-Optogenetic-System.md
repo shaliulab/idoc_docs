@@ -42,7 +42,7 @@ The board footprint is 9 x 11 cm and contains 10 drivers or via PCA9685 16-Chann
 | **Output channels**                    | 10 drivers & 16  via I²C  [PCA9685](https://www.nxp.com/docs/en/data-sheet/PCA9685.pdf) |
 | **Modulation Form**                    | PWM , knob potentiometer                 |
 | **Input  Forward Voltage**             | 21-48 VDC                                |
-| **Software control**                   | Python Fermata , [Adafruit PCA9685 library](https://learn.adafruit.com/16-channel-pwm-servo-driver/using-the-adafruit-library) |
+| **Software control**                   | Python Firmata , [Adafruit PCA9685 library](https://learn.adafruit.com/16-channel-pwm-servo-driver/using-the-adafruit-library) |
 | **Light Source**                       | High Power LEDs                          |
 | **Board dimensions**                   | 9 x 11 cm                                |
 
