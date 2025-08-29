@@ -308,24 +308,37 @@ Laser cutting the rubbers is preferable to doing it by hand with the templates a
 We used the xTool P2 55W CO2 laser to cut out the rubber pieces with the following dimensions:
 
 **Bottom rubber**
+
 - Outer width = 68.2 mm
+
 - Outer height = 13.8 mm
+
 - Inner width = 55 mm
+
 - Inner height = 9.8 mm
 
 
 **Middle rubber**
+
 - Outer width = 72.8 mm
+
 - Outer height = 17.8 mm
+
 - Inner width = 65 mm
+
 - Inner height = 9 mm
+
 - Gap for L plug (in middle) = 5 mm
 
 
 **Top rubber**
+
 - Outer width = 76.2 mm
+
 - Outer height = 18.8 mm
+
 - Inner width = 54.8 mm
+
 - Inner height = 10.8 mm
 
 
