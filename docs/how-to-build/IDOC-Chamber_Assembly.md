@@ -6,6 +6,7 @@
 2. [Fabricating the normal IDOC chambers](#fabricating-the-normal-idoc-chambers)
 3. [Fabricating the electroshock chambers](#fabricating-the-electroshock-chambers)
 4. [Quality control for chambers](#quality-control-for-chambers)
+5. [Laser cutting rubbers](#laser-cutting-rubber-seals-for-chambers)
 
 ## Overview
 
@@ -299,3 +300,39 @@ This is an optional section for those using the 3D printed template for the rubb
 * Test right and left sides independently  
 * Use a waterbath to visually identify the source of any leak. 
     * With the air inflows connected, submerge the chamber in the water. Make sure you're holding the outflow channels above the water. Block these outflows with your finger and you should see bubbles at any leaks your chamber has.
+
+## **Laser cutting rubber seals for chambers**
+
+Laser cutting the rubbers is preferable to doing it by hand with the templates as it greatly speeds up the process and makes the dimensions much more accurate. The latter is crucial to ensure optimal fits with minimal chances of air leaks.
+
+We used the xTool P2 55W CO2 laser to cut out the rubber pieces with the following dimensions:
+- **Bottom rubber**
+    - Outer width = 68.2 mm
+    - Outer height = 13.8 mm
+    - Inner width = 55 mm
+    - Inner height = 9.8 mm
+- **Middle rubber**
+    - Outer width = 72.8 mm
+    - Outer height = 17.8 mm
+    - Inner width = 65 mm
+    - Inner height = 9 mm
+    - Gap for L plug (in middle) = 5 mm
+- **Top rubber**
+    - Outer width = 76.2 mm
+    - Outer height = 18.8 mm
+    - Inner width = 54.8 mm
+    - Inner height = 10.8 mm
+
+Before carrying out the laser cutting, clean the rubber sheet as much as possible with ethanol and dust free wipes to ensure minimal debris that could interfere with the laser. Then, try to stabilize the rubber sheet as much as possible within the system. This is crucial since as it heats up from the cutting, it is prone to warp and bend a little during the process.
+
+When planning the laser cutter paths, try to balance leaving space between each piece you cut and also not wasting material. This helps also prevent cutting inaccuracies resulting from the material heating up, since if you place two long cuts next to each other, the area might have warped by the time the machine does the second run.
+
+From personal experience, while it might be possible to fully cut through the rubber sheet with the laser, it is not advised to do so here. Using the laser at higher powers that would allow for this also leads to wider regions of charring around the cut, greatly reducing accuracy of the cuts and creating differences between the top and bottom sides. Using our 55W laser at 40% power seemed to be an ideal balance between sufficient cut depth and minimal charring. Notably however, this way the laser cuts through roughly 90% of the material, which means that you still need to finish the process with a scalpel. However, this is vastly easier than doing it all by hand, as the laser cut sections act as great guides for the scalpel.
+
+After cutting, the rubber still needs to be cleaned of any char and debris buildup that occurred. This can be easily done by scrubbing the cut sections with a sponge soaked in 1% SDS. This is best done while all the rubbers are still attached to the bulk of the rubber sheet. See image below for an illustration of the effect that cleaning with SDS can have.
+
+![](../assets/Images/laser_cut_rubber_cleaning.png)
+
+Once cleaned, it should be very easy to finish the process by cutting across the laser lines with a fresh scalpel. Make sure you are holding the blade as vertical as possible as you cut.
+
+![](../assets/Images/clean_rubber_cutting.png)
