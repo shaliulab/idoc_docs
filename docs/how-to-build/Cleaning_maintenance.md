@@ -137,7 +137,7 @@ This step-by-step protocol will cover the cleaning from start to finish. All ref
     - Keep in mind that these will be need to closed at the end of the cleaning protocol
 4. Use the red valve (stopcock) to ensure that only air from the solenoid path can reach the mixing manifold. While normally both the passive air and solenoid air have open paths here, it should end up with the passive air path being blocked and the others being open.
 
-![red_stopcock_from_map.png](../assets/Images/red_stopcock_focused.png)
+    ![red_stopcock_from_map.png](../assets/Images/red_stopcock_focused.png)
 
 5. Fully open the flowmeter to the water and SDS solenoids
 6. Insert both the cleaning manifolds into the IDOC chamber tray. Use the first and last chamber slots to ensure that the manifold is properly placed and stable. 
@@ -148,7 +148,7 @@ This step-by-step protocol will cover the cleaning from start to finish. All ref
 11. Check the valves in the main manifold. The valve that controls inflow of SDS + water into the manifold should be opened. The valves for airflow should be open but directed so that the LEFT and RIGHT paths are separated/closed off from one another.
     - In our case we have 2 IDOC systems connected to the same cleaning system. For this we also have added one more pair of valves that allows to direct flow to either IDOC separately. Assuming you only have 1 of these systems, these valves can be ignored in the image.
 
-![manifold_with_map.png](../assets/Images/cleaning_mix_manifold_with_map.png)
+    ![manifold_with_map.png](../assets/Images/cleaning_mix_manifold_with_map.png)
 
 12. Check that the solenoids activate the correct systems (air, water and SDS) and that flow for each is functioning normally. You can do this with the manual switches near the solenoids. You can let a little bit of water and/or SDS flow all the way through to the waste channel to make sure everything is working as expected, before starting the automated cleaning paradigm.
     - Note that the flow of water and SDS is largely achieved by the air pushing it through the system, so you will probably need to juggle between activating the water/SDS and the air solenoid. Try activating the water solenoid first so that the tubing fills up with water, and then activate the air solenoid to have it push the water throughout the system. At this point the flow should be able to continue on its own.
@@ -160,7 +160,7 @@ This step-by-step protocol will cover the cleaning from start to finish. All ref
 15. Begin the stage of removing the cleaning manifold from the IDOC. Doing this stage properly is crucial for ensuring any residual water is properly removed from the system.
 16. Remove the stopcocks from the bottom of the IDOC tray. This prevents overpressure in the upcoming steps. Have a paper towel ready since water could leak out of these during the opening and later steps.
 
-![stopcocks.jpg](../assets/Images/cleaning_stopcocks.png)
+    ![stopcocks.jpg](../assets/Images/cleaning_stopcocks.png)
 
 17. Close the waste outflow valves on the cleaning manifold.
     - To minimize the presence of water in the manifold, once both outflows are closed, open just one again (either left or right side). This should create more pressure that can push the remaining water in the manifold towards the open outflow. Close that outflow and repeat for the other.
