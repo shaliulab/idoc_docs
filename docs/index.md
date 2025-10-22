@@ -19,7 +19,7 @@ The IDOC (<b>I</b>ndividual *<b>D</b>rosophila*  <b>O</b>lfactory  <b>C</b>ondit
 
 * Software and Data Analysis: Information on software installation, including video tracking and data processing.
 
-For a detailed description of IDOC system, please see the [preprint]. We are still actively maintaining this documentation.
+For a detailed description of IDOC system, please see the [preprint](https://doi.org/10.1101/2024.12.18.629135). We are still actively maintaining this documentation.
 
 Contact: erik.tedre@kuleuven.be, antonio.ortega@kuleuven.be, or e.baz@science.suez.edu.eg.
 
